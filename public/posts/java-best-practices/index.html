@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Java best practices | The blog</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="
+Consider static factory methods instead of constructors
+
+
+One advantage of static factory methods is that, unlike constructors, they have names.
+A second advantage of static factory methods is that, unlike constructors,
+they are not required to create a new object each time they’re invoked
+A third advantage of static factory methods is that, unlike constructors,
+they can return an object of any subtype of their return type.
+A fourth advantage of static factories is that the class of the returned
+object can vary from call to call as a function of the input parameters.
+A fifth advantage of static factories is that the class of the returned object
+need not exist when the class containing the method is written
+">
+    <meta name="generator" content="Hugo 0.144.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/java-best-practices/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/java-best-practices/">
+  <meta property="og:site_name" content="The blog">
+  <meta property="og:title" content="Java best practices">
+  <meta property="og:description" content="Consider static factory methods instead of constructors One advantage of static factory methods is that, unlike constructors, they have names. A second advantage of static factory methods is that, unlike constructors, they are not required to create a new object each time they’re invoked A third advantage of static factory methods is that, unlike constructors, they can return an object of any subtype of their return type. A fourth advantage of static factories is that the class of the returned object can vary from call to call as a function of the input parameters. A fifth advantage of static factories is that the class of the returned object need not exist when the class containing the method is written">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-02-17T17:34:51-06:00">
+    <meta property="article:modified_time" content="2025-02-17T17:34:51-06:00">
+
+  <meta itemprop="name" content="Java best practices">
+  <meta itemprop="description" content="Consider static factory methods instead of constructors One advantage of static factory methods is that, unlike constructors, they have names. A second advantage of static factory methods is that, unlike constructors, they are not required to create a new object each time they’re invoked A third advantage of static factory methods is that, unlike constructors, they can return an object of any subtype of their return type. A fourth advantage of static factories is that the class of the returned object can vary from call to call as a function of the input parameters. A fifth advantage of static factories is that the class of the returned object need not exist when the class containing the method is written">
+  <meta itemprop="datePublished" content="2025-02-17T17:34:51-06:00">
+  <meta itemprop="dateModified" content="2025-02-17T17:34:51-06:00">
+  <meta itemprop="wordCount" content="119">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Java best practices">
+  <meta name="twitter:description" content="Consider static factory methods instead of constructors One advantage of static factory methods is that, unlike constructors, they have names. A second advantage of static factory methods is that, unlike constructors, they are not required to create a new object each time they’re invoked A third advantage of static factory methods is that, unlike constructors, they can return an object of any subtype of their return type. A fourth advantage of static factories is that the class of the returned object can vary from call to call as a function of the input parameters. A fifth advantage of static factories is that the class of the returned object need not exist when the class containing the method is written">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        The blog
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Java best practices</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-02-17T17:34:51-06:00">February 17, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><ol>
+<li>Consider static factory methods instead of constructors</li>
+</ol>
+<ul>
+<li>One advantage of static factory methods is that, unlike constructors, they have names.</li>
+<li>A second advantage of static factory methods is that, unlike constructors,
+they are not required to create a new object each time they’re invoked</li>
+<li>A third advantage of static factory methods is that, unlike constructors,
+they can return an object of any subtype of their return type.</li>
+<li>A fourth advantage of static factories is that the class of the returned
+object can vary from call to call as a function of the input parameters.</li>
+<li>A fifth advantage of static factories is that the class of the returned object
+need not exist when the class containing the method is written</li>
+</ul>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  The blog 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
