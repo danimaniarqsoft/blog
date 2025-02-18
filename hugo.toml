@@ -1,4 +1,4 @@
-theme = 'ananke'
+theme = 'beautifulhugo'
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'The blog'
