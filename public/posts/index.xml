@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on The blog</title>
-    <link>https://example.org/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on The blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Feb 2025 17:34:51 -0600</lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java best practices</title>
-      <link>https://example.org/posts/java-best-practices/</link>
+      <link>http://localhost:1313/posts/java-best-practices/</link>
       <pubDate>Mon, 17 Feb 2025 17:34:51 -0600</pubDate>
-      <guid>https://example.org/posts/java-best-practices/</guid>
+      <guid>http://localhost:1313/posts/java-best-practices/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;Consider static factory methods instead of constructors&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;One advantage of static factory methods is that, unlike constructors, they have names.&lt;/li&gt;&#xA;&lt;li&gt;A second advantage of static factory methods is that, unlike constructors,&#xA;they are not required to create a new object each time they’re invoked&lt;/li&gt;&#xA;&lt;li&gt;A third advantage of static factory methods is that, unlike constructors,&#xA;they can return an object of any subtype of their return type.&lt;/li&gt;&#xA;&lt;li&gt;A fourth advantage of static factories is that the class of the returned&#xA;object can vary from call to call as a function of the input parameters.&lt;/li&gt;&#xA;&lt;li&gt;A fifth advantage of static factories is that the class of the returned object&#xA;need not exist when the class containing the method is written&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
