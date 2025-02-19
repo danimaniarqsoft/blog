@@ -16,7 +16,11 @@ The best practices come with experience so this post is going to be updated if n
     * Logging the exception and rethrowing it
     * Logging the exception and returning an alternate value
 * Choose collections over arrays
-
+* Embrace immutability
+    * Use final keyword
+* Favor composition over inheritance
+* Streamline functional interfaces with lambdas
+* Use enhanced for loops or streams
 
 ## References
 
