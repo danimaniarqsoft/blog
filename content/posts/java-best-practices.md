@@ -1,18 +1,23 @@
-+++
-date = '2025-02-17T17:34:51-06:00'
-draft = false
-title = 'Java best practices'
-+++
+---
+date: 2025-02-18T04:14:54-08:00
+draft: false
+title: "Java best practices"
+author: Daniel Pichardo
+---
 
-1. Consider static factory methods instead of constructors
+The best practices come with experience so this post is going to be updated if new best practices are learned.
+
+* Be clear, not clever
+* Keep it short
+* Naming is hard, so do it with care
+* User switch expressions instead of excessive if statements
+* Avoid empty catch blocks
+    * Logging the exception
+    * Logging the exception and rethrowing it
+    * Logging the exception and returning an alternate value
+* Choose collections over arrays
 
 
-* One advantage of static factory methods is that, unlike constructors, they have names. 
-* A second advantage of static factory methods is that, unlike constructors,
-they are not required to create a new object each time they’re invoked
-* A third advantage of static factory methods is that, unlike constructors,
-they can return an object of any subtype of their return type.
-* A fourth advantage of static factories is that the class of the returned
-object can vary from call to call as a function of the input parameters. 
-* A fifth advantage of static factories is that the class of the returned object
-need not exist when the class containing the method is written
+## References
+
+[Jetbrains Java best practices](https://blog.jetbrains.com/idea/2024/02/java-best-practices/)

@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The blog</title>
+    <title>Software development</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on The blog</description>
+    <description>Recent content on Software development</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 17 Feb 2025 17:34:51 -0600</lastBuildDate>
+    <language>en</language>
+    <managingEditor>daniel.cortes@infotec.mx (Some Person)</managingEditor>
+    <webMaster>daniel.cortes@infotec.mx (Some Person)</webMaster>
+    <lastBuildDate>Tue, 18 Feb 2025 04:14:54 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java best practices</title>
       <link>http://localhost:1313/posts/java-best-practices/</link>
-      <pubDate>Mon, 17 Feb 2025 17:34:51 -0600</pubDate>
+      <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate><author>daniel.cortes@infotec.mx (Some Person)</author>
       <guid>http://localhost:1313/posts/java-best-practices/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;Consider static factory methods instead of constructors&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;One advantage of static factory methods is that, unlike constructors, they have names.&lt;/li&gt;&#xA;&lt;li&gt;A second advantage of static factory methods is that, unlike constructors,&#xA;they are not required to create a new object each time they’re invoked&lt;/li&gt;&#xA;&lt;li&gt;A third advantage of static factory methods is that, unlike constructors,&#xA;they can return an object of any subtype of their return type.&lt;/li&gt;&#xA;&lt;li&gt;A fourth advantage of static factories is that the class of the returned&#xA;object can vary from call to call as a function of the input parameters.&lt;/li&gt;&#xA;&lt;li&gt;A fifth advantage of static factories is that the class of the returned object&#xA;need not exist when the class containing the method is written&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;The best practices come with experience so this post is going to be updated if new best practices are learned.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Be clear, not clever&lt;/li&gt;&#xA;&lt;li&gt;Keep it short&lt;/li&gt;&#xA;&lt;li&gt;Naming is hard, so do it with care&lt;/li&gt;&#xA;&lt;li&gt;User switch expressions instead of excessive if statements&lt;/li&gt;&#xA;&lt;li&gt;Avoid empty catch blocks&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Logging the exception&lt;/li&gt;&#xA;&lt;li&gt;Logging the exception and rethrowing it&lt;/li&gt;&#xA;&lt;li&gt;Logging the exception and returning an alternate value&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Choose collections over arrays&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.jetbrains.com/idea/2024/02/java-best-practices/&#34;&gt;Jetbrains Java best practices&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
