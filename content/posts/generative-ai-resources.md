@@ -31,3 +31,5 @@ A key development in language modeling was the introduction in 2017 of Transform
 Transformers are the state-of-the-art architecture for a wide variety of language model applications, such as translators.
 
 Full Transformers consist of an encoder and a decoder. An encoder converts input text into an intermediate representation, and a decoder converts that intermediate representation into useful text.
+
+Prompt engineering is the art of asking the right question to get the best output from an LLM. It enables direct interaction with the LLM using only plain language prompts.
