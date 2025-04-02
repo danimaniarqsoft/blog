@@ -8,14 +8,21 @@
     <language>en</language>
     <managingEditor>daniel.cortes@infotec.mx (Some Person)</managingEditor>
     <webMaster>daniel.cortes@infotec.mx (Some Person)</webMaster>
-    <lastBuildDate>Tue, 18 Feb 2025 04:14:54 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2025 21:21:54 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generative AI Resources</title>
+      <link>http://localhost:1313/posts/generative-ai-resources/</link>
+      <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate><author>daniel.cortes@infotec.mx (Some Person)</author>
+      <guid>http://localhost:1313/posts/generative-ai-resources/</guid>
+      <description>&lt;p&gt;Here we have greate generative ai resources for beginners&lt;/p&gt;&#xA;&lt;p&gt;What is a language model?&lt;/p&gt;&#xA;&lt;p&gt;A language model is a machine learning model that aims to predict and generate plausible language. Autocomplete is a language model, for example.&lt;/p&gt;&#xA;&lt;p&gt;What is a large language model?&lt;/p&gt;&#xA;&lt;p&gt;Early language models could predict the probability of a single word; modern large language models can predict the probability of sentences, paragraphs, or even entire documents.&lt;/p&gt;&#xA;&lt;p&gt;How large is large?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Java best practices</title>
       <link>http://localhost:1313/posts/java-best-practices/</link>
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate><author>daniel.cortes@infotec.mx (Some Person)</author>
       <guid>http://localhost:1313/posts/java-best-practices/</guid>
-      <description>&lt;p&gt;The best practices come with experience so this post is going to be updated if new best practices are learned.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Be clear, not clever&lt;/li&gt;&#xA;&lt;li&gt;Keep it short&lt;/li&gt;&#xA;&lt;li&gt;Naming is hard, so do it with care&lt;/li&gt;&#xA;&lt;li&gt;User switch expressions instead of excessive if statements&lt;/li&gt;&#xA;&lt;li&gt;Avoid empty catch blocks&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Logging the exception&lt;/li&gt;&#xA;&lt;li&gt;Logging the exception and rethrowing it&lt;/li&gt;&#xA;&lt;li&gt;Logging the exception and returning an alternate value&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Choose collections over arrays&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.jetbrains.com/idea/2024/02/java-best-practices/&#34;&gt;Jetbrains Java best practices&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;The best practices come with experience so this post is going to be updated if new best practices are learned.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Be clear, not clever&lt;/li&gt;&#xA;&lt;li&gt;Keep it short&lt;/li&gt;&#xA;&lt;li&gt;Naming is hard, so do it with care&lt;/li&gt;&#xA;&lt;li&gt;User switch expressions instead of excessive if statements&lt;/li&gt;&#xA;&lt;li&gt;Avoid empty catch blocks&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Logging the exception&lt;/li&gt;&#xA;&lt;li&gt;Logging the exception and rethrowing it&lt;/li&gt;&#xA;&lt;li&gt;Logging the exception and returning an alternate value&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Choose collections over arrays&lt;/li&gt;&#xA;&lt;li&gt;Embrace immutability&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use final keyword&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Favor composition over inheritance&lt;/li&gt;&#xA;&lt;li&gt;Streamline functional interfaces with lambdas&lt;/li&gt;&#xA;&lt;li&gt;Use enhanced for loops or streams&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.jetbrains.com/idea/2024/02/java-best-practices/&#34;&gt;Jetbrains Java best practices&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
