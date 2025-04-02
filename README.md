@@ -14,3 +14,8 @@ hugo serve
 ```
 
 Open your browser at `http://localhost:1313` to see the blog
+
+
+## Blog site
+
+This project is published at `https://danimaniarqsoft.github.io/blog/`
