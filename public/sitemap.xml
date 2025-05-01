@@ -3,12 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-19T21:21:54-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/generative-ai-resources/</loc>
-    <lastmod>2025-02-19T21:21:54-08:00</lastmod>
+    <lastmod>2025-04-22T21:21:54-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-22T21:21:54-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/latex-timeline/</loc>
+    <lastmod>2025-04-22T21:21:54-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/generative-ai-resources/</loc>
     <lastmod>2025-02-19T21:21:54-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/java-best-practices/</loc>
@@ -17,6 +20,8 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/topics/java-best-practices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/topics/latex/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
