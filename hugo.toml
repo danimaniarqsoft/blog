@@ -1,79 +1,162 @@
-#--------------------------------------------------
-# Base properties
-#--------------------------------------------------
-baseURL = "https://danimaniarqsoft.github.io/blog"
-DefaultContentLanguage = "en"
-title = "Software development"
-theme = "ananke"
+######################## default configuration ####################
+# The base URL of your site (required). This will be prepended to all relative URLs.
+baseURL = "/"
+# Title of your website (required).
+title = "Hugoplate"
+# Your theme name
+theme = "hugoplate"
+# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
+timeZone = "America/New_York"
+# post excerpt
+summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
+# disable language
+disableLanguages = [
+] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
+hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+# default language
+defaultContentLanguage = 'en'
+# defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page
+defaultContentLanguageInSubdir = false
+
+########################### Services #############################
+[services]
+[services.googleAnalytics]
+ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics
+
+[services.disqus]
+shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+
+########################## Permalinks ############################
+[permalinks.page]
+"pages" = "/:slugorcontentbasename/"
 
 
-# Using theme as git submodule
-# Or when using theme as hugo module
-# theme = "github.com/halogenica/beautifulhugo"
+########################## Pagination ############################
+[pagination]
+disableAliases = false
+pagerSize = 10
+path = 'page'
 
-#--------------------------------------------------
-# Controls the syntax highlighting style used for 
-# code blocks in your website.
-#--------------------------------------------------
 
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
-sectionPagesMenu = 'main'
+############################# Build ##############################
+[build]
+[build.buildStats]
+enable = true
+[[build.cachebusters]]
+source = 'assets/notwatching/hugo_stats\.json'
+target = 'css'
 
-#--------------------------------------------------
-# Services
-#--------------------------------------------------
+############################# Modules ############################
+[module]
+[[module.mounts]]
+source = 'assets'
+target = 'assets'
+[[module.mounts]]
+disableWatch = true
+source = 'hugo_stats.json'
+target = 'assets/notwatching/hugo_stats.json'
 
-[Services]
-  [Services.Disqus]
-    # Shortname = "XXX"
-  [Services.googleAnalytics]
-    # id = "XXX"
 
-#--------------------------------------------------
-# Params
-#--------------------------------------------------
-[Params]
-  homeTitle = "The pragmatic programmer"
-  subtitle = "Building greatest ideas"
-  mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2025"
-  commit = false
-  rss = true
-  comments = true
-  readingTime = true
-  wordCount = true
-  useHLJS = true
-  socialShare = true
-  delayDisqus = true
-  showRelatedPosts = true
-#  cusdisID = "XXX" # Get your App id from cusdis.com
-#  hideAuthor = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-#  disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
+############################# Outputs ############################
+[outputs]
+home = ["HTML", "RSS", "WebAppManifest", "SearchIndex"]
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+############################# Imaging ############################
+[imaging]
+# See https://github.com/disintegration/imaging
+# Default JPEG or WebP quality setting. Default is 75.
+quality = 80
+resampleFilter = "Lanczos"
 
-[Params.author]
-  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-  name = "Some Person"
-  website = "https://danimaniarqsoft.github.io/blog"
-  email = "daniel.cortes@infotec.mx"
-  github = "danimaniarqsoft"
-  twitter = "danimaniARQSOFT"
+############################ Caches ##############################
+[caches]
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+
+############################ Markup ##############################
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
+lineNumbersInTable = false
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 5
+ordered = true
+
+
+########################### Media types ###########################
+[mediaTypes]
+[mediaTypes."application/manifest+json"]
+suffixes = ["webmanifest"]
+
+
+########################### Output Format ##########################
+[outputFormats]
+[outputFormats.WebAppManifest]
+mediaType = "application/manifest+json"
+rel = "manifest"
+
+[outputFormats.SearchIndex]
+mediaType = "application/json"
+baseName = "searchindex"
+isPlainText = true
+notAlternative = true
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/swiper/swiper-bundle.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/glightbox/glightbox.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/brands.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/solid.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/icons.css"
+lazy = true
+
+# JS Plugins
+[[params.plugins.js]]
+link = "js/search.js"
+lazy = false
+[[params.plugins.js]]
+link = "plugins/swiper/swiper-bundle.js"
+lazy = false
+[[params.plugins.js]]
+link = "plugins/cookie.js"
+lazy = false
+[[params.plugins.js]]
+link = "plugins/glightbox/glightbox.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/gallery-slider.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/accordion.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/tab.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/modal.js"
+lazy = true
+[[params.plugins.js]]
+link = "plugins/youtube-lite.js"
+lazy = true

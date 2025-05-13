@@ -2,46 +2,108 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://danimaniarqsoft.github.io/blog/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/posts/java-best-practices-with-examples/</loc>
+    <loc>//localhost:1313/blog/</loc>
     <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/posts/</loc>
+    <loc>//localhost:1313/blog/java-best-practices-with-examples/</loc>
     <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/posts/java-reactive-best-practices/</loc>
+    <loc>//localhost:1313/blog/java-reactive-best-practices/</loc>
     <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/posts/latex-timeline/</loc>
+    <loc>//localhost:1313/blog/latex-timeline/</loc>
     <lastmod>2025-04-22T21:21:54-08:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/posts/generative-ai-resources/</loc>
+    <loc>//localhost:1313/categories/architecture/</loc>
+    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/silicon/</loc>
+    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/technology/</loc>
+    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/post-5/</loc>
+    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/generative-ai-resources/</loc>
     <lastmod>2025-02-19T21:21:54-08:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/posts/latex/add-timestamp/</loc>
+    <loc>//localhost:1313/blog/latex/add-timestamp/</loc>
     <lastmod>2025-02-19T21:21:54-08:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/posts/java-best-practices/</loc>
+    <loc>//localhost:1313/blog/java-best-practices/</loc>
     <lastmod>2025-02-18T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/posts/java-web-flux/</loc>
+    <loc>//localhost:1313/blog/java-web-flux/</loc>
     <lastmod>2025-02-18T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/posts/jwt/</loc>
-    <lastmod>2025-02-18T04:14:54-08:00</lastmod>
+    <loc>//localhost:1313/categories/application/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/about/</loc>
+    <loc>//localhost:1313/categories/data/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/topics/java-best-practices/</loc>
+    <loc>//localhost:1313/blog/post-1/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/topics/latex/</loc>
+    <loc>//localhost:1313/blog/post-2/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/categories/</loc>
+    <loc>//localhost:1313/blog/post-3/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/tags/</loc>
+    <loc>//localhost:1313/blog/post-4/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://danimaniarqsoft.github.io/blog/topics/</loc>
+    <loc>//localhost:1313/tags/nextjs/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/software/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/software/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/tailwind/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/technology/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/topics/java-best-practices/</loc>
+  </url><url>
+    <loc>//localhost:1313/topics/latex/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/</loc>
+  </url><url>
+    <loc>//localhost:1313/contact/</loc>
+  </url><url>
+    <loc>//localhost:1313/elements/</loc>
+  </url><url>
+    <loc>//localhost:1313/about/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/john-doe/</loc>
+  </url><url>
+    <loc>//localhost:1313/pages/</loc>
+  </url><url>
+    <loc>//localhost:1313/privacy-policy/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/sam-wilson/</loc>
+  </url><url>
+    <loc>//localhost:1313/sections/</loc>
+  </url><url>
+    <loc>//localhost:1313/topics/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/william-jacob/</loc>
   </url>
 </urlset>

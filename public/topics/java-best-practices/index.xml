@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software development</title>
-    <link>https://danimaniarqsoft.github.io/blog/topics/java-best-practices/</link>
-    <description>Recent content on Software development</description>
+    <title>Hugoplate</title>
+    <link>//localhost:1313/topics/java-best-practices/</link>
+    <description>Recent content on Hugoplate</description>
     <generator>Hugo</generator>
-    <language>en</language>
-    <managingEditor>daniel.cortes@infotec.mx (Some Person)</managingEditor>
-    <webMaster>daniel.cortes@infotec.mx (Some Person)</webMaster>
-    <atom:link href="https://danimaniarqsoft.github.io/blog/topics/java-best-practices/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/topics/java-best-practices/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
