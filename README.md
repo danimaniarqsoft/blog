@@ -10,11 +10,22 @@
 ## Run the server
 
 ```shell
-hugo serve
+hugo server
+```
+## Include Draft content
+
+```shell
+hugo server --buildDrafts
+hugo server -D
 ```
 
 Open your browser at `http://localhost:1313` to see the blog
 
+## Add new content
+
+```shell
+hugo new content content/posts/my-new-post.md
+```
 
 ## Blog site
 

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Java Web flux | Software development</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="⚡ Java Reactive Programming with Spring WebFlux: Building Scalable, Non-Blocking Applications
+In today’s cloud-native world, the demand for highly responsive and scalable applications has never been greater. Traditional thread-per-request architectures often struggle under heavy load. That’s where Reactive Programming shines — and in the Java ecosystem, Spring WebFlux is the tool of choice for building reactive systems.
+
+🔄 What Is Reactive Programming?
+Reactive programming is a paradigm built around asynchronous data streams and the propagation of change. Instead of waiting for events synchronously, reactive applications respond to events non-blockingly and reactively.">
+    <meta name="generator" content="Hugo 0.147.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="Daniel Pichardo">
+    
+
+    
+<link rel="stylesheet" href="/blog/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
+
+
+
+
+    
+
+
+    
+      
+<link rel="shortcut icon" href="/blog/img/favicon.ico" type="image/x-icon" />
+
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://danimaniarqsoft.github.io/blog/posts/java-web-flux/">
+    
+
+    <meta property="og:url" content="https://danimaniarqsoft.github.io/blog/posts/java-web-flux/">
+  <meta property="og:site_name" content="Software development">
+  <meta property="og:title" content="Java Web flux">
+  <meta property="og:description" content="⚡ Java Reactive Programming with Spring WebFlux: Building Scalable, Non-Blocking Applications In today’s cloud-native world, the demand for highly responsive and scalable applications has never been greater. Traditional thread-per-request architectures often struggle under heavy load. That’s where Reactive Programming shines — and in the Java ecosystem, Spring WebFlux is the tool of choice for building reactive systems.
+🔄 What Is Reactive Programming? Reactive programming is a paradigm built around asynchronous data streams and the propagation of change. Instead of waiting for events synchronously, reactive applications respond to events non-blockingly and reactively.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-02-18T04:14:54-08:00">
+    <meta property="article:modified_time" content="2025-02-18T04:14:54-08:00">
+
+  <meta itemprop="name" content="Java Web flux">
+  <meta itemprop="description" content="⚡ Java Reactive Programming with Spring WebFlux: Building Scalable, Non-Blocking Applications In today’s cloud-native world, the demand for highly responsive and scalable applications has never been greater. Traditional thread-per-request architectures often struggle under heavy load. That’s where Reactive Programming shines — and in the Java ecosystem, Spring WebFlux is the tool of choice for building reactive systems.
+🔄 What Is Reactive Programming? Reactive programming is a paradigm built around asynchronous data streams and the propagation of change. Instead of waiting for events synchronously, reactive applications respond to events non-blockingly and reactively.">
+  <meta itemprop="datePublished" content="2025-02-18T04:14:54-08:00">
+  <meta itemprop="dateModified" content="2025-02-18T04:14:54-08:00">
+  <meta itemprop="wordCount" content="494">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Java Web flux">
+  <meta name="twitter:description" content="⚡ Java Reactive Programming with Spring WebFlux: Building Scalable, Non-Blocking Applications In today’s cloud-native world, the demand for highly responsive and scalable applications has never been greater. Traditional thread-per-request architectures often struggle under heavy load. That’s where Reactive Programming shines — and in the Java ecosystem, Spring WebFlux is the tool of choice for building reactive systems.
+🔄 What Is Reactive Programming? Reactive programming is a paradigm built around asynchronous data streams and the propagation of change. Instead of waiting for events synchronously, reactive applications respond to events non-blockingly and reactively.">
+
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/blog/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Software development
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/blog/about/" title=" page">
+              
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/blog/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/blog/topics/" title="Topics page">
+              Topics
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Java Web flux</h1>
+      
+      <p class="tracked"><strong>Daniel Pichardo</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-02-18T04:14:54-08:00">February 18, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="-java-reactive-programming-with-spring-webflux-building-scalable-non-blocking-applications">⚡ Java Reactive Programming with Spring WebFlux: Building Scalable, Non-Blocking Applications</h1>
+<p>In today’s cloud-native world, the demand for highly responsive and scalable applications has never been greater. Traditional thread-per-request architectures often struggle under heavy load. That’s where <strong>Reactive Programming</strong> shines — and in the Java ecosystem, <strong>Spring WebFlux</strong> is the tool of choice for building reactive systems.</p>
+<hr>
+<h2 id="-what-is-reactive-programming">🔄 What Is Reactive Programming?</h2>
+<p>Reactive programming is a paradigm built around <strong>asynchronous data streams</strong> and the <strong>propagation of change</strong>. Instead of waiting for events synchronously, reactive applications respond to events <strong>non-blockingly</strong> and <strong>reactively</strong>.</p>
+<h3 id="-key-benefits">🚀 Key Benefits:</h3>
+<ul>
+<li>Efficient <strong>non-blocking I/O</strong></li>
+<li>Support for <strong>backpressure</strong></li>
+<li><strong>Better scalability</strong> under load</li>
+<li>Enhanced <strong>throughput and responsiveness</strong></li>
+</ul>
+<hr>
+<h2 id="-introducing-spring-webflux">🌐 Introducing Spring WebFlux</h2>
+<p><strong>Spring WebFlux</strong> is Spring&rsquo;s reactive web framework introduced in <strong>Spring 5</strong>. It’s built on top of the <strong>Reactive Streams</strong> specification and is designed for <strong>non-blocking</strong>, <strong>asynchronous</strong>, <strong>event-driven</strong> applications.</p>
+<h3 id="two-programming-models">Two Programming Models:</h3>
+<ul>
+<li><strong>Annotation-based</strong> (familiar for Spring MVC developers)</li>
+<li><strong>Functional endpoints</strong> (more explicit, functional style)</li>
+</ul>
+<hr>
+<h2 id="-core-technologies-behind-webflux">🔌 Core Technologies Behind WebFlux</h2>
+<ul>
+<li><strong>Project Reactor</strong>: Provides reactive types <code>Mono&lt;T&gt;</code> (0–1 elements) and <code>Flux&lt;T&gt;</code> (0–∞ elements)</li>
+<li><strong>Reactive Streams</strong>: Standard for asynchronous stream processing</li>
+<li><strong>Reactor Netty</strong>: Default HTTP server used in WebFlux for non-blocking I/O</li>
+</ul>
+<hr>
+<h2 id="-building-a-reactive-rest-api">🧪 Building a Reactive REST API</h2>
+<p>Let’s build a simple REST API for product management using Spring WebFlux.</p>
+<h3 id="-maven-dependencies">📦 Maven Dependencies</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;dependency&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;groupId&gt;</span>org.springframework.boot<span class="nt">&lt;/groupId&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;artifactId&gt;</span>spring-boot-starter-webflux<span class="nt">&lt;/artifactId&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/dependency&gt;</span>
+</span></span></code></pre></div><p>🧱 Product Entity</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Product</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">id</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">price</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Getters and Setters</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>💾 Reactive Repository (In-Memory)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="nd">@Repository</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ProductRepository</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">Map</span><span class="o">&lt;</span><span class="n">String</span><span class="p">,</span><span class="w"> </span><span class="n">Product</span><span class="o">&gt;</span><span class="w"> </span><span class="n">db</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ConcurrentHashMap</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">Flux</span><span class="o">&lt;</span><span class="n">Product</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">findAll</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Flux</span><span class="p">.</span><span class="na">fromIterable</span><span class="p">(</span><span class="n">db</span><span class="p">.</span><span class="na">values</span><span class="p">());</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">Mono</span><span class="o">&lt;</span><span class="n">Product</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">findById</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Mono</span><span class="p">.</span><span class="na">justOrEmpty</span><span class="p">(</span><span class="n">db</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">id</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">Mono</span><span class="o">&lt;</span><span class="n">Product</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">save</span><span class="p">(</span><span class="n">Product</span><span class="w"> </span><span class="n">product</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">db</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">product</span><span class="p">.</span><span class="na">getId</span><span class="p">(),</span><span class="w"> </span><span class="n">product</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Mono</span><span class="p">.</span><span class="na">just</span><span class="p">(</span><span class="n">product</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">Mono</span><span class="o">&lt;</span><span class="n">Void</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">delete</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">db</span><span class="p">.</span><span class="na">remove</span><span class="p">(</span><span class="n">id</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Mono</span><span class="p">.</span><span class="na">empty</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>🌍 Reactive REST Controller</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="nd">@RestController</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nd">@RequestMapping</span><span class="p">(</span><span class="s">&#34;/products&#34;</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ProductController</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@Autowired</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">ProductRepository</span><span class="w"> </span><span class="n">repo</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@GetMapping</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">Flux</span><span class="o">&lt;</span><span class="n">Product</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">getAll</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">repo</span><span class="p">.</span><span class="na">findAll</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@GetMapping</span><span class="p">(</span><span class="s">&#34;/{id}&#34;</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">Mono</span><span class="o">&lt;</span><span class="n">ResponseEntity</span><span class="o">&lt;</span><span class="n">Product</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="nf">getById</span><span class="p">(</span><span class="nd">@PathVariable</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">repo</span><span class="p">.</span><span class="na">findById</span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                   </span><span class="p">.</span><span class="na">map</span><span class="p">(</span><span class="n">ResponseEntity</span><span class="p">::</span><span class="n">ok</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                   </span><span class="p">.</span><span class="na">defaultIfEmpty</span><span class="p">(</span><span class="n">ResponseEntity</span><span class="p">.</span><span class="na">notFound</span><span class="p">().</span><span class="na">build</span><span class="p">());</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@PostMapping</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">Mono</span><span class="o">&lt;</span><span class="n">Product</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">create</span><span class="p">(</span><span class="nd">@RequestBody</span><span class="w"> </span><span class="n">Product</span><span class="w"> </span><span class="n">product</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">repo</span><span class="p">.</span><span class="na">save</span><span class="p">(</span><span class="n">product</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@DeleteMapping</span><span class="p">(</span><span class="s">&#34;/{id}&#34;</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">Mono</span><span class="o">&lt;</span><span class="n">Void</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">delete</span><span class="p">(</span><span class="nd">@PathVariable</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">repo</span><span class="p">.</span><span class="na">delete</span><span class="p">(</span><span class="n">id</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>⚙️ Spring MVC vs Spring WebFlux
+Feature	Spring MVC	Spring WebFlux
+Blocking	Yes	No
+Concurrency Model	One thread per request	Event-loop model
+Return Types	ResponseEntity, etc	Mono, Flux
+Backpressure	No	Yes</p>
+<p>🧰 Testing Reactive Code</p>
+<p>Use StepVerifier to test reactive flows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">StepVerifier</span><span class="p">.</span><span class="na">create</span><span class="p">(</span><span class="n">repo</span><span class="p">.</span><span class="na">findAll</span><span class="p">())</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">.</span><span class="na">expectNextCount</span><span class="p">(</span><span class="n">3</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">.</span><span class="na">verifyComplete</span><span class="p">();</span><span class="w">
+</span></span></span></code></pre></div><p>💡 When Should You Use WebFlux?</p>
+<p>✅ Use WebFlux when:</p>
+<pre><code>You need high concurrency and scalability
+
+Your data sources are non-blocking
+
+You’re building streaming, chat, or IoT applications
+</code></pre>
+<p>🚫 Avoid WebFlux when:</p>
+<pre><code>Your entire stack is blocking (e.g., JDBC)
+
+Your system doesn’t need reactive performance benefits
+</code></pre>
+<p>🚀 Conclusion</p>
+<p>Spring WebFlux brings the power of reactive programming into the Spring ecosystem, enabling the development of high-performance, non-blocking, and scalable applications. While it comes with a learning curve, it’s a must-have tool for modern, cloud-native development in Java.</p>
+<p>Whether you&rsquo;re building microservices or event-driven APIs, Spring WebFlux is an excellent choice to keep your backend responsive, lightweight, and future-proof.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://danimaniarqsoft.github.io/blog/" >
+    &copy;  Software development 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

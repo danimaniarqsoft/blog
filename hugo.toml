@@ -1,12 +1,21 @@
-#baseurl = "https://username.github.io"
-baseurl = "https://danimaniarqsoft.github.io"
+#--------------------------------------------------
+# Base properties
+#--------------------------------------------------
 baseURL = "https://danimaniarqsoft.github.io/blog"
 DefaultContentLanguage = "en"
 title = "Software development"
+theme = "ananke"
+
+
 # Using theme as git submodule
-#theme = "beautifulhugo"
 # Or when using theme as hugo module
 # theme = "github.com/halogenica/beautifulhugo"
+
+#--------------------------------------------------
+# Controls the syntax highlighting style used for 
+# code blocks in your website.
+#--------------------------------------------------
+
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
@@ -15,12 +24,19 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentOptions = "linenos=inline"
 sectionPagesMenu = 'main'
 
+#--------------------------------------------------
+# Services
+#--------------------------------------------------
+
 [Services]
   [Services.Disqus]
     # Shortname = "XXX"
   [Services.googleAnalytics]
     # id = "XXX"
 
+#--------------------------------------------------
+# Params
+#--------------------------------------------------
 [Params]
   homeTitle = "The pragmatic programmer"
   subtitle = "Building greatest ideas"
