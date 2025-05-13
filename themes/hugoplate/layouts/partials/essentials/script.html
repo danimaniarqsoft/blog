@@ -25,7 +25,7 @@
 
 {{ if hugo.IsProduction }}
   {{ $scripts = $scripts | minify | fingerprint }}
-  {{ $scriptsLazy = $scriptsLazy | minify | fingerprint }}
+  
 {{ end }}
 
 {{/* scripts */}}
