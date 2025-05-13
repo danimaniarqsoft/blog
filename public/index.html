@@ -5,7 +5,7 @@
   lang="en-us"
   itemtype="http://schema.org/WebPage">
   <head>
-	<meta name="generator" content="Hugo 0.147.2"><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.147.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
     <meta charset="utf-8" />
 
@@ -31,11 +31,11 @@
 
 
 
-<link rel="shortcut icon" href="/blog/images/favicon_hu_4384881fdc2d307e.png" type="image/x-icon">
-<link rel="icon" href="/blog/images/favicon_hu_4384881fdc2d307e.png" type="image/x-icon">
-<link rel="icon" type="image/png" sizes="48x48" href="/blog/images/favicon_hu_79c3559174e61a5e.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/blog/images/favicon_hu_4384881fdc2d307e.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/blog/images/favicon_hu_cfffba76e19e8ff2.png">
+<link rel="shortcut icon" href="/images/favicon_hu_4384881fdc2d307e.png" type="image/x-icon">
+<link rel="icon" href="/images/favicon_hu_4384881fdc2d307e.png" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="48x48" href="/images/favicon_hu_79c3559174e61a5e.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon_hu_4384881fdc2d307e.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon_hu_cfffba76e19e8ff2.png">
 
 
 
@@ -44,7 +44,7 @@
 
 
 
-<link rel="manifest" href="/blog/manifest.webmanifest" />
+<link rel="manifest" href="/manifest.webmanifest" />
 <meta
   name="msapplication-TileColor"
   content="#ddd" />
@@ -73,7 +73,6 @@
 
 
 
-  <base href="http://localhost:1313/blog/" />
 
 
 
@@ -82,7 +81,7 @@
 
 
 
-<title>Hugoplate</title>
+<title>DCP blog</title>
 
 
 
@@ -157,8 +156,8 @@
       
       
       
-        <meta property="og:image" content="http://localhost:1313/blog/images/og-image.png" />
-        <meta name="twitter:image" content="http://localhost:1313/blog/images/og-image.png" />
+        <meta property="og:image" content="http://localhost:1313/images/og-image.png" />
+        <meta name="twitter:image" content="http://localhost:1313/images/og-image.png" />
         <meta
           name="twitter:card"
           content="summary_large_image" />
@@ -182,13 +181,13 @@
 
 
 
-<meta property="og:title" content="Hugoplate" />
+<meta property="og:title" content="DCP blog" />
 <meta property="og:description" content="Hugo &amp; Tailwindcss Starter" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/blog/" />
+<meta property="og:url" content="http://localhost:1313/" />
 
 
-<meta name="twitter:title" content="Hugoplate" />
+<meta name="twitter:title" content="DCP blog" />
 <meta name="twitter:description" content="Hugo &amp; Tailwindcss Starter" />
 
 
@@ -216,7 +215,7 @@
 
 
 <script>
-  let indexURL = "http://localhost:1313/blog/searchindex.json";
+  let indexURL = "http://localhost:1313/searchindex.json";
   let includeSectionsInSearch = ["blog"];
   let search_no_results = "No results for";
   let search_initial_message = "Type something to search..";
@@ -322,15 +321,12 @@
 
 
 
-  
-  
-
 
 
 
 <link
-  href="/blog/css/style.min.080f66e0a25844cb2a238f93fdc4abac241ea2b589f61d83f6371f46375e45f8.css"
-  integrity="sha256-CA9m4KJYRMsqI4&#43;T/cSrrCQeorWJ9h2D9jcfRjdeRfg="
+  href="/css/style.css"
+  integrity=""
   rel="stylesheet" />
 
 
@@ -338,8 +334,8 @@
   defer
   async
   rel="stylesheet"
-  href="/blog/css/style-lazy.min.9e7e035d2f064fe004383f2ffc11a8f2966ef7b51c5fb2fac926e35c0061b5cf.css"
-  integrity="sha256-nn4DXS8GT&#43;AEOD8v/BGo8pZu97UcX7L6ySbjXABhtc8="
+  href="/css/style-lazy.css"
+  integrity=""
   media="print"
   onload="this.media='all'; this.onload=null;" />
 
@@ -353,7 +349,18 @@
 
 
 
+
+
       
+      <div
+  class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+  <span class="block sm:hidden">all</span>
+  <span class="hidden sm:block md:hidden">sm</span>
+  <span class="hidden md:block lg:hidden">md</span>
+  <span class="hidden lg:block xl:hidden">lg</span>
+  <span class="hidden xl:block 2xl:hidden">xl</span>
+  <span class="hidden 2xl:block">2xl</span>
+</div>
 
     
 
@@ -372,7 +379,7 @@
     
     <div class="order-0">
       
-      <a class="navbar-brand block" href="/blog/">
+      <a class="navbar-brand block" href="/">
         
 
 
@@ -455,9 +462,9 @@
       class="img img-light"
       width="160"
       height="32"
-      src="/blog/images/logo_hu_75df6f187f7b785d.webp"
+      src="/images/logo_hu_75df6f187f7b785d.webp"
       alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/blog\/images\/logo_hu_613f51f483beed3c.png';" />
+      onerror="this.onerror=null;this.src='\/images\/logo_hu_613f51f483beed3c.png';" />
 
     <img
       fetchpriority="high"
@@ -465,9 +472,9 @@
       class="img img-dark"
       width="160"
       height="32"
-      src="/blog/images/logo-darkmode_hu_a274d2b570d85754.webp"
+      src="/images/logo-darkmode_hu_a274d2b570d85754.webp"
       alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/blog\/images\/logo-darkmode_hu_11d6a0e948ad5f4.png';" />
+      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_hu_11d6a0e948ad5f4.png';" />
   
   
 
@@ -506,7 +513,7 @@
             <a
               class="nav-link active"
               
-              href="/blog/"
+              href="/"
               >Home</a
             >
           </li>
@@ -520,7 +527,7 @@
             <a
               class="nav-link "
               
-              href="/blog/about"
+              href="/about"
               >About</a
             >
           </li>
@@ -534,7 +541,7 @@
             <a
               class="nav-link "
               
-              href="/blog/elements"
+              href="/elements"
               >Elements</a
             >
           </li>
@@ -582,7 +589,7 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/blog/404">
+                    href="/404">
                     404 Page
                   </a>
                 </li>
@@ -593,7 +600,7 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/blog/authors">
+                    href="/authors">
                     Authors
                   </a>
                 </li>
@@ -604,7 +611,7 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/blog/blog">
+                    href="/blog">
                     Blog
                   </a>
                 </li>
@@ -615,7 +622,7 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/blog/categories">
+                    href="/categories">
                     Categories
                   </a>
                 </li>
@@ -626,7 +633,7 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/blog/contact">
+                    href="/contact">
                     Contact
                   </a>
                 </li>
@@ -639,7 +646,7 @@
         <li class="mt-4 inline-block lg:hidden">
           <a
             class="btn btn-outline-primary btn-sm"
-            href="/blog/contact">
+            href="/contact">
             get a quote
           </a>
         </li>
@@ -745,7 +752,7 @@
       
       
         <a
-          href="/blog/contact"
+          href="/contact"
           class="btn btn-outline-primary btn-sm hidden lg:inline-block">
           get a quote
         </a>
@@ -875,20 +882,18 @@
         <div class="row justify-center">
           <div class="lg:col-7 md:col-9 mb-8 text-center">
             <h1 class="mb-4 text-h3 lg:text-h1">
-              The Ultimate Starter Template You Need To Start Your Hugo Project
+              The diaries of a software developer
             </h1>
             <p class="mb-8">
-              Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time.
+              Welcome to a software development blog dedicated to sharing insights, tutorials, and experiences from the world of modern software engineering with artificial intelligence.
             </p>
             
               
                 <a
                   class="btn btn-primary"
-                  href="https://github.com/zeon-studio/hugoplate"
-                  
-                    target="_blank" rel="noopener"
+                  href="http://localhost:1313/blog"
                   >
-                  Get Started For Free
+                  Go to the diaries
                   <i class="fa fa-arrow-right pl-2"></i>
                 </a>
               
@@ -974,27 +979,27 @@
         <picture>
           <source
             
-              srcset="/blog/images/banner_hu_bdc8c628a610493f.webp"
+              srcset="/images/banner_hu_bdc8c628a610493f.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/blog/images/banner_hu_41f0e50ee292c887.webp"
+              srcset="/images/banner_hu_41f0e50ee292c887.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/blog/images/banner_hu_67c61e9b680b2e41.webp"
+              srcset="/images/banner_hu_67c61e9b680b2e41.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/blog/images/banner_hu_bd8330c75c01695c.webp"
+              srcset="/images/banner_hu_bd8330c75c01695c.webp"
              />
           <img
             
               loading="eager" decoding="async"
-              src="/blog/images/banner_hu_64253f31100130ee.png"
+              src="/images/banner_hu_64253f31100130ee.png"
             class=" mx-auto lg:!max-w-[800px] img"
             alt="Banner image"
             width="1206"
@@ -1103,27 +1108,27 @@
         <picture>
           <source
             
-              srcset="/blog/images/service-1_hu_929e1a7812c6d1fe.webp"
+              srcset="/images/service-1_hu_929e1a7812c6d1fe.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/blog/images/service-1_hu_16932872febdfe82.webp"
+              srcset="/images/service-1_hu_16932872febdfe82.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/blog/images/service-1_hu_5624bcf59e38ce1.webp"
+              srcset="/images/service-1_hu_5624bcf59e38ce1.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/blog/images/service-1_hu_4789409556fdf1b4.webp"
+              srcset="/images/service-1_hu_4789409556fdf1b4.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/blog/images/service-1_hu_97532ca59acc432e.png"
+              src="/images/service-1_hu_97532ca59acc432e.png"
             class="  img"
             alt="feature image"
             width="559"
@@ -1143,365 +1148,21 @@
           <div
             class=" md:col-7 lg:col-6">
             <h2 class="mb-4">
-              What&rsquo;s Included in Hugoplate
+              Main topics
             </h2>
             <p class="mb-8 text-lg">
-              Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What&rsquo;s Included in Hugoplate
+              The techonology is the base of all innovation
             </p>
             <ul>
               
                 <li class="relative mb-4 pl-6">
                   <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  10+ Pre-build pages
+                  Java
                 </li>
               
                 <li class="relative mb-4 pl-6">
                   <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  95+ Google Pagespeed Score
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  Build with Hugo and TailwindCSS for easy and customizable styling
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  Fully responsive on all devices
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  SEO-optimized for better search engine rankings
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  <strong>Open-source and free</strong> for personal and commercial use
-                </li>
-              
-            </ul>
-            
-              
-            
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section-sm ">
-      <div class="container">
-        <div class="row items-center justify-between">
-          <div
-            class="mb:md-0 
-              md:order-2
-             md:col-5 mb-6">
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/blog/images/service-2_hu_ef404af6d6285ca6.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/blog/images/service-2_hu_11d1ac9d0a8eec07.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/blog/images/service-2_hu_38233edb88b0c33b.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/blog/images/service-2_hu_40eef3091833cf9a.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/blog/images/service-2_hu_5a1d9e6e97803903.png"
-            class="  img"
-            alt="feature image"
-            width="548"
-            height="526" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-          </div>
-          <div
-            class="
-              md:order-1
-             md:col-7 lg:col-6">
-            <h2 class="mb-4">
-              Discover the Key Features Of Hugo
-            </h2>
-            <p class="mb-8 text-lg">
-              Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:
-            </p>
-            <ul>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  Zero JS, by default: No JavaScript runtime overhead to slow you down.
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  Customizable: Tailwind, MDX, and 100+ other integrations to choose from.
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more.
-                </li>
-              
-            </ul>
-            
-              
-                <a class="btn btn-primary mt-6" href="https://github.com/zeon-studio/hugoplate">
-                  Get Started Now
-                  <i class="fa fa-arrow-right pl-2"></i>
-                </a>
-              
-            
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <section class="section-sm bg-gradient">
-      <div class="container">
-        <div class="row items-center justify-between">
-          <div
-            class="mb:md-0  md:col-5 mb-6">
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/blog/images/service-3_hu_1454e73fb9cfabc3.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/blog/images/service-3_hu_eb30f0260134606f.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/blog/images/service-3_hu_1fdcb621f08409c8.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/blog/images/service-3_hu_5c632b226f4983.webp"
-             />
-          <img
-            
-              loading="lazy" decoding="async"
-              src="/blog/images/service-3_hu_3210cf25d2664312.png"
-            class="  img"
-            alt="feature image"
-            width="532"
-            height="433" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-          </div>
-          <div
-            class=" md:col-7 lg:col-6">
-            <h2 class="mb-4">
-              The Top Reasons to Choose Hugo for Your Hugo Project
-            </h2>
-            <p class="mb-8 text-lg">
-              With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use.
-            </p>
-            <ul>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  Instantly load static sites for better user experience and SEO.
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze.
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  Use any front-end library or framework, or build custom components, for any project size.
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  Built on cutting-edge technology to keep your projects up-to-date with the latest web standards.
+                  Python
                 </li>
               
             </ul>
@@ -1628,7 +1289,7 @@
 
         <img
           
-            src="/blog/images/avatar-sm_hu_cf2347ff1d8fd524.webp" loading="lazy"
+            src="/images/avatar-sm_hu_cf2347ff1d8fd524.webp" loading="lazy"
             decoding="async"
           
 
@@ -1637,7 +1298,7 @@
           width="50"
           height="50"
           onerror="this.onerror='null';
-          this.src='\/blog\/images\/avatar-sm_hu_d38f234cd389381f.png';" />
+          this.src='\/images\/avatar-sm_hu_d38f234cd389381f.png';" />
 
         
       
@@ -1758,7 +1419,7 @@
 
         <img
           
-            src="/blog/images/avatar-sm_hu_cf2347ff1d8fd524.webp" loading="lazy"
+            src="/images/avatar-sm_hu_cf2347ff1d8fd524.webp" loading="lazy"
             decoding="async"
           
 
@@ -1767,7 +1428,7 @@
           width="50"
           height="50"
           onerror="this.onerror='null';
-          this.src='\/blog\/images\/avatar-sm_hu_d38f234cd389381f.png';" />
+          this.src='\/images\/avatar-sm_hu_d38f234cd389381f.png';" />
 
         
       
@@ -1888,7 +1549,7 @@
 
         <img
           
-            src="/blog/images/avatar-sm_hu_cf2347ff1d8fd524.webp" loading="lazy"
+            src="/images/avatar-sm_hu_cf2347ff1d8fd524.webp" loading="lazy"
             decoding="async"
           
 
@@ -1897,7 +1558,7 @@
           width="50"
           height="50"
           onerror="this.onerror='null';
-          this.src='\/blog\/images\/avatar-sm_hu_d38f234cd389381f.png';" />
+          this.src='\/images\/avatar-sm_hu_d38f234cd389381f.png';" />
 
         
       
@@ -2018,7 +1679,7 @@
 
         <img
           
-            src="/blog/images/avatar-sm_hu_cf2347ff1d8fd524.webp" loading="lazy"
+            src="/images/avatar-sm_hu_cf2347ff1d8fd524.webp" loading="lazy"
             decoding="async"
           
 
@@ -2027,7 +1688,7 @@
           width="50"
           height="50"
           onerror="this.onerror='null';
-          this.src='\/blog\/images\/avatar-sm_hu_d38f234cd389381f.png';" />
+          this.src='\/images\/avatar-sm_hu_d38f234cd389381f.png';" />
 
         
       
@@ -2075,7 +1736,7 @@
         
         <a
           class="navbar-brand inline-block"
-          href="/blog/">
+          href="/">
           
 
 
@@ -2158,9 +1819,9 @@
       class="img img-light"
       width="160"
       height="32"
-      src="/blog/images/logo_hu_75df6f187f7b785d.webp"
+      src="/images/logo_hu_75df6f187f7b785d.webp"
       alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/blog\/images\/logo_hu_613f51f483beed3c.png';" />
+      onerror="this.onerror=null;this.src='\/images\/logo_hu_613f51f483beed3c.png';" />
 
     <img
       fetchpriority="high"
@@ -2168,9 +1829,9 @@
       class="img img-dark"
       width="160"
       height="32"
-      src="/blog/images/logo-darkmode_hu_a274d2b570d85754.webp"
+      src="/images/logo-darkmode_hu_a274d2b570d85754.webp"
       alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/blog\/images\/logo-darkmode_hu_11d6a0e948ad5f4.png';" />
+      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_hu_11d6a0e948ad5f4.png';" />
   
   
 
@@ -2184,7 +1845,7 @@
               <a
                 
                 href="
-                  /blog/about
+                  /about
                 "
                 >About</a
               >
@@ -2194,7 +1855,7 @@
               <a
                 
                 href="
-                  /blog/elements
+                  /elements
                 "
                 >Elements</a
               >
@@ -2204,7 +1865,7 @@
               <a
                 
                 href="
-                  /blog/privacy-policy
+                  /privacy-policy
                 "
                 >Privacy Policy</a
               >
@@ -2348,28 +2009,25 @@
 
 
 
-  
-  
-
 
 
 <script
   crossorigin="anonymous"
-  integrity="sha256-LO9JECYLqyMcpGlrtxZcpUn0I8AvhO6oIIibJZv4zbk="
-  src="/blog/js/script.min.2cef4910260bab231ca4696bb7165ca549f423c02f84eea820889b259bf8cdb9.js"></script>
+  integrity=""
+  src="/js/script.js"></script>
 
 
 <script
   defer
   async
   crossorigin="anonymous"
-  integrity="sha256-5VBZe/VmPQWXcchTWy6cUTaJdnltCLjAbCqDnX&#43;XWoQ="
-  src="/blog/js/script-lazy.min.e550597bf5663d059771c8535b2e9c51368976796d08b8c06c2a839d7f975a84.js"></script>
+  integrity=""
+  src="/js/script-lazy.js"></script>
 
 
 
 <script>
-  if ('serviceWorker' in navigator){navigator.serviceWorker.register("/blog/service-worker.js");}
+  if ('serviceWorker' in navigator){navigator.serviceWorker.register("/service-worker.js");}
 </script>
 
 

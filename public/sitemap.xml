@@ -2,108 +2,104 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-12T04:14:54-08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/</loc>
+    <loc>http://localhost:1313/blog/java-best-practices-with-examples/</loc>
     <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/java-best-practices-with-examples/</loc>
+    <loc>http://localhost:1313/blog/java-reactive-best-practices/</loc>
     <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/java-reactive-best-practices/</loc>
-    <lastmod>2025-05-12T04:14:54-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/latex-timeline/</loc>
+    <loc>http://localhost:1313/blog/latex-timeline/</loc>
     <lastmod>2025-04-22T21:21:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/architecture/</loc>
+    <loc>http://localhost:1313/categories/architecture/</loc>
     <lastmod>2025-04-06T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-04-06T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/silicon/</loc>
+    <loc>http://localhost:1313/tags/silicon/</loc>
     <lastmod>2025-04-06T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-04-06T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/technology/</loc>
+    <loc>http://localhost:1313/tags/technology/</loc>
     <lastmod>2025-04-06T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/post-5/</loc>
+    <loc>http://localhost:1313/blog/post-5/</loc>
     <lastmod>2025-04-06T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/generative-ai-resources/</loc>
+    <loc>http://localhost:1313/blog/generative-ai-resources/</loc>
     <lastmod>2025-02-19T21:21:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/latex/add-timestamp/</loc>
+    <loc>http://localhost:1313/blog/latex/add-timestamp/</loc>
     <lastmod>2025-02-19T21:21:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/java-best-practices/</loc>
+    <loc>http://localhost:1313/blog/java-best-practices/</loc>
     <lastmod>2025-02-18T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/java-web-flux/</loc>
+    <loc>http://localhost:1313/blog/java-web-flux/</loc>
     <lastmod>2025-02-18T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/application/</loc>
+    <loc>http://localhost:1313/categories/application/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/data/</loc>
+    <loc>http://localhost:1313/categories/data/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/post-1/</loc>
+    <loc>http://localhost:1313/blog/post-1/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/post-2/</loc>
+    <loc>http://localhost:1313/blog/post-2/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/post-3/</loc>
+    <loc>http://localhost:1313/blog/post-3/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/post-4/</loc>
+    <loc>http://localhost:1313/blog/post-4/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/nextjs/</loc>
+    <loc>http://localhost:1313/tags/nextjs/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/software/</loc>
+    <loc>http://localhost:1313/categories/software/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/software/</loc>
+    <loc>http://localhost:1313/tags/software/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/tailwind/</loc>
+    <loc>http://localhost:1313/tags/tailwind/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/technology/</loc>
+    <loc>http://localhost:1313/categories/technology/</loc>
     <lastmod>2022-04-04T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/topics/java-best-practices/</loc>
+    <loc>http://localhost:1313/topics/java-best-practices/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/topics/latex/</loc>
+    <loc>http://localhost:1313/topics/latex/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/authors/</loc>
+    <loc>http://localhost:1313/authors/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/elements/</loc>
+    <loc>http://localhost:1313/authors/daniel-cortes/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/about/</loc>
+    <loc>http://localhost:1313/elements/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/authors/john-doe/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/pages/</loc>
+    <loc>http://localhost:1313/pages/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/privacy/</loc>
+    <loc>http://localhost:1313/privacy/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/authors/sam-wilson/</loc>
+    <loc>http://localhost:1313/sections/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/sections/</loc>
-  </url><url>
-    <loc>http://localhost:1313/blog/topics/</loc>
-  </url><url>
-    <loc>http://localhost:1313/blog/authors/william-jacob/</loc>
+    <loc>http://localhost:1313/topics/</loc>
   </url>
 </urlset>
