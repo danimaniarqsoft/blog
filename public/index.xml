@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugoplate</title>
-    <link>//localhost:1313/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on Hugoplate</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 May 2025 04:14:54 -0800</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java best practices</title>
-      <link>//localhost:1313/blog/java-best-practices-with-examples/</link>
+      <link>http://localhost:1313/blog/blog/java-best-practices-with-examples/</link>
       <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
-      <guid>//localhost:1313/blog/java-best-practices-with-examples/</guid>
+      <guid>http://localhost:1313/blog/blog/java-best-practices-with-examples/</guid>
       <description>&lt;h1 id=&#34;-java-programming-best-practices-with-examples&#34;&gt;✅ Java Programming Best Practices (with Examples)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-follow-naming-conventions&#34;&gt;1. Follow Naming Conventions&lt;/h2&gt;&#xA;&lt;p&gt;Use meaningful and consistent names.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WebFlux best practices</title>
-      <link>//localhost:1313/blog/java-reactive-best-practices/</link>
+      <link>http://localhost:1313/blog/blog/java-reactive-best-practices/</link>
       <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
-      <guid>//localhost:1313/blog/java-reactive-best-practices/</guid>
+      <guid>http://localhost:1313/blog/blog/java-reactive-best-practices/</guid>
       <description>&lt;p&gt;This post is about Webflux Best practices with examples and use cases&lt;/p&gt;</description>
     </item>
     <item>
       <title>Timeline with latex</title>
-      <link>//localhost:1313/blog/latex-timeline/</link>
+      <link>http://localhost:1313/blog/blog/latex-timeline/</link>
       <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
-      <guid>//localhost:1313/blog/latex-timeline/</guid>
+      <guid>http://localhost:1313/blog/blog/latex-timeline/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\documentclass&lt;/span&gt;{beamer}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usetheme&lt;/span&gt;{Berlin}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usecolortheme&lt;/span&gt;{beaver}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\setbeamertemplate&lt;/span&gt;{footline}[frame number]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\setbeamertemplate&lt;/span&gt;{itemize item}[circle]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\setbeamertemplate&lt;/span&gt;{enumerate item}[circle]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\setbeamertemplate&lt;/span&gt;{navigation symbols}{}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\setbeamertemplate&lt;/span&gt;{footline}[frame number]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usepackage&lt;/span&gt;{multicol}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usepackage&lt;/span&gt;{tikz}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\begin&lt;/span&gt;{document}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\begin&lt;/span&gt;{frame}{Literature}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\begin&lt;/span&gt;{tikzpicture}[scale=0.5,every node/.style={outer sep=5pt}]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%Notation: {year, the title of the event}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%NOTE! Everyting is zero-based&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\def\ourInfo&lt;/span&gt;{{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&amp;#34;2016&amp;#34;,&amp;#34;Sometext here and there&amp;#34;},&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&amp;#34;2017&amp;#34;,&amp;#34;long sometext here and there &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt; sometext here and there sometext here and there&amp;#34;},&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&amp;#34;2018&amp;#34;,&amp;#34;Another timline event that is in black&amp;#34;},&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&amp;#34;2019&amp;#34;,&amp;#34;The last timline event that is also in black&amp;#34;},&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\pgfmathsetmacro&lt;/span&gt;{&lt;span style=&#34;color:#66d9ef&#34;&gt;\length&lt;/span&gt;}{3}&lt;span style=&#34;color:#75715e&#34;&gt;% Zero based.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% Loop through the array containing all events.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\foreach&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt; in {0, ..., &lt;span style=&#34;color:#66d9ef&#34;&gt;\length&lt;/span&gt;}{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\pgfmathsetmacro&lt;/span&gt;{&lt;span style=&#34;color:#66d9ef&#34;&gt;\year&lt;/span&gt;}{&lt;span style=&#34;color:#66d9ef&#34;&gt;\ourInfo&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[\i][0]&lt;/span&gt;}&lt;span style=&#34;color:#75715e&#34;&gt;% Get the left cell (year)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\pgfmathsetmacro&lt;/span&gt;{&lt;span style=&#34;color:#66d9ef&#34;&gt;\eventName&lt;/span&gt;}{&lt;span style=&#34;color:#66d9ef&#34;&gt;\ourInfo&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[\i][1]&lt;/span&gt;}&lt;span style=&#34;color:#75715e&#34;&gt;% Get the right cell (event name)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[thick,red]&lt;/span&gt; (0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-2)--(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;);&lt;span style=&#34;color:#75715e&#34;&gt;% Draw vertical line&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\ifnum&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;=1 &lt;span style=&#34;color:#75715e&#34;&gt;% Should be in red text&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1) node[red, right, align = left]{&lt;span style=&#34;color:#66d9ef&#34;&gt;\eventName&lt;/span&gt;};&lt;span style=&#34;color:#75715e&#34;&gt;% Display the event name&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1) node[red, left] {&lt;span style=&#34;color:#66d9ef&#34;&gt;\year&lt;/span&gt;};&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\else&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;% Should be in black text&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;           &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1) node[right, black]{&lt;span style=&#34;color:#66d9ef&#34;&gt;\eventName&lt;/span&gt;};&lt;span style=&#34;color:#75715e&#34;&gt;% Display the event name&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;           &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1) node[left] {&lt;span style=&#34;color:#66d9ef&#34;&gt;\year&lt;/span&gt;};&lt;span style=&#34;color:#75715e&#34;&gt;% Display the year&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\fi&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% Draw the bullet with the dash&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\foreach&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt; in {0, ..., &lt;span style=&#34;color:#66d9ef&#34;&gt;\length&lt;/span&gt;}{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\filldraw&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[draw = white, fill = red,thick]&lt;/span&gt; (0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1) circle (5pt);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[thick,red]&lt;/span&gt; (-12pt,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1)--(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\end&lt;/span&gt;{tikzpicture}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\end&lt;/span&gt;{frame}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\end&lt;/span&gt;{document}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>This is an example</title>
-      <link>//localhost:1313/blog/post-5/</link>
+      <link>http://localhost:1313/blog/blog/post-5/</link>
       <pubDate>Sun, 06 Apr 2025 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/post-5/</guid>
+      <guid>http://localhost:1313/blog/blog/post-5/</guid>
       <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Generative AI Resources</title>
-      <link>//localhost:1313/blog/generative-ai-resources/</link>
+      <link>http://localhost:1313/blog/blog/generative-ai-resources/</link>
       <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
-      <guid>//localhost:1313/blog/generative-ai-resources/</guid>
+      <guid>http://localhost:1313/blog/blog/generative-ai-resources/</guid>
       <description>&lt;p&gt;Here we have greate generative ai resources for beginners&lt;/p&gt;&#xA;&lt;p&gt;What is a language model?&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to add timestamp in each page</title>
-      <link>//localhost:1313/blog/latex/add-timestamp/</link>
+      <link>http://localhost:1313/blog/blog/latex/add-timestamp/</link>
       <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
-      <guid>//localhost:1313/blog/latex/add-timestamp/</guid>
+      <guid>http://localhost:1313/blog/blog/latex/add-timestamp/</guid>
       <description>&lt;h1 id=&#34;-how-to-add-a-date-stamp-at-the-bottom-of-each-page-in-latex&#34;&gt;📅 How to Add a Date Stamp at the Bottom of Each Page in LaTeX&lt;/h1&gt;&#xA;&lt;p&gt;You can add a &lt;strong&gt;date stamp&lt;/strong&gt; at the bottom of each page using the &lt;code&gt;fancyhdr&lt;/code&gt; package. Here&amp;rsquo;s how:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java best practices</title>
-      <link>//localhost:1313/blog/java-best-practices/</link>
+      <link>http://localhost:1313/blog/blog/java-best-practices/</link>
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
-      <guid>//localhost:1313/blog/java-best-practices/</guid>
+      <guid>http://localhost:1313/blog/blog/java-best-practices/</guid>
       <description>&lt;p&gt;The best practices come with experience so this post is going to be updated if new best practices are learned.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java Web flux</title>
-      <link>//localhost:1313/blog/java-web-flux/</link>
+      <link>http://localhost:1313/blog/blog/java-web-flux/</link>
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
-      <guid>//localhost:1313/blog/java-web-flux/</guid>
+      <guid>http://localhost:1313/blog/blog/java-web-flux/</guid>
       <description>&lt;h1 id=&#34;-java-reactive-programming-with-spring-webflux-building-scalable-non-blocking-applications&#34;&gt;⚡ Java Reactive Programming with Spring WebFlux: Building Scalable, Non-Blocking Applications&lt;/h1&gt;&#xA;&lt;p&gt;In today’s cloud-native world, the demand for highly responsive and scalable applications has never been greater. Traditional thread-per-request architectures often struggle under heavy load. That’s where &lt;strong&gt;Reactive Programming&lt;/strong&gt; shines — and in the Java ecosystem, &lt;strong&gt;Spring WebFlux&lt;/strong&gt; is the tool of choice for building reactive systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to build an Application with modern Technology</title>
-      <link>//localhost:1313/blog/post-1/</link>
+      <link>http://localhost:1313/blog/blog/post-1/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/post-1/</guid>
+      <guid>http://localhost:1313/blog/blog/post-1/</guid>
       <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to build an Application with modern Technology</title>
-      <link>//localhost:1313/blog/post-2/</link>
+      <link>http://localhost:1313/blog/blog/post-2/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/post-2/</guid>
+      <guid>http://localhost:1313/blog/blog/post-2/</guid>
       <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to build an Application with modern Technology</title>
-      <link>//localhost:1313/blog/post-3/</link>
+      <link>http://localhost:1313/blog/blog/post-3/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/post-3/</guid>
+      <guid>http://localhost:1313/blog/blog/post-3/</guid>
       <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to build an Application with modern Technology</title>
-      <link>//localhost:1313/blog/post-4/</link>
+      <link>http://localhost:1313/blog/blog/post-4/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/post-4/</guid>
+      <guid>http://localhost:1313/blog/blog/post-4/</guid>
       <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Elements</title>
-      <link>//localhost:1313/elements/</link>
+      <link>http://localhost:1313/blog/elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/elements/</guid>
+      <guid>http://localhost:1313/blog/elements/</guid>
       <description>&lt;details class=&#34;table-of-content &#34;&gt;&#xA;  &lt;summary&gt;&#xA;    &#xA;      Table of Contents&#xA;    &#xA;  &lt;/summary&gt;&#xA;  &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ol&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#heading-2&#34;&gt;Heading 2&lt;/a&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#heading-3&#34;&gt;Heading 3&lt;/a&gt;&#xA;          &lt;ol&gt;&#xA;            &lt;li&gt;&lt;a href=&#34;#heading-4&#34;&gt;Heading 4&lt;/a&gt;&#xA;              &lt;ol&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#heading-5&#34;&gt;Heading 5&lt;/a&gt;&lt;/li&gt;&#xA;              &lt;/ol&gt;&#xA;            &lt;/li&gt;&#xA;          &lt;/ol&gt;&#xA;        &lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#emphasis&#34;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#button&#34;&gt;Button&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#link&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#paragraph&#34;&gt;Paragraph&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#ordered-list&#34;&gt;Ordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#unordered-list&#34;&gt;Unordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#notice&#34;&gt;Notice&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tab&#34;&gt;Tab&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#accordions&#34;&gt;Accordions&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#code-and-syntax-highlighting&#34;&gt;Code and Syntax Highlighting&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#blockquote&#34;&gt;Blockquote&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tables&#34;&gt;Tables&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#image&#34;&gt;Image&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#gallery&#34;&gt;Gallery&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#slider&#34;&gt;Slider&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#youtube-video&#34;&gt;Youtube video&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#custom-video&#34;&gt;Custom video&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ol&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/details&gt;&#xA;&#xA;&lt;p&gt;Here is an example of headings. You can use this heading by the following markdown rules. For example: use &lt;code&gt;#&lt;/code&gt; for heading 1 and use &lt;code&gt;######&lt;/code&gt; for heading 6.&lt;/p&gt;</description>
     </item>
     <item>
       <title>John Doe</title>
-      <link>//localhost:1313/authors/john-doe/</link>
+      <link>http://localhost:1313/blog/authors/john-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/john-doe/</guid>
+      <guid>http://localhost:1313/blog/authors/john-doe/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>//localhost:1313/privacy-policy/</link>
+      <link>http://localhost:1313/blog/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/privacy-policy/</guid>
+      <guid>http://localhost:1313/blog/privacy/</guid>
       <description>&lt;h4 id=&#34;responsibility-of-contributors&#34;&gt;Responsibility of Contributors&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description>
     </item>
     <item>
@@ -122,9 +122,9 @@
     </item>
     <item>
       <title>Sam Wilson</title>
-      <link>//localhost:1313/authors/sam-wilson/</link>
+      <link>http://localhost:1313/blog/authors/sam-wilson/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/sam-wilson/</guid>
+      <guid>http://localhost:1313/blog/authors/sam-wilson/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
@@ -136,9 +136,9 @@
     </item>
     <item>
       <title>William Jacob</title>
-      <link>//localhost:1313/authors/william-jacob/</link>
+      <link>http://localhost:1313/blog/authors/william-jacob/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/william-jacob/</guid>
+      <guid>http://localhost:1313/blog/authors/william-jacob/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
   </channel>

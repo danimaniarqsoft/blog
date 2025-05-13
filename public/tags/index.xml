@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hugoplate</title>
-    <link>//localhost:1313/tags/</link>
+    <link>http://localhost:1313/blog/tags/</link>
     <description>Recent content in Tags on Hugoplate</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Apr 2025 05:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Silicon</title>
-      <link>//localhost:1313/tags/silicon/</link>
+      <link>http://localhost:1313/blog/tags/silicon/</link>
       <pubDate>Sun, 06 Apr 2025 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/silicon/</guid>
+      <guid>http://localhost:1313/blog/tags/silicon/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>//localhost:1313/tags/technology/</link>
+      <link>http://localhost:1313/blog/tags/technology/</link>
       <pubDate>Sun, 06 Apr 2025 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/technology/</guid>
+      <guid>http://localhost:1313/blog/tags/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Nextjs</title>
-      <link>//localhost:1313/tags/nextjs/</link>
+      <link>http://localhost:1313/blog/tags/nextjs/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/nextjs/</guid>
+      <guid>http://localhost:1313/blog/tags/nextjs/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>//localhost:1313/tags/software/</link>
+      <link>http://localhost:1313/blog/tags/software/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/software/</guid>
+      <guid>http://localhost:1313/blog/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Tailwind</title>
-      <link>//localhost:1313/tags/tailwind/</link>
+      <link>http://localhost:1313/blog/tags/tailwind/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/tailwind/</guid>
+      <guid>http://localhost:1313/blog/tags/tailwind/</guid>
       <description></description>
     </item>
   </channel>
