@@ -5,7 +5,6 @@ title: "Java Web flux"
 author: Daniel Pichardo
 ---
 
-
 # ⚡ Java Reactive Programming with Spring WebFlux: Building Scalable, Non-Blocking Applications
 
 In today’s cloud-native world, the demand for highly responsive and scalable applications has never been greater. Traditional thread-per-request architectures often struggle under heavy load. That’s where **Reactive Programming** shines — and in the Java ecosystem, **Spring WebFlux** is the tool of choice for building reactive systems.
