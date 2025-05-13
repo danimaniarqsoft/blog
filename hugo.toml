@@ -1,4 +1,6 @@
-baseurl = "https://danimaniarqsoft.github.io/blog"
+#baseurl = "https://username.github.io"
+baseurl = "https://danimaniarqsoft.github.io"
+baseURL = "https://danimaniarqsoft.github.io/blog"
 DefaultContentLanguage = "en"
 title = "Software development"
 # Using theme as git submodule
