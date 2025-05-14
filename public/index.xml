@@ -65,6 +65,13 @@
       <description>&lt;h1 id=&#34;-java-reactive-programming-with-spring-webflux-building-scalable-non-blocking-applications&#34;&gt;⚡ Java Reactive Programming with Spring WebFlux: Building Scalable, Non-Blocking Applications&lt;/h1&gt;&#xA;&lt;p&gt;In today’s cloud-native world, the demand for highly responsive and scalable applications has never been greater. Traditional thread-per-request architectures often struggle under heavy load. That’s where &lt;strong&gt;Reactive Programming&lt;/strong&gt; shines — and in the Java ecosystem, &lt;strong&gt;Spring WebFlux&lt;/strong&gt; is the tool of choice for building reactive systems.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Json Web Token</title>
+      <link>http://localhost:1313/blog/jwt/</link>
+      <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/blog/jwt/</guid>
+      <description>&lt;h1 id=&#34;jwt&#34;&gt;JWT&lt;/h1&gt;&#xA;&lt;p&gt;Es un estándar abierto para implementar seguridad en aplicaciones API REST basado en la especificación &lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc7519&#34;&#xA;&#xA;&#xA;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &#xA;&#xA;&#xA;&gt;RFC 7519&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>How to build an Application with modern Technology</title>
       <link>http://localhost:1313/blog/post-1/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>

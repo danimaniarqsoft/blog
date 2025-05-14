@@ -1,15 +1,18 @@
 # The pragmatic programmer blog
 
 
-## Pre-requisites
+## ⚙️ Prerequisites
 
 1. [Install Hugo](https://gohugo.io/installation/) v0.145 o newer 
-2. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-
+2. [Node v22+](https://nodejs.org/en/download/)
+3. [Go v1.24+](https://go.dev/doc/install)
+4. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ## Run the server
 
 ```shell
+npm run dev
+# or
 hugo server
 ```
 ## Include Draft content
