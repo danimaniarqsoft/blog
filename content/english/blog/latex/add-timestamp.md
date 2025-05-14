@@ -1,12 +1,15 @@
 ---
-date: 2025-02-19T21:21:54-08:00
-draft: false
 title: "How to add timestamp in each page"
-author: Daniel Pichardo
+meta_title: "meta title"
+description: "this is meta description"
+date: 2025-02-19T21:21:54-08:00
+image: "/images/image-placeholder.png"
+categories: ["Latex"]
+author: "Daniel Pichardo"
+tags: ["timestamp"]
+draft: false
 ---
 
-
-# 📅 How to Add a Date Stamp at the Bottom of Each Page in LaTeX
 
 You can add a **date stamp** at the bottom of each page using the `fancyhdr` package. Here's how:
 

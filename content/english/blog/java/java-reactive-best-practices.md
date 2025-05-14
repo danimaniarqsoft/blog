@@ -1,12 +1,16 @@
 ---
-date: 2025-05-12T04:14:54-08:00
-draft: false
 title: "WebFlux best practices"
-author: Daniel Pichardo
+meta_title: "meta title"
+description: "this is meta description"
+date: 2025-05-12T04:14:54-08:00
+image: "/images/image-placeholder.png"
+categories: ["Java"]
+author: "Daniel Pichardo"
+tags: ["webflux","best-practices"]
+draft: false
 ---
 
-This post is about Webflux Best practices with examples and use cases
-
+Spring WebFlux is a non-blocking, reactive web framework within the Spring ecosystem. It's designed for building reactive, scalable web applications that handle numerous concurrent connections efficiently
 
 # ⚛ WebFlux-Specific Best Practices
 

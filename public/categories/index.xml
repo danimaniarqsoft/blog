@@ -6,41 +6,34 @@
     <description>Recent content in Categories on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Apr 2025 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 04:14:54 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Architecture</title>
-      <link>http://localhost:1313/categories/architecture/</link>
-      <pubDate>Sun, 06 Apr 2025 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/architecture/</guid>
+      <title>Java</title>
+      <link>http://localhost:1313/categories/java/</link>
+      <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/categories/java/</guid>
       <description></description>
     </item>
     <item>
-      <title>Application</title>
-      <link>http://localhost:1313/categories/application/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/application/</guid>
+      <title>Latex</title>
+      <link>http://localhost:1313/categories/latex/</link>
+      <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
+      <guid>http://localhost:1313/categories/latex/</guid>
       <description></description>
     </item>
     <item>
-      <title>Data</title>
-      <link>http://localhost:1313/categories/data/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/data/</guid>
+      <title>Artificial Intelligence</title>
+      <link>http://localhost:1313/categories/artificial-intelligence/</link>
+      <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
+      <guid>http://localhost:1313/categories/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
-      <title>Software</title>
-      <link>http://localhost:1313/categories/software/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/software/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technology</title>
-      <link>http://localhost:1313/categories/technology/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/technology/</guid>
+      <title>Security</title>
+      <link>http://localhost:1313/categories/security/</link>
+      <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/categories/security/</guid>
       <description></description>
     </item>
   </channel>

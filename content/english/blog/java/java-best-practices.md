@@ -1,9 +1,16 @@
 ---
-date: 2025-05-12T04:14:54-08:00
-draft: false
 title: "Java best practices"
-author: Daniel Pichardo
+meta_title: "meta title"
+description: "this is meta description"
+date: 2025-05-12T04:14:54-08:00
+image: "/images/image-placeholder.png"
+categories: ["Java"]
+author: "Daniel Pichardo"
+tags: ["best-practices"]
+draft: false
 ---
+
+The best practices come with experience so this post is going to be updated if new best practices are learned.
 
 # ✅ Java Programming Best Practices (with Examples)
 
@@ -146,3 +153,7 @@ public class OrderController {
     }
 }
 ```
+
+## References
+
+[Jetbrains Java best practices](https://blog.jetbrains.com/idea/2024/02/java-best-practices/)

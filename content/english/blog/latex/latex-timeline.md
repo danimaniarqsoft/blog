@@ -1,9 +1,21 @@
 ---
-date: 2025-04-22T21:21:54-08:00
-draft: false
 title: "Timeline with latex"
-author: Daniel Pichardo
+meta_title: "meta title"
+description: "this is meta description"
+date: 2025-04-22T21:21:54-08:00
+image: "/images/image-placeholder.png"
+categories: ["Latex"]
+author: "Daniel Pichardo"
+tags: ["timeline"]
+draft: false
 ---
+
+In this post we explain how to create a simple timeline using latex
+
+## Latex example
+
+The next latex code create a timeline
+
 
 ```latex
 \documentclass{beamer}

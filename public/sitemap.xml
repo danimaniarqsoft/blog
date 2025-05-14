@@ -5,83 +5,65 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/best-practices/</loc>
+    <lastmod>2025-05-12T04:14:54-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-05-12T04:14:54-08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/java-best-practices-with-examples/</loc>
+    <loc>http://localhost:1313/categories/java/</loc>
     <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/java-reactive-best-practices/</loc>
+    <loc>http://localhost:1313/blog/java/java-best-practices/</loc>
     <lastmod>2025-05-12T04:14:54-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/latex-timeline/</loc>
-    <lastmod>2025-04-22T21:21:54-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/architecture/</loc>
-    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/silicon/</loc>
-    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
+    <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/technology/</loc>
-    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/webflux/</loc>
+    <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-5/</loc>
-    <lastmod>2025-04-06T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/java/java-reactive-best-practices/</loc>
+    <lastmod>2025-05-12T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/generative-ai-resources/</loc>
+    <loc>http://localhost:1313/categories/latex/</loc>
+    <lastmod>2025-04-22T21:21:54-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/timeline/</loc>
+    <lastmod>2025-04-22T21:21:54-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/latex/latex-timeline/</loc>
+    <lastmod>2025-04-22T21:21:54-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/artificial-intelligence/</loc>
+    <lastmod>2025-02-19T21:21:54-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/generative-ai/</loc>
     <lastmod>2025-02-19T21:21:54-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/latex/add-timestamp/</loc>
     <lastmod>2025-02-19T21:21:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/java-best-practices/</loc>
+    <loc>http://localhost:1313/blog/ai/generative-ai/</loc>
+    <lastmod>2025-02-19T21:21:54-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/timestamp/</loc>
+    <lastmod>2025-02-19T21:21:54-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/java/java-web-flux/</loc>
     <lastmod>2025-02-18T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/java-web-flux/</loc>
+    <loc>http://localhost:1313/blog/security/jwt/</loc>
     <lastmod>2025-02-18T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/jwt/</loc>
+    <loc>http://localhost:1313/tags/jwt/</loc>
     <lastmod>2025-02-18T04:14:54-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/application/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/data/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/post-1/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/post-2/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/post-3/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/post-4/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/nextjs/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/software/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/software/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tailwind/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/technology/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/security/</loc>
+    <lastmod>2025-02-18T04:14:54-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/topics/java-best-practices/</loc>
   </url><url>

@@ -10,94 +10,52 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java best practices</title>
-      <link>http://localhost:1313/blog/java-best-practices-with-examples/</link>
+      <link>http://localhost:1313/blog/java/java-best-practices/</link>
       <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/java-best-practices-with-examples/</guid>
-      <description>&lt;h1 id=&#34;-java-programming-best-practices-with-examples&#34;&gt;✅ Java Programming Best Practices (with Examples)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-follow-naming-conventions&#34;&gt;1. Follow Naming Conventions&lt;/h2&gt;&#xA;&lt;p&gt;Use meaningful and consistent names.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/java/java-best-practices/</guid>
+      <description>&lt;p&gt;The best practices come with experience so this post is going to be updated if new best practices are learned.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WebFlux best practices</title>
-      <link>http://localhost:1313/blog/java-reactive-best-practices/</link>
+      <link>http://localhost:1313/blog/java/java-reactive-best-practices/</link>
       <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/java-reactive-best-practices/</guid>
-      <description>&lt;p&gt;This post is about Webflux Best practices with examples and use cases&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/java/java-reactive-best-practices/</guid>
+      <description>&lt;p&gt;Spring WebFlux is a non-blocking, reactive web framework within the Spring ecosystem. It&amp;rsquo;s designed for building reactive, scalable web applications that handle numerous concurrent connections efficiently&lt;/p&gt;</description>
     </item>
     <item>
       <title>Timeline with latex</title>
-      <link>http://localhost:1313/blog/latex-timeline/</link>
+      <link>http://localhost:1313/blog/latex/latex-timeline/</link>
       <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/latex-timeline/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\documentclass&lt;/span&gt;{beamer}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usetheme&lt;/span&gt;{Berlin}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usecolortheme&lt;/span&gt;{beaver}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\setbeamertemplate&lt;/span&gt;{footline}[frame number]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\setbeamertemplate&lt;/span&gt;{itemize item}[circle]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\setbeamertemplate&lt;/span&gt;{enumerate item}[circle]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\setbeamertemplate&lt;/span&gt;{navigation symbols}{}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\setbeamertemplate&lt;/span&gt;{footline}[frame number]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usepackage&lt;/span&gt;{multicol}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\usepackage&lt;/span&gt;{tikz}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\begin&lt;/span&gt;{document}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\begin&lt;/span&gt;{frame}{Literature}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\begin&lt;/span&gt;{tikzpicture}[scale=0.5,every node/.style={outer sep=5pt}]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%Notation: {year, the title of the event}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;%NOTE! Everyting is zero-based&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\def\ourInfo&lt;/span&gt;{{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&amp;#34;2016&amp;#34;,&amp;#34;Sometext here and there&amp;#34;},&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&amp;#34;2017&amp;#34;,&amp;#34;long sometext here and there &lt;span style=&#34;color:#66d9ef&#34;&gt;\\&lt;/span&gt; sometext here and there sometext here and there&amp;#34;},&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&amp;#34;2018&amp;#34;,&amp;#34;Another timline event that is in black&amp;#34;},&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&amp;#34;2019&amp;#34;,&amp;#34;The last timline event that is also in black&amp;#34;},&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\pgfmathsetmacro&lt;/span&gt;{&lt;span style=&#34;color:#66d9ef&#34;&gt;\length&lt;/span&gt;}{3}&lt;span style=&#34;color:#75715e&#34;&gt;% Zero based.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% Loop through the array containing all events.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\foreach&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt; in {0, ..., &lt;span style=&#34;color:#66d9ef&#34;&gt;\length&lt;/span&gt;}{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\pgfmathsetmacro&lt;/span&gt;{&lt;span style=&#34;color:#66d9ef&#34;&gt;\year&lt;/span&gt;}{&lt;span style=&#34;color:#66d9ef&#34;&gt;\ourInfo&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[\i][0]&lt;/span&gt;}&lt;span style=&#34;color:#75715e&#34;&gt;% Get the left cell (year)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\pgfmathsetmacro&lt;/span&gt;{&lt;span style=&#34;color:#66d9ef&#34;&gt;\eventName&lt;/span&gt;}{&lt;span style=&#34;color:#66d9ef&#34;&gt;\ourInfo&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[\i][1]&lt;/span&gt;}&lt;span style=&#34;color:#75715e&#34;&gt;% Get the right cell (event name)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[thick,red]&lt;/span&gt; (0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-2)--(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;);&lt;span style=&#34;color:#75715e&#34;&gt;% Draw vertical line&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\ifnum&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;=1 &lt;span style=&#34;color:#75715e&#34;&gt;% Should be in red text&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1) node[red, right, align = left]{&lt;span style=&#34;color:#66d9ef&#34;&gt;\eventName&lt;/span&gt;};&lt;span style=&#34;color:#75715e&#34;&gt;% Display the event name&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1) node[red, left] {&lt;span style=&#34;color:#66d9ef&#34;&gt;\year&lt;/span&gt;};&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\else&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;% Should be in black text&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;           &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1) node[right, black]{&lt;span style=&#34;color:#66d9ef&#34;&gt;\eventName&lt;/span&gt;};&lt;span style=&#34;color:#75715e&#34;&gt;% Display the event name&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;           &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1) node[left] {&lt;span style=&#34;color:#66d9ef&#34;&gt;\year&lt;/span&gt;};&lt;span style=&#34;color:#75715e&#34;&gt;% Display the year&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\fi&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;% Draw the bullet with the dash&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;\foreach&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt; in {0, ..., &lt;span style=&#34;color:#66d9ef&#34;&gt;\length&lt;/span&gt;}{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\filldraw&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[draw = white, fill = red,thick]&lt;/span&gt; (0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1) circle (5pt);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;\draw&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;[thick,red]&lt;/span&gt; (-12pt,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1)--(0,-2*&lt;span style=&#34;color:#66d9ef&#34;&gt;\i&lt;/span&gt;-1);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\end&lt;/span&gt;{tikzpicture}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\end&lt;/span&gt;{frame}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\end&lt;/span&gt;{document}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>This is an example</title>
-      <link>http://localhost:1313/blog/post-5/</link>
-      <pubDate>Sun, 06 Apr 2025 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-5/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Generative AI Resources</title>
-      <link>http://localhost:1313/blog/generative-ai-resources/</link>
-      <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/generative-ai-resources/</guid>
-      <description>&lt;p&gt;Here we have greate generative ai resources for beginners&lt;/p&gt;&#xA;&lt;p&gt;What is a language model?&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/latex/latex-timeline/</guid>
+      <description>&lt;p&gt;In this post we explain how to create a simple timeline using latex&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to add timestamp in each page</title>
       <link>http://localhost:1313/blog/latex/add-timestamp/</link>
       <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
       <guid>http://localhost:1313/blog/latex/add-timestamp/</guid>
-      <description>&lt;h1 id=&#34;-how-to-add-a-date-stamp-at-the-bottom-of-each-page-in-latex&#34;&gt;📅 How to Add a Date Stamp at the Bottom of Each Page in LaTeX&lt;/h1&gt;&#xA;&lt;p&gt;You can add a &lt;strong&gt;date stamp&lt;/strong&gt; at the bottom of each page using the &lt;code&gt;fancyhdr&lt;/code&gt; package. Here&amp;rsquo;s how:&lt;/p&gt;</description>
+      <description>&lt;p&gt;You can add a &lt;strong&gt;date stamp&lt;/strong&gt; at the bottom of each page using the &lt;code&gt;fancyhdr&lt;/code&gt; package. Here&amp;rsquo;s how:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Java best practices</title>
-      <link>http://localhost:1313/blog/java-best-practices/</link>
-      <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/java-best-practices/</guid>
-      <description>&lt;p&gt;The best practices come with experience so this post is going to be updated if new best practices are learned.&lt;/p&gt;</description>
+      <title>Introduction to Generative AI and LLMs</title>
+      <link>http://localhost:1313/blog/ai/generative-ai/</link>
+      <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
+      <guid>http://localhost:1313/blog/ai/generative-ai/</guid>
+      <description>&lt;p&gt;Generative AI is a type of artificial intelligence that can create new content, such as text, images, audio, or video, based on patterns it learns from existing data. In this post we briefly explain the main concepts, history and techiques behind of the generative ai.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java Web flux</title>
-      <link>http://localhost:1313/blog/java-web-flux/</link>
+      <link>http://localhost:1313/blog/java/java-web-flux/</link>
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/java-web-flux/</guid>
+      <guid>http://localhost:1313/blog/java/java-web-flux/</guid>
       <description>&lt;h1 id=&#34;-java-reactive-programming-with-spring-webflux-building-scalable-non-blocking-applications&#34;&gt;⚡ Java Reactive Programming with Spring WebFlux: Building Scalable, Non-Blocking Applications&lt;/h1&gt;&#xA;&lt;p&gt;In today’s cloud-native world, the demand for highly responsive and scalable applications has never been greater. Traditional thread-per-request architectures often struggle under heavy load. That’s where &lt;strong&gt;Reactive Programming&lt;/strong&gt; shines — and in the Java ecosystem, &lt;strong&gt;Spring WebFlux&lt;/strong&gt; is the tool of choice for building reactive systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Json Web Token</title>
-      <link>http://localhost:1313/blog/jwt/</link>
+      <link>http://localhost:1313/blog/security/jwt/</link>
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/jwt/</guid>
-      <description>&lt;h1 id=&#34;jwt&#34;&gt;JWT&lt;/h1&gt;&#xA;&lt;p&gt;Es un estándar abierto para implementar seguridad en aplicaciones API REST basado en la especificación &lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc7519&#34;&#xA;&#xA;&#xA;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &#xA;&#xA;&#xA;&gt;RFC 7519&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-1/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-1/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-2/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-2/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-3/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-3/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-4/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-4/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/security/jwt/</guid>
+      <description>&lt;p&gt;A &lt;strong&gt;JSON Web Token (JWT)&lt;/strong&gt; is an open standard &lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc7519&#34;&#xA;&#xA;&#xA;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &#xA;&#xA;&#xA;&gt;RFC 7519&lt;/a&gt; for securely transmitting information between parties as a &lt;strong&gt;JSON object&lt;/strong&gt;. This information can be verified and trusted because it is digitally signed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Daniel Pichardo</title>

@@ -1,8 +1,13 @@
 ---
-date: 2025-02-18T04:14:54-08:00
-draft: false
 title: "Java Web flux"
-author: Daniel Pichardo
+meta_title: "meta title"
+description: "this is meta description"
+date: 2025-02-18T04:14:54-08:00
+image: "/images/image-placeholder.png"
+categories: ["Java"]
+author: "Daniel Pichardo"
+tags: ["webflux"]
+draft: false
 ---
 
 # ⚡ Java Reactive Programming with Spring WebFlux: Building Scalable, Non-Blocking Applications
