@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Go to the diaries"
-    link: "/blog"
+    link: "/blog/blog"
 
 # Features
 features:
