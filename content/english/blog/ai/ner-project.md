@@ -7,7 +7,7 @@ image: "/images/image-placeholder.png"
 categories: ["Artificial Intelligence"]
 author: "Daniel Pichardo"
 tags: ["ner", "deep-learning", "nlp"]
-draft: true
+draft: false
 ---
 
 Named Entity Recognition (NER) is a key task in Natural Language Processing (NLP) where the goal is to locate and classify named entities in text into predefined categories such as person names, organizations, locations, time expressions, etc. In this project, we leverage **LLaMA (Large Language Model Meta AI)** for generating high-quality embeddings and train a deep learning model on top for the NER task.
@@ -77,7 +77,7 @@ def get_embeddings(text):
 ### Step 4: Model Architecture – BiLSTM + CRF
 
 The next code implements the model architecture with BiLSTM + CRF. All with the library of PyTorch
- 
+
 ```python
 import torch.nn as nn
 import torchcrf
