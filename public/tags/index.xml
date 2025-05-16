@@ -2,52 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DCP blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/blog/tags/</link>
     <description>Recent content in Tags on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 May 2025 04:14:54 -0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 May 2025 10:22:07 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep-Learning</title>
+      <link>http://localhost:1313/blog/tags/deep-learning/</link>
+      <pubDate>Fri, 16 May 2025 10:22:07 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ner</title>
+      <link>http://localhost:1313/blog/tags/ner/</link>
+      <pubDate>Fri, 16 May 2025 10:22:07 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/ner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nlp</title>
+      <link>http://localhost:1313/blog/tags/nlp/</link>
+      <pubDate>Fri, 16 May 2025 10:22:07 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/nlp/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Best-Practices</title>
-      <link>http://localhost:1313/tags/best-practices/</link>
+      <link>http://localhost:1313/blog/tags/best-practices/</link>
       <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:1313/tags/best-practices/</guid>
+      <guid>http://localhost:1313/blog/tags/best-practices/</guid>
       <description></description>
     </item>
     <item>
       <title>Webflux</title>
-      <link>http://localhost:1313/tags/webflux/</link>
+      <link>http://localhost:1313/blog/tags/webflux/</link>
       <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:1313/tags/webflux/</guid>
+      <guid>http://localhost:1313/blog/tags/webflux/</guid>
       <description></description>
     </item>
     <item>
       <title>Timeline</title>
-      <link>http://localhost:1313/tags/timeline/</link>
+      <link>http://localhost:1313/blog/tags/timeline/</link>
       <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:1313/tags/timeline/</guid>
+      <guid>http://localhost:1313/blog/tags/timeline/</guid>
       <description></description>
     </item>
     <item>
       <title>Generative-Ai</title>
-      <link>http://localhost:1313/tags/generative-ai/</link>
+      <link>http://localhost:1313/blog/tags/generative-ai/</link>
       <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:1313/tags/generative-ai/</guid>
+      <guid>http://localhost:1313/blog/tags/generative-ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Timestamp</title>
-      <link>http://localhost:1313/tags/timestamp/</link>
+      <link>http://localhost:1313/blog/tags/timestamp/</link>
       <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:1313/tags/timestamp/</guid>
+      <guid>http://localhost:1313/blog/tags/timestamp/</guid>
       <description></description>
     </item>
     <item>
       <title>Jwt</title>
-      <link>http://localhost:1313/tags/jwt/</link>
+      <link>http://localhost:1313/blog/tags/jwt/</link>
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:1313/tags/jwt/</guid>
+      <guid>http://localhost:1313/blog/tags/jwt/</guid>
       <description></description>
     </item>
   </channel>

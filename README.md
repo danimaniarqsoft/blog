@@ -27,7 +27,7 @@ Open your browser at `http://localhost:1313` to see the blog
 ## Add new content
 
 ```shell
-hugo new content content/posts/my-new-post.md
+hugo new content content/english/blog/[TOPIC]/my-new-post.md
 ```
 
 ## Blog site
