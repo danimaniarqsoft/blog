@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 May 2025 10:22:07 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 17 May 2025 00:02:39 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selection Sort Algorithm</title>
+      <link>http://localhost:1313/blog/blog/algorithms/selection-sort/</link>
+      <pubDate>Sat, 17 May 2025 00:02:39 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/algorithms/selection-sort/</guid>
+      <description>&lt;p&gt;Selection Sort is a simple comparison-based sorting algorithm. It works by dividing the input list into two parts: the sublist of items already sorted, which is built up from left to right, and the sublist of items remaining to be sorted that occupy the rest of the list. The algorithm proceeds by finding the smallest (or largest, depending on the sorting order) element from the unsorted sublist and swapping it with the leftmost unsorted element, moving the sublist boundaries one element to the right.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Deep Learning Project: Named Entity Recognition (NER) with LLaMA Embeddings</title>
       <link>http://localhost:1313/blog/blog/ai/ner-project/</link>
