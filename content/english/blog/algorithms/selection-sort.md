@@ -23,7 +23,6 @@ SelectionSort(A):
         minIndex = j
     if minIndex != i:
       swap A[i] and A[minIndex]
-
 ```
 
 

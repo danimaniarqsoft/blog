@@ -6,8 +6,15 @@
     <description>Recent content in Tags on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 May 2025 00:02:39 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 17 May 2025 12:28:05 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Non-Classified</title>
+      <link>http://localhost:1313/blog/tags/non-classified/</link>
+      <pubDate>Sat, 17 May 2025 12:28:05 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/non-classified/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Java</title>
       <link>http://localhost:1313/blog/tags/java/</link>

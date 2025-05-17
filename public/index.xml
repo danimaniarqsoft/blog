@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 May 2025 00:02:39 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 17 May 2025 12:28:05 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Insertion Sort Algorithm</title>
+      <link>http://localhost:1313/blog/blog/algorithms/insertion-sort/</link>
+      <pubDate>Sat, 17 May 2025 12:28:05 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/algorithms/insertion-sort/</guid>
+      <description>&lt;p&gt;Insertion Sort is a simple and intuitive comparison-based sorting algorithm. It builds the final sorted array one element at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, it has advantages in simplicity and efficiency for small datasets.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Selection Sort Algorithm</title>
       <link>http://localhost:1313/blog/blog/algorithms/selection-sort/</link>

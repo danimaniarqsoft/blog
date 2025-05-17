@@ -6,8 +6,15 @@
     <description>Recent content in Categories on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 May 2025 00:02:39 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 17 May 2025 12:28:05 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No Category</title>
+      <link>http://localhost:1313/blog/categories/no-category/</link>
+      <pubDate>Sat, 17 May 2025 12:28:05 -0600</pubDate>
+      <guid>http://localhost:1313/blog/categories/no-category/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Algorithms</title>
       <link>http://localhost:1313/blog/categories/algorithms/</link>
