@@ -10,12 +10,25 @@ tags: ["java","python","sorting-algorithms"]
 draft: false
 ---
 
-
 Insertion Sort is a simple and intuitive comparison-based sorting algorithm. It builds the final sorted array one element at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, it has advantages in simplicity and efficiency for small datasets.
+
+## Reference
+
+This explanation is based on *"Introduction to Algorithms"* by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein (CLRS), with additional insights from Donald Knuth's *"The Art of Computer Programming"*.
+
 
 ## How It Works
 
 Insertion Sort iterates over each element in the array and inserts it into its correct position among the previously sorted elements. It resembles the method of sorting playing cards in your hands.
+
+
+### Step-by-Step Explanation
+
+1. **Start with the second element** (element at index 1). This is because a single element (first one) is trivially sorted.
+2. **Compare it with elements before it**, and shift larger elements one position to the right.
+3. **Insert the current element** into its correct position.
+4. **Repeat** for all elements in the array.
+
 
 ## Pseudocode
 
@@ -87,6 +100,28 @@ public class InsertionSort {
 }
 ```
 
+### JavaScript
+
+```javascript
+function insertionSort(arr) {
+    for (let i = 1; i < arr.length; i++) {
+        let key = arr[i];
+        let j = i - 1;
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = key;
+    }
+    return arr;
+}
+```
+
+## Limitations
+
+* Inefficient for large datasets due to O(n^2) time complexity.
+* Good for small arrays or arrays that are already mostly sorted.
+
 ## Related Algorithms
 
 * **Bubble Sort**: Also a simple comparison-based algorithm but compares adjacent elements.
@@ -98,3 +133,9 @@ public class InsertionSort {
 ## Conclusion
 
 Insertion Sort is a fundamental algorithm suitable for small datasets and educational purposes. Despite its quadratic time complexity, its simplicity and stability make it useful in particular scenarios.
+
+
+## References
+
+* Cormen, Thomas H., et al. *Introduction to Algorithms*. 3rd ed., MIT Press, 2009.
+* Knuth, Donald E. *The Art of Computer Programming*, Volume 3: Sorting and Searching.

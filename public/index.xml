@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 May 2025 12:28:05 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 18 May 2025 11:58:00 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Counting Sort Algorithm</title>
+      <link>http://localhost:1313/blog/blog/algorithms/counting-sort/</link>
+      <pubDate>Sun, 18 May 2025 11:58:00 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/algorithms/counting-sort/</guid>
+      <description>&lt;p&gt;Counting Sort is a non-comparison-based sorting algorithm that operates with integer keys within a known, limited range. Unlike typical comparison sorts such as QuickSort or MergeSort, Counting Sort leverages the frequency of each element to achieve linear time sorting under suitable conditions. It is especially effective when the range of input values (k) is not significantly larger than the number of elements (n).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Insertion Sort Algorithm</title>
       <link>http://localhost:1313/blog/blog/algorithms/insertion-sort/</link>
