@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 May 2025 12:19:20 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 18 May 2025 19:47:35 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily TOEIC Preparation Routine</title>
+      <link>http://localhost:1313/blog/blog/routines/toeic-prep/</link>
+      <pubDate>Sun, 18 May 2025 19:47:35 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/routines/toeic-prep/</guid>
+      <description>&lt;p&gt;A structured routine to prepare for the TOEIC exam, ideally over 4–8 weeks, with 1.5 to 2 hours of daily practice.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Heap Sort Algorithm</title>
       <link>http://localhost:1313/blog/blog/algorithms/heap-sort/</link>
