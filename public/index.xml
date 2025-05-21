@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Max Heap and Min Heap Algorithms</title>
-      <link>http://localhost:1313/blog/blog/algorithms/max-min-heap/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/max-min-heap-data-structure/</link>
       <pubDate>Tue, 20 May 2025 04:19:10 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/algorithms/max-min-heap/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/max-min-heap-data-structure/</guid>
       <description>&lt;p&gt;Heaps are specialized tree-based data structures that satisfy the &lt;em&gt;heap property&lt;/em&gt;. In a &lt;strong&gt;max heap&lt;/strong&gt;, the parent node is always greater than or equal to its children, while in a &lt;strong&gt;min heap&lt;/strong&gt;, the parent is always less than or equal to its children. Heaps are commonly used to implement &lt;strong&gt;priority queues&lt;/strong&gt; and &lt;strong&gt;heap sort&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>

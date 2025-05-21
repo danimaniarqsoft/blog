@@ -3,7 +3,7 @@ title: "Max Heap and Min Heap Algorithms"
 meta_title: "meta title"
 description: "this is meta description"
 date: 2025-05-20T04:19:10-06:00
-image: "/images/image-placeholder.png"
+image: "/images/posts/algorithms/max-min-heap-data-structure.png"
 categories: ["Data structures"]
 author: "Daniel Pichardo"
 tags: ["max-heap", "min-heap"]
