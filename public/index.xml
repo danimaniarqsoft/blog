@@ -6,8 +6,22 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 May 2025 19:47:35 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 20 May 2025 04:19:10 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Max Heap and Min Heap Algorithms</title>
+      <link>http://localhost:1313/blog/blog/algorithms/max-min-heap/</link>
+      <pubDate>Tue, 20 May 2025 04:19:10 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/algorithms/max-min-heap/</guid>
+      <description>&lt;p&gt;Heaps are specialized tree-based data structures that satisfy the &lt;em&gt;heap property&lt;/em&gt;. In a &lt;strong&gt;max heap&lt;/strong&gt;, the parent node is always greater than or equal to its children, while in a &lt;strong&gt;min heap&lt;/strong&gt;, the parent is always less than or equal to its children. Heaps are commonly used to implement &lt;strong&gt;priority queues&lt;/strong&gt; and &lt;strong&gt;heap sort&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Merge Sort Algorithm</title>
+      <link>http://localhost:1313/blog/blog/algorithms/merge-sort/</link>
+      <pubDate>Mon, 19 May 2025 10:14:35 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/algorithms/merge-sort/</guid>
+      <description>&lt;p&gt;Merge Sort is a classical divide-and-conquer algorithm that efficiently sorts an array by recursively dividing it into two halves, sorting them independently, and then merging the sorted halves. It is one of the fundamental algorithms in computer science, often discussed in depth in books such as &lt;em&gt;Introduction to Algorithms&lt;/em&gt; by Thomas H. Cormen et al.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Daily TOEIC Preparation Routine</title>
       <link>http://localhost:1313/blog/blog/routines/toeic-prep/</link>

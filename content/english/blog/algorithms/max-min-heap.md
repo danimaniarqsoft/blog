@@ -12,7 +12,9 @@ draft: false
 
 Heaps are specialized tree-based data structures that satisfy the *heap property*. In a **max heap**, the parent node is always greater than or equal to its children, while in a **min heap**, the parent is always less than or equal to its children. Heaps are commonly used to implement **priority queues** and **heap sort**.
 
-Heaps are usually implemented as **binary heaps** using arrays for efficiency. The root element is stored at index 0, and for any element at index `i`, its children are at indices `2i + 1` and `2i + 2`, and its parent is at index `(i - 1) // 2`.
+Heaps are usually implemented as **binary heaps** using arrays for efficiency. The root element is stored at index 0, and for any element at index \(i\) , its children are at indices \(2i +1 \) and \(2i + 2 \), and its parent is at index \( \frac{(i - 1)}{2} \).
+
+
 
 ## Heap Algorithms and Operations
 
@@ -23,7 +25,7 @@ Heaps are usually implemented as **binary heaps** using arrays for efficiency. T
 * Insert the element at the end of the array.
 * Bubble up (heapify up) to restore the heap property.
 
-**Time Complexity:** O(log n)
+**Time Complexity:** \(\mathcal{O}(\log n)\)
 
 ### 2. Extract Max / Min
 
@@ -33,7 +35,7 @@ Heaps are usually implemented as **binary heaps** using arrays for efficiency. T
 * Move the last element to the root.
 * Bubble down (heapify down) to restore the heap property.
 
-**Time Complexity:** O(log n)
+**Time Complexity:** \(\mathcal{O}(\log n)\)
 
 ### 3. Build a Max or Min Heap
 
@@ -42,7 +44,7 @@ Heaps are usually implemented as **binary heaps** using arrays for efficiency. T
 * Transform an unordered array into a heap.
 * Start from the last non-leaf node and heapify each node downwards.
 
-**Time Complexity:** O(n)
+**Time Complexity:** \(\mathcal{O}(n)\)
 
 ### 4. Heapify
 
@@ -56,14 +58,14 @@ Heaps are usually implemented as **binary heaps** using arrays for efficiency. T
 
 Given an array `A` and an index `i`, the goal is to ensure that the subtree rooted at `i` becomes a max heap.
 
-1. Let `l = 2i + 1` → left child index
-2. Let `r = 2i + 2` → right child index
-3. Identify the largest among `A[i]`, `A[l]`, and `A[r]`
-4. If `A[i]` is not the largest:
-   - Swap `A[i]` with the largest child
+1. Let \(l = 2i + 1\)  → left child index
+2. Let \(r = 2i + 2\)  → right child index
+3. Identify the largest among \(A[i]\), \(A[l]\), and \(A[r]\)
+4. If \(A[i]\) is not the largest:
+   - Swap \(A[i]\) with the largest child
    - Recursively call `MAX-HEAPIFY(A, largest)`
 
-**Time Complexity:** O(log n)
+**Time Complexity:** \(\mathcal{O}(\log n)\)
 
 ### Pseudocode
 
@@ -170,13 +172,13 @@ class MinHeap {
 
 ## Related Algorithms
 
-* **Heap Sort**: Uses a max heap to sort an array in O(n log n) time.
+* **Heap Sort**: Uses a max heap to sort an array in \(\mathcal{O}(n\log n)\) time.
 * **Priority Queue**: Abstract data type often implemented using a heap.
 * **Dijkstra's Algorithm**: Uses a min heap (priority queue) to find shortest paths.
 
 ## Limitations
 
-* Heaps do not support efficient searching (O(n)).
+* Heaps do not support efficient searching  \(\mathcal{O}(n)\).
 * Heaps are not suitable for ordered traversal.
 * Not optimal for dynamic operations like deletions of arbitrary elements.
 

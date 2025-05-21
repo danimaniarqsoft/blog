@@ -82,6 +82,13 @@ maxAge = "720h"
 ############################ Markup ##############################
 [markup]
 [markup.goldmark.renderer]
+[markup.goldmark]
+[markup.goldmark.extensions]
+    [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['\[', '\]'], ['$$', '$$']]
+        inline = [['\(', '\)']]
 unsafe = true
 
 [markup.highlight]
@@ -160,3 +167,5 @@ lazy = true
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js"
 lazy = true
+[params]
+  math = true

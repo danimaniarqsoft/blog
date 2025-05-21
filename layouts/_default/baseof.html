@@ -10,6 +10,9 @@
     <!-- head (don't cache it) -->
     {{ partial "essentials/head.html" . }}
 
+    {{ if .Param "math" }}
+      {{ partialCached "math.html" . }}
+    {{ end }}
 
     <!-- style (always cache it) -->
     {{ partialCached "essentials/style.html" . }}
