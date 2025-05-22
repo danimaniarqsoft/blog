@@ -3,7 +3,7 @@ title: "Merge Sort Algorithm"
 meta_title: "meta title"
 description: "this is meta description"
 date: 2025-05-19T10:14:35-06:00
-image: "/images/image-placeholder.png"
+image: "/images/posts/algorithms/merge-sort.png"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"
 tags: ["java","python","javascript","sorting-algorithms"]

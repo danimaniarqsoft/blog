@@ -3,7 +3,7 @@ title: "Heap Sort Algorithm"
 meta_title: "meta title"
 description: "this is meta description"
 date: 2025-05-18T12:19:20-06:00
-image: "/images/image-placeholder.png"
+image: "/images/posts/algorithms/heap-sort.png"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"
 tags: ["java","python","javascript","sorting-algorithms"]

@@ -17,9 +17,9 @@
     </item>
     <item>
       <title>Merge Sort Algorithm</title>
-      <link>http://localhost:1313/blog/blog/algorithms/merge-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/merge-sort/</link>
       <pubDate>Mon, 19 May 2025 10:14:35 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/algorithms/merge-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/merge-sort/</guid>
       <description>&lt;p&gt;Merge Sort is a classical divide-and-conquer algorithm that efficiently sorts an array by recursively dividing it into two halves, sorting them independently, and then merging the sorted halves. It is one of the fundamental algorithms in computer science, often discussed in depth in books such as &lt;em&gt;Introduction to Algorithms&lt;/em&gt; by Thomas H. Cormen et al.&lt;/p&gt;</description>
     </item>
     <item>
@@ -31,30 +31,30 @@
     </item>
     <item>
       <title>Heap Sort Algorithm</title>
-      <link>http://localhost:1313/blog/blog/algorithms/heap-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/heap-sort/</link>
       <pubDate>Sun, 18 May 2025 12:19:20 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/algorithms/heap-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/heap-sort/</guid>
       <description>&lt;p&gt;Heap Sort is a comparison-based sorting technique based on a Binary Heap data structure. It is similar to selection sort where we first find the maximum element and place it at the end. We repeat the same process for the remaining elements.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Counting Sort Algorithm</title>
-      <link>http://localhost:1313/blog/blog/algorithms/counting-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/counting-sort/</link>
       <pubDate>Sun, 18 May 2025 11:58:00 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/algorithms/counting-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/counting-sort/</guid>
       <description>&lt;p&gt;Counting Sort is a non-comparison-based sorting algorithm that operates with integer keys within a known, limited range. Unlike typical comparison sorts such as QuickSort or MergeSort, Counting Sort leverages the frequency of each element to achieve linear time sorting under suitable conditions. It is especially effective when the range of input values (k) is not significantly larger than the number of elements (n).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Insertion Sort Algorithm</title>
-      <link>http://localhost:1313/blog/blog/algorithms/insertion-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/insertion-sort/</link>
       <pubDate>Sat, 17 May 2025 12:28:05 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/algorithms/insertion-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/insertion-sort/</guid>
       <description>&lt;p&gt;Insertion Sort is a simple and intuitive comparison-based sorting algorithm. It builds the final sorted array one element at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, it has advantages in simplicity and efficiency for small datasets.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Selection Sort Algorithm</title>
-      <link>http://localhost:1313/blog/blog/algorithms/selection-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/selection-sort/</link>
       <pubDate>Sat, 17 May 2025 00:02:39 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/algorithms/selection-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/selection-sort/</guid>
       <description>&lt;p&gt;Selection Sort is a simple comparison-based sorting algorithm. It works by dividing the input list into two parts: the sublist of items already sorted, which is built up from left to right, and the sublist of items remaining to be sorted that occupy the rest of the list. The algorithm proceeds by finding the smallest (or largest, depending on the sorting order) element from the unsorted sublist and swapping it with the leftmost unsorted element, moving the sublist boundaries one element to the right.&lt;/p&gt;</description>
     </item>
     <item>
