@@ -59,11 +59,11 @@ MAX-HEAPIFY(A, i)
 
 | Case    | Time Complexity |
 | ------- | --------------- |
-| Best    | O(n log n)      |
-| Average | O(n log n)      |
-| Worst   | O(n log n)      |
+| Best    | \(\mathcal{O}(n \log n)\)      |
+| Average | \(\mathcal{O}(n \log n)\)      |
+| Worst   | \(\mathcal{O}(n \log n)\)      |
 
-**Space Complexity**: O(1)
+**Space Complexity**: \(\mathcal{O}(1\)
 
 Heap Sort is an in-place algorithm but not stable.
 

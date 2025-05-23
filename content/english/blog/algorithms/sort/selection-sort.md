@@ -28,10 +28,10 @@ SelectionSort(A):
 
 ## Time and Space Complexity
 
-* **Best Case Time Complexity:** O(n^2)
-* **Average Case Time Complexity:** O(n^2)
-* **Worst Case Time Complexity:** O(n^2)
-* **Space Complexity:** O(1) (in-place sorting)
+* **Best Case Time Complexity:** \(\mathcal{O}(n^2)\)
+* **Average Case Time Complexity:** \(\mathcal{O}(n^2)\)
+* **Worst Case Time Complexity:** \(\mathcal{O}(n^2)\)
+* **Space Complexity:** \(\mathcal{O}(1)\) (in-place sorting)
 
 Selection Sort does not adapt to the data and performs the same number of comparisons regardless of the initial order of the elements.
 

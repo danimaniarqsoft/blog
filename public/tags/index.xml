@@ -6,8 +6,36 @@
     <description>Recent content in Tags on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 May 2025 04:19:10 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 23 May 2025 10:23:54 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/blog/tags/java/</link>
+      <pubDate>Fri, 23 May 2025 10:23:54 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>http://localhost:1313/blog/tags/javascript/</link>
+      <pubDate>Fri, 23 May 2025 10:23:54 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/blog/tags/python/</link>
+      <pubDate>Fri, 23 May 2025 10:23:54 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sorting-Algorithms</title>
+      <link>http://localhost:1313/blog/tags/sorting-algorithms/</link>
+      <pubDate>Fri, 23 May 2025 10:23:54 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/sorting-algorithms/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Max-Heap</title>
       <link>http://localhost:1313/blog/tags/max-heap/</link>
@@ -20,34 +48,6 @@
       <link>http://localhost:1313/blog/tags/min-heap/</link>
       <pubDate>Tue, 20 May 2025 04:19:10 -0600</pubDate>
       <guid>http://localhost:1313/blog/tags/min-heap/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Java</title>
-      <link>http://localhost:1313/blog/tags/java/</link>
-      <pubDate>Mon, 19 May 2025 10:14:35 -0600</pubDate>
-      <guid>http://localhost:1313/blog/tags/java/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Javascript</title>
-      <link>http://localhost:1313/blog/tags/javascript/</link>
-      <pubDate>Mon, 19 May 2025 10:14:35 -0600</pubDate>
-      <guid>http://localhost:1313/blog/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/blog/tags/python/</link>
-      <pubDate>Mon, 19 May 2025 10:14:35 -0600</pubDate>
-      <guid>http://localhost:1313/blog/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sorting-Algorithms</title>
-      <link>http://localhost:1313/blog/tags/sorting-algorithms/</link>
-      <pubDate>Mon, 19 May 2025 10:14:35 -0600</pubDate>
-      <guid>http://localhost:1313/blog/tags/sorting-algorithms/</guid>
       <description></description>
     </item>
     <item>

@@ -47,11 +47,11 @@ InsertionSort(array)
 
 | Case       | Time Complexity |
 | ---------- | --------------- |
-| Best Case  | O(n)            |
-| Average    | O(n^2)          |
-| Worst Case | O(n^2)          |
+| Best Case  | \(\mathcal{O}(n)\)            |
+| Average    | \(\mathcal{O}(n^2)\)          |
+| Worst Case | \(\mathcal{O}(n^2)\)          |
 
-* **Space Complexity**: O(1) (in-place sorting)
+* **Space Complexity**: \(\mathcal{O}(1)\) (in-place sorting)
 * **Stable**: Yes
 
 ## Example Implementations
@@ -119,7 +119,7 @@ function insertionSort(arr) {
 
 ## Limitations
 
-* Inefficient for large datasets due to O(n^2) time complexity.
+* Inefficient for large datasets due to \(\mathcal{O}(n^2)\) time complexity.
 * Good for small arrays or arrays that are already mostly sorted.
 
 ## Related Algorithms

@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 May 2025 04:19:10 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 23 May 2025 10:23:54 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bubble Sort Algorithm</title>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/bubble-sort/</link>
+      <pubDate>Fri, 23 May 2025 10:23:54 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/bubble-sort/</guid>
+      <description>&lt;p&gt;Bubble Sort is one of the simplest sorting algorithms often taught as an introductory algorithm due to its intuitive approach. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process continues until the list is sorted.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Max Heap and Min Heap Algorithms</title>
       <link>http://localhost:1313/blog/blog/algorithms/max-min-heap-data-structure/</link>

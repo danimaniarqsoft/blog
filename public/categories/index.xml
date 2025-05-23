@@ -6,20 +6,20 @@
     <description>Recent content in Categories on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 May 2025 04:19:10 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 23 May 2025 10:23:54 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithms</title>
+      <link>http://localhost:1313/blog/categories/algorithms/</link>
+      <pubDate>Fri, 23 May 2025 10:23:54 -0600</pubDate>
+      <guid>http://localhost:1313/blog/categories/algorithms/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Data Structures</title>
       <link>http://localhost:1313/blog/categories/data-structures/</link>
       <pubDate>Tue, 20 May 2025 04:19:10 -0600</pubDate>
       <guid>http://localhost:1313/blog/categories/data-structures/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Algorithms</title>
-      <link>http://localhost:1313/blog/categories/algorithms/</link>
-      <pubDate>Mon, 19 May 2025 10:14:35 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/algorithms/</guid>
       <description></description>
     </item>
     <item>

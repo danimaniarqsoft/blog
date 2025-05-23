@@ -60,10 +60,10 @@ MERGE(A, left, mid, right)
 
 | Case             | Time Complexity |
 | ---------------- | --------------- |
-| Best Case        | O(n log n)      |
-| Average Case     | O(n log n)      |
-| Worst Case       | O(n log n)      |
-| Space Complexity | O(n)            |
+| Best Case        | \(\mathcal{O}(n \log n)\)      |
+| Average Case     | \(\mathcal{O}(n \log n)\)      |
+| Worst Case       | \(\mathcal{O}(n \log n)\)      |
+| Space Complexity | \(\mathcal{O}(n)\)            |
 
 Merge Sort consistently performs at O(n log n) time complexity due to the logarithmic number of levels (from divide) and linear time to merge at each level. It requires O(n) additional space for the temporary arrays.
 
@@ -167,9 +167,9 @@ function merge(left, right) {
 
 ## Related Algorithms
 
-* **Quick Sort**: Another divide-and-conquer algorithm but does not guarantee O(n log n) in the worst case.
-* **Heap Sort**: Uses a binary heap structure and sorts in O(n log n) time without extra memory.
-* **Insertion Sort**: More efficient for small arrays but has O(n^2) time complexity.
+* **Quick Sort**: Another divide-and-conquer algorithm but does not guarantee \(\mathcal{O}(n \log n)\) in the worst case.
+* **Heap Sort**: Uses a binary heap structure and sorts in \(\mathcal{O}(n \log n)\) time without extra memory.
+* **Insertion Sort**: More efficient for small arrays but has \(\mathcal{O}(n^2)\) time complexity.
 * **Timsort**: Hybrid of merge sort and insertion sort, used in Python's and Java's built-in sort functions.
 
 ## Limitations

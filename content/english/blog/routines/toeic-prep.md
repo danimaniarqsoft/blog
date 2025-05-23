@@ -3,7 +3,7 @@ title: "Daily TOEIC Preparation Routine"
 meta_title: "meta title"
 description: "this is meta description"
 date: 2025-05-18T19:47:35-06:00
-image: "/images/image-placeholder.png"
+image: "/images/posts/toeic.png"
 categories: ["Routines"]
 author: "Daniel Pichardo"
 tags: ["toeic"]

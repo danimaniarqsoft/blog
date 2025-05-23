@@ -3,7 +3,7 @@ title: "Counting Sort Algorithm"
 meta_title: "meta title"
 description: "this is meta description"
 date: 2025-05-18T11:58:00-06:00
-image: "/images/image-placeholder.png"
+image: "/images/posts/algorithms/counting-sort.png"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"
 tags: ["java","python","javascript","sorting-algorithms"]
@@ -51,11 +51,11 @@ COUNTING-SORT(A, B, k)
 
 | Case    | Time Complexity |
 | ------- | --------------- |
-| Best    | O(n + k)        |
-| Average | O(n + k)        |
-| Worst   | O(n + k)        |
+| Best    | \(\mathcal{O}(n + k)\)        |
+| Average | \(\mathcal{O}(n + k)\)        |
+| Worst   | \(\mathcal{O}(n + k)\)        |
 
-**Space Complexity**: O(k + n)
+**Space Complexity**: \(\mathcal{O}(k + n)\)
 
 * **n**: number of elements in the input array
 * **k**: range of the input (maximum value of input elements)
