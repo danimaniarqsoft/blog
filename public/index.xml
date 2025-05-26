@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 May 2025 10:23:54 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 26 May 2025 13:36:20 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sentence Splitting in NLP: Techniques and Examples</title>
+      <link>http://localhost:1313/blog/blog/ai/sentence-splitting/</link>
+      <pubDate>Mon, 26 May 2025 13:36:20 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/sentence-splitting/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Sentence Splitting&lt;/strong&gt;, also known as &lt;strong&gt;sentence segmentation&lt;/strong&gt;, is the process of dividing a text into its constituent sentences. It&amp;rsquo;s a fundamental task in Natural Language Processing (NLP), typically performed as a first step in various downstream tasks like machine translation, information extraction, sentiment analysis, and text summarization.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Bubble Sort Algorithm</title>
       <link>http://localhost:1313/blog/blog/algorithms/sort/bubble-sort/</link>

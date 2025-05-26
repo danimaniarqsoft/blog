@@ -3,18 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-05-23T10:23:54-06:00</lastmod>
+    <lastmod>2025-05-26T13:36:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
+    <lastmod>2025-05-26T13:36:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/</loc>
+    <lastmod>2025-05-26T13:36:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/</loc>
+    <lastmod>2025-05-26T13:36:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/nlp/</loc>
+    <lastmod>2025-05-26T13:36:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/ai/sentence-splitting/</loc>
+    <lastmod>2025-05-26T13:36:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/sentence-splitting/</loc>
+    <lastmod>2025-05-26T13:36:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-05-26T13:36:20-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/algorithms/</loc>
     <lastmod>2025-05-23T10:23:54-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/algorithms/sort/bubble-sort/</loc>
-    <lastmod>2025-05-23T10:23:54-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-05-23T10:23:54-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/</loc>
     <lastmod>2025-05-23T10:23:54-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/java/</loc>
@@ -27,9 +42,6 @@
     <lastmod>2025-05-23T10:23:54-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/sorting-algorithms/</loc>
-    <lastmod>2025-05-23T10:23:54-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
     <lastmod>2025-05-23T10:23:54-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/data-structures/</loc>
@@ -68,9 +80,6 @@
     <loc>http://localhost:1313/blog/blog/algorithms/sort/selection-sort/</loc>
     <lastmod>2025-05-17T00:02:39-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
-    <lastmod>2025-05-16T10:22:07-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/blog/ai/ner-project/</loc>
     <lastmod>2025-05-16T10:22:07-06:00</lastmod>
   </url><url>
@@ -78,9 +87,6 @@
     <lastmod>2025-05-16T10:22:07-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/ner/</loc>
-    <lastmod>2025-05-16T10:22:07-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/nlp/</loc>
     <lastmod>2025-05-16T10:22:07-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/best-practices/</loc>
