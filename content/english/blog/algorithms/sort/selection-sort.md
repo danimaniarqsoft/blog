@@ -3,7 +3,7 @@ title: "Selection Sort Algorithm"
 meta_title: "meta title"
 description: "this is meta description"
 date: 2025-05-17T00:02:39-06:00
-image: "/images/image-placeholder.png"
+image: "/images/algorithms.png"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"
 tags: ["java","python","sorting-algorithms"]
