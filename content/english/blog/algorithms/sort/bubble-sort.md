@@ -3,7 +3,7 @@ title: "Bubble Sort Algorithm"
 meta_title: "meta title"
 description: "this is meta description"
 date: 2025-05-23T10:23:54-06:00
-image: "/images/image-placeholder.png"
+image: "/images/posts/algorithms/bubble-sort.png"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"
 tags: ["java","python","javascript","sorting-algorithms"]
