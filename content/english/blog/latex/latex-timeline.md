@@ -1,6 +1,6 @@
 ---
 title: "Timeline with latex"
-meta_title: "meta title"
+meta_title: "Timeline latex"
 description: "this is meta description"
 date: 2025-04-22T21:21:54-08:00
 image: "/images/image-placeholder.png"

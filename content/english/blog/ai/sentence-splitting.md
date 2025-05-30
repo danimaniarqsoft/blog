@@ -1,6 +1,6 @@
 ---
 title: "Sentence Splitting in NLP: Techniques and Examples"
-meta_title: "meta title"
+meta_title: "sentence splitting"
 description: "this is meta description"
 date: 2025-05-26T13:36:20-06:00
 image: "/images/posts/ai/sentence-segmentation.png"

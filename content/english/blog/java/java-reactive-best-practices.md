@@ -1,6 +1,6 @@
 ---
 title: "WebFlux best practices"
-meta_title: "meta title"
+meta_title: "WebFlux"
 description: "this is meta description"
 date: 2025-05-12T04:14:54-08:00
 image: "/images/image-placeholder.png"

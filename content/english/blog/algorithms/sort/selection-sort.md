@@ -1,6 +1,6 @@
 ---
 title: "Selection Sort Algorithm"
-meta_title: "meta title"
+meta_title: "selection sort"
 description: "this is meta description"
 date: 2025-05-17T00:02:39-06:00
 image: "/images/algorithms.png"

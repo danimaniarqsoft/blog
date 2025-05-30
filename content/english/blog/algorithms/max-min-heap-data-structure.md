@@ -1,6 +1,6 @@
 ---
 title: "Max Heap and Min Heap Algorithms"
-meta_title: "meta title"
+meta_title: "Max and min Heap"
 description: "this is meta description"
 date: 2025-05-20T04:19:10-06:00
 image: "/images/posts/algorithms/max-min-heap-data-structure.png"

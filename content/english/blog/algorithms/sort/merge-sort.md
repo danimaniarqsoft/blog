@@ -1,6 +1,6 @@
 ---
 title: "Merge Sort Algorithm"
-meta_title: "meta title"
+meta_title: "merge sort"
 description: "this is meta description"
 date: 2025-05-19T10:14:35-06:00
 image: "/images/posts/algorithms/merge-sort.png"

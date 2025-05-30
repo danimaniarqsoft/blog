@@ -1,6 +1,6 @@
 ---
 title: "Counting Sort Algorithm"
-meta_title: "meta title"
+meta_title: "counting sort"
 description: "this is meta description"
 date: 2025-05-18T11:58:00-06:00
 image: "/images/posts/algorithms/counting-sort.png"

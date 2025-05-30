@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning Project: Named Entity Recognition (NER) with LLaMA Embeddings"
-meta_title: "meta title"
+meta_title: "NER"
 description: "this is meta description"
 date: 2025-05-16T10:22:07-06:00
 image: "/images/posts/ai/ner.png"

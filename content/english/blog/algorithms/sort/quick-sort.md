@@ -1,6 +1,6 @@
 ---
 title: "Quick Sort Algorithm: An In-depth Guide"
-meta_title: "meta title"
+meta_title: "quick sort"
 description: "this is meta description"
 date: 2025-05-27T22:07:05-06:00
 image: "/images/algorithms.png"

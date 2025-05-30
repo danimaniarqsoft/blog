@@ -1,6 +1,6 @@
 ---
 title: "Insertion Sort Algorithm"
-meta_title: "meta title"
+meta_title: "insertion sort"
 description: "this is meta description"
 date: 2025-05-17T12:28:05-06:00
 image: "/images/algorithms.png"

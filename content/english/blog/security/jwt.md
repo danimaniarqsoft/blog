@@ -1,6 +1,6 @@
 ---
 title: "Json Web Token"
-meta_title: "meta title"
+meta_title: "jwt"
 description: "this is meta description"
 date: 2025-02-18T04:14:54-08:00
 image: "/images/image-placeholder.png"
