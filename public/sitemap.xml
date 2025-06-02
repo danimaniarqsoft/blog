@@ -3,27 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-06-02T13:05:33-06:00</lastmod>
+    <lastmod>2025-06-02T17:27:55-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-06-02T13:05:33-06:00</lastmod>
+    <lastmod>2025-06-02T17:27:55-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/data-structures/</loc>
-    <lastmod>2025-06-02T13:05:33-06:00</lastmod>
+    <lastmod>2025-06-02T17:27:55-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/data-structure/</loc>
-    <lastmod>2025-06-02T13:05:33-06:00</lastmod>
+    <lastmod>2025-06-02T17:27:55-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
-    <lastmod>2025-06-02T13:05:33-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/data-structures/hash-tables-data-structure/</loc>
-    <lastmod>2025-06-02T13:05:33-06:00</lastmod>
+    <lastmod>2025-06-02T17:27:55-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-06-02T17:27:55-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-structures/queue/</loc>
+    <lastmod>2025-06-02T17:27:55-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-structures/stack/</loc>
+    <lastmod>2025-06-02T17:21:34-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-structures/hash-tables/</loc>
     <lastmod>2025-06-02T13:05:33-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/data-structures/trie-data-structure/</loc>
+    <loc>http://localhost:1313/blog/blog/data-structures/trie/</loc>
     <lastmod>2025-05-31T14:33:36-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/algorithms/</loc>
@@ -62,7 +68,7 @@
     <loc>http://localhost:1313/blog/blog/algorithms/sort/bubble-sort/</loc>
     <lastmod>2025-05-23T10:23:54-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/data-structures/max-min-heap-data-structure/</loc>
+    <loc>http://localhost:1313/blog/blog/data-structures/max-and-min-heap/</loc>
     <lastmod>2025-05-20T04:19:10-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/max-heap/</loc>
@@ -151,8 +157,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/categories/security/</loc>
     <lastmod>2025-02-18T04:14:54-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/data-structures/borrar/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/topics/java-best-practices/</loc>
   </url><url>

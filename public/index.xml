@@ -6,20 +6,34 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Jun 2025 13:05:33 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jun 2025 17:27:55 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>title</title>
+      <link>http://localhost:1313/blog/blog/data-structures/queue/</link>
+      <pubDate>Mon, 02 Jun 2025 17:27:55 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-structures/queue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stack Data Structure</title>
+      <link>http://localhost:1313/blog/blog/data-structures/stack/</link>
+      <pubDate>Mon, 02 Jun 2025 17:21:34 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-structures/stack/</guid>
+      <description>&lt;p&gt;A &lt;strong&gt;Stack&lt;/strong&gt; is a linear data structure that follows the &lt;strong&gt;Last In, First Out (LIFO)&lt;/strong&gt; principle. This means that the last element added to the stack is the first one to be removed. It is analogous to a stack of plates where only the top plate can be removed at a time.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hash Tables: A Comprehensive Overview</title>
-      <link>http://localhost:1313/blog/blog/data-structures/hash-tables-data-structure/</link>
+      <link>http://localhost:1313/blog/blog/data-structures/hash-tables/</link>
       <pubDate>Mon, 02 Jun 2025 13:05:33 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/data-structures/hash-tables-data-structure/</guid>
+      <guid>http://localhost:1313/blog/blog/data-structures/hash-tables/</guid>
       <description>&lt;p&gt;A &lt;strong&gt;hash table&lt;/strong&gt; (also known as a &lt;strong&gt;hash map&lt;/strong&gt;) is a data structure that provides an efficient way of storing and retrieving data using a key-value pair model. The efficiency of hash tables lies in their ability to provide constant time complexity \(\mathcal{O}(1)\), on average, for insertion, deletion, and lookup operations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trie Data Structure</title>
-      <link>http://localhost:1313/blog/blog/data-structures/trie-data-structure/</link>
+      <link>http://localhost:1313/blog/blog/data-structures/trie/</link>
       <pubDate>Sat, 31 May 2025 14:33:36 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/data-structures/trie-data-structure/</guid>
+      <guid>http://localhost:1313/blog/blog/data-structures/trie/</guid>
       <description>&lt;p&gt;A &lt;strong&gt;Trie&lt;/strong&gt; (pronounced as &amp;ldquo;try&amp;rdquo;), also known as a &lt;em&gt;prefix tree&lt;/em&gt; or &lt;em&gt;digital tree&lt;/em&gt;, is a type of search tree used to store associative data structures, typically strings. Tries are especially useful for solving problems involving dynamic sets of strings, such as dictionary management, autocomplete systems, and IP routing.&lt;/p&gt;</description>
     </item>
     <item>
@@ -52,9 +66,9 @@
     </item>
     <item>
       <title>Max Heap and Min Heap Algorithms</title>
-      <link>http://localhost:1313/blog/blog/data-structures/max-min-heap-data-structure/</link>
+      <link>http://localhost:1313/blog/blog/data-structures/max-and-min-heap/</link>
       <pubDate>Tue, 20 May 2025 04:19:10 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/data-structures/max-min-heap-data-structure/</guid>
+      <guid>http://localhost:1313/blog/blog/data-structures/max-and-min-heap/</guid>
       <description>&lt;p&gt;Heaps are specialized tree-based data structures that satisfy the &lt;em&gt;heap property&lt;/em&gt;. In a &lt;strong&gt;max heap&lt;/strong&gt;, the parent node is always greater than or equal to its children, while in a &lt;strong&gt;min heap&lt;/strong&gt;, the parent is always less than or equal to its children. Heaps are commonly used to implement &lt;strong&gt;priority queues&lt;/strong&gt; and &lt;strong&gt;heap sort&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
@@ -154,13 +168,6 @@
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
       <guid>http://localhost:1313/blog/blog/security/jwt/</guid>
       <description>&lt;p&gt;A &lt;strong&gt;JSON Web Token (JWT)&lt;/strong&gt; is an open standard &lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc7519&#34;&#xA;&#xA;&#xA;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &#xA;&#xA;&#xA;&gt;RFC 7519&lt;/a&gt; for securely transmitting information between parties as a &lt;strong&gt;JSON object&lt;/strong&gt;. This information can be verified and trusted because it is digitally signed.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/blog/blog/data-structures/borrar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/blog/data-structures/borrar/</guid>
-      <description></description>
     </item>
     <item>
       <title>Daniel Pichardo</title>
