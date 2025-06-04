@@ -12,7 +12,7 @@ draft: false
 
 ## 🧑‍💻 Professional Summary
 
-I am a seasoned software architect and artificial intelligence researcher with over 15 years of experience designing and building complex systems across government agencies, global tech companies like Google, and private industry. My academic foundation began with a degree in Electrical and Electronic Engineering, where I specialized in robotics — blending physical systems with intelligent algorithms. This early work sparked a lifelong interest in automation and intelligent software.
+I am a seasoned software architect and artificial intelligence researcher with over 15 years of experience designing and building complex systems across government agencies, global tech companies, and private industry. My academic foundation began with a degree in Electrical and Electronic Engineering, where I specialized in robotics — blending physical systems with intelligent algorithms. This early work sparked a lifelong interest in automation and intelligent software.
 
 I later earned a Master’s degree in Computer Science with honors, deepening my expertise in software development, algorithms, and distributed systems. I am currently pursuing a PhD in Data Science, focusing on the convergence of natural language processing (NLP), deep learning, and explainable AI.
 
