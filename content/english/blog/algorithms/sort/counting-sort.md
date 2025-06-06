@@ -64,6 +64,8 @@ COUNTING-SORT(A, B, k)
 
 ## Example Implementations
 
+{{< tabs >}}
+{{< tab "Python" >}}
 ### Python
 
 ```python
@@ -88,6 +90,8 @@ def counting_sort(arr):
     return output
 ```
 
+{{< /tab >}}
+{{< tab "Java" >}}
 ### Java
 
 ```java
@@ -119,7 +123,8 @@ public class CountingSort {
     }
 }
 ```
-
+{{< /tab >}}
+{{< tab "JavaScript" >}}
 ### JavaScript
 
 ```javascript
@@ -146,6 +151,11 @@ function countingSort(arr) {
     return output;
 }
 ```
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
 
 ---
 

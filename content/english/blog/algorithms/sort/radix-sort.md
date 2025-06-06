@@ -73,6 +73,8 @@ function countingSort(array, digitPlace)
 
 ## Implementations
 
+{{< tabs >}}
+{{< tab "Python" >}}
 ### Python
 
 ```python
@@ -106,6 +108,8 @@ def radix_sort(arr):
         exp *= 10
 ```
 
+{{< /tab >}}
+{{< tab "Java" >}}
 ### Java
 
 ```java
@@ -144,7 +148,8 @@ public class RadixSort {
     }
 }
 ```
-
+{{< /tab >}}
+{{< tab "JavaScript" >}}
 ### JavaScript
 
 ```javascript
@@ -170,6 +175,9 @@ function radixSort(arr) {
         countingSort(arr, exp);
 }
 ```
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ## Related Algorithms
 

@@ -88,6 +88,24 @@ BUILD-MAX-HEAP(A):
 
 ## Example Implementations
 
+{{< tabs >}}
+{{< tab "Python" >}}
+### Python
+
+```python
+import heapq
+
+min_heap = []
+heapq.heappush(min_heap, 10)
+heapq.heappush(min_heap, 5)
+heapq.heappush(min_heap, 20)
+
+while min_heap:
+    print(heapq.heappop(min_heap))
+```
+
+{{< /tab >}}
+{{< tab "Java" >}}
 ### Java
 
 ```java
@@ -106,21 +124,8 @@ public class MinHeap {
     }
 }
 ```
-
-### Python
-
-```python
-import heapq
-
-min_heap = []
-heapq.heappush(min_heap, 10)
-heapq.heappush(min_heap, 5)
-heapq.heappush(min_heap, 20)
-
-while min_heap:
-    print(heapq.heappop(min_heap))
-```
-
+{{< /tab >}}
+{{< tab "JavaScript" >}}
 ### JavaScript
 
 ```javascript
@@ -168,6 +173,9 @@ class MinHeap {
     }
 }
 ```
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ## Related Algorithms
 

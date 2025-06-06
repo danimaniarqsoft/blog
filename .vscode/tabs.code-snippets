@@ -1,0 +1,21 @@
+{
+    "For generate default tabs": {
+        "scope": "markdown",
+        "prefix": "add-tabs",
+        "body": [
+            "{{< tabs >}}",
+            "{{< tab \"Python\" >}}",
+            "",
+            "{{< /tab >}}",
+            "{{< tab \"Java\" >}}",
+            "",
+            "{{< /tab >}}",
+            "{{< tab \"JavaScript\" >}}",
+            "",
+            "{{< /tab >}}",
+            "",
+            "{{< /tabs >}}"
+        ],
+        "description": "For generate default tabs"
+    }
+}

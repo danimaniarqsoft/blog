@@ -66,6 +66,8 @@ function startsWith(prefix):
 
 ## Implementations
 
+{{< tabs >}}
+{{< tab "Python" >}}
 ### Python
 
 ```python
@@ -103,6 +105,8 @@ class Trie:
         return True
 ```
 
+{{< /tab >}}
+{{< tab "Java" >}}
 ### Java
 
 ```java
@@ -153,6 +157,9 @@ public class Trie {
 }
 ```
 
+{{< /tab >}}
+{{< tab "JavaScript" >}}
+
 ### JavaScript
 
 ```javascript
@@ -198,6 +205,9 @@ class Trie {
     }
 }
 ```
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ## Algorithms That Use Trie
 

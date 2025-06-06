@@ -56,26 +56,8 @@ function peek(stack):
 
 ## Implementation Examples
 
-### Java
-
-```java
-import java.util.Stack;
-
-public class StackExample {
-    public static void main(String[] args) {
-        Stack<Integer> stack = new Stack<>();
-
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
-
-        System.out.println("Top element: " + stack.peek());
-        System.out.println("Popped element: " + stack.pop());
-        System.out.println("Is stack empty? " + stack.isEmpty());
-    }
-}
-```
-
+{{< tabs >}}
+{{< tab "Python" >}}
 ### Python
 
 ```python
@@ -96,6 +78,29 @@ print("Popped element:", stack.pop())
 print("Is stack empty?", len(stack) == 0)
 ```
 
+{{< /tab >}}
+{{< tab "Java" >}}
+### Java
+
+```java
+import java.util.Stack;
+
+public class StackExample {
+    public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+
+        System.out.println("Top element: " + stack.peek());
+        System.out.println("Popped element: " + stack.pop());
+        System.out.println("Is stack empty? " + stack.isEmpty());
+    }
+}
+```
+{{< /tab >}}
+{{< tab "JavaScript" >}}
 ### JavaScript
 
 ```javascript
@@ -115,6 +120,9 @@ console.log("Popped element:", stack.pop());
 // Check empty
 console.log("Is stack empty?", stack.length === 0);
 ```
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ## Algorithms That Use Stacks
 

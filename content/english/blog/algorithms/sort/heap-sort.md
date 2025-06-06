@@ -71,6 +71,8 @@ Heap Sort is an in-place algorithm but not stable.
 
 ## Example Implementations
 
+{{< tabs >}}
+{{< tab "Python" >}}
 ### Python
 
 ```python
@@ -100,7 +102,8 @@ def heap_sort(arr):
         arr[i], arr[0] = arr[0], arr[i]
         heapify(arr, i, 0)
 ```
-
+{{< /tab >}}
+{{< tab "Java" >}}
 ### Java
 
 ```java
@@ -139,6 +142,8 @@ public class HeapSort {
     }
 }
 ```
+{{< /tab >}}
+{{< tab "JavaScript" >}}
 
 ### JavaScript
 
@@ -174,6 +179,10 @@ function heapSort(arr) {
     return arr;
 }
 ```
+{{< /tab >}}
+
+{{< /tabs >}}
+
 
 ---
 

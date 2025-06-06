@@ -68,6 +68,8 @@ MERGE(A, left, mid, right)
 Merge Sort consistently performs at O(n log n) time complexity due to the logarithmic number of levels (from divide) and linear time to merge at each level. It requires O(n) additional space for the temporary arrays.
 
 ## Example Implementations
+{{< tabs >}}
+{{< tab "Python" >}}
 
 ### Python
 
@@ -103,6 +105,8 @@ def merge_sort(arr):
             k += 1
 ```
 
+{{< /tab >}}
+{{< tab "Java" >}}
 ### Java
 
 ```java
@@ -135,7 +139,8 @@ public class MergeSort {
     }
 }
 ```
-
+{{< /tab >}}
+{{< tab "JavaScript" >}}
 ### JavaScript
 
 ```javascript
@@ -164,6 +169,10 @@ function merge(left, right) {
     return result.concat(left.slice(i)).concat(right.slice(j));
 }
 ```
+{{< /tab >}}
+
+{{< /tabs >}}
+
 
 ## Related Algorithms
 

@@ -56,6 +56,8 @@ InsertionSort(array)
 
 ## Example Implementations
 
+{{< tabs >}}
+{{< tab "Python" >}}
 ### Python
 
 ```python
@@ -73,7 +75,8 @@ def insertion_sort(arr):
 arr = [12, 11, 13, 5, 6]
 print(insertion_sort(arr))
 ```
-
+{{< /tab >}}
+{{< tab "Java" >}}
 ### Java
 
 ```java
@@ -99,7 +102,8 @@ public class InsertionSort {
     }
 }
 ```
-
+{{< /tab >}}
+{{< tab "JavaScript" >}}
 ### JavaScript
 
 ```javascript
@@ -116,6 +120,9 @@ function insertionSort(arr) {
     return arr;
 }
 ```
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ## Limitations
 

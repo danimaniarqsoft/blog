@@ -72,6 +72,8 @@ PARTITION(A, low, high):
 
 ## Code Examples
 
+{{< tabs >}}
+{{< tab "Python" >}}
 ### Python
 ```python
 def quicksort(arr):
@@ -85,6 +87,8 @@ def quicksort(arr):
 
 print(quicksort([3,6,8,10,1,2,1]))
 ```
+{{< /tab >}}
+{{< tab "Java" >}}
 
 ### Java
 ```java
@@ -116,6 +120,8 @@ public class QuickSort {
 }
 ```
 
+{{< /tab >}}
+{{< tab "JavaScript" >}}
 ### JavaScript
 ```javascript
 function quickSort(arr) {
@@ -133,6 +139,9 @@ function quickSort(arr) {
 
 console.log(quickSort([10, 5, 2, 3]));
 ```
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ---
 

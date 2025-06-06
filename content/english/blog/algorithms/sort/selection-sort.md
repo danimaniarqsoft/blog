@@ -3,7 +3,7 @@ title: "Selection Sort Algorithm"
 meta_title: "selection sort"
 description: "this is meta description"
 date: 2025-05-17T00:02:39-06:00
-image: "/images/algorithms.png"
+image: "/images/posts/algorithms/selection-sort.png"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"
 tags: ["java","python","sorting-algorithms"]
@@ -37,6 +37,9 @@ Selection Sort does not adapt to the data and performs the same number of compar
 
 ## Example Implementation
 
+{{< tabs >}}
+{{< tab "Python" >}}
+
 ### Python
 
 ```python
@@ -54,7 +57,8 @@ def selection_sort(arr):
 arr = [64, 25, 12, 22, 11]
 print("Sorted array:", selection_sort(arr))
 ```
-
+{{< /tab >}}
+{{< tab "Java" >}}
 ## Java
 
 ```java
@@ -84,6 +88,9 @@ public class SelectionSort {
     }
 }
 ```
+
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Related Algorithms
 

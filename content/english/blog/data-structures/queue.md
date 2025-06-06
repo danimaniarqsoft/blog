@@ -57,27 +57,8 @@ function peek(queue):
 
 ## Implementation Examples
 
-### Java
-
-```java
-import java.util.LinkedList;
-import java.util.Queue;
-
-public class QueueExample {
-    public static void main(String[] args) {
-        Queue<Integer> queue = new LinkedList<>();
-
-        queue.offer(1);
-        queue.offer(2);
-        queue.offer(3);
-
-        System.out.println("Front element: " + queue.peek());
-        System.out.println("Dequeued element: " + queue.poll());
-        System.out.println("Is queue empty? " + queue.isEmpty());
-    }
-}
-```
-
+{{< tabs >}}
+{{< tab "Python" >}}
 ### Python
 
 ```python
@@ -100,6 +81,30 @@ print("Dequeued element:", queue.popleft())
 print("Is queue empty?", len(queue) == 0)
 ```
 
+{{< /tab >}}
+{{< tab "Java" >}}
+### Java
+
+```java
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueExample {
+    public static void main(String[] args) {
+        Queue<Integer> queue = new LinkedList<>();
+
+        queue.offer(1);
+        queue.offer(2);
+        queue.offer(3);
+
+        System.out.println("Front element: " + queue.peek());
+        System.out.println("Dequeued element: " + queue.poll());
+        System.out.println("Is queue empty? " + queue.isEmpty());
+    }
+}
+```
+{{< /tab >}}
+{{< tab "JavaScript" >}}
 ### JavaScript
 
 ```javascript
@@ -119,6 +124,9 @@ console.log("Dequeued element:", queue.shift());
 // Check empty
 console.log("Is queue empty?", queue.length === 0);
 ```
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ## Algorithms That Use Queues
 

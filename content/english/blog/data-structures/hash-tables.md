@@ -77,6 +77,41 @@ function delete(hashTable, key):
 
 ## Implementations
 
+{{< tabs >}}
+{{< tab "Python" >}}
+### Python
+
+```python
+table_size = 10
+hash_table = [[] for _ in range(table_size)]
+
+def hash_function(key):
+    return hash(key) % table_size
+
+def insert(key, value):
+    index = hash_function(key)
+    for i, (k, v) in enumerate(hash_table[index]):
+        if k == key:
+            hash_table[index][i] = (key, value)
+            return
+    hash_table[index].append((key, value))
+
+def search(key):
+    index = hash_function(key)
+    for (k, v) in hash_table[index]:
+        if k == key:
+            return v
+    return None
+
+def delete(key):
+    index = hash_function(key)
+    for i, (k, v) in enumerate(hash_table[index]):
+        if k == key:
+            del hash_table[index][i]
+            return
+```
+{{< /tab >}}
+{{< tab "Java" >}}
 ### Java
 
 ```java
@@ -121,39 +156,8 @@ class HashTable {
     }
 }
 ```
-
-### Python
-
-```python
-table_size = 10
-hash_table = [[] for _ in range(table_size)]
-
-def hash_function(key):
-    return hash(key) % table_size
-
-def insert(key, value):
-    index = hash_function(key)
-    for i, (k, v) in enumerate(hash_table[index]):
-        if k == key:
-            hash_table[index][i] = (key, value)
-            return
-    hash_table[index].append((key, value))
-
-def search(key):
-    index = hash_function(key)
-    for (k, v) in hash_table[index]:
-        if k == key:
-            return v
-    return None
-
-def delete(key):
-    index = hash_function(key)
-    for i, (k, v) in enumerate(hash_table[index]):
-        if k == key:
-            del hash_table[index][i]
-            return
-```
-
+{{< /tab >}}
+{{< tab "JavaScript" >}}
 ### JavaScript
 
 ```javascript
@@ -202,6 +206,9 @@ class HashTable {
   }
 }
 ```
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ## Algorithms That Use Hash Tables
 

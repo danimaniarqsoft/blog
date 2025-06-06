@@ -46,16 +46,19 @@ end procedure
 
 ## Time and Space Complexity
 
-| Case          | Time Complexity |
-|---------------|-----------------|
-| Best Case     | \(\mathcal{O}(n)\)            |
-| Average Case  | \(\mathcal{O}(n^2)\)           |
-| Worst Case    | \(\mathcal{O}(n^2)\)           |
+| Case         | Time Complexity      |
+| ------------ | -------------------- |
+| Best Case    | \(\mathcal{O}(n)\)   |
+| Average Case | \(\mathcal{O}(n^2)\) |
+| Worst Case   | \(\mathcal{O}(n^2)\) |
 
 - **Space Complexity:** O(1) – In-place sorting.
 
 ## Example Implementations
 
+
+{{< tabs >}}
+{{< tab "Python" >}}
 ### Python
 
 ```python
@@ -71,7 +74,9 @@ def bubble_sort(arr):
             break
     return arr
 ```
+{{< /tab >}}
 
+{{< tab "Java" >}}
 ### Java
 
 ```java
@@ -95,6 +100,9 @@ public class BubbleSort {
 }
 ```
 
+{{< /tab >}}
+
+{{< tab "JavaScript" >}}
 ### JavaScript
 
 ```javascript
@@ -114,6 +122,9 @@ function bubbleSort(arr) {
     return arr;
 }
 ```
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ## Related Algorithms
 
