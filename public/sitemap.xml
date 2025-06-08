@@ -3,10 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-06-07T22:30:21-06:00</lastmod>
+    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-06-07T22:30:21-06:00</lastmod>
+    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/</loc>
+    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/guideline/</loc>
+    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/guidelines/</loc>
+    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/guidelines/git-revert-commits/</loc>
+    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/git/</loc>
+    <lastmod>2025-06-08T00:10:09-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/guidelines/git-troubleshooting/</loc>
+    <lastmod>2025-06-08T00:10:09-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/troubleshooting/</loc>
+    <lastmod>2025-06-08T00:10:09-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/guidelines/git/</loc>
+    <lastmod>2025-06-08T00:02:44-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/data-science/</loc>
     <lastmod>2025-06-07T22:30:21-06:00</lastmod>
@@ -14,13 +41,7 @@
     <loc>http://localhost:1313/blog/tags/data-science/</loc>
     <lastmod>2025-06-07T22:30:21-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/</loc>
-    <lastmod>2025-06-07T22:30:21-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</loc>
-    <lastmod>2025-06-07T22:30:21-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
     <lastmod>2025-06-07T22:30:21-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/data-science/measure-dispersion/</loc>
