@@ -15,7 +15,7 @@ logo_text = "Hugoplate"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
-theme_switcher = true
+theme_switcher = false
 theme_default = "system" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
@@ -38,8 +38,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [navigation_button]
 enable = true
-label = "get a quote"
-link = "contact"
+label = "See posts"
+link = "blog"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
