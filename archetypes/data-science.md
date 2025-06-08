@@ -3,9 +3,9 @@ title: "title"
 meta_title: "meta title"
 description: "this is meta description"
 date: {{ .Date }}
-image: "/images/image-placeholder.png"
-categories: ["No category"]
+image: "/images/posts/data-science/image.png"
+categories: ["Data Science"]
 author: "Daniel Pichardo"
-tags: ["non-classified"]
+tags: ["data-science"]
 draft: true
 ---

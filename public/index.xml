@@ -6,8 +6,29 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jun 2025 20:53:28 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 07 Jun 2025 22:30:21 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Determine If a Dataset Is Small or Big</title>
+      <link>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</link>
+      <pubDate>Sat, 07 Jun 2025 22:30:21 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</guid>
+      <description>&lt;p&gt;In the data science world, terms like “small dataset” and “big dataset” are commonly used, but surprisingly, they lack universal definitions. Determining whether a dataset is “small” or “big” depends on several contextual factors: the analytical task, the computing environment, and even the underlying structure of the data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Measures of dispersion</title>
+      <link>http://localhost:1313/blog/blog/data-science/measure-dispersion/</link>
+      <pubDate>Sat, 07 Jun 2025 22:19:33 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-science/measure-dispersion/</guid>
+      <description>&lt;p&gt;Measures of dispersion quantify how much data values vary or spread out. Understanding dispersion helps you grasp the &lt;strong&gt;reliability, consistency, and variability&lt;/strong&gt; of data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Descriptive Analysis: A Comprehensive Guide</title>
+      <link>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</link>
+      <pubDate>Sat, 07 Jun 2025 22:06:23 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</guid>
+      <description>&lt;p&gt;Descriptive analysis is a fundamental aspect of data analysis, focused on summarizing historical data to better understand what has happened. It involves organizing, visualizing, and summarizing data in meaningful ways.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Rise of Vibe Coding and the Future of Programmers</title>
       <link>http://localhost:1313/blog/blog/opinions/vibe-coding/</link>

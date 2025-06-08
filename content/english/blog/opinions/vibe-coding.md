@@ -3,7 +3,7 @@ title: "The Rise of Vibe Coding and the Future of Programmers"
 meta_title: "Vibe Coding"
 description: "Vibe Coding"
 date: 2025-06-05T20:53:28-06:00
-image: "/images/algorithms.png"
+image: "/images/posts/opinion/image.png"
 categories: ["Opinion"]
 author: "Daniel Pichardo"
 tags: ["opinion", "vibe-coding"]
