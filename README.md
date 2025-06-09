@@ -35,6 +35,9 @@ hugo new content --kind data-structure content/english/blog/data-structures/[FIL
 
 # For algorithm post
 hugo new content --kind algorithm content/english/blog/algorithm/[FILE_NAME].md
+
+# For software development post
+hugo new content --kind software-development content/english/blog/software-development/[FILE_NAME].md
 ```
 
 ## Blog site

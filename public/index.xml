@@ -6,8 +6,22 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jun 2025 20:53:28 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jun 2025 11:53:11 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scrum Metrics: Detailed Explanation, Examples, and Best Practices</title>
+      <link>http://localhost:1313/blog/blog/software-development/scrum-metrics/</link>
+      <pubDate>Mon, 09 Jun 2025 11:53:11 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-development/scrum-metrics/</guid>
+      <description>&lt;p&gt;In Scrum, metrics serve as tools for inspection and adaptation. They help teams evaluate their performance, predict future behavior, and foster continuous improvement. Below are detailed explanations, examples, best practices, and general guidelines for the key Scrum metrics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scrum Methodology Guidelines</title>
+      <link>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</link>
+      <pubDate>Mon, 09 Jun 2025 11:43:32 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Scrum&lt;/strong&gt; is an &lt;strong&gt;agile framework&lt;/strong&gt; for developing, delivering, and sustaining complex products. It emphasizes &lt;strong&gt;empirical process control&lt;/strong&gt;, &lt;strong&gt;collaboration&lt;/strong&gt;, &lt;strong&gt;accountability&lt;/strong&gt;, and &lt;strong&gt;iterative progress&lt;/strong&gt;. Scrum divides work into &lt;strong&gt;Sprints&lt;/strong&gt;—time-boxed iterations—where teams produce potentially shippable product increments.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Rise of Vibe Coding and the Future of Programmers</title>
       <link>http://localhost:1313/blog/blog/opinions/vibe-coding/</link>
