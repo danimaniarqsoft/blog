@@ -27,18 +27,17 @@ features:
   - title: "Data structures"
     image: "/images/data-structures.png"
     content: "Data structures are specialized ways of organizing and storing data to enable efficient access and modification, such as arrays, lists, trees, and graphs."
-    bulletpoints:
-      - "Tree"
-      - "Heap"
-      - "Queue"
-      - "Stack"
-      - "Trie"
-      - "Binary Tree"
-      - "and more"
     button:
       enable: true
       label: "Get Started Now"
       link: "/blog/categories/data-structures"
+  - title: "Graphs"
+    image: "/images/posts/graphs/image.png"
+    content: "Graphs are fundamental data structures in computer science, used to model pairwise relations between objects. They are ubiquitous in applications ranging from social networks and the web to transportation, compiler construction, and bioinformatics."
+    button:
+      enable: true
+      label: "Get Started Now"
+      link: "/blog/categories/graphs"
   - title: "Artificial Intelligence and Data Science"
     image: "/images/artificial-intelligence.png"
     content: "Artificial intelligence and data science focus on enabling machines to learn from data and make decisions or predictions, combining statistical analysis, machine learning, and domain expertise to extract insights and automate processes"

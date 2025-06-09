@@ -3,34 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-06-09T11:53:11-06:00</lastmod>
+    <lastmod>2025-06-09T12:08:01-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-06-09T11:53:11-06:00</lastmod>
+    <lastmod>2025-06-09T12:08:01-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
-    <lastmod>2025-06-09T11:53:11-06:00</lastmod>
+    <lastmod>2025-06-09T12:08:01-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/scrum/</loc>
-    <lastmod>2025-06-09T11:53:11-06:00</lastmod>
+    <loc>http://localhost:1313/blog/categories/graphs/</loc>
+    <lastmod>2025-06-09T12:08:01-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/software-development/scrum-metrics/</loc>
-    <lastmod>2025-06-09T11:53:11-06:00</lastmod>
+    <loc>http://localhost:1313/blog/tags/graphs/</loc>
+    <lastmod>2025-06-09T12:08:01-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/scrum-metrics/</loc>
-    <lastmod>2025-06-09T11:53:11-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/software-development/</loc>
-    <lastmod>2025-06-09T11:53:11-06:00</lastmod>
+    <loc>http://localhost:1313/blog/blog/graphs/graphs/</loc>
+    <lastmod>2025-06-09T12:08:01-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2025-06-09T11:53:11-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</loc>
-    <lastmod>2025-06-09T11:43:32-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/team-topologies/</loc>
-    <lastmod>2025-06-09T11:43:32-06:00</lastmod>
+    <lastmod>2025-06-09T12:08:01-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/opinion/</loc>
     <lastmod>2025-06-05T20:53:28-06:00</lastmod>
@@ -205,6 +196,24 @@
   </url><url>
     <loc>http://localhost:1313/blog/blog/data-science/measure-dispersion/</loc>
     <lastmod>2025-02-07T22:19:33-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/scrum/</loc>
+    <lastmod>2025-01-17T11:43:32-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</loc>
+    <lastmod>2025-01-17T11:43:32-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/software-development/</loc>
+    <lastmod>2025-01-17T11:43:32-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/team-topologies/</loc>
+    <lastmod>2025-01-17T11:43:32-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-development/scrum-metrics/</loc>
+    <lastmod>2025-01-09T11:53:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/scrum-metrics/</loc>
+    <lastmod>2025-01-09T11:53:11-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</loc>
     <lastmod>2025-01-07T22:30:21-06:00</lastmod>

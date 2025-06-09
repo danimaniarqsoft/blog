@@ -33,6 +33,9 @@ hugo new content content/english/blog/[TOPIC]/my-new-post.md
 # For data structure post
 hugo new content --kind data-structure content/english/blog/data-structures/[FILE_NAME].md
 
+# For Graphs
+hugo new content --kind graphs content/english/blog/graphs/[FILE_NAME].md
+
 # For algorithm post
 hugo new content --kind algorithm content/english/blog/algorithm/[FILE_NAME].md
 

@@ -6,21 +6,14 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Jun 2025 11:53:11 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jun 2025 12:08:01 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Scrum Metrics: Detailed Explanation, Examples, and Best Practices</title>
-      <link>http://localhost:1313/blog/blog/software-development/scrum-metrics/</link>
-      <pubDate>Mon, 09 Jun 2025 11:53:11 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/software-development/scrum-metrics/</guid>
-      <description>&lt;p&gt;In Scrum, metrics serve as tools for inspection and adaptation. They help teams evaluate their performance, predict future behavior, and foster continuous improvement. Below are detailed explanations, examples, best practices, and general guidelines for the key Scrum metrics.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Scrum Methodology Guidelines</title>
-      <link>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</link>
-      <pubDate>Mon, 09 Jun 2025 11:43:32 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Scrum&lt;/strong&gt; is an &lt;strong&gt;agile framework&lt;/strong&gt; for developing, delivering, and sustaining complex products. It emphasizes &lt;strong&gt;empirical process control&lt;/strong&gt;, &lt;strong&gt;collaboration&lt;/strong&gt;, &lt;strong&gt;accountability&lt;/strong&gt;, and &lt;strong&gt;iterative progress&lt;/strong&gt;. Scrum divides work into &lt;strong&gt;Sprints&lt;/strong&gt;—time-boxed iterations—where teams produce potentially shippable product increments.&lt;/p&gt;</description>
+      <title>Graphs in Computer Science: Theory, Algorithms, and Applications</title>
+      <link>http://localhost:1313/blog/blog/graphs/graphs/</link>
+      <pubDate>Mon, 09 Jun 2025 12:08:01 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/graphs/graphs/</guid>
+      <description>&lt;p&gt;Graphs are fundamental data structures in computer science, used to model pairwise relations between objects. They are ubiquitous in applications ranging from social networks and the web to transportation, compiler construction, and bioinformatics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Rise of Vibe Coding and the Future of Programmers</title>
@@ -210,6 +203,20 @@
       <pubDate>Fri, 07 Feb 2025 22:19:33 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/data-science/measure-dispersion/</guid>
       <description>&lt;p&gt;Measures of dispersion quantify how much data values vary or spread out. Understanding dispersion helps you grasp the &lt;strong&gt;reliability, consistency, and variability&lt;/strong&gt; of data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scrum Methodology Guidelines</title>
+      <link>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</link>
+      <pubDate>Fri, 17 Jan 2025 11:43:32 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Scrum&lt;/strong&gt; is an &lt;strong&gt;agile framework&lt;/strong&gt; for developing, delivering, and sustaining complex products. It emphasizes &lt;strong&gt;empirical process control&lt;/strong&gt;, &lt;strong&gt;collaboration&lt;/strong&gt;, &lt;strong&gt;accountability&lt;/strong&gt;, and &lt;strong&gt;iterative progress&lt;/strong&gt;. Scrum divides work into &lt;strong&gt;Sprints&lt;/strong&gt;—time-boxed iterations—where teams produce potentially shippable product increments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scrum Metrics: Detailed Explanation, Examples, and Best Practices</title>
+      <link>http://localhost:1313/blog/blog/software-development/scrum-metrics/</link>
+      <pubDate>Thu, 09 Jan 2025 11:53:11 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-development/scrum-metrics/</guid>
+      <description>&lt;p&gt;In Scrum, metrics serve as tools for inspection and adaptation. They help teams evaluate their performance, predict future behavior, and foster continuous improvement. Below are detailed explanations, examples, best practices, and general guidelines for the key Scrum metrics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Determine If a Dataset Is Small or Big</title>
