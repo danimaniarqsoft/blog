@@ -2,7 +2,7 @@
 title: "Graphs in Computer Science: Theory, Algorithms, and Applications"
 meta_title: "Graphs"
 description: "this is meta description"
-date: 2025-06-09T12:08:01-06:00
+date: 2024-06-09T12:08:01-06:00
 image: "/images/posts/graphs/image.png"
 categories: ["Graphs"]
 author: "Daniel Pichardo"
