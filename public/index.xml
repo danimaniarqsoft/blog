@@ -6,15 +6,8 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Jun 2025 12:08:01 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 20:53:28 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Graphs in Computer Science: Theory, Algorithms, and Applications</title>
-      <link>http://localhost:1313/blog/blog/graphs/graphs/</link>
-      <pubDate>Mon, 09 Jun 2025 12:08:01 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/graphs/graphs/</guid>
-      <description>&lt;p&gt;Graphs are fundamental data structures in computer science, used to model pairwise relations between objects. They are ubiquitous in applications ranging from social networks and the web to transportation, compiler construction, and bioinformatics.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>The Rise of Vibe Coding and the Future of Programmers</title>
       <link>http://localhost:1313/blog/blog/opinions/vibe-coding/</link>
@@ -231,6 +224,13 @@
       <pubDate>Sat, 04 Jan 2025 09:54:26 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/portals/portal-guidelines/</guid>
       <description>&lt;p&gt;This is the main guidelines and Best Practices for Building a Worpress Portal are recommendations or instructions that offer general direction without imposing strict rules. They provide a framework for making decisions, completing tasks, or achieving objectives in a consistent and effective manner.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Graphs in Computer Science: Theory, Algorithms, and Applications</title>
+      <link>http://localhost:1313/blog/blog/graphs/graphs/</link>
+      <pubDate>Sun, 09 Jun 2024 12:08:01 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/graphs/graphs/</guid>
+      <description>&lt;p&gt;Graphs are fundamental data structures in computer science, used to model pairwise relations between objects. They are ubiquitous in applications ranging from social networks and the web to transportation, compiler construction, and bioinformatics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Case for Hexagonal Architecture in a Fragmented Development World</title>
