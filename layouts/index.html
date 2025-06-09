@@ -111,9 +111,22 @@
                               fill="currentColor" />
                           </svg>
                         </div>
+                          <h4 class="mb-3">
+                            <a href="{{ .button.link | absURL }}">
+                              {{ .title }}
+                            </a>
+                          </h4>
                         <blockquote class="mt-8">
                           {{ .content | markdownify }}
                         </blockquote>
+                          {{ with .button }}
+                            {{ if .enable }}
+                              <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+                                {{ .label }}
+                                <i class="fa fa-arrow-right pl-2"></i>
+                              </a>
+                            {{ end }}
+                          {{ end }}
                         <div class="mt-11 flex items-center">
                           <div class="text-text-dark dark:text-white">
                             {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}

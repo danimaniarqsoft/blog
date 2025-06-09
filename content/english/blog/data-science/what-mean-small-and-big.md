@@ -2,7 +2,7 @@
 title: "How to Determine If a Dataset Is Small or Big"
 meta_title: "How to Determine If a Dataset Is Small or Big"
 description: "this is meta description"
-date: 2025-06-07T22:30:21-06:00
+date: 2025-01-07T22:30:21-06:00
 image: "/images/posts/data-science/image.png"
 categories: ["Data Science"]
 author: "Daniel Pichardo"

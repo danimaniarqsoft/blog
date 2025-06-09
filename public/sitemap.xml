@@ -3,55 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
+    <lastmod>2025-06-08T17:55:17-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
+    <lastmod>2025-06-08T17:55:17-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
-    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
+    <lastmod>2025-06-08T17:55:17-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/git/</loc>
-    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/guidelines/</loc>
-    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/guidelines/git-revert-commits/</loc>
-    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2025-06-08T00:34:01-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/guidelines/git-troubleshooting/</loc>
-    <lastmod>2025-06-08T00:10:09-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/troubleshooting/</loc>
-    <lastmod>2025-06-08T00:10:09-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/guidelines/git/</loc>
-    <lastmod>2025-06-08T00:02:44-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/data-science/</loc>
-    <lastmod>2025-06-07T22:30:21-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/data-science/</loc>
-    <lastmod>2025-06-07T22:30:21-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</loc>
-    <lastmod>2025-06-07T22:30:21-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/data-science/measure-dispersion/</loc>
-    <lastmod>2025-06-07T22:19:33-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</loc>
-    <lastmod>2025-06-07T22:06:23-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/descriptive-analysis/</loc>
-    <lastmod>2025-06-07T22:06:23-06:00</lastmod>
+    <loc>http://localhost:1313/blog/tags/hexagonal-architecture/</loc>
+    <lastmod>2025-06-08T17:55:17-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/opinion/</loc>
-    <lastmod>2025-06-05T20:53:28-06:00</lastmod>
+    <lastmod>2025-06-08T17:55:17-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-06-08T17:55:17-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/opinions/hexagonal-architecture/</loc>
+    <lastmod>2025-06-08T17:55:17-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/opinion/</loc>
     <lastmod>2025-06-05T20:53:28-06:00</lastmod>
@@ -182,6 +152,18 @@
     <loc>http://localhost:1313/blog/blog/latex/latex-timeline/</loc>
     <lastmod>2025-04-22T21:21:54-08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/blog/routines/toeic-prep-custom-plan/</loc>
+    <lastmod>2025-03-18T19:47:35-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/data-science/</loc>
+    <lastmod>2025-03-07T22:06:23-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</loc>
+    <lastmod>2025-03-07T22:06:23-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/descriptive-analysis/</loc>
+    <lastmod>2025-03-07T22:06:23-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/tags/generative-ai/</loc>
     <lastmod>2025-02-19T21:21:54-08:00</lastmod>
   </url><url>
@@ -206,6 +188,21 @@
     <loc>http://localhost:1313/blog/categories/security/</loc>
     <lastmod>2025-02-18T04:14:54-08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/blog/opinions/agile-vs-traditional-software-methods/</loc>
+    <lastmod>2025-02-08T17:47:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/software-development/</loc>
+    <lastmod>2025-02-08T17:47:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/data-science/</loc>
+    <lastmod>2025-02-07T22:19:33-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-science/measure-dispersion/</loc>
+    <lastmod>2025-02-07T22:19:33-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</loc>
+    <lastmod>2025-01-07T22:30:21-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/categories/portal/</loc>
     <lastmod>2025-01-04T09:54:26-06:00</lastmod>
   </url><url>
@@ -214,6 +211,24 @@
   </url><url>
     <loc>http://localhost:1313/blog/tags/wordpress/</loc>
     <lastmod>2025-01-04T09:54:26-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/git/</loc>
+    <lastmod>2024-06-08T00:34:01-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/guidelines/</loc>
+    <lastmod>2024-06-08T00:34:01-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/guidelines/git-revert-commits/</loc>
+    <lastmod>2024-06-08T00:34:01-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/guidelines/git-troubleshooting/</loc>
+    <lastmod>2024-06-08T00:10:09-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/troubleshooting/</loc>
+    <lastmod>2024-06-08T00:10:09-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/guidelines/git/</loc>
+    <lastmod>2024-06-08T00:02:44-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/topics/java-best-practices/</loc>
   </url><url>

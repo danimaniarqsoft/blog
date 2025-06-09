@@ -6,50 +6,8 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Jun 2025 00:34:01 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 20:53:28 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to Revert Commits in Git</title>
-      <link>http://localhost:1313/blog/blog/guidelines/git-revert-commits/</link>
-      <pubDate>Sun, 08 Jun 2025 00:34:01 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/guidelines/git-revert-commits/</guid>
-      <description>&lt;p&gt;In this guide I explain how to revert commits in Git with differents methods.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Git Troubleshooting Guide</title>
-      <link>http://localhost:1313/blog/blog/guidelines/git-troubleshooting/</link>
-      <pubDate>Sun, 08 Jun 2025 00:10:09 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/guidelines/git-troubleshooting/</guid>
-      <description>&lt;p&gt;A detailed guide to resolve common Git issues, including merge conflicts, rebase errors, deleting commits, and more.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Git Guidelines with Gitflow &amp; Trunk-Based Development</title>
-      <link>http://localhost:1313/blog/blog/guidelines/git/</link>
-      <pubDate>Sun, 08 Jun 2025 00:02:44 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/guidelines/git/</guid>
-      <description>&lt;p&gt;A detailed guide Git issues, including Git Flow and Trunk-Based development&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to Determine If a Dataset Is Small or Big</title>
-      <link>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</link>
-      <pubDate>Sat, 07 Jun 2025 22:30:21 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</guid>
-      <description>&lt;p&gt;In the data science world, terms like “small dataset” and “big dataset” are commonly used, but surprisingly, they lack universal definitions. Determining whether a dataset is “small” or “big” depends on several contextual factors: the analytical task, the computing environment, and even the underlying structure of the data.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Measures of dispersion</title>
-      <link>http://localhost:1313/blog/blog/data-science/measure-dispersion/</link>
-      <pubDate>Sat, 07 Jun 2025 22:19:33 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/data-science/measure-dispersion/</guid>
-      <description>&lt;p&gt;Measures of dispersion quantify how much data values vary or spread out. Understanding dispersion helps you grasp the &lt;strong&gt;reliability, consistency, and variability&lt;/strong&gt; of data.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Descriptive Analysis: A Comprehensive Guide</title>
-      <link>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</link>
-      <pubDate>Sat, 07 Jun 2025 22:06:23 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</guid>
-      <description>&lt;p&gt;Descriptive analysis is a fundamental aspect of data analysis, focused on summarizing historical data to better understand what has happened. It involves organizing, visualizing, and summarizing data in meaningful ways.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>The Rise of Vibe Coding and the Future of Programmers</title>
       <link>http://localhost:1313/blog/blog/opinions/vibe-coding/</link>
@@ -191,6 +149,20 @@
       <description>&lt;p&gt;In this post we explain how to create a simple timeline using latex&lt;/p&gt;</description>
     </item>
     <item>
+      <title>TOEIC Preparation Guide &amp; Custom Study Plan</title>
+      <link>http://localhost:1313/blog/blog/routines/toeic-prep-custom-plan/</link>
+      <pubDate>Tue, 18 Mar 2025 19:47:35 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/routines/toeic-prep-custom-plan/</guid>
+      <description>&lt;h1 id=&#34;toeic-preparation-guide--custom-study-plan&#34;&gt;TOEIC Preparation Guide &amp;amp; Custom Study Plan&lt;/h1&gt;&#xA;&lt;p&gt;This document provides a curated list of the best TOEIC preparation resources and a custom 4-week study plan to help you succeed on the TOEIC exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Descriptive Analysis: A Comprehensive Guide</title>
+      <link>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</link>
+      <pubDate>Fri, 07 Mar 2025 22:06:23 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</guid>
+      <description>&lt;p&gt;Descriptive analysis is a fundamental aspect of data analysis, focused on summarizing historical data to better understand what has happened. It involves organizing, visualizing, and summarizing data in meaningful ways.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>How to add timestamp in each page</title>
       <link>http://localhost:1313/blog/blog/latex/add-timestamp/</link>
       <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
@@ -219,11 +191,60 @@
       <description>&lt;p&gt;A &lt;strong&gt;JSON Web Token (JWT)&lt;/strong&gt; is an open standard &lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc7519&#34;&#xA;&#xA;&#xA;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &#xA;&#xA;&#xA;&gt;RFC 7519&lt;/a&gt; for securely transmitting information between parties as a &lt;strong&gt;JSON object&lt;/strong&gt;. This information can be verified and trusted because it is digitally signed.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Measures of dispersion</title>
+      <link>http://localhost:1313/blog/blog/data-science/measure-dispersion/</link>
+      <pubDate>Fri, 07 Feb 2025 22:19:33 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-science/measure-dispersion/</guid>
+      <description>&lt;p&gt;Measures of dispersion quantify how much data values vary or spread out. Understanding dispersion helps you grasp the &lt;strong&gt;reliability, consistency, and variability&lt;/strong&gt; of data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Determine If a Dataset Is Small or Big</title>
+      <link>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</link>
+      <pubDate>Tue, 07 Jan 2025 22:30:21 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</guid>
+      <description>&lt;p&gt;In the data science world, terms like “small dataset” and “big dataset” are commonly used, but surprisingly, they lack universal definitions. Determining whether a dataset is “small” or “big” depends on several contextual factors: the analytical task, the computing environment, and even the underlying structure of the data.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Portal Guidelines</title>
       <link>http://localhost:1313/blog/blog/portals/portal-guidelines/</link>
       <pubDate>Sat, 04 Jan 2025 09:54:26 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/portals/portal-guidelines/</guid>
       <description>&lt;p&gt;This is the main guidelines and Best Practices for Building a Worpress Portal are recommendations or instructions that offer general direction without imposing strict rules. They provide a framework for making decisions, completing tasks, or achieving objectives in a consistent and effective manner.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Case for Hexagonal Architecture in a Fragmented Development World</title>
+      <link>http://localhost:1313/blog/blog/opinions/hexagonal-architecture/</link>
+      <pubDate>Sat, 08 Jun 2024 17:55:17 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/opinions/hexagonal-architecture/</guid>
+      <description>&lt;p&gt;Software development today is defined by paradoxes. Agile vs. traditional. Monoliths vs. microservices. Speed vs. stability. Amidst these tensions, teams search for structures that scale, patterns that last, and architectures that do more than just survive change—they thrive in it. Enter Hexagonal Architecture, also known as Ports and Adapters.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Revert Commits in Git</title>
+      <link>http://localhost:1313/blog/blog/guidelines/git-revert-commits/</link>
+      <pubDate>Sat, 08 Jun 2024 00:34:01 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/guidelines/git-revert-commits/</guid>
+      <description>&lt;p&gt;In this guide I explain how to revert commits in Git with differents methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git Troubleshooting Guide</title>
+      <link>http://localhost:1313/blog/blog/guidelines/git-troubleshooting/</link>
+      <pubDate>Sat, 08 Jun 2024 00:10:09 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/guidelines/git-troubleshooting/</guid>
+      <description>&lt;p&gt;A detailed guide to resolve common Git issues, including merge conflicts, rebase errors, deleting commits, and more.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git Guidelines with Gitflow &amp; Trunk-Based Development</title>
+      <link>http://localhost:1313/blog/blog/guidelines/git/</link>
+      <pubDate>Sat, 08 Jun 2024 00:02:44 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/guidelines/git/</guid>
+      <description>&lt;p&gt;A detailed guide Git issues, including Git Flow and Trunk-Based development&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Beyond the Buzzwords: Rethinking the Software Development Process</title>
+      <link>http://localhost:1313/blog/blog/opinions/agile-vs-traditional-software-methods/</link>
+      <pubDate>Thu, 09 May 2024 17:47:41 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/opinions/agile-vs-traditional-software-methods/</guid>
+      <description>&lt;p&gt;In the realm of software development, few debates have endured as long—or burned as fiercely—as the one between traditional methodologies and agile practices. For decades, the question of how best to build software has oscillated between rigor and flexibility, planning and iteration, structure and flow. Yet in 2025, this dichotomy feels increasingly obsolete.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Daniel Pichardo</title>
