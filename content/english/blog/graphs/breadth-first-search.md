@@ -2,11 +2,11 @@
 title: "Breadth-First Search (BFS) Algorithm"
 meta_title: "Breadth-First Search"
 description: "Breadth-First Search (BFS) Algorithm"
-date: 2025-06-10T22:56:05-06:00
+date: 2025-03-10T22:56:05-06:00
 image: "/images/posts/graphs/breadth-first-search.png"
 categories: ["Graphs"]
 author: "Daniel Pichardo"
-tags: ["breadth-first-search"]
+tags: ["breadth-first-search", "graph-traversal"]
 draft: false
 ---
 
