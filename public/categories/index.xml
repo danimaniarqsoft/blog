@@ -6,15 +6,8 @@
     <description>Recent content in Categories on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jun 2025 23:32:02 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 20:53:28 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Graphs</title>
-      <link>http://localhost:1313/blog/categories/graphs/</link>
-      <pubDate>Tue, 10 Jun 2025 23:32:02 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/graphs/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Opinion</title>
       <link>http://localhost:1313/blog/categories/opinion/</link>
@@ -62,6 +55,13 @@
       <link>http://localhost:1313/blog/categories/latex/</link>
       <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
       <guid>http://localhost:1313/blog/categories/latex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphs</title>
+      <link>http://localhost:1313/blog/categories/graphs/</link>
+      <pubDate>Mon, 10 Mar 2025 22:56:05 -0600</pubDate>
+      <guid>http://localhost:1313/blog/categories/graphs/</guid>
       <description></description>
     </item>
     <item>

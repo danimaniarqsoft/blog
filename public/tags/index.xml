@@ -6,29 +6,8 @@
     <description>Recent content in Tags on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jun 2025 23:32:02 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 20:53:28 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Depth-First-Search</title>
-      <link>http://localhost:1313/blog/tags/depth-first-search/</link>
-      <pubDate>Tue, 10 Jun 2025 23:32:02 -0600</pubDate>
-      <guid>http://localhost:1313/blog/tags/depth-first-search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Graph-Traversal</title>
-      <link>http://localhost:1313/blog/tags/graph-traversal/</link>
-      <pubDate>Tue, 10 Jun 2025 23:32:02 -0600</pubDate>
-      <guid>http://localhost:1313/blog/tags/graph-traversal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Breadth-First-Search</title>
-      <link>http://localhost:1313/blog/tags/breadth-first-search/</link>
-      <pubDate>Tue, 10 Jun 2025 22:56:05 -0600</pubDate>
-      <guid>http://localhost:1313/blog/tags/breadth-first-search/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Opinion</title>
       <link>http://localhost:1313/blog/tags/opinion/</link>
@@ -149,6 +128,20 @@
       <description></description>
     </item>
     <item>
+      <title>Breadth-First-Search</title>
+      <link>http://localhost:1313/blog/tags/breadth-first-search/</link>
+      <pubDate>Mon, 10 Mar 2025 22:56:05 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/breadth-first-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graph-Traversal</title>
+      <link>http://localhost:1313/blog/tags/graph-traversal/</link>
+      <pubDate>Mon, 10 Mar 2025 22:56:05 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/graph-traversal/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Descriptive-Analysis</title>
       <link>http://localhost:1313/blog/tags/descriptive-analysis/</link>
       <pubDate>Fri, 07 Mar 2025 22:06:23 -0600</pubDate>
@@ -174,6 +167,13 @@
       <link>http://localhost:1313/blog/tags/jwt/</link>
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
       <guid>http://localhost:1313/blog/tags/jwt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Depth-First-Search</title>
+      <link>http://localhost:1313/blog/tags/depth-first-search/</link>
+      <pubDate>Mon, 10 Feb 2025 23:32:02 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/depth-first-search/</guid>
       <description></description>
     </item>
     <item>

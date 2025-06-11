@@ -1,7 +1,7 @@
 ---
 enable: true
 title: "Main opinions"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate."
+description: "Everyone thinks of changing the world, but no one thinks of changing himself. Leo tolstoy."
 
 # Testimonials
 testimonials:
