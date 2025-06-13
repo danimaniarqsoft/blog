@@ -41,6 +41,9 @@ hugo new content --kind algorithm content/english/blog/algorithm/[FILE_NAME].md
 
 # For software development post
 hugo new content --kind software-development content/english/blog/software-development/[FILE_NAME].md
+
+# For software architecture
+hugo new content --kind software-architecture content/english/blog/software-architecture/[FILE_NAME].md
 ```
 
 ## Blog site
