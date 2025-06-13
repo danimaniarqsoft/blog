@@ -4,6 +4,18 @@
         "prefix": "add-tabs",
         "body": [
             "{{< tabs >}}",
+            "{{< tab \"Title\" >}}",
+            "",
+            "{{< /tab >}}",
+            "{{< /tabs >}}"
+        ],
+        "description": "For generate tabs with python, java and javascript tabs"
+    },
+    "For generate languages tabs": {
+        "scope": "markdown",
+        "prefix": "add-lang-tabs",
+        "body": [
+            "{{< tabs >}}",
             "{{< tab \"Python\" >}}",
             "",
             "{{< /tab >}}",

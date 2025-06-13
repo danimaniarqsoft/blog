@@ -3,25 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-06-12T23:41:02-06:00</lastmod>
+    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-06-12T23:41:02-06:00</lastmod>
+    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</loc>
+    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
-    <lastmod>2025-06-12T23:41:02-06:00</lastmod>
+    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/software-architecture/</loc>
-    <lastmod>2025-06-12T23:41:02-06:00</lastmod>
+    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/software-design/</loc>
-    <lastmod>2025-06-12T23:41:02-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/software-architecture/solid-principles/</loc>
-    <lastmod>2025-06-12T23:41:02-06:00</lastmod>
+    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2025-06-12T23:41:02-06:00</lastmod>
+    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/graphs/</loc>
     <lastmod>2025-06-12T16:19:16-06:00</lastmod>
@@ -232,6 +232,9 @@
   </url><url>
     <loc>http://localhost:1313/blog/tags/team-topologies/</loc>
     <lastmod>2025-01-17T11:43:32-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-architecture/solid-principles/</loc>
+    <lastmod>2025-01-12T23:41:02-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/software-development/scrum-metrics/</loc>
     <lastmod>2025-01-09T11:53:11-06:00</lastmod>

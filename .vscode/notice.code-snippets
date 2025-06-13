@@ -1,0 +1,12 @@
+{
+    "For generate default notice": {
+        "scope": "markdown",
+        "prefix": "add-notice",
+        "body": [
+            "{{< notice \"${1|note,tip,info,warning|}\" >}}",
+            "",
+            "{{< /notice >}}"
+        ],
+        "description": "For generate notices of type note, tip, info and warning"
+    }
+}

@@ -6,14 +6,14 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Jun 2025 23:41:02 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jun 2025 08:57:37 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SOLID Principles in Software Architecture</title>
-      <link>http://localhost:1313/blog/blog/software-architecture/solid-principles/</link>
-      <pubDate>Thu, 12 Jun 2025 23:41:02 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/software-architecture/solid-principles/</guid>
-      <description>&lt;p&gt;In the field of software architecture and engineering, the SOLID principles provide a foundational framework for creating robust, scalable, and maintainable systems. These principles help reduce coupling, improve cohesion, and make codebases easier to test and evolve.&lt;/p&gt;</description>
+      <title>Clean Architecture: Building Robust and Maintainable Software</title>
+      <link>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</link>
+      <pubDate>Fri, 13 Jun 2025 08:57:37 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</guid>
+      <description>&lt;p&gt;In the ever-evolving landscape of software development, building applications that are not only functional but also adaptable, testable, and maintainable is paramount. This is where &lt;strong&gt;Clean Architecture&lt;/strong&gt; comes into play. More than just a set of rules, Clean Architecture is a philosophy that guides the structuring of software systems to ensure they remain flexible and resilient in the face of changing requirements. It emphasizes the &lt;strong&gt;separation of concerns&lt;/strong&gt;, allowing different parts of the system to evolve independently without impacting the core business logic. This article will delve into the intricacies of Clean Architecture, exploring its history, core principles with real-world examples, and practical implementations across various programming languages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Shortest Path Using Dijkstra&#39;s Algorithm</title>
@@ -231,6 +231,13 @@
       <pubDate>Fri, 17 Jan 2025 11:43:32 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Scrum&lt;/strong&gt; is an &lt;strong&gt;agile framework&lt;/strong&gt; for developing, delivering, and sustaining complex products. It emphasizes &lt;strong&gt;empirical process control&lt;/strong&gt;, &lt;strong&gt;collaboration&lt;/strong&gt;, &lt;strong&gt;accountability&lt;/strong&gt;, and &lt;strong&gt;iterative progress&lt;/strong&gt;. Scrum divides work into &lt;strong&gt;Sprints&lt;/strong&gt;—time-boxed iterations—where teams produce potentially shippable product increments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SOLID Principles in Software Architecture</title>
+      <link>http://localhost:1313/blog/blog/software-architecture/solid-principles/</link>
+      <pubDate>Sun, 12 Jan 2025 23:41:02 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-architecture/solid-principles/</guid>
+      <description>&lt;p&gt;In the field of software architecture and engineering, the SOLID principles provide a foundational framework for creating robust, scalable, and maintainable systems. These principles help reduce coupling, improve cohesion, and make codebases easier to test and evolve.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scrum Metrics: Detailed Explanation, Examples, and Best Practices</title>
