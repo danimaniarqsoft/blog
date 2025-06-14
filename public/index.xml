@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Jun 2025 08:57:37 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 14 Jun 2025 00:28:49 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Main concepts to Become a Senior Software Developer</title>
+      <link>http://localhost:1313/blog/blog/software-development/full-software-developer-learning-path/</link>
+      <pubDate>Sat, 14 Jun 2025 00:28:49 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-development/full-software-developer-learning-path/</guid>
+      <description>&lt;p&gt;Below is a comprehensive learning path designed to take you from the basics of programming through advanced topics and soft skills that will help you grow into a senior software developer. Keep in mind that this is a long-term plan (often spanning several years of study and practice), and the timeline may vary based on your previous experience, learning pace, and the time you can dedicate.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Clean Architecture: Building Robust and Maintainable Software</title>
       <link>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</link>
@@ -238,6 +245,13 @@
       <pubDate>Fri, 17 Jan 2025 11:43:32 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Scrum&lt;/strong&gt; is an &lt;strong&gt;agile framework&lt;/strong&gt; for developing, delivering, and sustaining complex products. It emphasizes &lt;strong&gt;empirical process control&lt;/strong&gt;, &lt;strong&gt;collaboration&lt;/strong&gt;, &lt;strong&gt;accountability&lt;/strong&gt;, and &lt;strong&gt;iterative progress&lt;/strong&gt;. Scrum divides work into &lt;strong&gt;Sprints&lt;/strong&gt;—time-boxed iterations—where teams produce potentially shippable product increments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Learning Path to Become a Senior Software Developer</title>
+      <link>http://localhost:1313/blog/blog/software-development/software-developer-learning-path/</link>
+      <pubDate>Tue, 14 Jan 2025 00:04:15 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-development/software-developer-learning-path/</guid>
+      <description>&lt;p&gt;This learning path is designed to guide a developer from the &lt;strong&gt;basics of programming&lt;/strong&gt; to becoming a &lt;strong&gt;senior-level software developer&lt;/strong&gt;, leveraging programs and courses from top online academies (Coursera, edX, Udemy, Pluralsight, LinkedIn Learning, Treehouse, Codecademy, Khan Academy, MIT OpenCourseWare, Harvard CS50, Stanford Online, Georgia Tech OMSCS, MicroMasters by edX, freeCodeCamp, Le Wagon, General Assembly, Springboard, CareerFoundry, Ironhack, Thinkful, Platzi, Código Facilito, KeepCoding, Academind, Domestika, DeepLearning.AI, Fast.ai, DataCamp, AWS Skill Builder, Microsoft Learn, Google Cloud Skills Boost, IBM Skills Network, HackerRank, LeetCode, Exercism, Edabit)&lt;/p&gt;</description>
     </item>
     <item>
       <title>SOLID Principles in Software Architecture</title>

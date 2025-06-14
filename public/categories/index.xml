@@ -6,13 +6,13 @@
     <description>Recent content in Categories on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Jun 2025 20:27:13 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 14 Jun 2025 00:28:49 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Graphs</title>
-      <link>http://localhost:1313/blog/categories/graphs/</link>
-      <pubDate>Fri, 13 Jun 2025 20:27:13 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/graphs/</guid>
+      <title>Software Development</title>
+      <link>http://localhost:1313/blog/categories/software-development/</link>
+      <pubDate>Sat, 14 Jun 2025 00:28:49 -0600</pubDate>
+      <guid>http://localhost:1313/blog/categories/software-development/</guid>
       <description></description>
     </item>
     <item>
@@ -20,6 +20,13 @@
       <link>http://localhost:1313/blog/categories/software-architecture/</link>
       <pubDate>Fri, 13 Jun 2025 08:57:37 -0600</pubDate>
       <guid>http://localhost:1313/blog/categories/software-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphs</title>
+      <link>http://localhost:1313/blog/categories/graphs/</link>
+      <pubDate>Thu, 12 Jun 2025 16:19:16 -0600</pubDate>
+      <guid>http://localhost:1313/blog/categories/graphs/</guid>
       <description></description>
     </item>
     <item>
@@ -83,13 +90,6 @@
       <link>http://localhost:1313/blog/categories/security/</link>
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
       <guid>http://localhost:1313/blog/categories/security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Development</title>
-      <link>http://localhost:1313/blog/categories/software-development/</link>
-      <pubDate>Fri, 17 Jan 2025 11:43:32 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/software-development/</guid>
       <description></description>
     </item>
     <item>

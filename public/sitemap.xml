@@ -3,25 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/graphs/bellman-ford-algorithm/</loc>
-    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
+    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
+    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
-    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
+    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/graphs/</loc>
-    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
+    <loc>http://localhost:1313/blog/tags/learning-path/</loc>
+    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/shortest-path/</loc>
-    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
+    <loc>http://localhost:1313/blog/blog/software-development/full-software-developer-learning-path/</loc>
+    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/software-development/</loc>
+    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/software-development/</loc>
+    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
+    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-development/software-developer-learning-path/</loc>
+    <lastmod>2025-06-14T00:04:15-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/software-process/</loc>
+    <lastmod>2025-06-14T00:04:15-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</loc>
     <lastmod>2025-06-13T08:57:37-06:00</lastmod>
@@ -32,7 +41,13 @@
     <loc>http://localhost:1313/blog/tags/software-design/</loc>
     <lastmod>2025-06-13T08:57:37-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/categories/graphs/</loc>
+    <lastmod>2025-06-12T16:19:16-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/blog/graphs/dijkstra-algorithm/</loc>
+    <lastmod>2025-06-12T16:19:16-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/shortest-path/</loc>
     <lastmod>2025-06-12T16:19:16-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/opinion/</loc>
@@ -61,6 +76,9 @@
   </url><url>
     <loc>http://localhost:1313/blog/blog/data-structures/hash-tables/</loc>
     <lastmod>2025-06-02T13:05:33-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/graphs/bellman-ford-algorithm/</loc>
+    <lastmod>2025-06-01T20:27:13-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/data-structures/trie/</loc>
     <lastmod>2025-05-31T14:33:36-06:00</lastmod>
@@ -230,9 +248,6 @@
     <loc>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</loc>
     <lastmod>2025-01-17T11:43:32-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/software-development/</loc>
-    <lastmod>2025-01-17T11:43:32-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/tags/team-topologies/</loc>
     <lastmod>2025-01-17T11:43:32-06:00</lastmod>
   </url><url>
@@ -288,9 +303,6 @@
     <lastmod>2024-06-08T00:02:44-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/opinions/agile-vs-traditional-software-methods/</loc>
-    <lastmod>2024-05-09T17:47:41-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/software-development/</loc>
     <lastmod>2024-05-09T17:47:41-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/topics/java-best-practices/</loc>
