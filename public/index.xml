@@ -51,6 +51,13 @@
       <description>&lt;p&gt;A &lt;strong&gt;hash table&lt;/strong&gt; (also known as a &lt;strong&gt;hash map&lt;/strong&gt;) is a data structure that provides an efficient way of storing and retrieving data using a key-value pair model. The efficiency of hash tables lies in their ability to provide constant time complexity \(\mathcal{O}(1)\), on average, for insertion, deletion, and lookup operations.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Bellman-Ford Algorithm for Shortest Path</title>
+      <link>http://localhost:1313/blog/blog/graphs/bellman-ford-algorithm/</link>
+      <pubDate>Sun, 01 Jun 2025 20:27:13 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/graphs/bellman-ford-algorithm/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;Bellman-Ford algorithm&lt;/strong&gt; is a fundamental single-source shortest path algorithm used in graph theory. Unlike Dijkstra&amp;rsquo;s algorithm, Bellman-Ford can handle graphs with &lt;strong&gt;negative weight edges&lt;/strong&gt;, making it versatile for a broader class of problems. It was first proposed by Richard Bellman and Lester Ford in 1958.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Trie Data Structure</title>
       <link>http://localhost:1313/blog/blog/data-structures/trie/</link>
       <pubDate>Sat, 31 May 2025 14:33:36 -0600</pubDate>

@@ -3,15 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
+    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/graphs/bellman-ford-algorithm/</loc>
+    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</loc>
-    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
+    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
+    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/graphs/</loc>
+    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/shortest-path/</loc>
+    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-06-13T20:27:13-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</loc>
     <lastmod>2025-06-13T08:57:37-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/software-architecture/</loc>
@@ -20,16 +32,7 @@
     <loc>http://localhost:1313/blog/tags/software-design/</loc>
     <lastmod>2025-06-13T08:57:37-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/graphs/</loc>
-    <lastmod>2025-06-12T16:19:16-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/blog/graphs/dijkstra-algorithm/</loc>
-    <lastmod>2025-06-12T16:19:16-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/shortest-path/</loc>
     <lastmod>2025-06-12T16:19:16-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/opinion/</loc>

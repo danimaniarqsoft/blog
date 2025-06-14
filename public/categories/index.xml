@@ -6,20 +6,20 @@
     <description>Recent content in Categories on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Jun 2025 08:57:37 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jun 2025 20:27:13 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graphs</title>
+      <link>http://localhost:1313/blog/categories/graphs/</link>
+      <pubDate>Fri, 13 Jun 2025 20:27:13 -0600</pubDate>
+      <guid>http://localhost:1313/blog/categories/graphs/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Software Architecture</title>
       <link>http://localhost:1313/blog/categories/software-architecture/</link>
       <pubDate>Fri, 13 Jun 2025 08:57:37 -0600</pubDate>
       <guid>http://localhost:1313/blog/categories/software-architecture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Graphs</title>
-      <link>http://localhost:1313/blog/categories/graphs/</link>
-      <pubDate>Thu, 12 Jun 2025 16:19:16 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/graphs/</guid>
       <description></description>
     </item>
     <item>
