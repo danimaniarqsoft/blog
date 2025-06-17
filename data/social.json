@@ -1,13 +1,8 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/"
-    },
-    {
-      "name": "twitter",
-      "icon": "fab fa-twitter",
+      "name": "X",
+      "icon": "fab fa-x",
       "link": "https://twitter.com/"
     },
     {

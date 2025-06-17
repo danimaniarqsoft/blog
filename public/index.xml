@@ -6,21 +6,14 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jun 2025 11:07:24 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jun 2025 11:32:41 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Java Developer Expert Learning Path</title>
-      <link>http://localhost:1313/blog/blog/learning-paths/java/</link>
-      <pubDate>Sat, 14 Jun 2025 11:07:24 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/learning-paths/java/</guid>
-      <description>&lt;p&gt;Here’s a comprehensive learning path to become a Java Developer Expert, organized in levels from beginner to expert. This path includes core concepts, frameworks, best practices, tools, and specialization areas.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Main concepts to Become a Senior Software Developer</title>
-      <link>http://localhost:1313/blog/blog/learning-paths/full-software-developer-learning-path/</link>
-      <pubDate>Sat, 14 Jun 2025 00:28:49 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/learning-paths/full-software-developer-learning-path/</guid>
-      <description>&lt;p&gt;Below is a comprehensive learning path designed to take you from the basics of programming through advanced topics and soft skills that will help you grow into a senior software developer. Keep in mind that this is a long-term plan (often spanning several years of study and practice), and the timeline may vary based on your previous experience, learning pace, and the time you can dedicate.&lt;/p&gt;</description>
+      <title>Core Concepts of System Design</title>
+      <link>http://localhost:1313/blog/blog/software-architecture/system-design-concepts/</link>
+      <pubDate>Tue, 17 Jun 2025 11:32:41 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-architecture/system-design-concepts/</guid>
+      <description>&lt;p&gt;System design is a foundational skill in software engineering that encompasses the architectural structuring of complex systems to meet specified requirements for scalability, performance, reliability, and maintainability. It addresses both the high-level organization of systems (architectural design) and low-level components (detailed design), bridging the gap between theoretical principles and practical implementation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clean Architecture: Building Robust and Maintainable Software</title>
@@ -175,6 +168,20 @@
       <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
       <guid>http://localhost:1313/blog/blog/latex/latex-timeline/</guid>
       <description>&lt;p&gt;In this post we explain how to create a simple timeline using latex&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java Developer Expert Learning Path</title>
+      <link>http://localhost:1313/blog/blog/learning-paths/java/</link>
+      <pubDate>Fri, 14 Mar 2025 11:07:24 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/learning-paths/java/</guid>
+      <description>&lt;p&gt;Here’s a comprehensive learning path to become a Java Developer Expert, organized in levels from beginner to expert. This path includes core concepts, frameworks, best practices, tools, and specialization areas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Main concepts to Become a Senior Software Developer</title>
+      <link>http://localhost:1313/blog/blog/learning-paths/full-software-developer-learning-path/</link>
+      <pubDate>Fri, 14 Mar 2025 00:28:49 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/learning-paths/full-software-developer-learning-path/</guid>
+      <description>&lt;p&gt;Below is a comprehensive learning path designed to take you from the basics of programming through advanced topics and soft skills that will help you grow into a senior software developer. Keep in mind that this is a long-term plan (often spanning several years of study and practice), and the timeline may vary based on your previous experience, learning pace, and the time you can dedicate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Breadth-First Search (BFS) Algorithm</title>

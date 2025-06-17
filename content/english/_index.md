@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The diaries of a software developer"
-  content: "Welcome to a software development blog dedicated to sharing insights, tutorials, and experiences from the world of modern software engineering with artificial intelligence."
+  title: "The Diaries of a Tech Leader"
+  content: "Welcome to a software development blog dedicated to sharing insights, tutorials, and experiences from the world of modern software engineering and artificial intelligence."
   image: "/images/banner.png"
   button:
     enable: true

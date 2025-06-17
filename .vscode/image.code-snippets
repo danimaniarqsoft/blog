@@ -1,0 +1,10 @@
+{
+    "For add image": {
+        "scope": "markdown",
+        "prefix": "add-image",
+        "body": [
+            "{{< image src=\"images/posts/${1}\" caption=\"${2}\" alt=\"${3}\" height=\"\" width=\"\" position=\"center\" command=\"fill\" option=\"q100\" class=\"img-fluid\" title=\"${4}\"  webp=\"false\" >}}",
+        ],
+        "description": "For generate tabs with python, java and javascript tabs"
+    }
+}
