@@ -7,7 +7,7 @@ image: "/images/posts/software-development/learning-path.png"
 categories: ["Learning paths"]
 author: "Daniel Pichardo"
 tags: ["software-development"]
-draft: true
+draft: false
 ---
 
 Below is a comprehensive learning path designed to take you from the basics of programming through advanced topics and soft skills that will help you grow into a senior software developer. Keep in mind that this is a long-term plan (often spanning several years of study and practice), and the timeline may vary based on your previous experience, learning pace, and the time you can dedicate.

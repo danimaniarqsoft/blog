@@ -7,7 +7,7 @@ image: "/images/posts/learning-paths/image.png"
 categories: ["Learning paths"]
 author: "Daniel Pichardo"
 tags: ["java"]
-draft: true
+draft: false
 ---
 
 Here’s a comprehensive learning path to become a Java Developer Expert, organized in levels from beginner to expert. This path includes core concepts, frameworks, best practices, tools, and specialization areas.
