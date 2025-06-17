@@ -2,9 +2,9 @@
 title: "TOEIC Preparation Guide & Custom Study Plan"
 meta_title: "TOEIC Preparation Guide"
 description: "this is meta description"
-date: 2025-03-18T19:47:35-06:00
+date: 2024-03-18T19:47:35-06:00
 image: "/images/posts/toeic.png"
-categories: ["Routines"]
+categories: ["Learning paths"]
 author: "Daniel Pichardo"
 tags: ["toeic"]
 draft: false

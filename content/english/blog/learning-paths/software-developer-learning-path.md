@@ -4,9 +4,9 @@ meta_title: "Learning Path to Become a Senior Software Developer"
 description: "this is meta description"
 date: 2025-01-14T00:04:15-06:00
 image: "/images/posts/software-development/learning-path.png"
-categories: ["Software development"]
+categories: ["Learning paths"]
 author: "Daniel Pichardo"
-tags: ["software-process","learning-path"]
+tags: ["software-development"]
 draft: false
 ---
 
@@ -168,5 +168,3 @@ This learning path is designed to guide a developer from the **basics of program
 * Courses can be taken sequentially or in parallel based on your schedule.
 * Combine theoretical learning with projects and algorithm practice.
 * Use platforms like GitHub to build a strong portfolio.
-
-Would you like this path mapped visually or exported to CSV or PDF?

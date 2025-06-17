@@ -3,34 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
+    <lastmod>2025-06-14T11:07:24-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
+    <lastmod>2025-06-14T11:07:24-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
-    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
+    <lastmod>2025-06-14T11:07:24-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/learning-path/</loc>
-    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
+    <loc>http://localhost:1313/blog/tags/java/</loc>
+    <lastmod>2025-06-14T11:07:24-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/software-development/full-software-developer-learning-path/</loc>
-    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
+    <loc>http://localhost:1313/blog/blog/learning-paths/java/</loc>
+    <lastmod>2025-06-14T11:07:24-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/software-development/</loc>
+    <loc>http://localhost:1313/blog/categories/learning-paths/</loc>
+    <lastmod>2025-06-14T11:07:24-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-06-14T11:07:24-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/learning-paths/full-software-developer-learning-path/</loc>
     <lastmod>2025-06-14T00:28:49-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/software-development/</loc>
     <lastmod>2025-06-14T00:28:49-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2025-06-14T00:28:49-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/software-development/software-developer-learning-path/</loc>
-    <lastmod>2025-06-14T00:04:15-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/software-process/</loc>
-    <lastmod>2025-06-14T00:04:15-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</loc>
     <lastmod>2025-06-13T08:57:37-06:00</lastmod>
@@ -86,9 +83,6 @@
     <loc>http://localhost:1313/blog/categories/algorithms/</loc>
     <lastmod>2025-05-31T13:29:26-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/java/</loc>
-    <lastmod>2025-05-31T13:29:26-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/tags/javascript/</loc>
     <lastmod>2025-05-31T13:29:26-06:00</lastmod>
   </url><url>
@@ -130,15 +124,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/blog/algorithms/sort/merge-sort/</loc>
     <lastmod>2025-05-19T10:14:35-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/routines/toeic-prep/</loc>
-    <lastmod>2025-05-18T19:47:35-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/routines/</loc>
-    <lastmod>2025-05-18T19:47:35-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/toeic/</loc>
-    <lastmod>2025-05-18T19:47:35-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/algorithms/sort/heap-sort/</loc>
     <lastmod>2025-05-18T12:19:20-06:00</lastmod>
@@ -184,9 +169,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/blog/latex/latex-timeline/</loc>
     <lastmod>2025-04-22T21:21:54-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/routines/toeic-prep-custom-plan/</loc>
-    <lastmod>2025-03-18T19:47:35-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/graphs/breadth-first-search/</loc>
     <lastmod>2025-03-10T22:56:05-06:00</lastmod>
@@ -248,8 +230,14 @@
     <loc>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</loc>
     <lastmod>2025-01-17T11:43:32-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/categories/software-development/</loc>
+    <lastmod>2025-01-17T11:43:32-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/tags/team-topologies/</loc>
     <lastmod>2025-01-17T11:43:32-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/learning-paths/software-developer-learning-path/</loc>
+    <lastmod>2025-01-14T00:04:15-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/software-architecture/solid-principles/</loc>
     <lastmod>2025-01-12T23:41:02-06:00</lastmod>
@@ -302,8 +290,17 @@
     <loc>http://localhost:1313/blog/blog/guidelines/git/</loc>
     <lastmod>2024-06-08T00:02:44-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/blog/learning-paths/toeic-prep/</loc>
+    <lastmod>2024-05-18T19:47:35-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/toeic/</loc>
+    <lastmod>2024-05-18T19:47:35-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/blog/opinions/agile-vs-traditional-software-methods/</loc>
     <lastmod>2024-05-09T17:47:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/learning-paths/toeic-prep-custom-plan/</loc>
+    <lastmod>2024-03-18T19:47:35-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/topics/java-best-practices/</loc>
   </url><url>

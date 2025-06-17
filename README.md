@@ -44,6 +44,9 @@ hugo new content --kind software-development content/english/blog/software-devel
 
 # For software architecture
 hugo new content --kind software-architecture content/english/blog/software-architecture/[FILE_NAME].md
+
+# For learning paths
+hugo new content --kind learning-paths content/english/blog/learning-paths/[FILE_NAME].md
 ```
 
 ## Blog site

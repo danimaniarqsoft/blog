@@ -6,13 +6,20 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jun 2025 00:28:49 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 14 Jun 2025 11:07:24 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Java Developer Expert Learning Path</title>
+      <link>http://localhost:1313/blog/blog/learning-paths/java/</link>
+      <pubDate>Sat, 14 Jun 2025 11:07:24 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/learning-paths/java/</guid>
+      <description>&lt;p&gt;Here’s a comprehensive learning path to become a Java Developer Expert, organized in levels from beginner to expert. This path includes core concepts, frameworks, best practices, tools, and specialization areas.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Main concepts to Become a Senior Software Developer</title>
-      <link>http://localhost:1313/blog/blog/software-development/full-software-developer-learning-path/</link>
+      <link>http://localhost:1313/blog/blog/learning-paths/full-software-developer-learning-path/</link>
       <pubDate>Sat, 14 Jun 2025 00:28:49 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/software-development/full-software-developer-learning-path/</guid>
+      <guid>http://localhost:1313/blog/blog/learning-paths/full-software-developer-learning-path/</guid>
       <description>&lt;p&gt;Below is a comprehensive learning path designed to take you from the basics of programming through advanced topics and soft skills that will help you grow into a senior software developer. Keep in mind that this is a long-term plan (often spanning several years of study and practice), and the timeline may vary based on your previous experience, learning pace, and the time you can dedicate.&lt;/p&gt;</description>
     </item>
     <item>
@@ -114,13 +121,6 @@
       <description>&lt;p&gt;Merge Sort is a classical divide-and-conquer algorithm that efficiently sorts an array by recursively dividing it into two halves, sorting them independently, and then merging the sorted halves. It is one of the fundamental algorithms in computer science, often discussed in depth in books such as &lt;em&gt;Introduction to Algorithms&lt;/em&gt; by Thomas H. Cormen et al.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Daily TOEIC Preparation Routine</title>
-      <link>http://localhost:1313/blog/blog/routines/toeic-prep/</link>
-      <pubDate>Sun, 18 May 2025 19:47:35 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/routines/toeic-prep/</guid>
-      <description>&lt;p&gt;A structured routine to prepare for the TOEIC exam, ideally over 4–8 weeks, with 1.5 to 2 hours of daily practice.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Heap Sort Algorithm</title>
       <link>http://localhost:1313/blog/blog/algorithms/sort/heap-sort/</link>
       <pubDate>Sun, 18 May 2025 12:19:20 -0600</pubDate>
@@ -175,13 +175,6 @@
       <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
       <guid>http://localhost:1313/blog/blog/latex/latex-timeline/</guid>
       <description>&lt;p&gt;In this post we explain how to create a simple timeline using latex&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>TOEIC Preparation Guide &amp; Custom Study Plan</title>
-      <link>http://localhost:1313/blog/blog/routines/toeic-prep-custom-plan/</link>
-      <pubDate>Tue, 18 Mar 2025 19:47:35 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/routines/toeic-prep-custom-plan/</guid>
-      <description>&lt;h1 id=&#34;toeic-preparation-guide--custom-study-plan&#34;&gt;TOEIC Preparation Guide &amp;amp; Custom Study Plan&lt;/h1&gt;&#xA;&lt;p&gt;This document provides a curated list of the best TOEIC preparation resources and a custom 4-week study plan to help you succeed on the TOEIC exam.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Breadth-First Search (BFS) Algorithm</title>
@@ -248,9 +241,9 @@
     </item>
     <item>
       <title>Learning Path to Become a Senior Software Developer</title>
-      <link>http://localhost:1313/blog/blog/software-development/software-developer-learning-path/</link>
+      <link>http://localhost:1313/blog/blog/learning-paths/software-developer-learning-path/</link>
       <pubDate>Tue, 14 Jan 2025 00:04:15 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/software-development/software-developer-learning-path/</guid>
+      <guid>http://localhost:1313/blog/blog/learning-paths/software-developer-learning-path/</guid>
       <description>&lt;p&gt;This learning path is designed to guide a developer from the &lt;strong&gt;basics of programming&lt;/strong&gt; to becoming a &lt;strong&gt;senior-level software developer&lt;/strong&gt;, leveraging programs and courses from top online academies (Coursera, edX, Udemy, Pluralsight, LinkedIn Learning, Treehouse, Codecademy, Khan Academy, MIT OpenCourseWare, Harvard CS50, Stanford Online, Georgia Tech OMSCS, MicroMasters by edX, freeCodeCamp, Le Wagon, General Assembly, Springboard, CareerFoundry, Ironhack, Thinkful, Platzi, Código Facilito, KeepCoding, Academind, Domestika, DeepLearning.AI, Fast.ai, DataCamp, AWS Skill Builder, Microsoft Learn, Google Cloud Skills Boost, IBM Skills Network, HackerRank, LeetCode, Exercism, Edabit)&lt;/p&gt;</description>
     </item>
     <item>
@@ -317,11 +310,25 @@
       <description>&lt;p&gt;A detailed guide Git issues, including Git Flow and Trunk-Based development&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Daily TOEIC Preparation Routine</title>
+      <link>http://localhost:1313/blog/blog/learning-paths/toeic-prep/</link>
+      <pubDate>Sat, 18 May 2024 19:47:35 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/learning-paths/toeic-prep/</guid>
+      <description>&lt;p&gt;A structured routine to prepare for the TOEIC exam, ideally over 4–8 weeks, with 1.5 to 2 hours of daily practice.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Beyond the Buzzwords: Rethinking the Software Development Process</title>
       <link>http://localhost:1313/blog/blog/opinions/agile-vs-traditional-software-methods/</link>
       <pubDate>Thu, 09 May 2024 17:47:41 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/opinions/agile-vs-traditional-software-methods/</guid>
       <description>&lt;p&gt;In the realm of software development, few debates have endured as long—or burned as fiercely—as the one between traditional methodologies and agile practices. For decades, the question of how best to build software has oscillated between rigor and flexibility, planning and iteration, structure and flow. Yet in 2025, this dichotomy feels increasingly obsolete.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TOEIC Preparation Guide &amp; Custom Study Plan</title>
+      <link>http://localhost:1313/blog/blog/learning-paths/toeic-prep-custom-plan/</link>
+      <pubDate>Mon, 18 Mar 2024 19:47:35 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/learning-paths/toeic-prep-custom-plan/</guid>
+      <description>&lt;h1 id=&#34;toeic-preparation-guide--custom-study-plan&#34;&gt;TOEIC Preparation Guide &amp;amp; Custom Study Plan&lt;/h1&gt;&#xA;&lt;p&gt;This document provides a curated list of the best TOEIC preparation resources and a custom 4-week study plan to help you succeed on the TOEIC exam.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Daniel Pichardo</title>

@@ -52,9 +52,16 @@ features:
       enable: true
       label: "Get Started Now"
       link: "/blog/categories/artificial-intelligence"
+  - title: "Learning paths"
+    image: "/images/posts/learning-paths/image.png"
+    content: "Guidelines and best practices refer to proven standards and recommendations in software development that help ensure code quality, maintainability, scalability, and security across projects."
+    button:
+      enable: true
+      label: "Get Started Now"
+      link: "/blog/categories/learning-paths"
   - title: "Guidelines and best practices"
     image: "/images/guidelines.png"
-    content: "Guidelines and best practices refer to proven standards and recommendations in software development that help ensure code quality, maintainability, scalability, and security across projects."
+    content: "Learning paths are structured educational roadmaps designed to guide individuals through a curated sequence of topics, skills, and courses toward a specific goal or expertise. Each path starts with foundational knowledge and progressively advances to more complex concepts, enabling learners to build skills in a logical and efficient manner."
     bulletpoints:
       - "Java"
       - "Python"
