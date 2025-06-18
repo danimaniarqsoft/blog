@@ -222,7 +222,7 @@ Unreliable systems frustrate users and stakeholders due to frequent failures, da
 
 ### 5. Maintainability
 
-{{< image src="images/posts/software-architecture/system-design/mantainability.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+{{< image src="images/posts/software-architecture/system-design/maintainability.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
 #### Introduction
 Maintainability measures how easily a system can be changed or enhanced. It affects a system’s adaptability, longevity, and total cost of ownership.
 
@@ -511,6 +511,8 @@ Without resilience, failures can cascade and lead to complete system outages or 
 
 ### 11. Data Modeling
 
+{{< image src="images/posts/software-architecture/system-design/data-modeling.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+
 #### Introduction
 Data modeling structures and organizes data to support efficient access and future scalability. It influences both application logic and performance.
 
@@ -548,6 +550,9 @@ Poorly modeled data leads to performance issues, complicated queries, and diffic
 ---
 
 ### 12. Cost Optimization
+
+{{< image src="images/posts/software-architecture/system-design/cost-optimization.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+
 
 #### Introduction
 Cost optimization ensures that system resources are used efficiently, balancing performance and budget.
