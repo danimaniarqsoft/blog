@@ -7,7 +7,7 @@ image: "/images/posts/software-architecture/design-concepts.png"
 categories: ["Software architecture"]
 author: "Daniel Pichardo"
 tags: ["system-design"]
-draft: true
+draft: false
 ---
 
 System design is a foundational skill in software engineering that encompasses the architectural structuring of complex systems to meet specified requirements for scalability, performance, reliability, and maintainability. It addresses both the high-level organization of systems (architectural design) and low-level components (detailed design), bridging the gap between theoretical principles and practical implementation.
@@ -29,15 +29,15 @@ Notably, system design matured alongside advancements in software architecture, 
 
 ## Influential People in System Design
 
-| Name | Contribution |
-|------|--------------|
-| **Fred Brooks** | Author of *The Mythical Man-Month*, emphasizing design over code. |
-| **Martin Fowler** | Known for patterns of enterprise application architecture and microservices. |
-| **Grady Booch** | Co-creator of UML; emphasized object-oriented system design. |
-| **Robert C. Martin (Uncle Bob)** | SOLID principles; clean architecture. |
-| **Eric Evans** | Introduced Domain-Driven Design (DDD). |
-| **Werner Vogels** | Amazon CTO; thought leader in cloud and distributed system design. |
-| **Leslie Lamport** | Inventor of Paxos algorithm; contributed to distributed consensus. |
+| Name                             | Contribution                                                                 |
+| -------------------------------- | ---------------------------------------------------------------------------- |
+| **Fred Brooks**                  | Author of *The Mythical Man-Month*, emphasizing design over code.            |
+| **Martin Fowler**                | Known for patterns of enterprise application architecture and microservices. |
+| **Grady Booch**                  | Co-creator of UML; emphasized object-oriented system design.                 |
+| **Robert C. Martin (Uncle Bob)** | SOLID principles; clean architecture.                                        |
+| **Eric Evans**                   | Introduced Domain-Driven Design (DDD).                                       |
+| **Werner Vogels**                | Amazon CTO; thought leader in cloud and distributed system design.           |
+| **Leslie Lamport**               | Inventor of Paxos algorithm; contributed to distributed consensus.           |
 
 ---
 
@@ -88,11 +88,24 @@ Without scalability, systems become bottlenecks under heavy load, leading to deg
 ### 2. Availability
 
 {{< image src="images/posts/software-architecture/system-design/availability.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+
 #### Introduction
 Availability is the measure of a system’s uptime and readiness to serve users. High availability is crucial for critical systems that must operate continuously without interruption.
 
 #### Definition
 Availability refers to the proportion of time a system remains operational and accessible. It is typically represented as a percentage (e.g., 99.99% uptime). High availability (HA) systems ensure redundancy, failover mechanisms, and minimal downtime. They often involve multiple servers, replicated databases, and geographically distributed data centers. Availability is critical for user trust, especially in banking, healthcare, or e-commerce platforms where outages can lead to serious consequences.
+
+The next table show availability percentage, the downtime per day and the downtime per year exptected system downtimes:
+
+| Availability % | Downtime per day     | Downtime per year |
+| -------------- | -------------------- | ----------------- |
+| 99%            | 14.40 minutes        | 3.65 days         |
+| 99.9%          | 1.44. minutes        | 8.77 hours        |
+| 99.99%         | 8.64 seconds         | 52.60 minutes     |
+| 99.999%        | 8. 64.00 miliseconds | 5.26 minutes      |
+| 99.9999%       | 86.40 miliseconds    | 31.56 seconds     |
+
+
 
 #### Problem It Solves
 Availability addresses service outages and system downtime, which can result from hardware failure, software bugs, or maintenance activities.
@@ -126,6 +139,8 @@ Availability addresses service outages and system downtime, which can result fro
 ---
 
 ### 3. Consistency
+
+{{< image src="images/posts/software-architecture/system-design/consistency.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
 
 #### Introduction
 Consistency ensures that all users see the same data across a distributed system. It is a key challenge in the design of modern data systems.
@@ -164,12 +179,9 @@ Inconsistent views of data across nodes can result in incorrect behavior, such a
 
 ---
 
-*...Additional concepts such as Reliability, Maintainability, Security, Observability will follow a similar structure and can be appended accordingly...*
-
-
----
-
 ### 4. Reliability
+
+{{< image src="images/posts/software-architecture/system-design/reliability.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
 
 #### Introduction
 Reliability ensures a system performs its intended function correctly and consistently over time. It’s about providing dependable service under expected and unexpected conditions.
@@ -210,6 +222,7 @@ Unreliable systems frustrate users and stakeholders due to frequent failures, da
 
 ### 5. Maintainability
 
+{{< image src="images/posts/software-architecture/system-design/mantainability.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
 #### Introduction
 Maintainability measures how easily a system can be changed or enhanced. It affects a system’s adaptability, longevity, and total cost of ownership.
 
@@ -248,6 +261,8 @@ Hard-to-maintain systems slow down development, increase technical debt, and mak
 ---
 
 ### 6. Security
+
+{{< image src="images/posts/software-architecture/system-design/security.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
 
 #### Introduction
 Security ensures that systems protect data and services against unauthorized access, misuse, or breaches. It is critical in the modern age of privacy and compliance.
@@ -288,6 +303,7 @@ Security breaches can expose sensitive data, result in legal consequences, and d
 
 ### 7. Observability
 
+{{< image src="images/posts/software-architecture/system-design/observability.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
 #### Introduction
 Observability is the ability to understand the internal state of a system based on its outputs. It helps identify, debug, and resolve issues quickly.
 
@@ -327,6 +343,7 @@ Without observability, diagnosing production issues becomes guesswork, increasin
 
 ### 8. Latency
 
+{{< image src="images/posts/software-architecture/system-design/latency.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
 #### Introduction
 Latency measures the time it takes for a system to respond to a request. It’s a critical user experience metric, particularly in real-time and interactive applications.
 
@@ -347,6 +364,44 @@ High latency leads to sluggish applications, poor user experience, and potential
 2. **Violation**: Database queries take hundreds of milliseconds.
    - **Solution**: Add indexing and query optimization.
 
+
+#### Common Latency Times in Computing Systems
+
+A reference of typical latencies from CPU instructions to network communications. Useful for performance tuning, distributed system design, and mental models of scale.
+
+| Operation / Event                                   | Typical Latency (Time)      | Example / Description                                                                 |
+|-----------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------|
+| **CPU cycle**                                       | ~0.3 ns                      | 1 cycle at 3.3 GHz CPU                                                                 |
+| **L1 cache access**                                 | ~0.5 ns                      | Fastest memory access; located on the CPU chip                                        |
+| **L2 cache access**                                 | ~3-5 ns                      | Still very fast, slightly further from CPU core                                       |
+| **L3 cache access**                                 | ~10-15 ns                    | Shared among CPU cores                                                                |
+| **Main memory (RAM) access**                        | ~100 ns                     | DDR4 access latency; large gap from L1/L2                                              |
+| **NVMe SSD I/O**                                    | ~10-50 µs                    | Modern NVMe SSDs; significantly faster than spinning disks                            |
+| **SATA SSD I/O**                                    | ~100-200 µs                 | Typical read latency for a consumer SATA SSD                                          |
+| **HDD disk seek**                                   | ~5-10 ms                    | Rotational latency and head movement time                                             |
+| **CPU to GPU transfer (PCIe)**                      | ~1-10 µs                    | PCIe bus latency depends on generation and device                                     |
+| **Context switch (OS)**                             | ~1-10 µs                    | Changing from one thread/process to another                                           |
+| **Mutex lock/unlock (contended)**                   | ~25-200 ns                  | OS-dependent; includes cache coherency costs                                          |
+| **1 Gbps LAN round-trip**                           | ~500 µs                    | Local network (e.g., within the same building)                                        |
+| **Datacenter round-trip (intra-region)**            | ~0.5–1 ms                   | Between services in the same cloud region                                             |
+| **Cross-region cloud latency**                      | ~50–150 ms                  | US to Europe or Asia; varies by provider                                              |
+| **HTTP request over Internet (typical)**            | ~100–500 ms                 | Includes DNS, TCP handshake, request and response                                     |
+| **User keyboard input to UI feedback**              | ~100–200 ms                 | Ideal is <100ms to feel instantaneous                                                 |
+| **Human visual reaction time**                      | ~250 ms                    | Biological limit for conscious reactions                                              |
+| **Disk read (cold HDD, random seek)**               | ~10–15 ms                  | Typical for spinning disks with random access                                         |
+| **Lambda cold start (AWS, other FaaS)**             | ~100–1000 ms                | Depends on memory size and language runtime                                           |
+| **Mobile 4G latency (round trip)**                  | ~40–100 ms                 | Depending on signal quality and load                                                  |
+| **Mobile 5G latency (ideal)**                       | ~1–10 ms                   | Low-latency use cases (AR/VR, robotics)                                               |
+
+---
+
+#### Notes
+
+- **Latency scales matter**: A nanosecond difference matters in CPU cache optimization; a millisecond matters in distributed systems.
+- **Memory hierarchy latency gap**: From L1 to RAM is ~200x difference.
+- **Disk vs RAM**: RAM is typically ~100,000x faster than spinning disk.
+- **Network latency**: Often more critical than bandwidth in distributed systems.
+
 #### Related Concepts
 - Response Time
 - Bandwidth
@@ -357,6 +412,18 @@ High latency leads to sluggish applications, poor user experience, and potential
 - Pingdom, GTmetrix (latency testing)
 - APM tools (Datadog, New Relic)
 
+The next table show a list of common tools for measure latency:
+
+| Tool                          | Use Case                                      |
+|------------------------------|-----------------------------------------------|
+| `perf` / `perf stat`         | Measure CPU event latencies on Linux         |
+| `latencytop`                 | Kernel latency sources                       |
+| `ping` / `traceroute`        | Network latency diagnostics                  |
+| `fio`                        | Disk and file I/O benchmarking               |
+| `wrk`, `ApacheBench`         | HTTP benchmarking                            |
+| `dstat`, `iotop`, `htop`     | Live system latency insights                 |
+
+
 #### References
 - *High Performance Browser Networking* by Ilya Grigorik
 - [Google Web Fundamentals](https://web.dev/performance/)
@@ -365,6 +432,7 @@ High latency leads to sluggish applications, poor user experience, and potential
 
 ### 9. Throughput
 
+{{< image src="images/posts/software-architecture/system-design/throughput.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
 #### Introduction
 Throughput indicates the amount of work a system can perform in a given amount of time. It complements latency in performance analysis.
 
@@ -402,6 +470,8 @@ Low throughput causes slow service delivery under load, making the system ineffi
 ---
 
 ### 10. Resilience
+
+{{< image src="images/posts/software-architecture/system-design/resilience.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
 
 #### Introduction
 Resilience defines a system’s ability to recover from faults and continue operating with minimal disruption.
@@ -513,6 +583,7 @@ Uncontrolled costs can make systems financially unsustainable, especially at sca
 - *Cloud FinOps* by J.R. Storment & Mike Fuller
 - [AWS Well-Architected Cost Optimization](https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-optimization.html)
 - [Google Cloud Cost Management](https://cloud.google.com/products/cost-management)
+- *System Design Interview* by Alex Xu
 
 
 ### Conclusion
