@@ -37,3 +37,4 @@ Concepts to know for system design interviews, include the next items:
 - [ ] 23. Peer-To-Peer Architecture: https://spiceworks.com/tech/networking/articles/what-is-peer-to-peer/
 - [ ] 24. Batch vs Stream Processing: https://blog.algomaster.io/p/d9442268-03d8-4f55-a103-7a3d4fb54661
 - [ ] 25. Synchronous vs Asynchronous Communications: https://blog.algomaster.io/p/aec1cebf-6060-45a7-8e00-47364ca70761
+
