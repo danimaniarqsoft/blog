@@ -1,1 +1,4 @@
 /* Add your own custom styles here */
+.content {
+    @apply prose-code:bg-gray-100;
+}
