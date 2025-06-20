@@ -7,7 +7,7 @@ image: "/images/posts/software-development/python-lib.png"
 categories: ["Software development"]
 author: "Daniel Pichardo"
 tags: ["python"]
-draft: true
+draft: false
 ---
 
 
