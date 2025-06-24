@@ -32,7 +32,7 @@ my_awesome_library/
 ├── my_awesome_library/
 │   ├── __init__.py
 │   ├── core.py
-│   ├── utils.py
+│   ├── data_utils.py
 │   └── data_processing.py
 ├── tests/
 │   ├── __init__.py
@@ -56,7 +56,7 @@ my_awesome_library/
 | `my_awesome_library/`                       | The main project directory **(root directory)**                                                                                                                                                                                                      |
 | `my_awesome_library/my_awesome_library/`    | This is where your actual Python package code resides **(package directory)**                                                                                                                                                                        |
 | `__init__.py`                               | This file marks the directory as a Python package. It can also be used to define package-level variables or to control what gets imported when someone does from `my_awesome_library import *.`                                                      |
-| `core.py`, `utils.py`, `data_processing.py` | These are your module files, containing functions, classes, and variables that constitute your library's functionality. Organize your code logically into separate modules                                                                           |
+| `core.py`, `data_utils.py`, `data_processing.py` | These are your module files, containing functions, classes, and variables that constitute your library's functionality. Organize your code logically into separate modules                                                                           |
 | `tests/`                                    | Contains unit tests for your library. Essential for ensuring your code works as expected and preventing regressions.                                                                                                                                 |
 | `docs/`                                     | For documentation (e.g., using Sphinx).                                                                                                                                                                                                              |
 | `examples/`                                 | Demonstrates how to use your library.                                                                                                                                                                                                                |
@@ -172,7 +172,7 @@ def filter_dataframe_by_value(dataframe, column_name, value):
 from .data_utils import load_csv_to_dataframe, calculate_column_mean, filter_dataframe_by_value
 ```
 
-This allows users to import functions directly from the package: from `my_data_lib import load_csv_to_dataframe`.
+This allows users to import functions directly from the package: `from my_data_lib import load_csv_to_dataframe`.
 
 ### Create the Unit Test file `tests/test_data_utils.py`:
 
