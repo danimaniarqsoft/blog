@@ -21,7 +21,7 @@
         "package-lock.json": true,
         "package.json": true,
         "readme.md": true,
-        "README.md": true,
+        "README.md": false,
         "theme.toml": true,
         "vercel-build.sh": true,
         "tailwind-plugin/": true,

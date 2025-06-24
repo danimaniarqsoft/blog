@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jun 2025 11:05:20 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jun 2025 11:08:02 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Trustworthy Code: A Comprehensive Look at Essential Software Engineering Standards</title>
+      <link>http://localhost:1313/blog/blog/software-development/standards/</link>
+      <pubDate>Tue, 24 Jun 2025 11:08:02 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-development/standards/</guid>
+      <description>&lt;p&gt;In the intricate world of software development, where complexity soars and security threats loom, adherence to established standards is no longer optional—it&amp;rsquo;s a fundamental requirement. These standards, developed by leading international bodies and industry consortia, provide invaluable guidance, best practices, and frameworks to ensure that software is not only functional but also reliable, secure, maintainable, and efficient throughout its entire lifecycle.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Create Your Own Python Library: A Step-by-Step Guide</title>
       <link>http://localhost:1313/blog/blog/software-development/python-dependency-management/</link>
@@ -49,6 +56,27 @@
       <pubDate>Thu, 05 Jun 2025 20:53:28 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/opinions/vibe-coding/</guid>
       <description>&lt;p&gt;In the evolving landscape of software development, a quiet but profound shift is taking place—one that may redefine what it means to be a &amp;ldquo;programmer.&amp;rdquo; The rise of &lt;em&gt;vibe coding&lt;/em&gt; is signaling a new era where emotional flow, creativity, and intuition are becoming as central to coding as logic, syntax, and architecture. As AI systems increasingly automate low-level programming tasks and even participate in high-level design, the human role is transitioning from code producer to code conductor—a shift that aligns closely with the ethos of vibe coding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Queue Data Structure</title>
+      <link>http://localhost:1313/blog/blog/data-structures/queue/</link>
+      <pubDate>Mon, 02 Jun 2025 17:27:55 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-structures/queue/</guid>
+      <description>&lt;p&gt;A &lt;strong&gt;Queue&lt;/strong&gt; is a linear data structure that follows the &lt;strong&gt;First In, First Out (FIFO)&lt;/strong&gt; principle. This means that the first element added to the queue will be the first one to be removed. It is analogous to a line of people waiting for a service: the person who arrives first gets served first.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stack Data Structure</title>
+      <link>http://localhost:1313/blog/blog/data-structures/stack/</link>
+      <pubDate>Mon, 02 Jun 2025 17:21:34 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-structures/stack/</guid>
+      <description>&lt;p&gt;A &lt;strong&gt;Stack&lt;/strong&gt; is a linear data structure that follows the &lt;strong&gt;Last In, First Out (LIFO)&lt;/strong&gt; principle. This means that the last element added to the stack is the first one to be removed. It is analogous to a stack of plates where only the top plate can be removed at a time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hash Tables: A Comprehensive Overview</title>
+      <link>http://localhost:1313/blog/blog/data-structures/hash-tables/</link>
+      <pubDate>Mon, 02 Jun 2025 13:05:33 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-structures/hash-tables/</guid>
+      <description>&lt;p&gt;A &lt;strong&gt;hash table&lt;/strong&gt; (also known as a &lt;strong&gt;hash map&lt;/strong&gt;) is a data structure that provides an efficient way of storing and retrieving data using a key-value pair model. The efficiency of hash tables lies in their ability to provide constant time complexity \(\mathcal{O}(1)\), on average, for insertion, deletion, and lookup operations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bellman-Ford Algorithm for Shortest Path</title>
@@ -245,6 +273,13 @@
       <pubDate>Tue, 14 Jan 2025 00:04:15 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/learning-paths/software-developer-learning-path/</guid>
       <description>&lt;p&gt;This learning path is designed to guide a developer from the &lt;strong&gt;basics of programming&lt;/strong&gt; to becoming a &lt;strong&gt;senior-level software developer&lt;/strong&gt;, leveraging programs and courses from top online academies (Coursera, edX, Udemy, Pluralsight, LinkedIn Learning, Treehouse, Codecademy, Khan Academy, MIT OpenCourseWare, Harvard CS50, Stanford Online, Georgia Tech OMSCS, MicroMasters by edX, freeCodeCamp, Le Wagon, General Assembly, Springboard, CareerFoundry, Ironhack, Thinkful, Platzi, Código Facilito, KeepCoding, Academind, Domestika, DeepLearning.AI, Fast.ai, DataCamp, AWS Skill Builder, Microsoft Learn, Google Cloud Skills Boost, IBM Skills Network, HackerRank, LeetCode, Exercism, Edabit)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SOLID Principles in Software Architecture</title>
+      <link>http://localhost:1313/blog/blog/software-architecture/solid-principles/</link>
+      <pubDate>Sun, 12 Jan 2025 23:41:02 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-architecture/solid-principles/</guid>
+      <description>&lt;p&gt;In the field of software architecture and engineering, the SOLID principles provide a foundational framework for creating robust, scalable, and maintainable systems. These principles help reduce coupling, improve cohesion, and make codebases easier to test and evolve.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scrum Metrics: Detailed Explanation, Examples, and Best Practices</title>
