@@ -7,7 +7,7 @@ image: "/images/posts/data-structures/stack.png"
 categories: ["Data structures"]
 author: "Daniel Pichardo"
 tags: ["data-structure"]
-draft: true
+draft: false
 ---
 
 A **Stack** is a linear data structure that follows the **Last In, First Out (LIFO)** principle. This means that the last element added to the stack is the first one to be removed. It is analogous to a stack of plates where only the top plate can be removed at a time.

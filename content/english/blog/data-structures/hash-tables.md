@@ -7,7 +7,7 @@ image: "/images/posts/data-structures/hash-table-data-structure.png"
 categories: ["Data structures"]
 author: "Daniel Pichardo"
 tags: ["data-structure"]
-draft: true
+draft: false
 ---
 
 A **hash table** (also known as a **hash map**) is a data structure that provides an efficient way of storing and retrieving data using a key-value pair model. The efficiency of hash tables lies in their ability to provide constant time complexity \(\mathcal{O}(1)\), on average, for insertion, deletion, and lookup operations.

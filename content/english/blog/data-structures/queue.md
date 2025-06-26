@@ -7,7 +7,7 @@ image: "/images/posts/data-structures/queue.png"
 categories: ["Data structures"]
 author: "Daniel Pichardo"
 tags: ["data-structure"]
-draft: true
+draft: false
 ---
 
 
