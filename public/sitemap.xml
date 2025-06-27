@@ -3,24 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-06-24T11:08:02-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/software-development/standards/</loc>
-    <lastmod>2025-06-24T11:08:02-06:00</lastmod>
+    <lastmod>2025-06-26T16:51:11-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-06-24T11:08:02-06:00</lastmod>
+    <lastmod>2025-06-26T16:51:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/data-science/</loc>
+    <lastmod>2025-06-26T16:51:11-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
+    <lastmod>2025-06-26T16:51:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/nlp/</loc>
+    <lastmod>2025-06-26T16:51:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-06-26T16:51:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-science/nlp-resources/</loc>
+    <lastmod>2025-06-26T16:51:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-development/standards/</loc>
     <lastmod>2025-06-24T11:08:02-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/software-development/</loc>
     <lastmod>2025-06-24T11:08:02-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/software-standards/</loc>
-    <lastmod>2025-06-24T11:08:02-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
     <lastmod>2025-06-24T11:08:02-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/software-development/python-dependency-management/</loc>
@@ -110,9 +119,6 @@
     <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
     <lastmod>2025-05-26T13:36:20-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/nlp/</loc>
-    <lastmod>2025-05-26T13:36:20-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/blog/ai/sentence-splitting/</loc>
     <lastmod>2025-05-26T13:36:20-06:00</lastmod>
   </url><url>
@@ -199,9 +205,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/tags/graph-traversal/</loc>
     <lastmod>2025-03-10T22:56:05-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/data-science/</loc>
-    <lastmod>2025-03-07T22:06:23-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</loc>
     <lastmod>2025-03-07T22:06:23-06:00</lastmod>
