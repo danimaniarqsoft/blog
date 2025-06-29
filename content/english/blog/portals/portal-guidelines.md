@@ -3,6 +3,7 @@ title: "Portal Guidelines"
 meta_title: "Guidelines"
 description: "this is meta description"
 date: 2025-01-04T09:54:26-06:00
+image: "/images/posts/guidelines/image.png"
 categories: ["Portal"]
 author: "Daniel Pichardo"
 tags: ["wordpress"]

@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jun 2025 16:51:11 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jun 2025 12:04:17 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Augmentation for Text Corpus Generation: Enhancing NLP Models with Synthetic Data</title>
+      <link>http://localhost:1313/blog/blog/data-science/data-augmentation/</link>
+      <pubDate>Sat, 28 Jun 2025 12:04:17 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-science/data-augmentation/</guid>
+      <description>&lt;p&gt;Data augmentation has revolutionized various fields, especially computer vision, by artificially expanding datasets and improving model generalization. While widely adopted for image data, its application to text, particularly for corpus generation, presents unique challenges and opportunities. As a Natural Language Processing (NLP) expert, I will delve into the data augmentation techniques for text corpus generation, providing scientific backing, illustrative examples, and practical Python implementations.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Unlocking Language&#39;s Power: Recommended Books for Modern Natural Language Processing</title>
       <link>http://localhost:1313/blog/blog/data-science/nlp-resources/</link>
