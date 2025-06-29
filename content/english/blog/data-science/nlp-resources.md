@@ -4,7 +4,7 @@ meta_title: "Recommended Books for NLP"
 description: "Recommended Books for NLP"
 date: 2025-06-26T16:51:11-06:00
 image: "/images/posts/data-science/nlp-resources.png"
-categories: ["Data Science"]
+categories: ["Artificial Intelligence","Data Science"]
 author: "Daniel Pichardo"
 tags: ["nlp"]
 draft: false

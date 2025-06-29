@@ -4,7 +4,7 @@ meta_title: "Data Augmentation"
 description: "Data Augmentation"
 date: 2025-06-28T12:04:17-06:00
 image: "/images/posts/data-science/image.png"
-categories: ["Data Science"]
+categories: ["Artificial Intelligence","Data Science"]
 author: "Daniel Pichardo"
 tags: ["data-science"]
 draft: false

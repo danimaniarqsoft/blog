@@ -50,6 +50,9 @@ hugo new content --kind learning-paths content/english/blog/learning-paths/[FILE
 
 # For Data science
 hugo new content --kind data-science content/english/blog/data-science/[FILE_NAME].md
+
+# For Natural Language Processing
+hugo new content --kind natural-language-processing content/english/blog/natural-language-processing/[FILE_NAME].md
 ```
 
 ## Blog site

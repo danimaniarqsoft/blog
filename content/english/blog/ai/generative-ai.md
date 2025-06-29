@@ -3,7 +3,7 @@ title: "Introduction to Generative AI and LLMs"
 meta_title: "GenAI and LLMs"
 description: "this is meta description"
 date: 2025-02-19T21:21:54-08:00
-image: "/images/image-placeholder.png"
+image: "/images/posts/ai/image.png"
 categories: ["Artificial Intelligence"]
 author: "Daniel Pichardo"
 tags: ["generative-ai"]

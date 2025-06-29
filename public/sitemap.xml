@@ -5,6 +5,9 @@
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-06-28T12:04:17-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
+    <lastmod>2025-06-28T12:04:17-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
     <lastmod>2025-06-28T12:04:17-06:00</lastmod>
   </url><url>
@@ -121,9 +124,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/blog/algorithms/sort/quick-sort/</loc>
     <lastmod>2025-05-27T22:07:05-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
-    <lastmod>2025-05-26T13:36:20-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/sentence-splitting/</loc>
     <lastmod>2025-05-26T13:36:20-06:00</lastmod>
