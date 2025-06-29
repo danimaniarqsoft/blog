@@ -52,7 +52,7 @@ hugo new content --kind learning-paths content/english/blog/learning-paths/[FILE
 hugo new content --kind data-science content/english/blog/data-science/[FILE_NAME].md
 
 # For Natural Language Processing
-hugo new content --kind natural-language-processing content/english/blog/natural-language-processing/[FILE_NAME].md
+hugo new content --kind natural-language-processing content/english/blog/ai/nlp/[FILE_NAME].md
 ```
 
 ## Blog site
