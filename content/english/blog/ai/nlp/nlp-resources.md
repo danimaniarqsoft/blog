@@ -3,8 +3,8 @@ title: "Unlocking Language's Power: Recommended Books for Modern Natural Languag
 meta_title: "Recommended Books for NLP"
 description: "Recommended Books for NLP"
 date: 2025-06-26T16:51:11-06:00
-image: "/images/posts/data-science/nlp-resources.png"
-categories: ["Artificial Intelligence","Data Science"]
+image: "/images/posts/ai/nlp/nlp-resources.png"
+categories: ["Artificial Intelligence","NLP"]
 author: "Daniel Pichardo"
 tags: ["nlp"]
 draft: false
