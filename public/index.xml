@@ -16,24 +16,10 @@
       <description>&lt;p&gt;Data augmentation has revolutionized various fields, especially computer vision, by artificially expanding datasets and improving model generalization. While widely adopted for image data, its application to text, particularly for corpus generation, presents unique challenges and opportunities. As a Natural Language Processing (NLP) expert, I will delve into the data augmentation techniques for text corpus generation, providing scientific backing, illustrative examples, and practical Python implementations.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Data Augmentation for Text Corpus Generation: Enhancing NLP Models with Synthetic Data</title>
-      <link>http://localhost:1313/blog/categories/ai/nlp/data-augmentation/</link>
-      <pubDate>Sat, 28 Jun 2025 12:04:17 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/ai/nlp/data-augmentation/</guid>
-      <description>&lt;p&gt;Data augmentation has revolutionized various fields, especially computer vision, by artificially expanding datasets and improving model generalization. While widely adopted for image data, its application to text, particularly for corpus generation, presents unique challenges and opportunities. As a Natural Language Processing (NLP) expert, I will delve into the data augmentation techniques for text corpus generation, providing scientific backing, illustrative examples, and practical Python implementations.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Unlocking Language&#39;s Power: Recommended Books for Modern Natural Language Processing</title>
       <link>http://localhost:1313/blog/blog/ai/nlp/nlp-resources/</link>
       <pubDate>Thu, 26 Jun 2025 16:51:11 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/ai/nlp/nlp-resources/</guid>
-      <description>&lt;p&gt;Natural Language Processing (NLP) has seen a dramatic evolution in the past decade, shifting from rule-based systems and traditional machine learning to deep learning, transformers, and large language models. Staying up to date with modern practices, research, and applications requires high-quality learning resources. Below is a curated list of &lt;strong&gt;recommended books&lt;/strong&gt; that cover modern NLP topics, from foundations to cutting-edge research.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Unlocking Language&#39;s Power: Recommended Books for Modern Natural Language Processing</title>
-      <link>http://localhost:1313/blog/categories/ai/nlp/nlp-resources/</link>
-      <pubDate>Thu, 26 Jun 2025 16:51:11 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/ai/nlp/nlp-resources/</guid>
       <description>&lt;p&gt;Natural Language Processing (NLP) has seen a dramatic evolution in the past decade, shifting from rule-based systems and traditional machine learning to deep learning, transformers, and large language models. Staying up to date with modern practices, research, and applications requires high-quality learning resources. Below is a curated list of &lt;strong&gt;recommended books&lt;/strong&gt; that cover modern NLP topics, from foundations to cutting-edge research.&lt;/p&gt;</description>
     </item>
     <item>
@@ -142,13 +128,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Sentence Splitting&lt;/strong&gt;, also known as &lt;strong&gt;sentence segmentation&lt;/strong&gt;, is the process of dividing a text into its constituent sentences. It&amp;rsquo;s a fundamental task in Natural Language Processing (NLP), typically performed as a first step in various downstream tasks like machine translation, information extraction, sentiment analysis, and text summarization.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Sentence Splitting in NLP: Techniques and Examples</title>
-      <link>http://localhost:1313/blog/categories/ai/sentence-splitting/</link>
-      <pubDate>Mon, 26 May 2025 13:36:20 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/ai/sentence-splitting/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Sentence Splitting&lt;/strong&gt;, also known as &lt;strong&gt;sentence segmentation&lt;/strong&gt;, is the process of dividing a text into its constituent sentences. It&amp;rsquo;s a fundamental task in Natural Language Processing (NLP), typically performed as a first step in various downstream tasks like machine translation, information extraction, sentiment analysis, and text summarization.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Bubble Sort Algorithm</title>
       <link>http://localhost:1313/blog/blog/algorithms/sort/bubble-sort/</link>
       <pubDate>Fri, 23 May 2025 10:23:54 -0600</pubDate>
@@ -202,13 +181,6 @@
       <link>http://localhost:1313/blog/blog/ai/ner-project/</link>
       <pubDate>Fri, 16 May 2025 10:22:07 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/ai/ner-project/</guid>
-      <description>&lt;p&gt;Named Entity Recognition (NER) is a key task in Natural Language Processing (NLP) where the goal is to locate and classify named entities in text into predefined categories such as person names, organizations, locations, time expressions, etc. In this project, we leverage &lt;strong&gt;LLaMA (Large Language Model Meta AI)&lt;/strong&gt; for generating high-quality embeddings and train a deep learning model on top for the NER task.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Deep Learning Project: Named Entity Recognition (NER) with LLaMA Embeddings</title>
-      <link>http://localhost:1313/blog/categories/ai/ner-project/</link>
-      <pubDate>Fri, 16 May 2025 10:22:07 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/ai/ner-project/</guid>
       <description>&lt;p&gt;Named Entity Recognition (NER) is a key task in Natural Language Processing (NLP) where the goal is to locate and classify named entities in text into predefined categories such as person names, organizations, locations, time expressions, etc. In this project, we leverage &lt;strong&gt;LLaMA (Large Language Model Meta AI)&lt;/strong&gt; for generating high-quality embeddings and train a deep learning model on top for the NER task.&lt;/p&gt;</description>
     </item>
     <item>
@@ -272,13 +244,6 @@
       <link>http://localhost:1313/blog/blog/ai/generative-ai/</link>
       <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
       <guid>http://localhost:1313/blog/blog/ai/generative-ai/</guid>
-      <description>&lt;p&gt;Generative AI is a type of artificial intelligence that can create new content, such as text, images, audio, or video, based on patterns it learns from existing data. In this post we briefly explain the main concepts, history and techiques behind of the generative ai.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Introduction to Generative AI and LLMs</title>
-      <link>http://localhost:1313/blog/categories/ai/generative-ai/</link>
-      <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/categories/ai/generative-ai/</guid>
       <description>&lt;p&gt;Generative AI is a type of artificial intelligence that can create new content, such as text, images, audio, or video, based on patterns it learns from existing data. In this post we briefly explain the main concepts, history and techiques behind of the generative ai.&lt;/p&gt;</description>
     </item>
     <item>
