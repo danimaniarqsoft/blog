@@ -2,402 +2,409 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DCP blog</title>
-    <link>http://localhost:39613/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jul 2025 15:11:08 -0600</lastBuildDate>
-    <atom:link href="http://localhost:39613/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jul 2025 06:50:30 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Most Useful AI Tools for Business Today</title>
+      <link>http://localhost:1313/blog/blog/artificial-intelligence/ai-tools/</link>
+      <pubDate>Sat, 05 Jul 2025 06:50:30 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/artificial-intelligence/ai-tools/</guid>
+      <description>&lt;p&gt;Artificial intelligence is rapidly transforming the global business landscape, evolving from a theoretical concept to an indispensable performance driver. This report provides a strategic overview of the most impactful AI tools currently being deployed across various business operations, highlighting their practical applications and measurable benefits. The analysis underscores that businesses are increasingly adopting AI across diverse functions, focusing on pragmatic, task-specific solutions designed to augment human capabilities, drive efficiency, and enhance decision-making. The strategic integration of AI into existing workflows and the synergistic combination of different AI technologies are proving pivotal in unlocking significant organizational value.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Main Indexes to Measure Programming Language Usage Worldwide</title>
-      <link>http://localhost:39613/blog/blog/software-development/indexes-to-measure-programming-language-usage/</link>
+      <link>http://localhost:1313/blog/blog/software-development/indexes-to-measure-programming-language-usage/</link>
       <pubDate>Tue, 01 Jul 2025 15:11:08 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/software-development/indexes-to-measure-programming-language-usage/</guid>
+      <guid>http://localhost:1313/blog/blog/software-development/indexes-to-measure-programming-language-usage/</guid>
       <description>&lt;p&gt;The world of programming languages is vast and ever-evolving. Developers, tech companies, and educators constantly seek insights into which languages are most used, most loved, or most in demand. But how do we measure this popularity and usage? Several organizations have developed indexes and surveys to track the global usage trends of programming languages, each using different methodologies and data sources. Understanding these indexes helps inform hiring decisions, learning paths, and software planning strategies.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data Augmentation for Text Corpus Generation: Enhancing NLP Models with Synthetic Data</title>
-      <link>http://localhost:39613/blog/blog/ai/nlp/data-augmentation/</link>
+      <link>http://localhost:1313/blog/blog/ai/nlp/data-augmentation/</link>
       <pubDate>Sat, 28 Jun 2025 12:04:17 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/ai/nlp/data-augmentation/</guid>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/data-augmentation/</guid>
       <description>&lt;p&gt;Data augmentation has revolutionized various fields, especially computer vision, by artificially expanding datasets and improving model generalization. While widely adopted for image data, its application to text, particularly for corpus generation, presents unique challenges and opportunities. As a Natural Language Processing (NLP) expert, I will delve into the data augmentation techniques for text corpus generation, providing scientific backing, illustrative examples, and practical Python implementations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unlocking Language&#39;s Power: Recommended Books for Modern Natural Language Processing</title>
-      <link>http://localhost:39613/blog/blog/ai/nlp/nlp-resources/</link>
+      <link>http://localhost:1313/blog/blog/ai/nlp/nlp-resources/</link>
       <pubDate>Thu, 26 Jun 2025 16:51:11 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/ai/nlp/nlp-resources/</guid>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/nlp-resources/</guid>
       <description>&lt;p&gt;Natural Language Processing (NLP) has seen a dramatic evolution in the past decade, shifting from rule-based systems and traditional machine learning to deep learning, transformers, and large language models. Staying up to date with modern practices, research, and applications requires high-quality learning resources. Below is a curated list of &lt;strong&gt;recommended books&lt;/strong&gt; that cover modern NLP topics, from foundations to cutting-edge research.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building Trustworthy Code: A Comprehensive Look at Essential Software Engineering Standards</title>
-      <link>http://localhost:39613/blog/blog/software-development/standards/</link>
+      <link>http://localhost:1313/blog/blog/software-development/standards/</link>
       <pubDate>Tue, 24 Jun 2025 11:08:02 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/software-development/standards/</guid>
+      <guid>http://localhost:1313/blog/blog/software-development/standards/</guid>
       <description>&lt;p&gt;In the intricate world of software development, where complexity soars and security threats loom, adherence to established standards is no longer optional—it&amp;rsquo;s a fundamental requirement. These standards, developed by leading international bodies and industry consortia, provide invaluable guidance, best practices, and frameworks to ensure that software is not only functional but also reliable, secure, maintainable, and efficient throughout its entire lifecycle.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Create Your Own Python Library: A Step-by-Step Guide</title>
-      <link>http://localhost:39613/blog/blog/software-development/python-dependency-management/</link>
+      <link>http://localhost:1313/blog/blog/software-development/python-dependency-management/</link>
       <pubDate>Fri, 20 Jun 2025 11:05:20 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/software-development/python-dependency-management/</guid>
+      <guid>http://localhost:1313/blog/blog/software-development/python-dependency-management/</guid>
       <description>&lt;p&gt;As Python developers, we often find ourselves writing reusable code. Whether it&amp;rsquo;s a set of utility functions, a custom data processing pipeline, or a specialized algorithm, packaging this code into a library can significantly improve code organization, reusability, and collaboration. This guide will walk you through the process of creating your own Python library, from initial setup to distribution on PyPI.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Load Balancing Algorithms: A Comprehensive Guide</title>
-      <link>http://localhost:39613/blog/blog/software-architecture/load-balancing-algorithms/</link>
+      <link>http://localhost:1313/blog/blog/software-architecture/load-balancing-algorithms/</link>
       <pubDate>Wed, 18 Jun 2025 17:00:49 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/software-architecture/load-balancing-algorithms/</guid>
+      <guid>http://localhost:1313/blog/blog/software-architecture/load-balancing-algorithms/</guid>
       <description>&lt;p&gt;Load balancing is a crucial technique in distributed systems and network architecture, designed to enhance the availability, reliability, and scalability of services. It involves distributing incoming network or application traffic across multiple servers to ensure that no single server becomes a bottleneck or point of failure. By intelligently routing requests, load balancing helps optimize resource use, maximize throughput, minimize response time, and avoid overload on any single server.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Core Concepts of System Design</title>
-      <link>http://localhost:39613/blog/blog/software-architecture/system-design-concepts/</link>
+      <link>http://localhost:1313/blog/blog/software-architecture/system-design-concepts/</link>
       <pubDate>Tue, 17 Jun 2025 11:32:41 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/software-architecture/system-design-concepts/</guid>
+      <guid>http://localhost:1313/blog/blog/software-architecture/system-design-concepts/</guid>
       <description>&lt;p&gt;System design is a foundational skill in software engineering that encompasses the architectural structuring of complex systems to meet specified requirements for scalability, performance, reliability, and maintainability. It addresses both the high-level organization of systems (architectural design) and low-level components (detailed design), bridging the gap between theoretical principles and practical implementation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clean Architecture: Building Robust and Maintainable Software</title>
-      <link>http://localhost:39613/blog/blog/software-architecture/clean-architecture/</link>
+      <link>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</link>
       <pubDate>Fri, 13 Jun 2025 08:57:37 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/software-architecture/clean-architecture/</guid>
+      <guid>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</guid>
       <description>&lt;p&gt;In the ever-evolving landscape of software development, building applications that are not only functional but also adaptable, testable, and maintainable is paramount. This is where &lt;strong&gt;Clean Architecture&lt;/strong&gt; comes into play. More than just a set of rules, Clean Architecture is a philosophy that guides the structuring of software systems to ensure they remain flexible and resilient in the face of changing requirements. It emphasizes the &lt;strong&gt;separation of concerns&lt;/strong&gt;, allowing different parts of the system to evolve independently without impacting the core business logic. This article will delve into the intricacies of Clean Architecture, exploring its history, core principles with real-world examples, and practical implementations across various programming languages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Shortest Path Using Dijkstra&#39;s Algorithm</title>
-      <link>http://localhost:39613/blog/blog/graphs/dijkstra-algorithm/</link>
+      <link>http://localhost:1313/blog/blog/graphs/dijkstra-algorithm/</link>
       <pubDate>Thu, 12 Jun 2025 16:19:16 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/graphs/dijkstra-algorithm/</guid>
+      <guid>http://localhost:1313/blog/blog/graphs/dijkstra-algorithm/</guid>
       <description>&lt;p&gt;Finding the shortest path in a graph is a foundational problem in computer science and operations research. It is crucial in network routing, geographical mapping, artificial intelligence, and logistics. One of the most well-known and efficient algorithms for finding the shortest path from a source node to all other nodes in a graph with non-negative edge weights is &lt;strong&gt;Dijkstra&amp;rsquo;s Algorithm&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Rise of Vibe Coding and the Future of Programmers</title>
-      <link>http://localhost:39613/blog/blog/opinions/vibe-coding/</link>
+      <link>http://localhost:1313/blog/blog/opinions/vibe-coding/</link>
       <pubDate>Thu, 05 Jun 2025 20:53:28 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/opinions/vibe-coding/</guid>
+      <guid>http://localhost:1313/blog/blog/opinions/vibe-coding/</guid>
       <description>&lt;p&gt;In the evolving landscape of software development, a quiet but profound shift is taking place—one that may redefine what it means to be a &amp;ldquo;programmer.&amp;rdquo; The rise of &lt;em&gt;vibe coding&lt;/em&gt; is signaling a new era where emotional flow, creativity, and intuition are becoming as central to coding as logic, syntax, and architecture. As AI systems increasingly automate low-level programming tasks and even participate in high-level design, the human role is transitioning from code producer to code conductor—a shift that aligns closely with the ethos of vibe coding.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Queue Data Structure</title>
-      <link>http://localhost:39613/blog/blog/data-structures/queue/</link>
+      <link>http://localhost:1313/blog/blog/data-structures/queue/</link>
       <pubDate>Mon, 02 Jun 2025 17:27:55 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/data-structures/queue/</guid>
+      <guid>http://localhost:1313/blog/blog/data-structures/queue/</guid>
       <description>&lt;p&gt;A &lt;strong&gt;Queue&lt;/strong&gt; is a linear data structure that follows the &lt;strong&gt;First In, First Out (FIFO)&lt;/strong&gt; principle. This means that the first element added to the queue will be the first one to be removed. It is analogous to a line of people waiting for a service: the person who arrives first gets served first.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stack Data Structure</title>
-      <link>http://localhost:39613/blog/blog/data-structures/stack/</link>
+      <link>http://localhost:1313/blog/blog/data-structures/stack/</link>
       <pubDate>Mon, 02 Jun 2025 17:21:34 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/data-structures/stack/</guid>
+      <guid>http://localhost:1313/blog/blog/data-structures/stack/</guid>
       <description>&lt;p&gt;A &lt;strong&gt;Stack&lt;/strong&gt; is a linear data structure that follows the &lt;strong&gt;Last In, First Out (LIFO)&lt;/strong&gt; principle. This means that the last element added to the stack is the first one to be removed. It is analogous to a stack of plates where only the top plate can be removed at a time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hash Tables: A Comprehensive Overview</title>
-      <link>http://localhost:39613/blog/blog/data-structures/hash-tables/</link>
+      <link>http://localhost:1313/blog/blog/data-structures/hash-tables/</link>
       <pubDate>Mon, 02 Jun 2025 13:05:33 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/data-structures/hash-tables/</guid>
+      <guid>http://localhost:1313/blog/blog/data-structures/hash-tables/</guid>
       <description>&lt;p&gt;A &lt;strong&gt;hash table&lt;/strong&gt; (also known as a &lt;strong&gt;hash map&lt;/strong&gt;) is a data structure that provides an efficient way of storing and retrieving data using a key-value pair model. The efficiency of hash tables lies in their ability to provide constant time complexity \(\mathcal{O}(1)\), on average, for insertion, deletion, and lookup operations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bellman-Ford Algorithm for Shortest Path</title>
-      <link>http://localhost:39613/blog/blog/graphs/bellman-ford-algorithm/</link>
+      <link>http://localhost:1313/blog/blog/graphs/bellman-ford-algorithm/</link>
       <pubDate>Sun, 01 Jun 2025 20:27:13 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/graphs/bellman-ford-algorithm/</guid>
+      <guid>http://localhost:1313/blog/blog/graphs/bellman-ford-algorithm/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;Bellman-Ford algorithm&lt;/strong&gt; is a fundamental single-source shortest path algorithm used in graph theory. Unlike Dijkstra&amp;rsquo;s algorithm, Bellman-Ford can handle graphs with &lt;strong&gt;negative weight edges&lt;/strong&gt;, making it versatile for a broader class of problems. It was first proposed by Richard Bellman and Lester Ford in 1958.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trie Data Structure</title>
-      <link>http://localhost:39613/blog/blog/data-structures/trie/</link>
+      <link>http://localhost:1313/blog/blog/data-structures/trie/</link>
       <pubDate>Sat, 31 May 2025 14:33:36 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/data-structures/trie/</guid>
+      <guid>http://localhost:1313/blog/blog/data-structures/trie/</guid>
       <description>&lt;p&gt;A &lt;strong&gt;Trie&lt;/strong&gt; (pronounced as &amp;ldquo;try&amp;rdquo;), also known as a &lt;em&gt;prefix tree&lt;/em&gt; or &lt;em&gt;digital tree&lt;/em&gt;, is a type of search tree used to store associative data structures, typically strings. Tries are especially useful for solving problems involving dynamic sets of strings, such as dictionary management, autocomplete systems, and IP routing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Radix Sort Algorithm: A Detailed Overview</title>
-      <link>http://localhost:39613/blog/blog/algorithms/sort/radix-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/radix-sort/</link>
       <pubDate>Sat, 31 May 2025 13:29:26 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/algorithms/sort/radix-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/radix-sort/</guid>
       <description>&lt;p&gt;Radix Sort is a non-comparative, integer sorting algorithm that sorts data with integer keys by grouping the keys by individual digits which share the same position and value. It processes each digit of the numbers, starting from the least significant digit (LSD) or most significant digit (MSD), depending on the implementation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quick Sort Algorithm: An In-depth Guide</title>
-      <link>http://localhost:39613/blog/blog/algorithms/sort/quick-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/quick-sort/</link>
       <pubDate>Tue, 27 May 2025 22:07:05 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/algorithms/sort/quick-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/quick-sort/</guid>
       <description>&lt;p&gt;Quick Sort is one of the most efficient and widely used sorting algorithms. Introduced by Tony Hoare in 1960, it employs a divide-and-conquer strategy to sort elements. It is particularly known for its performance in practice, often outperforming other sorting algorithms such as merge sort and bubble sort for large datasets.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sentence Splitting in NLP: Techniques and Examples</title>
-      <link>http://localhost:39613/blog/blog/ai/sentence-splitting/</link>
+      <link>http://localhost:1313/blog/blog/ai/sentence-splitting/</link>
       <pubDate>Mon, 26 May 2025 13:36:20 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/ai/sentence-splitting/</guid>
+      <guid>http://localhost:1313/blog/blog/ai/sentence-splitting/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Sentence Splitting&lt;/strong&gt;, also known as &lt;strong&gt;sentence segmentation&lt;/strong&gt;, is the process of dividing a text into its constituent sentences. It&amp;rsquo;s a fundamental task in Natural Language Processing (NLP), typically performed as a first step in various downstream tasks like machine translation, information extraction, sentiment analysis, and text summarization.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bubble Sort Algorithm</title>
-      <link>http://localhost:39613/blog/blog/algorithms/sort/bubble-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/bubble-sort/</link>
       <pubDate>Fri, 23 May 2025 10:23:54 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/algorithms/sort/bubble-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/bubble-sort/</guid>
       <description>&lt;p&gt;Bubble Sort is one of the simplest sorting algorithms often taught as an introductory algorithm due to its intuitive approach. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process continues until the list is sorted.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Max Heap and Min Heap Algorithms</title>
-      <link>http://localhost:39613/blog/blog/data-structures/max-and-min-heap/</link>
+      <link>http://localhost:1313/blog/blog/data-structures/max-and-min-heap/</link>
       <pubDate>Tue, 20 May 2025 04:19:10 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/data-structures/max-and-min-heap/</guid>
+      <guid>http://localhost:1313/blog/blog/data-structures/max-and-min-heap/</guid>
       <description>&lt;p&gt;Heaps are specialized tree-based data structures that satisfy the &lt;em&gt;heap property&lt;/em&gt;. In a &lt;strong&gt;max heap&lt;/strong&gt;, the parent node is always greater than or equal to its children, while in a &lt;strong&gt;min heap&lt;/strong&gt;, the parent is always less than or equal to its children. Heaps are commonly used to implement &lt;strong&gt;priority queues&lt;/strong&gt; and &lt;strong&gt;heap sort&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Merge Sort Algorithm</title>
-      <link>http://localhost:39613/blog/blog/algorithms/sort/merge-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/merge-sort/</link>
       <pubDate>Mon, 19 May 2025 10:14:35 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/algorithms/sort/merge-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/merge-sort/</guid>
       <description>&lt;p&gt;Merge Sort is a classical divide-and-conquer algorithm that efficiently sorts an array by recursively dividing it into two halves, sorting them independently, and then merging the sorted halves. It is one of the fundamental algorithms in computer science, often discussed in depth in books such as &lt;em&gt;Introduction to Algorithms&lt;/em&gt; by Thomas H. Cormen et al.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Heap Sort Algorithm</title>
-      <link>http://localhost:39613/blog/blog/algorithms/sort/heap-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/heap-sort/</link>
       <pubDate>Sun, 18 May 2025 12:19:20 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/algorithms/sort/heap-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/heap-sort/</guid>
       <description>&lt;p&gt;Heap Sort is a comparison-based sorting technique based on a Binary Heap data structure. It is similar to selection sort where we first find the maximum element and place it at the end. We repeat the same process for the remaining elements.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Counting Sort Algorithm</title>
-      <link>http://localhost:39613/blog/blog/algorithms/sort/counting-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/counting-sort/</link>
       <pubDate>Sun, 18 May 2025 11:58:00 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/algorithms/sort/counting-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/counting-sort/</guid>
       <description>&lt;p&gt;Counting Sort is a non-comparison-based sorting algorithm that operates with integer keys within a known, limited range. Unlike typical comparison sorts such as QuickSort or MergeSort, Counting Sort leverages the frequency of each element to achieve linear time sorting under suitable conditions. It is especially effective when the range of input values (k) is not significantly larger than the number of elements (n).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Insertion Sort Algorithm</title>
-      <link>http://localhost:39613/blog/blog/algorithms/sort/insertion-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/insertion-sort/</link>
       <pubDate>Sat, 17 May 2025 12:28:05 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/algorithms/sort/insertion-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/insertion-sort/</guid>
       <description>&lt;p&gt;Insertion Sort is a simple and intuitive comparison-based sorting algorithm. It builds the final sorted array one element at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, it has advantages in simplicity and efficiency for small datasets.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Selection Sort Algorithm</title>
-      <link>http://localhost:39613/blog/blog/algorithms/sort/selection-sort/</link>
+      <link>http://localhost:1313/blog/blog/algorithms/sort/selection-sort/</link>
       <pubDate>Sat, 17 May 2025 00:02:39 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/algorithms/sort/selection-sort/</guid>
+      <guid>http://localhost:1313/blog/blog/algorithms/sort/selection-sort/</guid>
       <description>&lt;p&gt;Selection Sort is a simple comparison-based sorting algorithm. It works by dividing the input list into two parts: the sublist of items already sorted, which is built up from left to right, and the sublist of items remaining to be sorted that occupy the rest of the list. The algorithm proceeds by finding the smallest (or largest, depending on the sorting order) element from the unsorted sublist and swapping it with the leftmost unsorted element, moving the sublist boundaries one element to the right.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deep Learning Project: Named Entity Recognition (NER) with LLaMA Embeddings</title>
-      <link>http://localhost:39613/blog/blog/ai/ner-project/</link>
+      <link>http://localhost:1313/blog/blog/ai/ner-project/</link>
       <pubDate>Fri, 16 May 2025 10:22:07 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/ai/ner-project/</guid>
+      <guid>http://localhost:1313/blog/blog/ai/ner-project/</guid>
       <description>&lt;p&gt;Named Entity Recognition (NER) is a key task in Natural Language Processing (NLP) where the goal is to locate and classify named entities in text into predefined categories such as person names, organizations, locations, time expressions, etc. In this project, we leverage &lt;strong&gt;LLaMA (Large Language Model Meta AI)&lt;/strong&gt; for generating high-quality embeddings and train a deep learning model on top for the NER task.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java best practices</title>
-      <link>http://localhost:39613/blog/blog/java/java-best-practices/</link>
+      <link>http://localhost:1313/blog/blog/java/java-best-practices/</link>
       <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/blog/java/java-best-practices/</guid>
+      <guid>http://localhost:1313/blog/blog/java/java-best-practices/</guid>
       <description>&lt;p&gt;The best practices come with experience so this post is going to be updated if new best practices are learned.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WebFlux best practices</title>
-      <link>http://localhost:39613/blog/blog/java/java-reactive-best-practices/</link>
+      <link>http://localhost:1313/blog/blog/java/java-reactive-best-practices/</link>
       <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/blog/java/java-reactive-best-practices/</guid>
+      <guid>http://localhost:1313/blog/blog/java/java-reactive-best-practices/</guid>
       <description>&lt;p&gt;Spring WebFlux is a non-blocking, reactive web framework within the Spring ecosystem. It&amp;rsquo;s designed for building reactive, scalable web applications that handle numerous concurrent connections efficiently&lt;/p&gt;</description>
     </item>
     <item>
       <title>Timeline with latex</title>
-      <link>http://localhost:39613/blog/blog/latex/latex-timeline/</link>
+      <link>http://localhost:1313/blog/blog/latex/latex-timeline/</link>
       <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/blog/latex/latex-timeline/</guid>
+      <guid>http://localhost:1313/blog/blog/latex/latex-timeline/</guid>
       <description>&lt;p&gt;In this post we explain how to create a simple timeline using latex&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java Developer Expert Learning Path</title>
-      <link>http://localhost:39613/blog/blog/learning-paths/java/</link>
+      <link>http://localhost:1313/blog/blog/learning-paths/java/</link>
       <pubDate>Fri, 14 Mar 2025 11:07:24 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/learning-paths/java/</guid>
+      <guid>http://localhost:1313/blog/blog/learning-paths/java/</guid>
       <description>&lt;p&gt;Here’s a comprehensive learning path to become a Java Developer Expert, organized in levels from beginner to expert. This path includes core concepts, frameworks, best practices, tools, and specialization areas.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Main concepts to Become a Senior Software Developer</title>
-      <link>http://localhost:39613/blog/blog/learning-paths/full-software-developer-learning-path/</link>
+      <link>http://localhost:1313/blog/blog/learning-paths/full-software-developer-learning-path/</link>
       <pubDate>Fri, 14 Mar 2025 00:28:49 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/learning-paths/full-software-developer-learning-path/</guid>
+      <guid>http://localhost:1313/blog/blog/learning-paths/full-software-developer-learning-path/</guid>
       <description>&lt;p&gt;Below is a comprehensive learning path designed to take you from the basics of programming through advanced topics and soft skills that will help you grow into a senior software developer. Keep in mind that this is a long-term plan (often spanning several years of study and practice), and the timeline may vary based on your previous experience, learning pace, and the time you can dedicate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Breadth-First Search (BFS) Algorithm</title>
-      <link>http://localhost:39613/blog/blog/graphs/breadth-first-search/</link>
+      <link>http://localhost:1313/blog/blog/graphs/breadth-first-search/</link>
       <pubDate>Mon, 10 Mar 2025 22:56:05 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/graphs/breadth-first-search/</guid>
+      <guid>http://localhost:1313/blog/blog/graphs/breadth-first-search/</guid>
       <description>&lt;p&gt;Breadth-First Search (BFS) is one of the fundamental graph traversal algorithms used in computer science. It is particularly effective for searching or traversing tree or graph data structures, exploring nodes level by level from a starting point. BFS is commonly used in scenarios such as finding the shortest path in unweighted graphs, peer-to-peer networks, web crawlers, and more.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Descriptive Analysis: A Comprehensive Guide</title>
-      <link>http://localhost:39613/blog/blog/data-science/descriptive-analysis/</link>
+      <link>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</link>
       <pubDate>Fri, 07 Mar 2025 22:06:23 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/data-science/descriptive-analysis/</guid>
+      <guid>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</guid>
       <description>&lt;p&gt;Descriptive analysis is a fundamental aspect of data analysis, focused on summarizing historical data to better understand what has happened. It involves organizing, visualizing, and summarizing data in meaningful ways.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to add timestamp in each page</title>
-      <link>http://localhost:39613/blog/blog/latex/add-timestamp/</link>
+      <link>http://localhost:1313/blog/blog/latex/add-timestamp/</link>
       <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/blog/latex/add-timestamp/</guid>
+      <guid>http://localhost:1313/blog/blog/latex/add-timestamp/</guid>
       <description>&lt;p&gt;You can add a &lt;strong&gt;date stamp&lt;/strong&gt; at the bottom of each page using the &lt;code&gt;fancyhdr&lt;/code&gt; package. Here&amp;rsquo;s how:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introduction to Generative AI and LLMs</title>
-      <link>http://localhost:39613/blog/blog/ai/generative-ai/</link>
+      <link>http://localhost:1313/blog/blog/ai/generative-ai/</link>
       <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/blog/ai/generative-ai/</guid>
+      <guid>http://localhost:1313/blog/blog/ai/generative-ai/</guid>
       <description>&lt;p&gt;Generative AI is a type of artificial intelligence that can create new content, such as text, images, audio, or video, based on patterns it learns from existing data. In this post we briefly explain the main concepts, history and techiques behind of the generative ai.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java Web flux</title>
-      <link>http://localhost:39613/blog/blog/java/java-web-flux/</link>
+      <link>http://localhost:1313/blog/blog/java/java-web-flux/</link>
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/blog/java/java-web-flux/</guid>
+      <guid>http://localhost:1313/blog/blog/java/java-web-flux/</guid>
       <description>&lt;h1 id=&#34;-java-reactive-programming-with-spring-webflux-building-scalable-non-blocking-applications&#34;&gt;⚡ Java Reactive Programming with Spring WebFlux: Building Scalable, Non-Blocking Applications&lt;/h1&gt;&#xA;&lt;p&gt;In today’s cloud-native world, the demand for highly responsive and scalable applications has never been greater. Traditional thread-per-request architectures often struggle under heavy load. That’s where &lt;strong&gt;Reactive Programming&lt;/strong&gt; shines — and in the Java ecosystem, &lt;strong&gt;Spring WebFlux&lt;/strong&gt; is the tool of choice for building reactive systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Json Web Token</title>
-      <link>http://localhost:39613/blog/blog/security/jwt/</link>
+      <link>http://localhost:1313/blog/blog/security/jwt/</link>
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/blog/security/jwt/</guid>
+      <guid>http://localhost:1313/blog/blog/security/jwt/</guid>
       <description>&lt;p&gt;A &lt;strong&gt;JSON Web Token (JWT)&lt;/strong&gt; is an open standard &lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc7519&#34;&#xA;&#xA;&#xA;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &#xA;&#xA;&#xA;&gt;RFC 7519&lt;/a&gt; for securely transmitting information between parties as a &lt;strong&gt;JSON object&lt;/strong&gt;. This information can be verified and trusted because it is digitally signed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Depth-First Search (DFS) Algorithm</title>
-      <link>http://localhost:39613/blog/blog/graphs/depth-first-search/</link>
+      <link>http://localhost:1313/blog/blog/graphs/depth-first-search/</link>
       <pubDate>Mon, 10 Feb 2025 23:32:02 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/graphs/depth-first-search/</guid>
+      <guid>http://localhost:1313/blog/blog/graphs/depth-first-search/</guid>
       <description>&lt;p&gt;Depth-First Search (DFS) is a classic algorithm used to explore nodes and edges of a graph. It proceeds by exploring as far along a branch as possible before backtracking, which contrasts with Breadth-First Search (BFS) that explores neighbors level by level. DFS can be implemented using either recursion or an explicit stack and is a fundamental tool in fields such as artificial intelligence, compiler design, and topological sorting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Measures of dispersion</title>
-      <link>http://localhost:39613/blog/blog/data-science/measure-dispersion/</link>
+      <link>http://localhost:1313/blog/blog/data-science/measure-dispersion/</link>
       <pubDate>Fri, 07 Feb 2025 22:19:33 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/data-science/measure-dispersion/</guid>
+      <guid>http://localhost:1313/blog/blog/data-science/measure-dispersion/</guid>
       <description>&lt;p&gt;Measures of dispersion quantify how much data values vary or spread out. Understanding dispersion helps you grasp the &lt;strong&gt;reliability, consistency, and variability&lt;/strong&gt; of data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scrum Methodology Guidelines</title>
-      <link>http://localhost:39613/blog/blog/software-development/scrum-guidelines/</link>
+      <link>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</link>
       <pubDate>Fri, 17 Jan 2025 11:43:32 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/software-development/scrum-guidelines/</guid>
+      <guid>http://localhost:1313/blog/blog/software-development/scrum-guidelines/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Scrum&lt;/strong&gt; is an &lt;strong&gt;agile framework&lt;/strong&gt; for developing, delivering, and sustaining complex products. It emphasizes &lt;strong&gt;empirical process control&lt;/strong&gt;, &lt;strong&gt;collaboration&lt;/strong&gt;, &lt;strong&gt;accountability&lt;/strong&gt;, and &lt;strong&gt;iterative progress&lt;/strong&gt;. Scrum divides work into &lt;strong&gt;Sprints&lt;/strong&gt;—time-boxed iterations—where teams produce potentially shippable product increments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learning Path to Become a Senior Software Developer</title>
-      <link>http://localhost:39613/blog/blog/learning-paths/software-developer-learning-path/</link>
+      <link>http://localhost:1313/blog/blog/learning-paths/software-developer-learning-path/</link>
       <pubDate>Tue, 14 Jan 2025 00:04:15 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/learning-paths/software-developer-learning-path/</guid>
+      <guid>http://localhost:1313/blog/blog/learning-paths/software-developer-learning-path/</guid>
       <description>&lt;p&gt;This learning path is designed to guide a developer from the &lt;strong&gt;basics of programming&lt;/strong&gt; to becoming a &lt;strong&gt;senior-level software developer&lt;/strong&gt;, leveraging programs and courses from top online academies (Coursera, edX, Udemy, Pluralsight, LinkedIn Learning, Treehouse, Codecademy, Khan Academy, MIT OpenCourseWare, Harvard CS50, Stanford Online, Georgia Tech OMSCS, MicroMasters by edX, freeCodeCamp, Le Wagon, General Assembly, Springboard, CareerFoundry, Ironhack, Thinkful, Platzi, Código Facilito, KeepCoding, Academind, Domestika, DeepLearning.AI, Fast.ai, DataCamp, AWS Skill Builder, Microsoft Learn, Google Cloud Skills Boost, IBM Skills Network, HackerRank, LeetCode, Exercism, Edabit)&lt;/p&gt;</description>
     </item>
     <item>
       <title>SOLID Principles in Software Architecture</title>
-      <link>http://localhost:39613/blog/blog/software-architecture/solid-principles/</link>
+      <link>http://localhost:1313/blog/blog/software-architecture/solid-principles/</link>
       <pubDate>Sun, 12 Jan 2025 23:41:02 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/software-architecture/solid-principles/</guid>
+      <guid>http://localhost:1313/blog/blog/software-architecture/solid-principles/</guid>
       <description>&lt;p&gt;In the field of software architecture and engineering, the SOLID principles provide a foundational framework for creating robust, scalable, and maintainable systems. These principles help reduce coupling, improve cohesion, and make codebases easier to test and evolve.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scrum Metrics: Detailed Explanation, Examples, and Best Practices</title>
-      <link>http://localhost:39613/blog/blog/software-development/scrum-metrics/</link>
+      <link>http://localhost:1313/blog/blog/software-development/scrum-metrics/</link>
       <pubDate>Thu, 09 Jan 2025 11:53:11 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/software-development/scrum-metrics/</guid>
+      <guid>http://localhost:1313/blog/blog/software-development/scrum-metrics/</guid>
       <description>&lt;p&gt;In Scrum, metrics serve as tools for inspection and adaptation. They help teams evaluate their performance, predict future behavior, and foster continuous improvement. Below are detailed explanations, examples, best practices, and general guidelines for the key Scrum metrics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Determine If a Dataset Is Small or Big</title>
-      <link>http://localhost:39613/blog/blog/data-science/what-mean-small-and-big/</link>
+      <link>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</link>
       <pubDate>Tue, 07 Jan 2025 22:30:21 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/data-science/what-mean-small-and-big/</guid>
+      <guid>http://localhost:1313/blog/blog/data-science/what-mean-small-and-big/</guid>
       <description>&lt;p&gt;In the data science world, terms like “small dataset” and “big dataset” are commonly used, but surprisingly, they lack universal definitions. Determining whether a dataset is “small” or “big” depends on several contextual factors: the analytical task, the computing environment, and even the underlying structure of the data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Portal Guidelines</title>
-      <link>http://localhost:39613/blog/blog/portals/portal-guidelines/</link>
+      <link>http://localhost:1313/blog/blog/portals/portal-guidelines/</link>
       <pubDate>Sat, 04 Jan 2025 09:54:26 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/portals/portal-guidelines/</guid>
+      <guid>http://localhost:1313/blog/blog/portals/portal-guidelines/</guid>
       <description>&lt;p&gt;This is the main guidelines and Best Practices for Building a Worpress Portal are recommendations or instructions that offer general direction without imposing strict rules. They provide a framework for making decisions, completing tasks, or achieving objectives in a consistent and effective manner.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Graphs in Computer Science: Theory, Algorithms, and Applications</title>
-      <link>http://localhost:39613/blog/blog/graphs/graphs/</link>
+      <link>http://localhost:1313/blog/blog/graphs/graphs/</link>
       <pubDate>Sun, 09 Jun 2024 12:08:01 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/graphs/graphs/</guid>
+      <guid>http://localhost:1313/blog/blog/graphs/graphs/</guid>
       <description>&lt;p&gt;Graphs are fundamental data structures in computer science, used to model pairwise relations between objects. They are ubiquitous in applications ranging from social networks and the web to transportation, compiler construction, and bioinformatics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Case for Hexagonal Architecture in a Fragmented Development World</title>
-      <link>http://localhost:39613/blog/blog/opinions/hexagonal-architecture/</link>
+      <link>http://localhost:1313/blog/blog/opinions/hexagonal-architecture/</link>
       <pubDate>Sat, 08 Jun 2024 17:55:17 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/opinions/hexagonal-architecture/</guid>
+      <guid>http://localhost:1313/blog/blog/opinions/hexagonal-architecture/</guid>
       <description>&lt;p&gt;Software development today is defined by paradoxes. Agile vs. traditional. Monoliths vs. microservices. Speed vs. stability. Amidst these tensions, teams search for structures that scale, patterns that last, and architectures that do more than just survive change—they thrive in it. Enter Hexagonal Architecture, also known as Ports and Adapters.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Revert Commits in Git</title>
-      <link>http://localhost:39613/blog/blog/guidelines/git-revert-commits/</link>
+      <link>http://localhost:1313/blog/blog/guidelines/git-revert-commits/</link>
       <pubDate>Sat, 08 Jun 2024 00:34:01 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/guidelines/git-revert-commits/</guid>
+      <guid>http://localhost:1313/blog/blog/guidelines/git-revert-commits/</guid>
       <description>&lt;p&gt;In this guide I explain how to revert commits in Git with differents methods.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git Troubleshooting Guide</title>
-      <link>http://localhost:39613/blog/blog/guidelines/git-troubleshooting/</link>
+      <link>http://localhost:1313/blog/blog/guidelines/git-troubleshooting/</link>
       <pubDate>Sat, 08 Jun 2024 00:10:09 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/guidelines/git-troubleshooting/</guid>
+      <guid>http://localhost:1313/blog/blog/guidelines/git-troubleshooting/</guid>
       <description>&lt;p&gt;A detailed guide to resolve common Git issues, including merge conflicts, rebase errors, deleting commits, and more.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git Guidelines with Gitflow &amp; Trunk-Based Development</title>
-      <link>http://localhost:39613/blog/blog/guidelines/git/</link>
+      <link>http://localhost:1313/blog/blog/guidelines/git/</link>
       <pubDate>Sat, 08 Jun 2024 00:02:44 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/guidelines/git/</guid>
+      <guid>http://localhost:1313/blog/blog/guidelines/git/</guid>
       <description>&lt;p&gt;A detailed guide Git issues, including Git Flow and Trunk-Based development&lt;/p&gt;</description>
     </item>
     <item>
       <title>Comprehensive Guide to Database Types: Past, Present, and Future</title>
-      <link>http://localhost:39613/blog/blog/software-architecture/databases-types/</link>
+      <link>http://localhost:1313/blog/blog/software-architecture/databases-types/</link>
       <pubDate>Tue, 04 Jun 2024 16:22:56 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/software-architecture/databases-types/</guid>
+      <guid>http://localhost:1313/blog/blog/software-architecture/databases-types/</guid>
       <description>&lt;p&gt;Databases are at the core of virtually every software system, storing and organizing data for efficient access, management, and processing. With the evolution of software architectures, application requirements, and data scales, new types of databases have emerged, each tailored to specific use cases. Understanding the strengths and limitations of each type is essential for choosing the best database for your application.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Daily TOEIC Preparation Routine</title>
-      <link>http://localhost:39613/blog/blog/learning-paths/toeic-prep/</link>
+      <link>http://localhost:1313/blog/blog/learning-paths/toeic-prep/</link>
       <pubDate>Sat, 18 May 2024 19:47:35 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/learning-paths/toeic-prep/</guid>
+      <guid>http://localhost:1313/blog/blog/learning-paths/toeic-prep/</guid>
       <description>&lt;p&gt;A structured routine to prepare for the TOEIC exam, ideally over 4–8 weeks, with 1.5 to 2 hours of daily practice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Beyond the Buzzwords: Rethinking the Software Development Process</title>
-      <link>http://localhost:39613/blog/blog/opinions/agile-vs-traditional-software-methods/</link>
+      <link>http://localhost:1313/blog/blog/opinions/agile-vs-traditional-software-methods/</link>
       <pubDate>Thu, 09 May 2024 17:47:41 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/opinions/agile-vs-traditional-software-methods/</guid>
+      <guid>http://localhost:1313/blog/blog/opinions/agile-vs-traditional-software-methods/</guid>
       <description>&lt;p&gt;In the realm of software development, few debates have endured as long—or burned as fiercely—as the one between traditional methodologies and agile practices. For decades, the question of how best to build software has oscillated between rigor and flexibility, planning and iteration, structure and flow. Yet in 2025, this dichotomy feels increasingly obsolete.&lt;/p&gt;</description>
     </item>
     <item>
       <title>TOEIC Preparation Guide &amp; Custom Study Plan</title>
-      <link>http://localhost:39613/blog/blog/learning-paths/toeic-prep-custom-plan/</link>
+      <link>http://localhost:1313/blog/blog/learning-paths/toeic-prep-custom-plan/</link>
       <pubDate>Mon, 18 Mar 2024 19:47:35 -0600</pubDate>
-      <guid>http://localhost:39613/blog/blog/learning-paths/toeic-prep-custom-plan/</guid>
+      <guid>http://localhost:1313/blog/blog/learning-paths/toeic-prep-custom-plan/</guid>
       <description>&lt;h1 id=&#34;toeic-preparation-guide--custom-study-plan&#34;&gt;TOEIC Preparation Guide &amp;amp; Custom Study Plan&lt;/h1&gt;&#xA;&lt;p&gt;This document provides a curated list of the best TOEIC preparation resources and a custom 4-week study plan to help you succeed on the TOEIC exam.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Daniel Pichardo</title>
-      <link>http://localhost:39613/blog/authors/daniel-cortes/</link>
+      <link>http://localhost:1313/blog/authors/daniel-cortes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:39613/blog/authors/daniel-cortes/</guid>
+      <guid>http://localhost:1313/blog/authors/daniel-cortes/</guid>
       <description>&lt;p&gt;Chief Software Architect. Responsible for the technical direction of many projects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Elements</title>
-      <link>http://localhost:39613/blog/elements/</link>
+      <link>http://localhost:1313/blog/elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:39613/blog/elements/</guid>
+      <guid>http://localhost:1313/blog/elements/</guid>
       <description>&lt;details class=&#34;table-of-content &#34;&gt;&#xA;  &lt;summary&gt;&#xA;    &#xA;      Table of Contents&#xA;    &#xA;  &lt;/summary&gt;&#xA;  &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ol&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#heading-2&#34;&gt;Heading 2&lt;/a&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#heading-3&#34;&gt;Heading 3&lt;/a&gt;&#xA;          &lt;ol&gt;&#xA;            &lt;li&gt;&lt;a href=&#34;#heading-4&#34;&gt;Heading 4&lt;/a&gt;&#xA;              &lt;ol&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#heading-5&#34;&gt;Heading 5&lt;/a&gt;&lt;/li&gt;&#xA;              &lt;/ol&gt;&#xA;            &lt;/li&gt;&#xA;          &lt;/ol&gt;&#xA;        &lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#emphasis&#34;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#button&#34;&gt;Button&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#link&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#paragraph&#34;&gt;Paragraph&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#ordered-list&#34;&gt;Ordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#unordered-list&#34;&gt;Unordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#notice&#34;&gt;Notice&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tab&#34;&gt;Tab&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#accordions&#34;&gt;Accordions&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#code-and-syntax-highlighting&#34;&gt;Code and Syntax Highlighting&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#blockquote&#34;&gt;Blockquote&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tables&#34;&gt;Tables&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#image&#34;&gt;Image&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#gallery&#34;&gt;Gallery&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#slider&#34;&gt;Slider&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#youtube-video&#34;&gt;Youtube video&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#custom-video&#34;&gt;Custom video&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ol&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/details&gt;&#xA;&#xA;&lt;p&gt;Here is an example of headings. You can use this heading by the following markdown rules. For example: use &lt;code&gt;#&lt;/code&gt; for heading 1 and use &lt;code&gt;######&lt;/code&gt; for heading 6.&lt;/p&gt;</description>
     </item>
     <item>
@@ -409,9 +416,9 @@
     </item>
     <item>
       <title>Privacy</title>
-      <link>http://localhost:39613/blog/privacy/</link>
+      <link>http://localhost:1313/blog/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:39613/blog/privacy/</guid>
+      <guid>http://localhost:1313/blog/privacy/</guid>
       <description>&lt;h4 id=&#34;responsibility-of-contributors&#34;&gt;Responsibility of Contributors&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description>
     </item>
     <item>

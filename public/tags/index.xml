@@ -2,297 +2,304 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DCP blog</title>
-    <link>http://localhost:39613/blog/tags/</link>
+    <link>http://localhost:1313/blog/tags/</link>
     <description>Recent content in Tags on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jul 2025 16:22:56 -0600</lastBuildDate>
-    <atom:link href="http://localhost:39613/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jul 2025 06:50:30 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Databases</title>
-      <link>http://localhost:39613/blog/tags/databases/</link>
-      <pubDate>Fri, 04 Jul 2025 16:22:56 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/databases/</guid>
+      <title>Ai-Research</title>
+      <link>http://localhost:1313/blog/tags/ai-research/</link>
+      <pubDate>Sat, 05 Jul 2025 06:50:30 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/ai-research/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming-Language</title>
-      <link>http://localhost:39613/blog/tags/programming-language/</link>
+      <link>http://localhost:1313/blog/tags/programming-language/</link>
       <pubDate>Tue, 01 Jul 2025 15:11:08 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/programming-language/</guid>
+      <guid>http://localhost:1313/blog/tags/programming-language/</guid>
       <description></description>
     </item>
     <item>
       <title>Tiobe</title>
-      <link>http://localhost:39613/blog/tags/tiobe/</link>
+      <link>http://localhost:1313/blog/tags/tiobe/</link>
       <pubDate>Tue, 01 Jul 2025 15:11:08 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/tiobe/</guid>
+      <guid>http://localhost:1313/blog/tags/tiobe/</guid>
       <description></description>
     </item>
     <item>
       <title>Data-Science</title>
-      <link>http://localhost:39613/blog/tags/data-science/</link>
+      <link>http://localhost:1313/blog/tags/data-science/</link>
       <pubDate>Sat, 28 Jun 2025 12:04:17 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/data-science/</guid>
+      <guid>http://localhost:1313/blog/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Nlp</title>
-      <link>http://localhost:39613/blog/tags/nlp/</link>
+      <link>http://localhost:1313/blog/tags/nlp/</link>
       <pubDate>Thu, 26 Jun 2025 16:51:11 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/nlp/</guid>
+      <guid>http://localhost:1313/blog/tags/nlp/</guid>
       <description></description>
     </item>
     <item>
       <title>Software-Standards</title>
-      <link>http://localhost:39613/blog/tags/software-standards/</link>
+      <link>http://localhost:1313/blog/tags/software-standards/</link>
       <pubDate>Tue, 24 Jun 2025 11:08:02 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/software-standards/</guid>
+      <guid>http://localhost:1313/blog/tags/software-standards/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:39613/blog/tags/python/</link>
+      <link>http://localhost:1313/blog/tags/python/</link>
       <pubDate>Fri, 20 Jun 2025 11:05:20 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/python/</guid>
+      <guid>http://localhost:1313/blog/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Software-Design</title>
-      <link>http://localhost:39613/blog/tags/software-design/</link>
+      <link>http://localhost:1313/blog/tags/software-design/</link>
       <pubDate>Wed, 18 Jun 2025 17:00:49 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/software-design/</guid>
+      <guid>http://localhost:1313/blog/tags/software-design/</guid>
       <description></description>
     </item>
     <item>
       <title>System-Design</title>
-      <link>http://localhost:39613/blog/tags/system-design/</link>
+      <link>http://localhost:1313/blog/tags/system-design/</link>
       <pubDate>Tue, 17 Jun 2025 11:32:41 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/system-design/</guid>
+      <guid>http://localhost:1313/blog/tags/system-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Shortest-Path</title>
-      <link>http://localhost:39613/blog/tags/shortest-path/</link>
+      <link>http://localhost:1313/blog/tags/shortest-path/</link>
       <pubDate>Thu, 12 Jun 2025 16:19:16 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/shortest-path/</guid>
+      <guid>http://localhost:1313/blog/tags/shortest-path/</guid>
       <description></description>
     </item>
     <item>
       <title>Opinion</title>
-      <link>http://localhost:39613/blog/tags/opinion/</link>
+      <link>http://localhost:1313/blog/tags/opinion/</link>
       <pubDate>Thu, 05 Jun 2025 20:53:28 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/opinion/</guid>
+      <guid>http://localhost:1313/blog/tags/opinion/</guid>
       <description></description>
     </item>
     <item>
       <title>Vibe-Coding</title>
-      <link>http://localhost:39613/blog/tags/vibe-coding/</link>
+      <link>http://localhost:1313/blog/tags/vibe-coding/</link>
       <pubDate>Thu, 05 Jun 2025 20:53:28 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/vibe-coding/</guid>
+      <guid>http://localhost:1313/blog/tags/vibe-coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Data-Structure</title>
-      <link>http://localhost:39613/blog/tags/data-structure/</link>
+      <link>http://localhost:1313/blog/tags/data-structure/</link>
       <pubDate>Mon, 02 Jun 2025 17:27:55 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/data-structure/</guid>
+      <guid>http://localhost:1313/blog/tags/data-structure/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:39613/blog/tags/java/</link>
+      <link>http://localhost:1313/blog/tags/java/</link>
       <pubDate>Sat, 31 May 2025 13:29:26 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/java/</guid>
+      <guid>http://localhost:1313/blog/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>http://localhost:39613/blog/tags/javascript/</link>
+      <link>http://localhost:1313/blog/tags/javascript/</link>
       <pubDate>Sat, 31 May 2025 13:29:26 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/javascript/</guid>
+      <guid>http://localhost:1313/blog/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Sorting-Algorithms</title>
-      <link>http://localhost:39613/blog/tags/sorting-algorithms/</link>
+      <link>http://localhost:1313/blog/tags/sorting-algorithms/</link>
       <pubDate>Sat, 31 May 2025 13:29:26 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/sorting-algorithms/</guid>
+      <guid>http://localhost:1313/blog/tags/sorting-algorithms/</guid>
       <description></description>
     </item>
     <item>
       <title>Sentence-Splitting</title>
-      <link>http://localhost:39613/blog/tags/sentence-splitting/</link>
+      <link>http://localhost:1313/blog/tags/sentence-splitting/</link>
       <pubDate>Mon, 26 May 2025 13:36:20 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/sentence-splitting/</guid>
+      <guid>http://localhost:1313/blog/tags/sentence-splitting/</guid>
       <description></description>
     </item>
     <item>
       <title>Max-Heap</title>
-      <link>http://localhost:39613/blog/tags/max-heap/</link>
+      <link>http://localhost:1313/blog/tags/max-heap/</link>
       <pubDate>Tue, 20 May 2025 04:19:10 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/max-heap/</guid>
+      <guid>http://localhost:1313/blog/tags/max-heap/</guid>
       <description></description>
     </item>
     <item>
       <title>Min-Heap</title>
-      <link>http://localhost:39613/blog/tags/min-heap/</link>
+      <link>http://localhost:1313/blog/tags/min-heap/</link>
       <pubDate>Tue, 20 May 2025 04:19:10 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/min-heap/</guid>
+      <guid>http://localhost:1313/blog/tags/min-heap/</guid>
       <description></description>
     </item>
     <item>
       <title>Deep-Learning</title>
-      <link>http://localhost:39613/blog/tags/deep-learning/</link>
+      <link>http://localhost:1313/blog/tags/deep-learning/</link>
       <pubDate>Fri, 16 May 2025 10:22:07 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/deep-learning/</guid>
+      <guid>http://localhost:1313/blog/tags/deep-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Ner</title>
-      <link>http://localhost:39613/blog/tags/ner/</link>
+      <link>http://localhost:1313/blog/tags/ner/</link>
       <pubDate>Fri, 16 May 2025 10:22:07 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/ner/</guid>
+      <guid>http://localhost:1313/blog/tags/ner/</guid>
       <description></description>
     </item>
     <item>
       <title>Best-Practices</title>
-      <link>http://localhost:39613/blog/tags/best-practices/</link>
+      <link>http://localhost:1313/blog/tags/best-practices/</link>
       <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/tags/best-practices/</guid>
+      <guid>http://localhost:1313/blog/tags/best-practices/</guid>
       <description></description>
     </item>
     <item>
       <title>Webflux</title>
-      <link>http://localhost:39613/blog/tags/webflux/</link>
+      <link>http://localhost:1313/blog/tags/webflux/</link>
       <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/tags/webflux/</guid>
+      <guid>http://localhost:1313/blog/tags/webflux/</guid>
       <description></description>
     </item>
     <item>
       <title>Timeline</title>
-      <link>http://localhost:39613/blog/tags/timeline/</link>
+      <link>http://localhost:1313/blog/tags/timeline/</link>
       <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/tags/timeline/</guid>
+      <guid>http://localhost:1313/blog/tags/timeline/</guid>
       <description></description>
     </item>
     <item>
       <title>Software-Development</title>
-      <link>http://localhost:39613/blog/tags/software-development/</link>
+      <link>http://localhost:1313/blog/tags/software-development/</link>
       <pubDate>Fri, 14 Mar 2025 00:28:49 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/software-development/</guid>
+      <guid>http://localhost:1313/blog/tags/software-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Breadth-First-Search</title>
-      <link>http://localhost:39613/blog/tags/breadth-first-search/</link>
+      <link>http://localhost:1313/blog/tags/breadth-first-search/</link>
       <pubDate>Mon, 10 Mar 2025 22:56:05 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/breadth-first-search/</guid>
+      <guid>http://localhost:1313/blog/tags/breadth-first-search/</guid>
       <description></description>
     </item>
     <item>
       <title>Graph-Traversal</title>
-      <link>http://localhost:39613/blog/tags/graph-traversal/</link>
+      <link>http://localhost:1313/blog/tags/graph-traversal/</link>
       <pubDate>Mon, 10 Mar 2025 22:56:05 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/graph-traversal/</guid>
+      <guid>http://localhost:1313/blog/tags/graph-traversal/</guid>
       <description></description>
     </item>
     <item>
       <title>Descriptive-Analysis</title>
-      <link>http://localhost:39613/blog/tags/descriptive-analysis/</link>
+      <link>http://localhost:1313/blog/tags/descriptive-analysis/</link>
       <pubDate>Fri, 07 Mar 2025 22:06:23 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/descriptive-analysis/</guid>
+      <guid>http://localhost:1313/blog/tags/descriptive-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Generative-Ai</title>
-      <link>http://localhost:39613/blog/tags/generative-ai/</link>
+      <link>http://localhost:1313/blog/tags/generative-ai/</link>
       <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/tags/generative-ai/</guid>
+      <guid>http://localhost:1313/blog/tags/generative-ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Timestamp</title>
-      <link>http://localhost:39613/blog/tags/timestamp/</link>
+      <link>http://localhost:1313/blog/tags/timestamp/</link>
       <pubDate>Wed, 19 Feb 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/tags/timestamp/</guid>
+      <guid>http://localhost:1313/blog/tags/timestamp/</guid>
       <description></description>
     </item>
     <item>
       <title>Jwt</title>
-      <link>http://localhost:39613/blog/tags/jwt/</link>
+      <link>http://localhost:1313/blog/tags/jwt/</link>
       <pubDate>Tue, 18 Feb 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:39613/blog/tags/jwt/</guid>
+      <guid>http://localhost:1313/blog/tags/jwt/</guid>
       <description></description>
     </item>
     <item>
       <title>Depth-First-Search</title>
-      <link>http://localhost:39613/blog/tags/depth-first-search/</link>
+      <link>http://localhost:1313/blog/tags/depth-first-search/</link>
       <pubDate>Mon, 10 Feb 2025 23:32:02 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/depth-first-search/</guid>
+      <guid>http://localhost:1313/blog/tags/depth-first-search/</guid>
       <description></description>
     </item>
     <item>
       <title>Scrum</title>
-      <link>http://localhost:39613/blog/tags/scrum/</link>
+      <link>http://localhost:1313/blog/tags/scrum/</link>
       <pubDate>Fri, 17 Jan 2025 11:43:32 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/scrum/</guid>
+      <guid>http://localhost:1313/blog/tags/scrum/</guid>
       <description></description>
     </item>
     <item>
       <title>Team-Topologies</title>
-      <link>http://localhost:39613/blog/tags/team-topologies/</link>
+      <link>http://localhost:1313/blog/tags/team-topologies/</link>
       <pubDate>Fri, 17 Jan 2025 11:43:32 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/team-topologies/</guid>
+      <guid>http://localhost:1313/blog/tags/team-topologies/</guid>
       <description></description>
     </item>
     <item>
       <title>Scrum-Metrics</title>
-      <link>http://localhost:39613/blog/tags/scrum-metrics/</link>
+      <link>http://localhost:1313/blog/tags/scrum-metrics/</link>
       <pubDate>Thu, 09 Jan 2025 11:53:11 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/scrum-metrics/</guid>
+      <guid>http://localhost:1313/blog/tags/scrum-metrics/</guid>
       <description></description>
     </item>
     <item>
       <title>Wordpress</title>
-      <link>http://localhost:39613/blog/tags/wordpress/</link>
+      <link>http://localhost:1313/blog/tags/wordpress/</link>
       <pubDate>Sat, 04 Jan 2025 09:54:26 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/wordpress/</guid>
+      <guid>http://localhost:1313/blog/tags/wordpress/</guid>
       <description></description>
     </item>
     <item>
       <title>Graphs</title>
-      <link>http://localhost:39613/blog/tags/graphs/</link>
+      <link>http://localhost:1313/blog/tags/graphs/</link>
       <pubDate>Sun, 09 Jun 2024 12:08:01 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/graphs/</guid>
+      <guid>http://localhost:1313/blog/tags/graphs/</guid>
       <description></description>
     </item>
     <item>
       <title>Hexagonal-Architecture</title>
-      <link>http://localhost:39613/blog/tags/hexagonal-architecture/</link>
+      <link>http://localhost:1313/blog/tags/hexagonal-architecture/</link>
       <pubDate>Sat, 08 Jun 2024 17:55:17 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/hexagonal-architecture/</guid>
+      <guid>http://localhost:1313/blog/tags/hexagonal-architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:39613/blog/tags/git/</link>
+      <link>http://localhost:1313/blog/tags/git/</link>
       <pubDate>Sat, 08 Jun 2024 00:34:01 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/git/</guid>
+      <guid>http://localhost:1313/blog/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Troubleshooting</title>
-      <link>http://localhost:39613/blog/tags/troubleshooting/</link>
+      <link>http://localhost:1313/blog/tags/troubleshooting/</link>
       <pubDate>Sat, 08 Jun 2024 00:10:09 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/troubleshooting/</guid>
+      <guid>http://localhost:1313/blog/tags/troubleshooting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Databases</title>
+      <link>http://localhost:1313/blog/tags/databases/</link>
+      <pubDate>Tue, 04 Jun 2024 16:22:56 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/databases/</guid>
       <description></description>
     </item>
     <item>
       <title>Toeic</title>
-      <link>http://localhost:39613/blog/tags/toeic/</link>
+      <link>http://localhost:1313/blog/tags/toeic/</link>
       <pubDate>Sat, 18 May 2024 19:47:35 -0600</pubDate>
-      <guid>http://localhost:39613/blog/tags/toeic/</guid>
+      <guid>http://localhost:1313/blog/tags/toeic/</guid>
       <description></description>
     </item>
   </channel>
