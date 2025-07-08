@@ -5,7 +5,7 @@
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-07-05T06:50:30-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/ai-research/</loc>
+    <loc>http://localhost:1313/blog/tags/ai-tools/</loc>
     <lastmod>2025-07-05T06:50:30-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
@@ -369,6 +369,8 @@
     <loc>http://localhost:1313/blog/privacy/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/sections/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/stats/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/topics/</loc>
   </url>

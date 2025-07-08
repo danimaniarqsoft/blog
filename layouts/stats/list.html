@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{ partial "page-header" . }}
+
+
+<div id="container"></div>
+
+<section class="section">
+  <div class="container">
+    <div class="row gx-5">
+      <!-- blog posts -->
+      <div class="lg:col-8">
+        <div class="row">
+          <div class="md:col-6 mb-14">
+            <table>
+              <tr>
+                <th>Year</th>
+                <th>Month</th>
+                <th>Link</th>
+              </tr>
+              {{ range where .Site.RegularPages "Section" "blog" }}
+
+              {{$year := .Date | time.Format (compare.Default "2006" .Site.Params.date_format) }}
+              {{$month := .Date | time.Format (compare.Default "January" .Site.Params.date_format) }}
+              {{ with $.Store.Get "greeting" }}
+              {{ $.Store.Set "greeting" (add . 1)}}
+              {{ else }}
+              {{ $.Store.Set "greeting" 1}}
+              {{ end }}
+              {{ $.Store.Get "greeting"}}
+              <tr>
+                <th>{{ $year }}</th>
+                <th> {{ $month }}</th>
+                <th>
+                  <a href="{{ .Permalink }}" class="text-text-dark dark:text-darkmode-text-dark block text-xl">
+                    {{ .Title }}
+                  </a>
+                </th>
+              </tr>
+              {{ end }}
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
