@@ -2,7 +2,7 @@
 title: "Queue Data Structure"
 meta_title: "Queue"
 description: "this is meta description"
-date: 2025-06-02T17:27:55-06:00
+date: 2024-07-02T17:27:55-06:00
 image: "/images/posts/data-structures/queue.png"
 categories: ["Data structures"]
 author: "Daniel Pichardo"

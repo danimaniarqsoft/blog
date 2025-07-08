@@ -2,7 +2,7 @@
 title: "Java Web flux"
 meta_title: "Java Web flux"
 description: "this is meta description"
-date: 2025-02-18T04:14:54-08:00
+date: 2024-08-18T04:14:54-08:00
 image: "/images/image-placeholder.png"
 categories: ["Java"]
 author: "Daniel Pichardo"

@@ -2,7 +2,7 @@
 title: "Stack Data Structure"
 meta_title: "Stack"
 description: "this is meta description"
-date: 2025-06-02T17:21:34-06:00
+date: 2024-09-02T17:21:34-06:00
 image: "/images/posts/data-structures/stack.png"
 categories: ["Data structures"]
 author: "Daniel Pichardo"

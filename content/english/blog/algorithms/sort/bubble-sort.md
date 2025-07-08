@@ -2,7 +2,7 @@
 title: "Bubble Sort Algorithm"
 meta_title: "bubble sort"
 description: "this is meta description"
-date: 2025-05-23T10:23:54-06:00
+date: 2024-04-23T10:23:54-06:00
 image: "/images/posts/algorithms/bubble-sort.png"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"

@@ -2,7 +2,7 @@
 title: "Building Trustworthy Code: A Comprehensive Look at Essential Software Engineering Standards"
 meta_title: "Building Trustworthy Code"
 description: "Building Trustworthy Code"
-date: 2025-06-24T11:08:02-06:00
+date: 2024-10-24T11:08:02-06:00
 image: "/images/posts/software-development/standards.png"
 categories: ["Software development"]
 author: "Daniel Pichardo"

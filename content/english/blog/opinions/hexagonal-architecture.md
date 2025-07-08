@@ -2,7 +2,7 @@
 title: "The Case for Hexagonal Architecture in a Fragmented Development World"
 meta_title: "Hexagonal architecture"
 description: "this is meta description"
-date: 2024-06-08T17:55:17-06:00
+date: 2024-10-08T17:55:17-06:00
 image: "/images/posts/opinion/image.png"
 categories: ["Opinion"]
 author: "Daniel Pichardo"

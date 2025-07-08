@@ -2,7 +2,7 @@
 title: "Clean Architecture: Building Robust and Maintainable Software"
 meta_title: "Clean Architecture"
 description: "this is meta description"
-date: 2025-06-13T08:57:37-06:00
+date: 2024-03-13T08:57:37-06:00
 image: "/images/posts/software-architecture/clean-architecture.png"
 categories: ["Software architecture"]
 author: "Daniel Pichardo"

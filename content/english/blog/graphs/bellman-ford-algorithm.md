@@ -2,7 +2,7 @@
 title: "Bellman-Ford Algorithm for Shortest Path"
 meta_title: "Bellman-Ford"
 description: "Bellman-Ford Algorithm for Shortest Path"
-date: 2025-06-01T20:27:13-06:00
+date: 2024-05-01T20:27:13-06:00
 image: "/images/posts/graphs/bellman-ford.png"
 categories: ["Graphs"]
 author: "Daniel Pichardo"

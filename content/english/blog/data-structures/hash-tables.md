@@ -2,7 +2,7 @@
 title: "Hash Tables: A Comprehensive Overview"
 meta_title: "Hash Tables"
 description: "this is meta description"
-date: 2025-06-02T13:05:33-06:00
+date: 2024-04-02T13:05:33-06:00
 image: "/images/posts/data-structures/hash-table-data-structure.png"
 categories: ["Data structures"]
 author: "Daniel Pichardo"

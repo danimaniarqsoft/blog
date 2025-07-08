@@ -2,7 +2,7 @@
 title: "Load Balancing Algorithms: A Comprehensive Guide"
 meta_title: "Load Balancing Algorithms"
 description: "Load Balancing Algorithms"
-date: 2025-06-18T17:00:49-06:00
+date: 2024-09-20T17:00:49-06:00
 image: "/images/posts/software-architecture/system-design/load-balancing/image.png"
 categories: ["Software architecture"]
 author: "Daniel Pichardo"

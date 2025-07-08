@@ -2,7 +2,7 @@
 title: "Core Concepts of System Design"
 meta_title: "Core Concepts of System Design"
 description: "Core Concepts of System Design"
-date: 2025-06-17T11:32:41-06:00
+date: 2024-05-17T11:32:41-06:00
 image: "/images/posts/software-architecture/design-concepts.png"
 categories: ["Software architecture"]
 author: "Daniel Pichardo"

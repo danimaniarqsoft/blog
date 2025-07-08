@@ -2,7 +2,7 @@
 title: "Shortest Path Using Dijkstra's Algorithm"
 meta_title: "Dijkstra's Algorithm"
 description: "Dijkstra's Algorithm"
-date: 2025-06-12T16:19:16-06:00
+date: 2024-05-12T16:19:16-06:00
 image: "/images/posts/graphs/dijkstra.png"
 categories: ["Graphs"]
 author: "Daniel Pichardo"

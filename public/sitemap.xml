@@ -53,44 +53,11 @@
     <loc>http://localhost:1313/blog/blog/ai/nlp/nlp-resources/</loc>
     <lastmod>2025-06-26T16:51:11-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/software-development/standards/</loc>
-    <lastmod>2025-06-24T11:08:02-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/software-standards/</loc>
-    <lastmod>2025-06-24T11:08:02-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/blog/software-development/python-dependency-management/</loc>
     <lastmod>2025-06-20T11:05:20-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/python/</loc>
     <lastmod>2025-06-20T11:05:20-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/software-architecture/load-balancing-algorithms/</loc>
-    <lastmod>2025-06-18T17:00:49-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/software-architecture/</loc>
-    <lastmod>2025-06-18T17:00:49-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/software-design/</loc>
-    <lastmod>2025-06-18T17:00:49-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/software-architecture/system-design-concepts/</loc>
-    <lastmod>2025-06-17T11:32:41-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/system-design/</loc>
-    <lastmod>2025-06-17T11:32:41-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</loc>
-    <lastmod>2025-06-13T08:57:37-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/graphs/</loc>
-    <lastmod>2025-06-12T16:19:16-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/graphs/dijkstra-algorithm/</loc>
-    <lastmod>2025-06-12T16:19:16-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/shortest-path/</loc>
-    <lastmod>2025-06-12T16:19:16-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/opinion/</loc>
     <lastmod>2025-06-05T20:53:28-06:00</lastmod>
@@ -104,53 +71,14 @@
     <loc>http://localhost:1313/blog/tags/vibe-coding/</loc>
     <lastmod>2025-06-05T20:53:28-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/data-structures/</loc>
-    <lastmod>2025-06-02T17:27:55-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/data-structure/</loc>
-    <lastmod>2025-06-02T17:27:55-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/data-structures/queue/</loc>
-    <lastmod>2025-06-02T17:27:55-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/data-structures/stack/</loc>
-    <lastmod>2025-06-02T17:21:34-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/data-structures/hash-tables/</loc>
-    <lastmod>2025-06-02T13:05:33-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/graphs/bellman-ford-algorithm/</loc>
-    <lastmod>2025-06-01T20:27:13-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/data-structures/trie/</loc>
-    <lastmod>2025-05-31T14:33:36-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/algorithms/</loc>
-    <lastmod>2025-05-31T13:29:26-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/java/</loc>
-    <lastmod>2025-05-31T13:29:26-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/javascript/</loc>
-    <lastmod>2025-05-31T13:29:26-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/algorithms/sort/radix-sort/</loc>
-    <lastmod>2025-05-31T13:29:26-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/sorting-algorithms/</loc>
-    <lastmod>2025-05-31T13:29:26-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/algorithms/sort/quick-sort/</loc>
-    <lastmod>2025-05-27T22:07:05-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/blog/ai/sentence-splitting/</loc>
     <lastmod>2025-05-26T13:36:20-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/sentence-splitting/</loc>
     <lastmod>2025-05-26T13:36:20-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/algorithms/sort/bubble-sort/</loc>
-    <lastmod>2025-05-23T10:23:54-06:00</lastmod>
+    <loc>http://localhost:1313/blog/categories/data-structures/</loc>
+    <lastmod>2025-05-20T04:19:10-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/data-structures/max-and-min-heap/</loc>
     <lastmod>2025-05-20T04:19:10-06:00</lastmod>
@@ -161,10 +89,19 @@
     <loc>http://localhost:1313/blog/tags/min-heap/</loc>
     <lastmod>2025-05-20T04:19:10-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/algorithms/sort/merge-sort/</loc>
-    <lastmod>2025-05-19T10:14:35-06:00</lastmod>
+    <loc>http://localhost:1313/blog/categories/algorithms/</loc>
+    <lastmod>2025-05-18T12:19:20-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/algorithms/sort/heap-sort/</loc>
+    <lastmod>2025-05-18T12:19:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/java/</loc>
+    <lastmod>2025-05-18T12:19:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/javascript/</loc>
+    <lastmod>2025-05-18T12:19:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/sorting-algorithms/</loc>
     <lastmod>2025-05-18T12:19:20-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/algorithms/sort/counting-sort/</loc>
@@ -230,6 +167,9 @@
     <loc>http://localhost:1313/blog/tags/graph-traversal/</loc>
     <lastmod>2025-03-10T22:56:05-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/categories/graphs/</loc>
+    <lastmod>2025-03-10T22:56:05-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/blog/data-science/descriptive-analysis/</loc>
     <lastmod>2025-03-07T22:06:23-06:00</lastmod>
   </url><url>
@@ -281,6 +221,12 @@
     <loc>http://localhost:1313/blog/blog/learning-paths/software-developer-learning-path/</loc>
     <lastmod>2025-01-14T00:04:15-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/categories/software-architecture/</loc>
+    <lastmod>2025-01-12T23:41:02-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/software-design/</loc>
+    <lastmod>2025-01-12T23:41:02-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/blog/software-architecture/solid-principles/</loc>
     <lastmod>2025-01-12T23:41:02-06:00</lastmod>
   </url><url>
@@ -301,6 +247,27 @@
   </url><url>
     <loc>http://localhost:1313/blog/tags/wordpress/</loc>
     <lastmod>2025-01-04T09:54:26-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/learning-paths/toeic-prep/</loc>
+    <lastmod>2024-07-18T19:47:35-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/toeic/</loc>
+    <lastmod>2024-07-18T19:47:35-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/data-structure/</loc>
+    <lastmod>2024-07-02T17:27:55-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-structures/queue/</loc>
+    <lastmod>2024-07-02T17:27:55-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-development/standards/</loc>
+    <lastmod>2024-06-24T11:08:02-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/software-standards/</loc>
+    <lastmod>2024-06-24T11:08:02-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-architecture/load-balancing-algorithms/</loc>
+    <lastmod>2024-06-18T17:00:49-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/graphs/</loc>
     <lastmod>2024-06-09T12:08:01-06:00</lastmod>
@@ -338,17 +305,50 @@
     <loc>http://localhost:1313/blog/tags/databases/</loc>
     <lastmod>2024-06-04T16:22:56-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/learning-paths/toeic-prep/</loc>
-    <lastmod>2024-05-18T19:47:35-06:00</lastmod>
+    <loc>http://localhost:1313/blog/blog/data-structures/stack/</loc>
+    <lastmod>2024-06-02T17:21:34-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/toeic/</loc>
-    <lastmod>2024-05-18T19:47:35-06:00</lastmod>
+    <loc>http://localhost:1313/blog/blog/software-architecture/system-design-concepts/</loc>
+    <lastmod>2024-05-17T11:32:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/system-design/</loc>
+    <lastmod>2024-05-17T11:32:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/graphs/dijkstra-algorithm/</loc>
+    <lastmod>2024-05-12T16:19:16-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/shortest-path/</loc>
+    <lastmod>2024-05-12T16:19:16-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/opinions/agile-vs-traditional-software-methods/</loc>
     <lastmod>2024-05-09T17:47:41-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/blog/graphs/bellman-ford-algorithm/</loc>
+    <lastmod>2024-05-01T20:27:13-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-structures/trie/</loc>
+    <lastmod>2024-04-29T14:33:36-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/algorithms/sort/bubble-sort/</loc>
+    <lastmod>2024-04-23T10:23:54-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/algorithms/sort/merge-sort/</loc>
+    <lastmod>2024-04-19T10:14:35-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-structures/hash-tables/</loc>
+    <lastmod>2024-04-02T13:05:33-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/algorithms/sort/radix-sort/</loc>
+    <lastmod>2024-03-31T13:29:26-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/algorithms/sort/quick-sort/</loc>
+    <lastmod>2024-03-27T22:07:05-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/blog/learning-paths/toeic-prep-custom-plan/</loc>
     <lastmod>2024-03-18T19:47:35-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</loc>
+    <lastmod>2024-03-13T08:57:37-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/topics/java-best-practices/</loc>
   </url><url>

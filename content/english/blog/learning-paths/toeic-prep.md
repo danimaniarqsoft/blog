@@ -2,7 +2,7 @@
 title: "Daily TOEIC Preparation Routine"
 meta_title: "TOEIC Prep"
 description: "this is meta description"
-date: 2024-05-18T19:47:35-06:00
+date: 2024-07-18T19:47:35-06:00
 image: "/images/posts/toeic.png"
 categories: ["Learning paths"]
 author: "Daniel Pichardo"

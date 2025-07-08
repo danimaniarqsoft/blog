@@ -2,7 +2,7 @@
 title: "How to add timestamp in each page"
 meta_title: "Timestamp"
 description: "this is meta description"
-date: 2025-02-19T21:21:54-08:00
+date: 2024-09-19T21:21:54-08:00
 image: "/images/image-placeholder.png"
 categories: ["Latex"]
 author: "Daniel Pichardo"

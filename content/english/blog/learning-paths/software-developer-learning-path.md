@@ -2,7 +2,7 @@
 title: "Learning Path to Become a Senior Software Developer"
 meta_title: "Learning Path to Become a Senior Software Developer"
 description: "this is meta description"
-date: 2025-01-14T00:04:15-06:00
+date: 2025-04-14T00:04:15-06:00
 image: "/images/posts/software-development/learning-path.png"
 categories: ["Learning paths"]
 author: "Daniel Pichardo"

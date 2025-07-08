@@ -2,7 +2,7 @@
 title: "Insertion Sort Algorithm"
 meta_title: "insertion sort"
 description: "this is meta description"
-date: 2025-05-17T12:28:05-06:00
+date: 2024-07-17T12:28:05-06:00
 image: "/images/posts/algorithms/image.png"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"

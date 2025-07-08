@@ -2,7 +2,7 @@
 title: "Quick Sort Algorithm: An In-depth Guide"
 meta_title: "quick sort"
 description: "this is meta description"
-date: 2025-05-27T22:07:05-06:00
+date: 2024-03-27T22:07:05-06:00
 image: "/images/posts/algorithms/quick-sort.png"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"

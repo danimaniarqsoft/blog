@@ -2,7 +2,7 @@
 title: "Selection Sort Algorithm"
 meta_title: "selection sort"
 description: "this is meta description"
-date: 2025-05-17T00:02:39-06:00
+date: 2024-07-17T00:02:39-06:00
 image: "/images/posts/algorithms/selection-sort.png"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"

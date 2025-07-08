@@ -2,7 +2,7 @@
 title: "Trie Data Structure"
 meta_title: "Trie"
 description: "this is meta description"
-date: 2025-05-31T14:33:36-06:00
+date: 2024-04-29T14:33:36-06:00
 image: "/images/posts/data-structures/trie-data-structure.png"
 categories: ["Data structures"]
 author: "Daniel Pichardo"
