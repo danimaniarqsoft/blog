@@ -58,13 +58,6 @@
       <description></description>
     </item>
     <item>
-      <title>Java</title>
-      <link>http://localhost:1313/blog/categories/java/</link>
-      <pubDate>Mon, 12 May 2025 04:14:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/categories/java/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Latex</title>
       <link>http://localhost:1313/blog/categories/latex/</link>
       <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
@@ -74,7 +67,7 @@
     <item>
       <title>Learning Paths</title>
       <link>http://localhost:1313/blog/categories/learning-paths/</link>
-      <pubDate>Fri, 14 Mar 2025 11:07:24 -0600</pubDate>
+      <pubDate>Mon, 14 Apr 2025 00:04:15 -0600</pubDate>
       <guid>http://localhost:1313/blog/categories/learning-paths/</guid>
       <description></description>
     </item>
@@ -104,6 +97,13 @@
       <link>http://localhost:1313/blog/categories/portal/</link>
       <pubDate>Sat, 04 Jan 2025 09:54:26 -0600</pubDate>
       <guid>http://localhost:1313/blog/categories/portal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/blog/categories/java/</link>
+      <pubDate>Sun, 18 Aug 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/blog/categories/java/</guid>
       <description></description>
     </item>
     <item>

@@ -1,45 +1,66 @@
 {{ define "main" }}
 {{ partial "page-header" . }}
 
+{{$filterPageByBlog := where .Site.RegularPages "Section" "blog"}}
+{{$test := $filterPageByBlog.GroupByDate "January 2006"}}
+
 <section class="section">
   <div class="container">
-    <div class="row gx-5">
-      <!-- blog posts -->
-      <div class="lg:col-8">
-        <div class="row">
-          <div class="md:col-6 mb-14">
-            <table>
-              <tr>
-                <th>Year</th>
-                <th>Month</th>
-                <th>Link</th>
-              </tr>
-              {{ range where .Site.RegularPages "Section" "blog" }}
-
-              {{$year := .Date | time.Format (compare.Default "2006" .Site.Params.date_format) }}
-              {{$month := .Date | time.Format (compare.Default "January" .Site.Params.date_format) }}
-              {{ with $.Store.Get "greeting" }}
-              {{ $.Store.Add "greeting" . }}
-              {{ else }}
-              {{ $.Store.Set "greeting" 0 }}
-              {{ end }}
-              {{ $.Store.Get "greeting"}}
-              <tr>
-                <th>{{ $year }}</th>
-                <th> {{ $month }}</th>
-                <th>
-                  <a href="{{ .Permalink }}" class="text-text-dark dark:text-darkmode-text-dark block text-xl">
-                    {{ .Title }}
-                  </a>
-                </th>
-              </tr>
-              {{ end }}
-            </table>
-            {{ $.Store.Get "greeting"}}
-          </div>
-        </div>
-      </div>
-    </div>
+    <canvas id="postByYearAndMonth"></canvas>
   </div>
 </section>
+<script>
+
+  const siteTitle = {{ $test }};
+  const theLabes = []
+  const theData = []
+
+  const myObject = siteTitle;
+  for (const key in myObject) {
+    if (myObject.hasOwnProperty(key)) {
+      theLabes.push(myObject[key].Key);
+      theData.push(myObject[key].Pages.length)
+      console.log(`${key}: ${myObject[key].Key} - ${myObject[key].Pages.length}`);
+    }
+  }
+
+  const ctx = document.getElementById('postByYearAndMonth');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: theLabes,
+      datasets: [{
+        label: '# of posts',
+        minBarLength: 6,
+        barPercentage: 1,
+        data: theData,
+        borderWidth: 1,
+        borderColor: 'rgb(54, 162, 235)',
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+      }]
+    },
+    options: {
+      responsive: true,
+      indexAxis: 'y',
+      scales: {
+        x: {
+          beginAtZero: true,
+          ticks: {
+            stepSize: 1
+          },
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'top',
+        },
+        title: {
+          display: true,
+          text: 'Post per Month'
+        }
+      }
+    }
+  });
+</script>
 {{ end }}
