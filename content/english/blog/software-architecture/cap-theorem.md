@@ -7,7 +7,7 @@ image: "/images/posts/software-architecture/system-design/cap-theorem.png"
 categories: ["Software architecture"]
 author: "Daniel Pichardo"
 tags: ["software-design"]
-draft: true
+draft: false
 ---
 The CAP Theorem, also known as Brewer's Theorem, stands as a cornerstone in the architecture of distributed systems. It articulates a fundamental constraint: it is impossible for a distributed data store to simultaneously guarantee **C**onsistency, **A**vailability, and **P**artition Tolerance. In the face of an unavoidable network partition, a system is compelled to sacrifice either strong consistency or continuous availability.
 

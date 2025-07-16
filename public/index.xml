@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Jul 2025 18:46:18 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 01:33:54 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Approaches to Natural Language Processing (NLP)</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/nlp-approaches/</link>
+      <pubDate>Wed, 16 Jul 2025 01:33:54 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/nlp-approaches/</guid>
+      <description>&lt;p&gt;Natural Language Processing (NLP) aims to enable computers to understand, interpret, and generate human language. Over the years, several distinct approaches have evolved to tackle the complexities of natural language, each with its own strengths, weaknesses, and preferred methodologies for pre-processing.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The CAP Theorem: Navigating the Inevitable Trade-Off in Distributed Systems</title>
       <link>http://localhost:1313/blog/blog/software-architecture/cap-theorem/</link>
@@ -17,9 +24,9 @@
     </item>
     <item>
       <title>The Most Useful AI Tools for Business Today</title>
-      <link>http://localhost:1313/blog/blog/artificial-intelligence/ai-tools/</link>
+      <link>http://localhost:1313/blog/blog/ai/ai-tools/</link>
       <pubDate>Sat, 05 Jul 2025 06:50:30 -0600</pubDate>
-      <guid>http://localhost:1313/blog/blog/artificial-intelligence/ai-tools/</guid>
+      <guid>http://localhost:1313/blog/blog/ai/ai-tools/</guid>
       <description>&lt;p&gt;Artificial intelligence is rapidly transforming the global business landscape, evolving from a theoretical concept to an indispensable performance driver. This report provides a strategic overview of the most impactful AI tools currently being deployed across various business operations, highlighting their practical applications and measurable benefits. The analysis underscores that businesses are increasingly adopting AI across diverse functions, focusing on pragmatic, task-specific solutions designed to augment human capabilities, drive efficiency, and enhance decision-making. The strategic integration of AI into existing workflows and the synergistic combination of different AI technologies are proving pivotal in unlocking significant organizational value.&lt;/p&gt;</description>
     </item>
     <item>
@@ -84,6 +91,13 @@
       <pubDate>Fri, 16 May 2025 10:22:07 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/ai/ner-project/</guid>
       <description>&lt;p&gt;Named Entity Recognition (NER) is a key task in Natural Language Processing (NLP) where the goal is to locate and classify named entities in text into predefined categories such as person names, organizations, locations, time expressions, etc. In this project, we leverage &lt;strong&gt;LLaMA (Large Language Model Meta AI)&lt;/strong&gt; for generating high-quality embeddings and train a deep learning model on top for the NER task.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pre-processing of unstructured text</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/pre-processing/</link>
+      <pubDate>Mon, 28 Apr 2025 22:47:46 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/pre-processing/</guid>
+      <description>&lt;p&gt;The pre-processing of unstructured text is a critical foundational step in any Natural Language Processing (NLP) pipeline. It transforms raw, often noisy, data into a clean, normalized, and structured format suitable for computational analysis. The specific sequence and nature of these steps are highly dependent on the downstream NLP task and the chosen machine learning paradigm (rule-based, traditional machine learning, or deep learning). This article, drawing upon established scientific literature, delves into common pre-processing steps, organizing them by NLP task and the associated modeling approach, to provide a comprehensive guide for researchers and practitioners.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Timeline with latex</title>
