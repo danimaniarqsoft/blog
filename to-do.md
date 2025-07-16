@@ -14,7 +14,7 @@ Graph Algorithms
 Concepts to know for system design interviews, include the next items:
 - [x] 01. Scalability: https://blog.algomaster.io/p/scalability
 - [X] 02. Availability: https://blog.algomaster.io/p/system-design-what-is-availability
-- [ ] 03. CAP Theorem: https://blog.algomaster.io/p/cap-theorem-explained
+- [X] 03. CAP Theorem: https://blog.algomaster.io/p/cap-theorem-explained
 - [ ] 04. Caching: https://blog.algomaster.io/p/4d7d6f8a-6803-4c7b-85ca-864c87c2cbf2
 - [ ] 05. Load Balancing: https://blog.algomaster.io/p/load-balancing-algorithms-explained-with-code
 - [ ] 06. Rate Limiting: https://blog.algomaster.io/p/rate-limiting-algorithms-explained-with-code

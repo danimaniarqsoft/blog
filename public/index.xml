@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jul 2025 06:50:30 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jul 2025 18:46:18 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The CAP Theorem: Navigating the Inevitable Trade-Off in Distributed Systems</title>
+      <link>http://localhost:1313/blog/blog/software-architecture/cap-theorem/</link>
+      <pubDate>Tue, 15 Jul 2025 18:46:18 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-architecture/cap-theorem/</guid>
+      <description>&lt;p&gt;The CAP Theorem, also known as Brewer&amp;rsquo;s Theorem, stands as a cornerstone in the architecture of distributed systems. It articulates a fundamental constraint: it is impossible for a distributed data store to simultaneously guarantee &lt;strong&gt;C&lt;/strong&gt;onsistency, &lt;strong&gt;A&lt;/strong&gt;vailability, and &lt;strong&gt;P&lt;/strong&gt;artition Tolerance. In the face of an unavoidable network partition, a system is compelled to sacrifice either strong consistency or continuous availability.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Most Useful AI Tools for Business Today</title>
       <link>http://localhost:1313/blog/blog/artificial-intelligence/ai-tools/</link>
