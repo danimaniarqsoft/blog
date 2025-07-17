@@ -8,7 +8,7 @@ draft: false
 
 **Title:** Software Architect and junior data science
 
-**Industry:** Software Development / Technology / IT Consulting / Artificial Intelligence / Natural processing language
+**Industry:** Software Development / Technology / IT Consulting / Artificial Intelligence / Natural language processing
 
 ## 🧑‍💻 Professional Summary
 

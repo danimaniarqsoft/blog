@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Diaries of a Tech Leader"
-  content: "Welcome to a software development blog dedicated to sharing insights, tutorials, and experiences from the world of modern software engineering and artificial intelligence."
+  title: "Innovate, Lead, Inspire: A Tech Leader's Daily Log"
+  content: "Explore the dynamic world of modern software engineering and artificial intelligence! Join us for a journey through cutting-edge insights, comprehensive tutorials, and shared experiences that illuminate the path forward in tech."
   image: "/images/banner.png"
   button:
     enable: true

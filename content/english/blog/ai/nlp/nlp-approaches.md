@@ -7,7 +7,7 @@ image: "/images/posts/ai/nlp/image.png"
 categories: ["Artificial Intelligence","NLP"]
 author: "Daniel Pichardo"
 tags: ["nlp"]
-draft: false
+draft: false                                                                  
 ---
 
 Natural Language Processing (NLP) aims to enable computers to understand, interpret, and generate human language. Over the years, several distinct approaches have evolved to tackle the complexities of natural language, each with its own strengths, weaknesses, and preferred methodologies for pre-processing.
