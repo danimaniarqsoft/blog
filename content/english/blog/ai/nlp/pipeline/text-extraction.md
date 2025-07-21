@@ -6,8 +6,8 @@ date: 2025-04-21T12:38:17-06:00
 image: "/images/posts/ai/nlp/pipeline/text-extraction.png"
 categories: ["Artificial Intelligence","NLP"]
 author: "Daniel Pichardo"
-tags: ["nlp"]
-draft: true
+tags: ["nlp","text-extraction"]
+draft: false
 ---
 
 ## Introduction
