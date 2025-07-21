@@ -10,6 +10,8 @@ tags: ["generative-ai"]
 draft: false
 ---
 
+## Introduction
+
 Generative AI is a type of artificial intelligence that can create new content, such as text, images, audio, or video, based on patterns it learns from existing data. In this post we briefly explain the main concepts, history and techiques behind of the generative ai. 
 
 Hey there! 👋 If you’ve been wondering why everyone’s suddenly talking about **Generative AI** and **Large Language Models (LLMs)**—you’re in the right place.

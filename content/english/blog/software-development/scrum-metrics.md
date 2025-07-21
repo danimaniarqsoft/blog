@@ -10,6 +10,8 @@ tags: ["scrum", "scrum-metrics"]
 draft: false
 ---
 
+## Introduction
+
 In Scrum, metrics serve as tools for inspection and adaptation. They help teams evaluate their performance, predict future behavior, and foster continuous improvement. Below are detailed explanations, examples, best practices, and general guidelines for the key Scrum metrics.
 
 ---

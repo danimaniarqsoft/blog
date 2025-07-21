@@ -10,6 +10,7 @@ tags: ["timestamp"]
 draft: false
 ---
 
+## Introduction
 
 You can add a **date stamp** at the bottom of each page using the `fancyhdr` package. Here's how:
 

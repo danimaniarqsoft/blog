@@ -10,6 +10,8 @@ tags: ["depth-first-search", "graph-traversal"]
 draft: false
 ---
 
+## Introduction
+
 Depth-First Search (DFS) is a classic algorithm used to explore nodes and edges of a graph. It proceeds by exploring as far along a branch as possible before backtracking, which contrasts with Breadth-First Search (BFS) that explores neighbors level by level. DFS can be implemented using either recursion or an explicit stack and is a fundamental tool in fields such as artificial intelligence, compiler design, and topological sorting.
 
 ## DFS Algorithm Step by Step

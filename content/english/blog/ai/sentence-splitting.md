@@ -10,6 +10,7 @@ tags: ["nlp", "sentence-splitting"]
 draft: false
 ---
 
+## Introduction
 
 **Sentence Splitting**, also known as **sentence segmentation**, is the process of dividing a text into its constituent sentences. It's a fundamental task in Natural Language Processing (NLP), typically performed as a first step in various downstream tasks like machine translation, information extraction, sentiment analysis, and text summarization.
 

@@ -10,6 +10,8 @@ tags: ["java","python","javascript","sorting-algorithms"]
 draft: false
 ---
 
+## Introduction
+
 Heap Sort is a comparison-based sorting technique based on a Binary Heap data structure. It is similar to selection sort where we first find the maximum element and place it at the end. We repeat the same process for the remaining elements.
 
 Heap Sort is not a stable sort, but it is an in-place algorithm with a time complexity of O(n log n), making it efficient for large datasets. It is well-covered in *"Introduction to Algorithms"* by Cormen et al. (CLRS).

@@ -10,6 +10,8 @@ tags: ["nlp"]
 draft: false
 ---
 
+## Introduction
+
 Natural Language Processing (NLP) has seen a dramatic evolution in the past decade, shifting from rule-based systems and traditional machine learning to deep learning, transformers, and large language models. Staying up to date with modern practices, research, and applications requires high-quality learning resources. Below is a curated list of **recommended books** that cover modern NLP topics, from foundations to cutting-edge research.
 
 ---

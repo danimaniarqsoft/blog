@@ -10,6 +10,8 @@ tags: ["software-design"]
 draft: false
 ---
 
+## Introduction
+
 Load balancing is a crucial technique in distributed systems and network architecture, designed to enhance the availability, reliability, and scalability of services. It involves distributing incoming network or application traffic across multiple servers to ensure that no single server becomes a bottleneck or point of failure. By intelligently routing requests, load balancing helps optimize resource use, maximize throughput, minimize response time, and avoid overload on any single server.
 
 Load balancers can be hardware-based or software-based, and they support various strategies and algorithms for distributing traffic. These algorithms determine how traffic is split among the servers based on factors like connection counts, server capacity, client IP, or response time.

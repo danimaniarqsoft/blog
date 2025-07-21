@@ -10,6 +10,8 @@ tags: ["data-structure"]
 draft: false
 ---
 
+## Introduction
+
 A **Trie** (pronounced as "try"), also known as a *prefix tree* or *digital tree*, is a type of search tree used to store associative data structures, typically strings. Tries are especially useful for solving problems involving dynamic sets of strings, such as dictionary management, autocomplete systems, and IP routing.
 
 Each node in a Trie represents a single character of a string. Strings are stored in a top-down manner, with common prefixes shared among nodes. Unlike hash tables, Tries allow efficient searching with prefix matching.

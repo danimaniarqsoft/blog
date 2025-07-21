@@ -10,6 +10,8 @@ tags: ["system-design"]
 draft: false
 ---
 
+## Introduction
+
 System design is a foundational skill in software engineering that encompasses the architectural structuring of complex systems to meet specified requirements for scalability, performance, reliability, and maintainability. It addresses both the high-level organization of systems (architectural design) and low-level components (detailed design), bridging the gap between theoretical principles and practical implementation.
 
 As modern systems scale to serve millions of users, a sound understanding of system design principles becomes critical for engineers, architects, and developers building distributed systems, microservices, and data-intensive applications.

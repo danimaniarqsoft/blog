@@ -10,6 +10,8 @@ tags: ["git"]
 draft: false
 ---
 
+## Introduction
+
 A detailed guide Git issues, including Git Flow and Trunk-Based development
 
 ---

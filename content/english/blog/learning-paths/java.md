@@ -10,6 +10,8 @@ tags: ["java"]
 draft: false
 ---
 
+## Introduction
+
 Here’s a comprehensive learning path to become a Java Developer Expert, organized in levels from beginner to expert. This path includes core concepts, frameworks, best practices, tools, and specialization areas.
 
 ## 🟢 Beginner Level: Java Fundamentals

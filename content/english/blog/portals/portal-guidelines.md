@@ -10,6 +10,7 @@ tags: ["wordpress"]
 draft: false
 ---
 
+## Introduction
 
 This is the main guidelines and Best Practices for Building a Worpress Portal are recommendations or instructions that offer general direction without imposing strict rules. They provide a framework for making decisions, completing tasks, or achieving objectives in a consistent and effective manner. 
 

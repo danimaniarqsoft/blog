@@ -10,6 +10,8 @@ tags: ["max-heap", "min-heap"]
 draft: false
 ---
 
+## Introduction
+
 Heaps are specialized tree-based data structures that satisfy the *heap property*. In a **max heap**, the parent node is always greater than or equal to its children, while in a **min heap**, the parent is always less than or equal to its children. Heaps are commonly used to implement **priority queues** and **heap sort**.
 
 Heaps are usually implemented as **binary heaps** using arrays for efficiency. The root element is stored at index 0, and for any element at index \(i\) , its children are at indices \(2i +1 \) and \(2i + 2 \), and its parent is at index \( \frac{(i - 1)}{2} \).

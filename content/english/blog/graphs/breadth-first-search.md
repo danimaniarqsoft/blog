@@ -10,6 +10,8 @@ tags: ["breadth-first-search", "graph-traversal"]
 draft: false
 ---
 
+## Introduction
+
 Breadth-First Search (BFS) is one of the fundamental graph traversal algorithms used in computer science. It is particularly effective for searching or traversing tree or graph data structures, exploring nodes level by level from a starting point. BFS is commonly used in scenarios such as finding the shortest path in unweighted graphs, peer-to-peer networks, web crawlers, and more.
 
 ## BFS Algorithm Step by Step

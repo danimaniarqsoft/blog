@@ -9,6 +9,9 @@ author: "Daniel Pichardo"
 tags: ["data-science"]
 draft: false
 ---
+
+## Introduction
+
 In the data science world, terms like “small dataset” and “big dataset” are commonly used, but surprisingly, they lack universal definitions. Determining whether a dataset is “small” or “big” depends on several contextual factors: the analytical task, the computing environment, and even the underlying structure of the data.
 
 This guide provides a **comprehensive and opinionated** breakdown of how to classify dataset sizes based on multiple criteria.

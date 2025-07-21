@@ -10,6 +10,8 @@ tags: ["software-design"]
 draft: false
 ---
 
+## Introduction
+
 In the field of software architecture and engineering, the SOLID principles provide a foundational framework for creating robust, scalable, and maintainable systems. These principles help reduce coupling, improve cohesion, and make codebases easier to test and evolve.
 
 SOLID is an acronym that represents five core principles:

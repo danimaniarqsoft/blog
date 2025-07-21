@@ -10,6 +10,8 @@ tags: ["ner", "deep-learning", "nlp"]
 draft: false
 ---
 
+## Introduction
+
 Named Entity Recognition (NER) is a key task in Natural Language Processing (NLP) where the goal is to locate and classify named entities in text into predefined categories such as person names, organizations, locations, time expressions, etc. In this project, we leverage **LLaMA (Large Language Model Meta AI)** for generating high-quality embeddings and train a deep learning model on top for the NER task.
 
 ---

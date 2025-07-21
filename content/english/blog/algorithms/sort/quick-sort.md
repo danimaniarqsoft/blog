@@ -10,6 +10,8 @@ tags: ["java","python","javascript","sorting-algorithms"]
 draft: false
 ---
 
+## Introduction
+
 Quick Sort is one of the most efficient and widely used sorting algorithms. Introduced by Tony Hoare in 1960, it employs a divide-and-conquer strategy to sort elements. It is particularly known for its performance in practice, often outperforming other sorting algorithms such as merge sort and bubble sort for large datasets.
 
 According to *Introduction to Algorithms* by Thomas H. Cormen et al., Quick Sort's strength lies in its in-place sorting and average-case efficiency, making it a staple in programming and computer science curricula.

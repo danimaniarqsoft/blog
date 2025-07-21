@@ -10,6 +10,8 @@ tags: ["java","python","javascript","sorting-algorithms"]
 draft: false
 ---
 
+## Introduction
+
 Counting Sort is a non-comparison-based sorting algorithm that operates with integer keys within a known, limited range. Unlike typical comparison sorts such as QuickSort or MergeSort, Counting Sort leverages the frequency of each element to achieve linear time sorting under suitable conditions. It is especially effective when the range of input values (k) is not significantly larger than the number of elements (n).
 
 ## Reference

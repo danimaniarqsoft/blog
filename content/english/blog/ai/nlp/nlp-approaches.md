@@ -10,6 +10,8 @@ tags: ["nlp"]
 draft: false                                                                  
 ---
 
+## Introduction
+
 Natural Language Processing (NLP) aims to enable computers to understand, interpret, and generate human language. Over the years, several distinct approaches have evolved to tackle the complexities of natural language, each with its own strengths, weaknesses, and preferred methodologies for pre-processing.
 
 ## 1. Traditional Rule-Based NLP

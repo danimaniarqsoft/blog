@@ -10,6 +10,8 @@ tags: ["jwt"]
 draft: false
 ---
 
+## Introduction
+
 A **JSON Web Token (JWT)** is an open standard [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) for securely transmitting information between parties as a **JSON object**. This information can be verified and trusted because it is digitally signed.
 
 JWTs are commonly used for **authentication and authorization** in web applications, APIs, and distributed systems.

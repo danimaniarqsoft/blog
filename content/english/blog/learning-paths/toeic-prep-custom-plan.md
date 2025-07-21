@@ -10,7 +10,8 @@ tags: ["toeic"]
 draft: false
 ---
 
-# TOEIC Preparation Guide & Custom Study Plan
+
+## Introduction
 
 This document provides a curated list of the best TOEIC preparation resources and a custom 4-week study plan to help you succeed on the TOEIC exam.
 

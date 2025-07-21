@@ -9,6 +9,9 @@ author: "Daniel Pichardo"
 tags: ["nlp"]
 draft: false
 ---
+
+## Introduction
+
 Large Language Models (LLMs) have revolutionized how we interact with AI, enabling capabilities such as natural language generation, reasoning, summarization, translation, and more. While commercial models like OpenAI’s GPT-4 and Anthropic’s Claude dominate enterprise spaces, open-source LLMs have gained significant traction across research, education, startups, and independent development.
 
 This article compares the **most important open-source LLMs in 2025**, analyzing them on the basis of **architecture, training data, benchmarks, licensing**, and **deployment use cases**.

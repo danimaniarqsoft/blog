@@ -10,6 +10,8 @@ tags: ["troubleshooting", "git"]
 draft: false
 ---
 
+## Introduction
+
 A detailed guide to resolve common Git issues, including merge conflicts, rebase errors, deleting commits, and more.
 
 ---

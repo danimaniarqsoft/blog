@@ -10,6 +10,8 @@ tags: ["java","python","javascript","sorting-algorithms"]
 draft: false
 ---
 
+## Introduction
+
 Bubble Sort is one of the simplest sorting algorithms often taught as an introductory algorithm due to its intuitive approach. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process continues until the list is sorted.
 
 While not suitable for large datasets due to its inefficiency, Bubble Sort remains a useful educational tool for learning about sorting concepts, algorithmic thinking, and complexity analysis.

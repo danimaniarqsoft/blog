@@ -10,6 +10,8 @@ tags: ["data-science"]
 draft: false
 ---
 
+## Introduction
+
 Measures of dispersion quantify how much data values vary or spread out. Understanding dispersion helps you grasp the **reliability, consistency, and variability** of data.
 
 ---

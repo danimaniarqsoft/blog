@@ -10,6 +10,8 @@ tags: ["software-development"]
 draft: false
 ---
 
+## Introduction
+
 In the realm of software development, few debates have endured as long—or burned as fiercely—as the one between traditional methodologies and agile practices. For decades, the question of how best to build software has oscillated between rigor and flexibility, planning and iteration, structure and flow. Yet in 2025, this dichotomy feels increasingly obsolete.
 
 The truth is, both traditional and agile methods have served their purpose—and both are overdue for an upgrade.

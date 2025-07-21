@@ -10,6 +10,7 @@ tags: ["data-structure"]
 draft: false
 ---
 
+## Introduction
 
 A **Queue** is a linear data structure that follows the **First In, First Out (FIFO)** principle. This means that the first element added to the queue will be the first one to be removed. It is analogous to a line of people waiting for a service: the person who arrives first gets served first.
 

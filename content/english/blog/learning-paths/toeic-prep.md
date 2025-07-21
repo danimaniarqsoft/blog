@@ -10,6 +10,8 @@ tags: ["toeic"]
 draft: false
 ---
 
+## Introduction
+
 A structured routine to prepare for the TOEIC exam, ideally over 4–8 weeks, with 1.5 to 2 hours of daily practice.
 
 ---

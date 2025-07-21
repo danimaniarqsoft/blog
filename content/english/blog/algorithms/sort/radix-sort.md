@@ -10,6 +10,8 @@ tags: ["java","python","javascript","sorting-algorithms"]
 draft: false
 ---
 
+## Introduction
+
 Radix Sort is a non-comparative, integer sorting algorithm that sorts data with integer keys by grouping the keys by individual digits which share the same position and value. It processes each digit of the numbers, starting from the least significant digit (LSD) or most significant digit (MSD), depending on the implementation.
 
 Unlike comparison-based algorithms like Quick Sort or Merge Sort, Radix Sort exploits the structure of numbers to achieve efficient sorting, particularly when the range of digits is limited.

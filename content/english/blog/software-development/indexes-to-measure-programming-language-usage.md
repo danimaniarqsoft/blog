@@ -10,6 +10,8 @@ tags: ["programming-language", "tiobe"]
 draft: false
 ---
 
+## Introduction
+
 The world of programming languages is vast and ever-evolving. Developers, tech companies, and educators constantly seek insights into which languages are most used, most loved, or most in demand. But how do we measure this popularity and usage? Several organizations have developed indexes and surveys to track the global usage trends of programming languages, each using different methodologies and data sources. Understanding these indexes helps inform hiring decisions, learning paths, and software planning strategies.
 
 ## A Brief History of Programming Languages

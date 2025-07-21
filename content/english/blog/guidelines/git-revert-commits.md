@@ -10,6 +10,8 @@ tags: ["git"]
 draft: false
 ---
 
+## Introduction
+
 In this guide I explain how to revert commits in Git with differents methods.
 
 ---

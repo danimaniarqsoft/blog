@@ -10,6 +10,7 @@ tags: ["descriptive-analysis"]
 draft: false
 ---
 
+## Introduction
 
 Descriptive analysis is a fundamental aspect of data analysis, focused on summarizing historical data to better understand what has happened. It involves organizing, visualizing, and summarizing data in meaningful ways.
 

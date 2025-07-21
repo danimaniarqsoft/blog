@@ -10,6 +10,8 @@ tags: ["java","python","sorting-algorithms"]
 draft: false
 ---
 
+## Introduction
+
 Selection Sort is a simple comparison-based sorting algorithm. It works by dividing the input list into two parts: the sublist of items already sorted, which is built up from left to right, and the sublist of items remaining to be sorted that occupy the rest of the list. The algorithm proceeds by finding the smallest (or largest, depending on the sorting order) element from the unsorted sublist and swapping it with the leftmost unsorted element, moving the sublist boundaries one element to the right.
 
 

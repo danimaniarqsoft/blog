@@ -10,6 +10,8 @@ tags: ["opinion", "vibe-coding"]
 draft: false
 ---
 
+## Introduction
+
 In the evolving landscape of software development, a quiet but profound shift is taking place—one that may redefine what it means to be a "programmer." The rise of *vibe coding* is signaling a new era where emotional flow, creativity, and intuition are becoming as central to coding as logic, syntax, and architecture. As AI systems increasingly automate low-level programming tasks and even participate in high-level design, the human role is transitioning from code producer to code conductor—a shift that aligns closely with the ethos of vibe coding.
 
 ## What Is Vibe Coding?

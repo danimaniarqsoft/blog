@@ -10,6 +10,8 @@ tags: ["java","python","sorting-algorithms"]
 draft: false
 ---
 
+## Introduction
+
 Insertion Sort is a simple and intuitive comparison-based sorting algorithm. It builds the final sorted array one element at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, it has advantages in simplicity and efficiency for small datasets.
 
 ## Reference

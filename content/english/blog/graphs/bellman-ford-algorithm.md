@@ -10,6 +10,8 @@ tags: ["shortest-path"]
 draft: false
 ---
 
+## Introduction
+
 The **Bellman-Ford algorithm** is a fundamental single-source shortest path algorithm used in graph theory. Unlike Dijkstra's algorithm, Bellman-Ford can handle graphs with **negative weight edges**, making it versatile for a broader class of problems. It was first proposed by Richard Bellman and Lester Ford in 1958.
 
 ---

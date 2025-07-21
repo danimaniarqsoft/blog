@@ -10,6 +10,8 @@ tags: ["databases"]
 draft: false
 ---
 
+## Introduction
+
 Databases are at the core of virtually every software system, storing and organizing data for efficient access, management, and processing. With the evolution of software architectures, application requirements, and data scales, new types of databases have emerged, each tailored to specific use cases. Understanding the strengths and limitations of each type is essential for choosing the best database for your application.
 
 This article explores the major types of databases—including relational, NoSQL, time-series, NewSQL, object-oriented, vector, and cloud databases—by analyzing their history, use cases, strengths and weaknesses, and future outlook.

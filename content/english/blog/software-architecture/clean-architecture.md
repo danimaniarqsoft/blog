@@ -10,6 +10,8 @@ tags: ["software-design"]
 draft: false
 ---
 
+## Introduction
+
 In the ever-evolving landscape of software development, building applications that are not only functional but also adaptable, testable, and maintainable is paramount. This is where **Clean Architecture** comes into play. More than just a set of rules, Clean Architecture is a philosophy that guides the structuring of software systems to ensure they remain flexible and resilient in the face of changing requirements. It emphasizes the **separation of concerns**, allowing different parts of the system to evolve independently without impacting the core business logic. This article will delve into the intricacies of Clean Architecture, exploring its history, core principles with real-world examples, and practical implementations across various programming languages.
 
 ---

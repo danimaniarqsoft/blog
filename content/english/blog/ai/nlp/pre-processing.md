@@ -10,6 +10,8 @@ tags: ["nlp"]
 draft: false
 ---
 
+## Introduction
+
 The pre-processing of unstructured text is a critical foundational step in any Natural Language Processing (NLP) pipeline. It transforms raw, often noisy, data into a clean, normalized, and structured format suitable for computational analysis. The specific sequence and nature of these steps are highly dependent on the downstream NLP task and the chosen machine learning paradigm (rule-based, traditional machine learning, or deep learning). This article, drawing upon established scientific literature, delves into common pre-processing steps, organizing them by NLP task and the associated modeling approach, to provide a comprehensive guide for researchers and practitioners.
 
 

@@ -10,6 +10,8 @@ tags: ["timeline"]
 draft: false
 ---
 
+## Introduction
+
 In this post we explain how to create a simple timeline using latex
 
 ## Latex example

@@ -10,6 +10,8 @@ tags: ["hexagonal-architecture"]
 draft: false
 ---
 
+## Introduction
+
 Software development today is defined by paradoxes. Agile vs. traditional. Monoliths vs. microservices. Speed vs. stability. Amidst these tensions, teams search for structures that scale, patterns that last, and architectures that do more than just survive change—they thrive in it. Enter Hexagonal Architecture, also known as Ports and Adapters.
 
 In a world of varied project sizes, shifting team dynamics, rapidly changing technology stacks, and increasing pressure for faster time-to-market, hexagonal architecture offers a design approach that might finally meet the moment.

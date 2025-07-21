@@ -10,6 +10,7 @@ tags: ["scrum", "team-topologies"]
 draft: false
 ---
 
+## Introduction
 
 **Scrum** is an **agile framework** for developing, delivering, and sustaining complex products. It emphasizes **empirical process control**, **collaboration**, **accountability**, and **iterative progress**. Scrum divides work into **Sprints**—time-boxed iterations—where teams produce potentially shippable product increments.
 

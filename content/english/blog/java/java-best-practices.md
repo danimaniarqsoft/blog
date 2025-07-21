@@ -10,6 +10,8 @@ tags: ["best-practices"]
 draft: false
 ---
 
+## Introduction
+
 The best practices come with experience so this post is going to be updated if new best practices are learned.
 
 # ✅ Java Programming Best Practices (with Examples)

@@ -10,6 +10,7 @@ tags: ["java","python","javascript","sorting-algorithms"]
 draft: false
 ---
 
+## Introduction
 
 Merge Sort is a classical divide-and-conquer algorithm that efficiently sorts an array by recursively dividing it into two halves, sorting them independently, and then merging the sorted halves. It is one of the fundamental algorithms in computer science, often discussed in depth in books such as *Introduction to Algorithms* by Thomas H. Cormen et al.
 
