@@ -10,6 +10,8 @@ tags: ["shortest-path"]
 draft: false
 ---
 
+## Introduction
+
 Finding the shortest path in a graph is a foundational problem in computer science and operations research. It is crucial in network routing, geographical mapping, artificial intelligence, and logistics. One of the most well-known and efficient algorithms for finding the shortest path from a source node to all other nodes in a graph with non-negative edge weights is **Dijkstra's Algorithm**.
 
 ## Dijkstra's Algorithm: Step-by-Step Explanation

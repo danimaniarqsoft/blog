@@ -10,6 +10,8 @@ tags: ["graphs"]
 draft: false
 ---
 
+## Introduction
+
 Graphs are fundamental data structures in computer science, used to model pairwise relations between objects. They are ubiquitous in applications ranging from social networks and the web to transportation, compiler construction, and bioinformatics.
 
 ---
