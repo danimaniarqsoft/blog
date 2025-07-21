@@ -3,7 +3,7 @@ title: "Pre-processing of unstructured text"
 meta_title: "Pre-processing of unstructured text"
 description: "Pre-processing of unstructured text"
 date: 2025-04-28T22:47:46-06:00
-image: "/images/posts/ai/nlp/pre-processing.png"
+image: "/images/posts/ai/nlp/pipeline/pre-processing.png"
 categories: ["Artificial Intelligence","NLP"]
 author: "Daniel Pichardo"
 tags: ["nlp"]

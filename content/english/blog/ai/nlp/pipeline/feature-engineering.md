@@ -3,7 +3,7 @@ title: "Feature engineering"
 meta_title: "Feature engineering"
 description: "Feature engineering"
 date: 2025-07-20T13:22:48-06:00
-image: "/images/posts/ai/nlp/feature-engineering.png"
+image: "/images/posts/ai/nlp/pipeline/feature-engineering.png"
 categories: ["Artificial Intelligence","NLP"]
 author: "Daniel Pichardo"
 tags: ["nlp"]
@@ -61,4 +61,4 @@ However, this power comes with a significant trade-off: **loss of model interpre
 
 ## References
 
-[^1]: Practical Natural Language Processing - Harshit Surana & Anuj Gupta & Bodhisattwa Majumder & Sowmya Vajjala O'Reilly Media, Inc. (2020)
+[1]: Practical Natural Language Processing - Harshit Surana & Anuj Gupta & Bodhisattwa Majumder & Sowmya Vajjala O'Reilly Media, Inc. (2020)

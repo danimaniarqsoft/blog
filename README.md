@@ -56,6 +56,9 @@ hugo new content --kind data-science content/english/blog/data-science/[FILE_NAM
 
 # For Natural Language Processing
 hugo new content --kind natural-language-processing content/english/blog/ai/nlp/[FILE_NAME].md
+
+# For Natural Language Processing Pipeline
+hugo new content --kind natural-language-processing content/english/blog/ai/nlp/pipeline/[FILE_NAME].md
 ```
 
 ## Blog site

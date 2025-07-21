@@ -18,7 +18,6 @@ In Natural Language Processing (NLP), the availability of high-quality annotated
 
 This article explores several key text data augmentation techniques. For each, we include a description, benefits and drawbacks, appropriate use cases, real examples, Python implementations, and relevant References.
 
----
 
 ## Basic techniques
 --- 
