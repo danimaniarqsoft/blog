@@ -14,6 +14,8 @@ draft: true
 
 When working with text data in machine learning, simply pre-processing isn't enough. We need a way to translate that cleaned text into something an algorithm can understand. This is where **feature engineering**, also known as **feature extraction**, comes in. Its core purpose is to take the unique characteristics of text and convert them into a **numeric vector**. Think of it as creating a mathematical representation of words and phrases. This crucial step is often referred to as "text representation" and is fundamental for any machine learning model to make sense of linguistic data.
 
+{{< image src="images/posts/ai/nlp/pipeline/tasks/general-feature-engineering.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Feature engineering"  webp="false" >}}
+
 There are two primary approaches to feature engineering, depending on the type of machine learning pipeline you're building:
 
 - **Classical NLP and Traditional ML Pipelines:** These methods are typically used in conventional natural language processing setups, often alongside traditional machine learning algorithms.
@@ -37,8 +39,6 @@ In a **classical NLP/ML pipeline**, feature engineering is a hands-on, integral 
 - A key advantage is **model interpretability**, allowing quantification of each feature's influence on predictions.
 {{< /notice >}}
 
-
-
 ### Deep Learning (DL) Pipeline
 
 The traditional approach to feature engineering, while interpretable, can become a **bottleneck** in deep learning. Handcrafting features can limit both model performance and the speed of development, and even a slightly noisy or irrelevant feature can negatively impact the model.
@@ -57,8 +57,6 @@ However, this power comes with a significant trade-off: **loss of model interpre
 - However, a significant drawback is the **loss of model interpretability**, making it difficult to explain predictions (e.g., why an email is classified as spam).
 {{< /notice >}}
 
-
-
 ## References
 
-[1]: Practical Natural Language Processing - Harshit Surana & Anuj Gupta & Bodhisattwa Majumder & Sowmya Vajjala O'Reilly Media, Inc. (2020)
+1. Practical Natural Language Processing - Harshit Surana & Anuj Gupta & Bodhisattwa Majumder & Sowmya Vajjala O'Reilly Media, Inc. (2020)
