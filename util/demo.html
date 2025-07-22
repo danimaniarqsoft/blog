@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles can go here if needed, but Tailwind is preferred */
+        body {
+            font-family: 'Inter', sans-serif; /* Tailwind often defaults to this or similar sans-serif */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+
+        <header class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h1 class="text-3xl font-bold text-gray-900 mb-2">Quarterly Performance Report</h1>
+            <p class="text-gray-600">Overview of key metrics and trends for Q2 2025.</p>
+            <p class="text-sm text-gray-500 mt-2">Generated on: July 22, 2025</p>
+        </header>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center text-center">
+                <p class="text-sm text-gray-500">Total Sales</p>
+                <p class="text-4xl font-extrabold text-blue-600 mt-2">$1.2M</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center text-center">
+                <p class="text-sm text-gray-500">New Users</p>
+                <p class="text-4xl font-extrabold text-green-600 mt-2">15,420</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center text-center">
+                <p class="text-sm text-gray-500">Conversion Rate</p>
+                <p class="text-4xl font-extrabold text-purple-600 mt-2">4.8%</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center text-center">
+                <p class="text-sm text-gray-500">Customer Churn</p>
+                <p class="text-4xl font-extrabold text-red-600 mt-2">1.1%</p>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold text-gray-900 mb-4">Monthly Revenue Trends</h2>
+                <canvas id="revenueChart"></canvas>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold text-gray-900 mb-4">Sales Distribution by Region</h2>
+                <canvas id="salesRegionChart"></canvas>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-xl font-semibold text-gray-900 mb-4">Detailed Sales Data</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Month
+                            </th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Revenue
+                            </th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Expenses
+                            </th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Profit
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">April</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">$400,000</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">$220,000</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600">$180,000</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">May</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">$380,000</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">$200,000</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600">$180,000</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">June</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">$420,000</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">$230,000</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600">$190,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer class="text-center text-gray-500 text-sm mt-8">
+            &copy; 2025 Your Company. All rights reserved.
+        </footer>
+
+    </div>
+
+    <script>
+        // --- Chart.js Configuration ---
+
+        // Bar Chart: Monthly Revenue Trends
+        const revenueCtx = document.getElementById('revenueChart').getContext('2d');
+        const revenueChart = new Chart(revenueCtx, {
+            type: 'bar',
+            data: {
+                labels: ['April', 'May', 'June'],
+                datasets: [{
+                    label: 'Revenue ($)',
+                    data: [400000, 380000, 420000],
+                    backgroundColor: [
+                        'rgba(59, 130, 246, 0.6)', // Tailwind blue-500 with alpha
+                        'rgba(168, 85, 247, 0.6)', // Tailwind purple-500 with alpha
+                        'rgba(34, 197, 94, 0.6)'  // Tailwind green-500 with alpha
+                    ],
+                    borderColor: [
+                        'rgba(59, 130, 246, 1)',
+                        'rgba(168, 85, 247, 1)',
+                        'rgba(34, 197, 94, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Revenue ($)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Month'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false // No need for legend with single dataset
+                    },
+                    title: {
+                        display: false // Title handled by HTML h2
+                    }
+                }
+            }
+        });
+
+        // Pie Chart: Sales Distribution by Region
+        const salesRegionCtx = document.getElementById('salesRegionChart').getContext('2d');
+        const salesRegionChart = new Chart(salesRegionCtx, {
+            type: 'pie',
+            data: {
+                labels: ['North America', 'Europe', 'Asia', 'Other'],
+                datasets: [{
+                    label: 'Sales ($)',
+                    data: [350000, 300000, 450000, 100000],
+                    backgroundColor: [
+                        'rgba(239, 68, 68, 0.7)',   // Red
+                        'rgba(245, 158, 11, 0.7)',  // Amber
+                        'rgba(59, 130, 246, 0.7)',  // Blue
+                        'rgba(107, 114, 128, 0.7)'  // Gray
+                    ],
+                    borderColor: '#ffffff',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'right', // Place legend on the right for pie chart
+                    },
+                    title: {
+                        display: false
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
