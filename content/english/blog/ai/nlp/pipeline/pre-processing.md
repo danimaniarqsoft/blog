@@ -14,6 +14,8 @@ draft: false
 
 The pre-processing of unstructured text is a critical foundational step in any Natural Language Processing (NLP) pipeline. It transforms raw, often noisy, data into a clean, normalized, and structured format suitable for computational analysis. The specific sequence and nature of these steps are highly dependent on the downstream NLP task and the chosen machine learning paradigm (rule-based, traditional machine learning, or deep learning). This article, drawing upon established scientific literature, delves into common pre-processing steps, organizing them by NLP task and the associated modeling approach, to provide a comprehensive guide for researchers and practitioners.
 
+{{< image src="images/posts/ai/nlp/pipeline/tasks/general-pre-processing.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+
 
 ## Common Pre-processing Steps on Unstructured Text
 
@@ -46,6 +48,8 @@ Beyond standard alphanumeric characters, text can contain a wide array of non-AS
 ### 2. Pre-processing by NLP Task and Approach Type
 
 The following sections detail common pre-processing steps tailored to specific NLP tasks and the machine learning approaches employed. Base on the NLP approaches, we are going to talk about pre-processing steps in Natural Language Processing, specifically detailing how these steps vary depending on whether you're using Traditional Rule-Based methods, Traditional Machine Learning techniques, or modern Deep Learning models for your NLP task.
+
+{{< image src="images/posts/ai/nlp/pipeline/tasks/tasks-pre-processing.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
 
 #### 2.1 Named Entity Recognition (NER)
 
@@ -307,6 +311,15 @@ These models leverage neural networks, particularly Transformers, to learn highl
 - **Numbers Retention:** Numbers are retained by the tokenizer, and their relevance to queries (e.g., quantities, dates for booking) is learned by the model.    
 - **No Stop Word Removal, Stemming, or Lemmatization:** Deep learning models require the full context of the input text to effectively understand natural language and generate coherent responses.    
 - **Special Tokens:** Add model-specific tokens for dialogue turns, intent/slot tagging (e.g., `[CLS]`, `[SEP]` for BERT-based NLU), or controlling generation (e.g., `[BOS]`, `[EOS]` for generative models).
+
+### Takeaways
+
+- **Sentence segmentation** (splitting text into sentences) and **word tokenization** (splitting sentences into words). It highlights challenges like abbreviations or specific domain needs, recommending libraries like NLTK and spaCy but noting their imperfections for highly specific cases (e.g., "Mr. Jack O'Neil" or tweets).
+- **Frequent Steps:** Common operations like **stop word removal** (eliminating common, low-information words like "the"), **stemming** (reducing words to a root, often not linguistically correct, e.g., "revolution" to "revolut"), **lemmatization** (reducing words to their dictionary base form, e.g., "better" to "good," requiring linguistic knowledge and often POS tagging), **removing digits/punctuation**, and **lowercasing**. It stresses that these aren't always mandatory or sequential, depending on the application.
+
+- **Other Steps:** Includes **text normalization** (canonical representation for variations like abbreviations or informal spelling), **language detection** (for multilingual content), **code mixing** (multiple languages in one text), and **transliteration** (writing foreign words in Roman script).
+
+- **Advanced Processing:** More complex steps like **Part-of-Speech (POS) tagging** (identifying word types), **parsing** (syntactic structure), **Named Entity Recognition (NER)** (identifying names), and **coreference resolution** (linking mentions of the same entity, e.g., "Satya Nadella," "Mr. Nadella," "he"). These require more linguistic understanding and are often done using pre-trained models in libraries like spaCy or Stanford CoreNLP.
 
 ### Conclusion
 
