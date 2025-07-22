@@ -2,47 +2,93 @@
 {{ partial "page-header" . }}
 
 {{$filterPageByBlog := where .Site.RegularPages "Section" "blog"}}
-{{$test := $filterPageByBlog.GroupByDate "January 2006"}}
+{{$blogsByDate := $filterPageByBlog.GroupByDate "January 2006"}}
+
+{{$categoriesByCount := site.Taxonomies.categories.ByCount}}
+{{$tagsByCount := site.Taxonomies.tags.ByCount}}
+
+
 
 <section class="section">
   <div class="container">
     <div class="row gx-5">
-      <!-- blog posts -->
+      <div class="lg:col-12">
+        <div class="row">
+          Number of posts: {{$filterPageByBlog | len}}
+        </div>
+      </div>
+    </div>
+    <div class="row gx-5">
       <div class="lg:col-12">
         <div class="row">
           <canvas id="postByYearAndMonth"></canvas>
-
+        </div>
+      </div>
+      <div class="lg:col-12">
+        <div class="row">
+          <canvas id="categoriesByCount"></canvas>
+        </div>
+      </div>
+      <div class="lg:col-12">
+        <div class="row">
+          <canvas id="tagsByCount"></canvas>
         </div>
       </div>
     </div>
 </section>
 <script>
 
-  const siteTitle = {{ $test }};
-  const theLabes = []
-  const theData = []
+  const blogs = {{ $filterPageByBlog }}
+  const blogsByDate = {{ $blogsByDate }};
+  const blogsLables = []
+  const blogsData = []
 
-  const myObject = siteTitle;
+  const categoriesLables = []
+  const categoriesData = []
+
+  const tagsLables = []
+  const tagsData = []
+
+  const categoriesByCount = {{ $categoriesByCount }}
+  const tagsByCount = {{ $tagsByCount }}
+
+  let myObject = blogsByDate;
   for (const key in myObject) {
     if (myObject.hasOwnProperty(key)) {
-      theLabes.push(myObject[key].Key);
-      theData.push(myObject[key].Pages.length)
-      console.log(`${key}: ${myObject[key].Key} - ${myObject[key].Pages.length}`);
+      blogsLables.push(myObject[key].Key);
+      blogsData.push(myObject[key].Pages.length)
     }
   }
 
+  myObject = categoriesByCount;
+  for (const key in myObject) {
+    if (myObject.hasOwnProperty(key)) {
+      categoriesLables.push(myObject[key].Name);
+      categoriesData.push(myObject[key].WeightedPages.length)
+    }
+  }
+
+  myObject = tagsByCount;
+  for (const key in myObject) {
+    if (myObject.hasOwnProperty(key)) {
+      tagsLables.push(myObject[key].Name);
+      tagsData.push(myObject[key].WeightedPages.length)
+    }
+  }
   const ctx = document.getElementById('postByYearAndMonth');
+  const categoriesByCountCtx = document.getElementById('categoriesByCount');
+  const tagsByCountCtx = document.getElementById('tagsByCount');
 
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: theLabes,
+      labels: blogsLables,
       datasets: [{
         label: '# of posts',
         minBarLength: 6,
         barPercentage: 1,
-        data: theData,
-        borderWidth: 1,
+        data: blogsData,
+        borderWidth: 0,
         borderColor: 'rgb(54, 162, 235)',
         backgroundColor: 'rgba(54, 162, 235, 0.2)',
       }]
@@ -65,6 +111,80 @@
         title: {
           display: true,
           text: 'Post per Month'
+        }
+      }
+    }
+  });
+
+  new Chart(categoriesByCountCtx, {
+    type: 'bar',
+    data: {
+      labels: categoriesLables,
+      datasets: [{
+        label: '#',
+        minBarLength: 6,
+        barPercentage: 1,
+        data: categoriesData,
+        borderWidth: 0,
+        borderColor: 'rgb(54, 162, 235)',
+        backgroundColor: ['rgba(53, 178, 201, 0.2)', 'rgba(233, 132, 12, 0.2)', 'rgba(103, 223, 40, 0.2)', 'rgba(10, 233, 25, 0.2)', 'rgba(209, 148, 159, 0.2)', 'rgba(44, 4, 56, 0.2)', 'rgba(205, 130, 180, 0.2)', 'rgba(195, 253, 80, 0.2)', 'rgba(196, 13, 79, 0.2)', 'rgba(132, 131, 211, 0.2)', 'rgba(198, 125, 174, 0.2)', 'rgba(64, 10, 69, 0.2)', 'rgba(89, 62, 163, 0.2)', 'rgba(170, 214, 88, 0.2)', 'rgba(190, 72, 34, 0.2)', 'rgba(94, 114, 119, 0.2)', 'rgba(212, 66, 165, 0.2)', 'rgba(55, 184, 121, 0.2)', 'rgba(22, 60, 205, 0.2)', 'rgba(223, 128, 12, 0.2)', 'rgba(86, 188, 207, 0.2)', 'rgba(193, 44, 60, 0.2)', 'rgba(248, 75, 124, 0.2)', 'rgba(197, 79, 134, 0.2)', 'rgba(222, 44, 224, 0.2)', 'rgba(167, 113, 20, 0.2)', 'rgba(221, 234, 33, 0.2)', 'rgba(35, 35, 48, 0.2)', 'rgba(111, 15, 118, 0.2)', 'rgba(96, 6, 29, 0.2)'],
+      }]
+    },
+    options: {
+      responsive: true,
+      indexAxis: 'x',
+      scales: {
+        x: {
+          beginAtZero: true,
+          ticks: {
+            stepSize: 1
+          },
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'top',
+        },
+        title: {
+          display: true,
+          text: 'Categories'
+        }
+      }
+    }
+  });
+
+  new Chart(tagsByCountCtx, {
+    type: 'bar',
+    data: {
+      labels: tagsLables,
+      datasets: [{
+        label: '#',
+        minBarLength: 6,
+        barPercentage: 1,
+        data: tagsData,
+        borderWidth: 0,
+        borderColor: 'rgb(54, 162, 235)',
+        backgroundColor: ['rgba(53, 178, 201, 0.2)', 'rgba(233, 132, 12, 0.2)', 'rgba(103, 223, 40, 0.2)', 'rgba(10, 233, 25, 0.2)', 'rgba(209, 148, 159, 0.2)', 'rgba(44, 4, 56, 0.2)', 'rgba(205, 130, 180, 0.2)', 'rgba(195, 253, 80, 0.2)', 'rgba(196, 13, 79, 0.2)', 'rgba(132, 131, 211, 0.2)', 'rgba(198, 125, 174, 0.2)', 'rgba(64, 10, 69, 0.2)', 'rgba(89, 62, 163, 0.2)', 'rgba(170, 214, 88, 0.2)', 'rgba(190, 72, 34, 0.2)', 'rgba(94, 114, 119, 0.2)', 'rgba(212, 66, 165, 0.2)', 'rgba(55, 184, 121, 0.2)', 'rgba(22, 60, 205, 0.2)', 'rgba(223, 128, 12, 0.2)', 'rgba(86, 188, 207, 0.2)', 'rgba(193, 44, 60, 0.2)', 'rgba(248, 75, 124, 0.2)', 'rgba(197, 79, 134, 0.2)', 'rgba(222, 44, 224, 0.2)', 'rgba(167, 113, 20, 0.2)', 'rgba(221, 234, 33, 0.2)', 'rgba(35, 35, 48, 0.2)', 'rgba(111, 15, 118, 0.2)', 'rgba(96, 6, 29, 0.2)'],
+      }]
+    },
+    options: {
+      responsive: true,
+      indexAxis: 'x',
+      scales: {
+        x: {
+          beginAtZero: true,
+          ticks: {
+            stepSize: 1
+          },
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'top',
+        },
+        title: {
+          display: true,
+          text: 'Tags'
         }
       }
     }
