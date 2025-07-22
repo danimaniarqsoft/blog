@@ -21,6 +21,11 @@ name = "Categories"
 url = "/categories"
 weight = 4
 
+[[main]]
+name = "Stats"
+url = "/stats"
+weight = 5
+
 # footer menu
 [[footer]]
 name = "About"
