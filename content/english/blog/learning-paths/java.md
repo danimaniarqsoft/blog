@@ -3,7 +3,7 @@ title: "Java Developer Expert Learning Path"
 meta_title: "meta title"
 description: "this is meta description"
 date: 2025-03-14T11:07:24-06:00
-image: "/images/posts/learning-paths/image.png"
+image: "/images/posts/learning-paths/java-developer-path.jpeg"
 categories: ["Learning paths"]
 author: "Daniel Pichardo"
 tags: ["java"]

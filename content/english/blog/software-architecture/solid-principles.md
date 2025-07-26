@@ -3,7 +3,7 @@ title: "SOLID Principles in Software Architecture"
 meta_title: "SOLID Principles"
 description: "SOLID Principles"
 date: 2025-01-12T23:41:02-06:00
-image: "/images/posts/software-architecture/image.png"
+image: "/images/posts/software-architecture/system-design/solid-principles.jpeg"
 categories: ["Software architecture"]
 author: "Daniel Pichardo"
 tags: ["software-design"]

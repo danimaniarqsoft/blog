@@ -3,7 +3,7 @@ title: "Insertion Sort Algorithm"
 meta_title: "insertion sort"
 description: "this is meta description"
 date: 2024-07-17T12:28:05-06:00
-image: "/images/posts/algorithms/image.png"
+image: "/images/posts/algorithms/insertion-sort.jpeg"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"
 tags: ["java","python","sorting-algorithms"]

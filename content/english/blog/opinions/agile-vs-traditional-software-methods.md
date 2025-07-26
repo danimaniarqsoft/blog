@@ -3,7 +3,7 @@ title: "Beyond the Buzzwords: Rethinking the Software Development Process"
 meta_title: "Software development"
 description: "this is meta description"
 date: 2024-05-09T17:47:41-06:00
-image: "/images/posts/opinion/image.png"
+image: "/images/posts/opinion/image.jpeg"
 categories: ["Opinion"]
 author: "Daniel Pichardo"
 tags: ["software-development"]

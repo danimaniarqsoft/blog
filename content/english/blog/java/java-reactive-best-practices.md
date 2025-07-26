@@ -3,7 +3,7 @@ title: "WebFlux best practices"
 meta_title: "WebFlux"
 description: "this is meta description"
 date: 2024-08-12T04:14:54-08:00
-image: "/images/image-placeholder.png"
+image: "/images/posts/java/webflux-best-practices.jpeg"
 categories: ["Java"]
 author: "Daniel Pichardo"
 tags: ["webflux","best-practices"]

@@ -15,7 +15,7 @@
     <h1 class="text-3xl font-bold text-gray-900 mb-2">Performance Report</h1>
     <p class="text-gray-600">Overview of key metrics and trends</p>
     <p class="text-sm text-gray-500 mt-2">Generated on: {{ now.Format "Monday, January 2, 2006" }}</p>
-   
+
   </header>
 
   <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
@@ -52,6 +52,17 @@
     <h2 class="text-xl font-semibold text-gray-900 mb-4">Total of publications by tags</h2>
     <div class="overflow-x-auto">
       <canvas id="tagsByCount"></canvas>
+    </div>
+  </section>
+  <section class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+    <div class="bg-white rounded-lg shadow-md p-6">
+      <h2 class="text-xl font-semibold text-gray-900 mb-4">Word cloud of Categories</h2>
+     {{ partial "word-cloud-categories.html" . }}
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md p-6">
+      <h2 class="text-xl font-semibold text-gray-900 mb-4">Word cloud of tags</h2>
+      {{ partial "word-cloud-tags.html" . }}
     </div>
   </section>
 </div>

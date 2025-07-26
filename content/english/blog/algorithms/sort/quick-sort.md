@@ -3,7 +3,7 @@ title: "Quick Sort Algorithm: An In-depth Guide"
 meta_title: "quick sort"
 description: "this is meta description"
 date: 2024-03-27T22:07:05-06:00
-image: "/images/posts/algorithms/quick-sort.png"
+image: "/images/posts/algorithms/quick-sort.jpeg"
 categories: ["Algorithms"]
 author: "Daniel Pichardo"
 tags: ["java","python","javascript","sorting-algorithms"]

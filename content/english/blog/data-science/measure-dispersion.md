@@ -3,7 +3,7 @@ title: "Measures of dispersion"
 meta_title: "Measures of dispersion"
 description: "this is meta description"
 date: 2025-02-07T22:19:33-06:00
-image: "/images/posts/data-science/image.png"
+image: "/images/posts/data-science/measures-of-dispersion.jpeg"
 categories: ["Data Science"]
 author: "Daniel Pichardo"
 tags: ["data-science"]

@@ -128,13 +128,6 @@
       <description></description>
     </item>
     <item>
-      <title>Timeline</title>
-      <link>http://localhost:1313/blog/tags/timeline/</link>
-      <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/tags/timeline/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Text-Extraction</title>
       <link>http://localhost:1313/blog/tags/text-extraction/</link>
       <pubDate>Mon, 21 Apr 2025 12:38:17 -0600</pubDate>
@@ -237,13 +230,6 @@
       <link>http://localhost:1313/blog/tags/graphs/</link>
       <pubDate>Sat, 28 Sep 2024 12:08:01 -0600</pubDate>
       <guid>http://localhost:1313/blog/tags/graphs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Timestamp</title>
-      <link>http://localhost:1313/blog/tags/timestamp/</link>
-      <pubDate>Thu, 19 Sep 2024 21:21:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/tags/timestamp/</guid>
       <description></description>
     </item>
     <item>

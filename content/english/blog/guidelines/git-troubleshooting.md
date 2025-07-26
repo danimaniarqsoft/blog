@@ -3,7 +3,7 @@ title: "Git Troubleshooting Guide"
 meta_title: "Git Troubleshooting Guide"
 description: "this is meta description"
 date: 2024-06-08T00:10:09-06:00
-image: "/images/posts/guidelines/image.png"
+image: "/images/posts/guidelines/image.jpeg"
 categories: ["Guidelines"]
 author: "Daniel Pichardo"
 tags: ["troubleshooting", "git"]

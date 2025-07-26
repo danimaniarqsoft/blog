@@ -3,7 +3,7 @@ title: "Java Web flux"
 meta_title: "Java Web flux"
 description: "this is meta description"
 date: 2024-08-18T04:14:54-08:00
-image: "/images/image-placeholder.png"
+image: "/images/posts/java/java-web-flux.jpeg"
 categories: ["Java"]
 author: "Daniel Pichardo"
 tags: ["webflux"]

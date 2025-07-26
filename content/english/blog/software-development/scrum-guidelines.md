@@ -3,7 +3,7 @@ title: "Scrum Methodology Guidelines"
 meta_title: "Scrum Methodology Guidelines"
 description: "this is meta description"
 date: 2025-01-17T11:43:32-06:00
-image: "/images/posts/software-development/image.png"
+image: "/images/posts/software-development/scrum-methodology-guideliness.jpeg"
 categories: ["Software development"]
 author: "Daniel Pichardo"
 tags: ["scrum", "team-topologies"]

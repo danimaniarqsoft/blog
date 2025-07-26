@@ -1,0 +1,30 @@
+<div id="word-cloud-tags-container" style="width: 100%; height: 300px;">
+  </div>
+
+<script>
+  // Datos de las palabras para la nube
+  const wordCloudTagsData = [
+{{ if isset site.Taxonomies "tags" }}
+  {{ if not (eq (len site.Taxonomies.tags) 0) }}
+          {{ range $name, $items := site.Taxonomies.tags }}
+               { text: "{{ .Page.Title }}", weight: {{ len $items }} },
+          {{ end }}
+  {{ end }}
+{{ end }}
+
+  ];
+
+  // Puedes consolidar y limpiar los datos aquí si es necesario,
+  // por ejemplo, eliminando duplicados si usas tags y categories
+  // con los mismos nombres o ajustando los pesos.
+
+  // Exporta los datos para que el script externo pueda acceder a ellos.
+  // Es una buena práctica usar un espacio de nombres global o pasarlo
+  // directamente a la función de inicialización del script.
+  window.wordCloudTagsData = wordCloudTagsData;
+</script>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.5/build/d3.layout.cloud.js"></script>
+
+<script src="/blog/word-cloud-tag-renderer.js"></script>

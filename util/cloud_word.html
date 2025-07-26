@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Cloud Moderno</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.5/build/d3.layout.cloud.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .word-cloud-container {
+            width: 90%;
+            max-width: 800px;
+            height: 600px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        svg {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .word-cloud text {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            fill: #4682B4; /* Color base para las palabras */
+            cursor: pointer;
+            transition: fill 0.3s ease, transform 0.3s ease;
+        }
+        .word-cloud text:hover {
+            fill: #FF6347; /* Color al pasar el mouse */
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="word-cloud-container">
+        <h1>Mi Nube de Palabras</h1>
+        <svg id="wordCloudSvg"></svg>
+    </div>
+
+    <script>
+        const wordsData = [
+            "Desarrollo", "Software", "Programación", "Web", "JavaScript", "Python",
+            "Java", "Frameworks", "Frontend", "Backend", "API", "BaseDatos",
+            "Nube", "DevOps", "Metodologías", "Agile", "Scrum", "Git",
+            "Testing", "Automatización", "Código", "Diseño", "ExperienciaUsuario",
+            "Rendimiento", "Seguridad", "Escalabilidad", "Microservicios", "Contenedores",
+            "Kubernetes", "Docker", "InteligenciaArtificial", "AprendizajeAutomático",
+            "Datos", "Algoritmos", "BigData", "Nube", "Ciberseguridad", "Blockchain",
+            "InternetCosas", "Movil", "Android", "iOS", "React", "Angular", "Vue",
+            "NodeJS", "Spring", "Despliegue", "IntegracionContinua", "EntregaContinua",
+            "Analisis", "Arquitectura", "Patrones", "CloudComputing", "VersionControl",
+            "TestingUnitario", "TestingIntegracion", "Depuracion", "Documentacion",
+            "Colaboracion", "Equipo", "Innovacion", "Creatividad", "Soluciones",
+            "Futuro", "Tecnologia", "TransformacionDigital", "Automatizacion", "Eficiencia"
+        ].map(word => ({ text: word, size: 10 + Math.random() * 90 })); // Asigna un tamaño aleatorio
+
+        const svg = d3.select("#wordCloudSvg");
+        const width = +svg.attr("width") || svg.node().getBoundingClientRect().width;
+        const height = +svg.attr("height") || svg.node().getBoundingClientRect().height;
+
+        const fill = d3.scaleOrdinal(d3.schemeCategory10); // Escala de colores
+
+        const layout = d3.layout.cloud()
+            .size([width, height])
+            .words(wordsData)
+            .padding(5) // Espaciado entre palabras
+            .rotate(() => ~~(Math.random() * 2) * 90) // Rotación de 0 o 90 grados
+            .font("Impact")
+            .fontSize(d => d.size)
+            .on("end", draw);
+
+        layout.start();
+
+        function draw(words) {
+            svg.append("g")
+                .attr("class", "word-cloud")
+                .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+                .selectAll("text")
+                .data(words)
+                .enter().append("text")
+                .style("font-size", d => d.size + "px")
+                .style("font-family", "Impact")
+                .style("fill", (d, i) => fill(i))
+                .attr("text-anchor", "middle")
+                .attr("transform", d => "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")")
+                .text(d => d.text);
+        }
+
+        // Para hacer que la nube de palabras sea responsiva
+        window.addEventListener('resize', () => {
+            const newWidth = svg.node().getBoundingClientRect().width;
+            const newHeight = svg.node().getBoundingClientRect().height;
+            if (newWidth !== width || newHeight !== height) {
+                layout.size([newWidth, newHeight]).start();
+            }
+        });
+
+    </script>
+</body>
+</html>

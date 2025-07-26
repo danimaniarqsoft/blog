@@ -3,7 +3,7 @@
 banner:
   title: "Innovate, Lead, Inspire: A Tech Leader's Daily Log"
   content: "Explore the dynamic world of modern software engineering and artificial intelligence! Join us for a journey through cutting-edge insights, comprehensive tutorials, and shared experiences that illuminate the path forward in tech."
-  image: "/images/banner.png"
+  image: "/images/banner.jpeg"
   button:
     enable: true
     label: "Go to the diaries"

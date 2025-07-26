@@ -3,7 +3,7 @@ title: "Main concepts to Become a Senior Software Developer"
 meta_title: "Main concepts to Become a Senior Software Developer"
 description: "Main concepts to Become a Senior Software Developer"
 date: 2025-03-14T00:28:49-06:00
-image: "/images/posts/software-development/learning-path.png"
+image: "/images/posts/software-development/main-concepts-senior-software-developer.jpeg"
 categories: ["Learning paths"]
 author: "Daniel Pichardo"
 tags: ["software-development"]

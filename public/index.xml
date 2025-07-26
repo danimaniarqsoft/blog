@@ -121,13 +121,6 @@
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The pre-processing of unstructured text is a critical foundational step in any Natural Language Processing (NLP) pipeline. It transforms raw, often noisy, data into a clean, normalized, and structured format suitable for computational analysis. The specific sequence and nature of these steps are highly dependent on the downstream NLP task and the chosen machine learning paradigm (rule-based, traditional machine learning, or deep learning). This article, drawing upon established scientific literature, delves into common pre-processing steps, organizing them by NLP task and the associated modeling approach, to provide a comprehensive guide for researchers and practitioners.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Timeline with latex</title>
-      <link>http://localhost:1313/blog/blog/latex/latex-timeline/</link>
-      <pubDate>Tue, 22 Apr 2025 21:21:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/blog/latex/latex-timeline/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In this post we explain how to create a simple timeline using latex&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Text extraction</title>
       <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/text-extraction/</link>
       <pubDate>Mon, 21 Apr 2025 12:38:17 -0600</pubDate>
@@ -259,13 +252,6 @@
       <pubDate>Fri, 20 Sep 2024 17:00:49 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/software-architecture/load-balancing-algorithms/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Load balancing is a crucial technique in distributed systems and network architecture, designed to enhance the availability, reliability, and scalability of services. It involves distributing incoming network or application traffic across multiple servers to ensure that no single server becomes a bottleneck or point of failure. By intelligently routing requests, load balancing helps optimize resource use, maximize throughput, minimize response time, and avoid overload on any single server.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to add timestamp in each page</title>
-      <link>http://localhost:1313/blog/blog/latex/add-timestamp/</link>
-      <pubDate>Thu, 19 Sep 2024 21:21:54 -0800</pubDate>
-      <guid>http://localhost:1313/blog/blog/latex/add-timestamp/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;You can add a &lt;strong&gt;date stamp&lt;/strong&gt; at the bottom of each page using the &lt;code&gt;fancyhdr&lt;/code&gt; package. Here&amp;rsquo;s how:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stack Data Structure</title>

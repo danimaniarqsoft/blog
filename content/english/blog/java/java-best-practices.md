@@ -3,7 +3,7 @@ title: "Java best practices"
 meta_title: "Java best practices"
 description: "this is meta description"
 date: 2024-08-12T04:14:54-08:00
-image: "/images/image-placeholder.png"
+image: "/images/posts/java/java-best-practices.jpeg"
 categories: ["Java"]
 author: "Daniel Pichardo"
 tags: ["best-practices"]

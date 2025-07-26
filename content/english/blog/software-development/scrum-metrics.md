@@ -3,7 +3,7 @@ title: "Scrum Metrics: Detailed Explanation, Examples, and Best Practices"
 meta_title: "Scrum Metrics"
 description: "this is meta description"
 date: 2025-01-09T11:53:11-06:00
-image: "/images/posts/software-development/image.png"
+image: "/images/posts/software-development/scrum-metrics.jpeg"
 categories: ["Software development"]
 author: "Daniel Pichardo"
 tags: ["scrum", "scrum-metrics"]

@@ -3,7 +3,7 @@ title: "Descriptive Analysis: A Comprehensive Guide"
 meta_title: "Descriptive Analysis"
 description: "this is meta description"
 date: 2025-03-07T22:06:23-06:00
-image: "/images/posts/data-science/image.png"
+image: "/images/posts/data-science/descriptive-analysis.jpeg"
 categories: ["Data Science"]
 author: "Daniel Pichardo"
 tags: ["descriptive-analysis"]
