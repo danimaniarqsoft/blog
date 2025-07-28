@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Architect Resume - JSON Resume Viewer</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            /* Light gray background */
+            color: #374151;
+            /* Dark gray text */
+        }
+        header {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            /* Light gray background */
+            color: #374151;
+            /* Dark gray text */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #e0e0e0;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #9ca3af;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #6b7280;
+        }
+
+        .section-title {
+            @apply text-2xl font-bold text-gray-800 mb-4 border-b-2 border-blue-500 pb-2;
+        }
+
+        .card-item {
+            @apply bg-gray-50 p-4 rounded-lg shadow-sm;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="resume-container" class="max-w-6xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden md:flex">
+        <!-- Left Sidebar for Basic Info & Contact -->
+        <div
+            class="w-full md:w-1/3 bg-gradient-to-br from-blue-600 to-blue-800 text-white p-6 sm:p-8 rounded-t-xl md:rounded-l-xl md:rounded-tr-none flex flex-col items-center text-center">
+            <div class="mb-6">
+                <img id="profile-image" class="w-32 h-32 rounded-full border-4 border-white shadow-md object-cover"
+                    src="https://placehold.co/128x128/ADD8E6/000000?text=Profile" alt="Profile Picture">
+            </div>
+            <h2 id="basic-name" class="text-3xl text-white font-bold mb-1"></h2>
+            <p id="basic-label" class="text-lg font-light mb-4"></p>
+            <p id="basic-summary" class="text-sm leading-relaxed mb-6"></p>
+
+            <div class="w-full text-left space-y-3">
+                <h3 class="text-xl text-white font-semibold mb-3 border-b border-blue-400 pb-2">Contact</h3>
+                <p id="basic-email" class="flex items-center text-sm"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                    </svg><span class="break-all"></span></p>
+                <p id="basic-phone" class="flex items-center text-sm"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path
+                            d="M2 3a1 1 0 011-1h2.153a1 1 0 01.928.97l.5 4a1 1 0 01-.154.98l-1.498 1.498a1 1 0 00-.28.707v3.103a1 1 0 001 1h4.146a1 1 0 001-1v-3.103a1 1 0 00-.28-.707l-1.498-1.498a1 1 0 01-.154-.98l.5-4a1 1 0 01.928-.97H17a1 1 0 011 1v11a1 1 0 01-1 1H3a1 1 0 01-1-1V3z" />
+                    </svg><span></span></p>
+                <p id="basic-url" class="flex items-center text-sm"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path
+                            d="M11 3a1 1 0 100 2h2.153a1 1 0 01.928.97l.5 4A1 1 0 0114 11h-1a1 1 0 100 2h1a3 3 0 002.928-2.47l.5-4A3 3 0 0014.153 3H11zM6 3a1 1 0 100 2h.153a1 1 0 01.928.97l.5 4A1 1 0 017 11H6a1 1 0 100 2h1a3 3 0 002.928-2.47l.5-4A3 3 0 007.153 3H6z" />
+                        <path fill-rule="evenodd" d="M3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd" />
+                    </svg><a href="#" target="_blank" class="hover:underline break-all"></a></p>
+                <p id="basic-location" class="flex items-center text-sm"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                            clip-rule="evenodd" />
+                    </svg><span></span></p>
+            </div>
+
+            <div id="basic-profiles" class="w-full text-left mt-6 space-y-3">
+                <h3 class="text-xl text-white font-semibold mb-3 border-b border-blue-400 pb-2">Profiles</h3>
+            </div>
+        </div>
+
+        <!-- Right Content Area -->
+        <div class="w-full md:w-2/3 p-6 sm:p-8">
+            <!-- Introduction -->
+            <section id="work-experience" class="mb-8">
+                <h3 class="section-title">Semblance</h3>
+                <div id="introduction" class="space-y-6">
+                    <p>
+                        I am a seasoned software architect and artificial intelligence researcher with over 15 years of
+                        experience designing and building complex systems across government agencies, global tech
+                        companies,
+                        and private industry. My academic foundation began with a degree in Electrical and Electronic
+                        Engineering, where I specialized in robotics — blending physical systems with intelligent
+                        algorithms. This early work sparked a lifelong interest in automation and intelligent software.
+                    </p>
+                    <p>
+                        I later earned a Master’s degree in Computer Science with honors, deepening my expertise in
+                        software
+                        development, algorithms, and distributed systems. I am currently pursuing a PhD in Data Science,
+                        focusing on the convergence of natural language processing (NLP), deep learning, and explainable
+                        AI.
+
+                    </p>
+                    <p>
+                        Throughout my career, I’ve authored over 20 copyrighted software systems and contributed to
+                        multiple
+                        global open-source initiatives. I also hold professional certifications in software development
+                        methodologies and architecture. My work has been showcased at international conferences and I’ve
+                        been invited to speak on radio and television about the software development lifecycle and the
+                        future of AI.
+                    </p>
+
+                    <p>
+                        Beyond my technical endeavors, I’ve had the privilege to share insights on radio and television,
+                        discussing the software development lifecycle, the future of artificial intelligence, and how to
+                        responsibly build and scale technology in society. My open-source contributions have been
+                        adopted in
+                        research, startups, and education, and I continue to mentor new developers and researchers in
+                        the
+                        community.
+                    </p>
+
+                    <p>
+                        Currently, I focus on large-scale NLP systems and model interpretability — helping machines
+                        better
+                        understand human language, and ensuring humans can understand machine reasoning.
+                    </p>
+                </div>
+            </section>
+            <!-- Work Experience -->
+            <section id="work-experience" class="mb-8">
+                <h3 class="section-title">Work Experience</h3>
+                <div id="work-list" class="space-y-6">
+                    <!-- Work items will be injected here -->
+                </div>
+            </section>
+
+            <!-- Volunteer -->
+            <section id="volunteer" class="mb-8">
+                <h3 class="section-title">Volunteer Work</h3>
+                <div id="volunteer-list" class="space-y-6">
+                    <!-- Volunteer items will be injected here -->
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section id="education" class="mb-8">
+                <h3 class="section-title">Education</h3>
+                <div id="education-list" class="space-y-4">
+                    <!-- Education items will be injected here -->
+                </div>
+            </section>
+
+            <!-- Awards -->
+            <section id="awards" class="mb-8">
+                <h3 class="section-title">Awards</h3>
+                <div id="awards-list" class="space-y-4">
+                    <!-- Awards will be injected here -->
+                </div>
+            </section>
+
+            <!-- Certificates -->
+            <section id="certificates" class="mb-8">
+                <h3 class="section-title">Certificates</h3>
+                <div id="certificates-list" class="space-y-4">
+                    <!-- Certificates will be injected here -->
+                </div>
+            </section>
+
+            <!-- Publications -->
+            <section id="publications" class="mb-8">
+                <h3 class="section-title">Publications</h3>
+                <div id="publications-list" class="space-y-4">
+                    <!-- Publications will be injected here -->
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills" class="mb-8">
+                <h3 class="section-title">Skills</h3>
+                <div id="skills-list" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- Skills will be injected here -->
+                </div>
+            </section>
+
+            <!-- Languages -->
+            <section id="languages" class="mb-8">
+                <h3 class="section-title">Languages</h3>
+                <div id="languages-list" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- Languages will be injected here -->
+                </div>
+            </section>
+
+            <!-- Interests -->
+            <section id="interests" class="mb-8">
+                <h3 class="section-title">Interests</h3>
+                <div id="interests-list" class="flex flex-wrap gap-2">
+                    <!-- Interests will be injected here -->
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section id="projects" class="mb-8">
+                <h3 class="section-title">Projects</h3>
+                <div id="projects-list" class="space-y-6">
+                    <!-- Projects will be injected here -->
+                </div>
+            </section>
+
+            <!-- References -->
+            <section id="references" class="mb-8">
+                <h3 class="section-title">References</h3>
+                <div id="references-list" class="space-y-4">
+                    <!-- References will be injected here -->
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        // JSON Resume Example for a Software Architect (following the provided schema)
+        const resumeData = {{.Site.Data.profile }};
+
+        // Function to safely get text content or return empty string
+        const getText = (elementId, dataPath) => {
+            const element = document.getElementById(elementId);
+            if (element) {
+                const value = dataPath.split('.').reduce((o, i) => (o ? o[i] : undefined), resumeData);
+                if (value !== undefined && value !== null) {
+                    if (element.querySelector('span')) { // For elements with inner span (email, phone, location)
+                        element.querySelector('span').textContent = value;
+                    } else {
+                        element.textContent = value;
+                    }
+                    element.style.display = 'flex'; // Ensure visibility for contact info
+                } else {
+                    element.style.display = 'none'; // Hide if no data
+                }
+            }
+        };
+
+        // Function to safely set href for links
+        const setLink = (elementId, dataPath) => {
+            const element = document.getElementById(elementId);
+            if (element && element.querySelector('a')) {
+                const linkElement = element.querySelector('a');
+                const value = dataPath.split('.').reduce((o, i) => (o ? o[i] : undefined), resumeData);
+                if (value) {
+                    linkElement.href = value;
+                    linkElement.textContent = value.replace(/^(https?:\/\/)?(www\.)?/, ''); // Clean URL for display
+                    element.style.display = 'flex'; // Ensure it's visible
+                } else {
+                    element.style.display = 'none'; // Hide if no URL
+                }
+            }
+        };
+
+        // Function to render the resume data
+        const renderResume = () => {
+            // Render Basic Info
+            if (resumeData.basics) {
+                getText('basic-name', 'basics.name');
+                getText('basic-label', 'basics.label');
+                getText('basic-summary', 'basics.summary');
+
+                const profileImage = document.getElementById('profile-image');
+                if (profileImage && resumeData.basics.image) { // Using 'image' as per schema
+                    profileImage.src = resumeData.basics.image;
+                    profileImage.onerror = function () {
+                        this.src = 'https://placehold.co/128x128/ADD8E6/000000?text=Profile'; // Placeholder on error
+                    };
+                } else if (profileImage) {
+                    profileImage.src = 'https://placehold.co/128x128/ADD8E6/000000?text=Profile'; // Default placeholder
+                }
+
+                getText('basic-email', 'basics.email');
+                getText('basic-phone', 'basics.phone');
+                setLink('basic-url', 'basics.url');
+
+                const basicLocation = document.getElementById('basic-location');
+                if (basicLocation && resumeData.basics.location) {
+                    const locationText = [
+                        resumeData.basics.location.city,
+                        resumeData.basics.location.region,
+                        resumeData.basics.location.countryCode
+                    ].filter(Boolean).join(', ');
+                    if (locationText) {
+                        basicLocation.querySelector('span').textContent = locationText;
+                        basicLocation.style.display = 'flex';
+                    } else {
+                        basicLocation.style.display = 'none';
+                    }
+                } else if (basicLocation) {
+                    basicLocation.style.display = 'none';
+                }
+
+                const profilesList = document.getElementById('basic-profiles');
+                if (profilesList) { // Clear previous profiles before rendering new ones
+                    profilesList.innerHTML = '<h3 class="text-xl text-white font-semibold mb-3 border-b border-blue-400 pb-2">Profiles</h3>';
+                }
+                if (profilesList && resumeData.basics.profiles && resumeData.basics.profiles.length > 0) {
+                    profilesList.innerHTML += resumeData.basics.profiles.map(profile => `
+                        <p class="flex items-center text-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 2a8 8 0 100 16 8 8 0 000-16zM8.707 9.293a1 1 0 00-1.414 1.414L8.586 12l-1.293 1.293a1 1 0 101.414 1.414L10 13.414l1.293 1.293a1 1 0 001.414-1.414L11.414 12l1.293-1.293a1 1 0 00-1.414-1.414L10 10.586 8.707 9.293z" clip-rule="evenodd" />
+                            </svg>
+                            <a href="${profile.url}" target="_blank" class="hover:underline">${profile.network}: ${profile.username}</a>
+                        </p>
+                    `).join('');
+                    profilesList.style.display = 'block';
+                } else if (profilesList) {
+                    profilesList.style.display = 'none';
+                }
+            } else {
+                document.getElementById('basic-name').textContent = 'Basic Info Not Available';
+                document.getElementById('basic-label').textContent = '';
+                document.getElementById('basic-summary').textContent = '';
+                document.getElementById('profile-image').src = 'https://placehold.co/128x128/ADD8E6/000000?text=Profile';
+                document.getElementById('basic-email').style.display = 'none';
+                document.getElementById('basic-phone').style.display = 'none';
+                document.getElementById('basic-url').style.display = 'none';
+                document.getElementById('basic-location').style.display = 'none';
+                document.getElementById('basic-profiles').style.display = 'none';
+            }
+
+            // Render Work Experience
+            const workList = document.getElementById('work-list');
+            if (workList && resumeData.work && resumeData.work.length > 0) {
+                workList.innerHTML = resumeData.work.map(job => `
+                    <div class="card-item">
+                        <h4 class="text-xl font-semibold text-blue-700">${job.position} at ${job.name}</h4>
+                        <p class="text-sm text-gray-600 mb-2">${job.startDate} - ${job.endDate || 'Present'}</p>
+                        ${job.url ? `<p class="text-sm text-gray-500 mb-2"><a href="${job.url}" target="_blank" class="hover:underline">${job.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</a></p>` : ''}
+                        <p class="text-gray-700 mb-3">${job.summary}</p>
+                        ${job.highlights && job.highlights.length > 0 ? `
+                            <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                                ${job.highlights.map(highlight => `<li>${highlight}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('work-experience').style.display = 'block';
+            } else {
+                document.getElementById('work-experience').style.display = 'none';
+            }
+
+            // Render Volunteer
+            const volunteerList = document.getElementById('volunteer-list');
+            if (volunteerList && resumeData.volunteer && resumeData.volunteer.length > 0) {
+                volunteerList.innerHTML = resumeData.volunteer.map(vol => `
+                    <div class="card-item">
+                        <h4 class="text-xl font-semibold text-blue-700">${vol.position} at ${vol.organization}</h4>
+                        <p class="text-sm text-gray-600 mb-2">${vol.startDate} - ${vol.endDate || 'Present'}</p>
+                        ${vol.url ? `<p class="text-sm text-gray-500 mb-2"><a href="${vol.url}" target="_blank" class="hover:underline">${vol.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</a></p>` : ''}
+                        <p class="text-gray-700 mb-3">${vol.summary}</p>
+                        ${vol.highlights && vol.highlights.length > 0 ? `
+                            <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                                ${vol.highlights.map(highlight => `<li>${highlight}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('volunteer').style.display = 'block';
+            } else {
+                document.getElementById('volunteer').style.display = 'none';
+            }
+
+            // Render Education
+            const educationList = document.getElementById('education-list');
+            if (educationList && resumeData.education && resumeData.education.length > 0) {
+                educationList.innerHTML = resumeData.education.map(edu => `
+                    <div class="card-item">
+                        <h4 class="text-xl font-semibold text-blue-700">${edu.studyType} in ${edu.area}</h4>
+                        <p class="text-sm text-gray-600">${edu.institution}</p>
+                        <p class="text-sm text-gray-600 mb-2">${edu.startDate} - ${edu.endDate}</p>
+                        ${edu.score ? `<p class="text-sm text-gray-700">Score: ${edu.score}</p>` : ''}
+                        ${edu.courses && edu.courses.length > 0 ? `
+                            <p class="text-sm text-gray-600 mt-2 font-medium">Relevant Courses:</p>
+                            <ul class="list-disc list-inside text-gray-600 text-xs space-y-0.5">
+                                ${edu.courses.map(course => `<li>${course}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('education').style.display = 'block';
+            } else {
+                document.getElementById('education').style.display = 'none';
+            }
+
+            // Render Awards
+            const awardsList = document.getElementById('awards-list');
+            if (awardsList && resumeData.awards && resumeData.awards.length > 0) {
+                awardsList.innerHTML = resumeData.awards.map(award => `
+                    <div class="card-item">
+                        <h4 class="text-lg font-semibold text-blue-700">${award.title}</h4>
+                        <p class="text-sm text-gray-600 mb-1">${award.date} by ${award.awarder}</p>
+                        <p class="text-sm text-gray-700">${award.summary}</p>
+                    </div>
+                `).join('');
+                document.getElementById('awards').style.display = 'block';
+            } else {
+                document.getElementById('awards').style.display = 'none';
+            }
+
+            // Render Certificates
+            const certificatesList = document.getElementById('certificates-list');
+            if (certificatesList && resumeData.certificates && resumeData.certificates.length > 0) {
+                certificatesList.innerHTML = resumeData.certificates.map(cert => `
+                    <div class="card-item">
+                        <h4 class="text-lg font-semibold text-blue-700">${cert.name}</h4>
+                        <p class="text-sm text-gray-600 mb-1">${cert.date} from ${cert.issuer}</p>
+                        ${cert.url ? `<p class="text-sm text-gray-500 mb-2"><a href="${cert.url}" target="_blank" class="hover:underline">${cert.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</a></p>` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('certificates').style.display = 'block';
+            } else {
+                document.getElementById('certificates').style.display = 'none';
+            }
+
+            // Render Publications
+            const publicationsList = document.getElementById('publications-list');
+            if (publicationsList && resumeData.publications && resumeData.publications.length > 0) {
+                publicationsList.innerHTML = resumeData.publications.map(pub => `
+                    <div class="card-item">
+                        <h4 class="text-lg font-semibold text-blue-700">${pub.name}</h4>
+                        <p class="text-sm text-gray-600 mb-1">${pub.publisher} - ${pub.releaseDate}</p>
+                        ${pub.url ? `<p class="text-sm text-gray-500 mb-2"><a href="${pub.url}" target="_blank" class="hover:underline">${pub.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</a></p>` : ''}
+                        <p class="text-sm text-gray-700">${pub.summary}</p>
+                    </div>
+                `).join('');
+                document.getElementById('publications').style.display = 'block';
+            } else {
+                document.getElementById('publications').style.display = 'none';
+            }
+
+            // Render Skills
+            const skillsList = document.getElementById('skills-list');
+            if (skillsList && resumeData.skills && resumeData.skills.length > 0) {
+                skillsList.innerHTML = resumeData.skills.map(skillCategory => `
+                    <div class="card-item">
+                        <h4 class="text-lg font-semibold text-blue-700 mb-2">${skillCategory.name} <span class="text-sm text-gray-500">(${skillCategory.level})</span></h4>
+                        ${skillCategory.keywords && skillCategory.keywords.length > 0 ? `
+                            <div class="flex flex-wrap gap-2 text-sm">
+                                ${skillCategory.keywords.map(keyword => `<span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">${keyword}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('skills').style.display = 'grid';
+            } else {
+                document.getElementById('skills').style.display = 'none';
+            }
+
+            // Render Languages
+            const languagesList = document.getElementById('languages-list');
+            if (languagesList && resumeData.languages && resumeData.languages.length > 0) {
+                languagesList.innerHTML = resumeData.languages.map(lang => `
+                    <div class="bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-medium flex justify-between items-center">
+                        <span>${lang.language}</span>
+                        <span class="text-blue-600 text-xs">${lang.fluency}</span>
+                    </div>
+                `).join('');
+                document.getElementById('languages').style.display = 'grid';
+            } else {
+                document.getElementById('languages').style.display = 'none';
+            }
+
+            // Render Interests
+            const interestsList = document.getElementById('interests-list');
+            if (interestsList && resumeData.interests && resumeData.interests.length > 0) {
+                interestsList.innerHTML = resumeData.interests.map(interestCategory => `
+                    <div class="bg-green-100 text-green-800 px-3 py-3 rounded-full text-sm">${interestCategory.name}</div>
+                `).join('');
+                document.getElementById('interests').style.display = 'flex';
+            } else {
+                document.getElementById('interests').style.display = 'none';
+            }
+
+            // Render Projects
+            const projectsList = document.getElementById('projects-list');
+            if (projectsList && resumeData.projects && resumeData.projects.length > 0) {
+                projectsList.innerHTML = resumeData.projects.map(project => `
+                    <div class="card-item">
+                        <h4 class="text-xl font-semibold text-blue-700">${project.name}</h4>
+                        <p class="text-sm text-gray-600 mb-2">${project.startDate} - ${project.endDate || 'Present'}</p>
+                        ${project.url ? `<p class="text-sm text-gray-500 mb-2"><a href="${project.url}" target="_blank" class="hover:underline">${project.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</a></p>` : ''}
+                        <p class="text-gray-700 mb-3">${project.description}</p>
+                        ${project.highlights && project.highlights.length > 0 ? `
+                            <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                                ${project.highlights.map(highlight => `<li>${highlight}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('projects').style.display = 'block';
+            } else {
+                document.getElementById('projects').style.display = 'none';
+            }
+
+            // Render References
+            const referencesList = document.getElementById('references-list');
+            if (referencesList && resumeData.references && resumeData.references.length > 0) {
+                referencesList.innerHTML = resumeData.references.map(ref => `
+                    <div class="card-item">
+                        <h4 class="text-lg font-semibold text-blue-700">${ref.name}</h4>
+                        <p class="text-sm text-gray-700 italic">"${ref.reference}"</p>
+                    </div>
+                `).join('');
+                document.getElementById('references').style.display = 'block';
+            } else {
+                document.getElementById('references').style.display = 'none';
+            }
+        };
+
+        // Initial render
+        document.addEventListener('DOMContentLoaded', renderResume);
+    </script>
+</body>
+
+</html>

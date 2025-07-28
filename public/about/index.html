@@ -30,11 +30,11 @@
 
 
 
-<link rel="shortcut icon" href="/blog/images/favicon_hu_4384881fdc2d307e.png" type="image/x-icon">
-<link rel="icon" href="/blog/images/favicon_hu_4384881fdc2d307e.png" type="image/x-icon">
-<link rel="icon" type="image/png" sizes="48x48" href="/blog/images/favicon_hu_79c3559174e61a5e.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/blog/images/favicon_hu_4384881fdc2d307e.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/blog/images/favicon_hu_cfffba76e19e8ff2.png">
+<link rel="shortcut icon" href="/blog/images/favicon_hu_f24483a67a4e746c.png" type="image/x-icon">
+<link rel="icon" href="/blog/images/favicon_hu_f24483a67a4e746c.png" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="48x48" href="/blog/images/favicon_hu_9eeb5b65e8fe49f2.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/blog/images/favicon_hu_f24483a67a4e746c.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/blog/images/favicon_hu_afeb01ceb825d3ca.png">
 
 
 
@@ -128,17 +128,58 @@
 
 
 
+
+
+
+
+
+
+  
+
+  
+  
   
 
 
+  
+  
+    
+    
+      
+    
+
+    
 
 
+    
+    
 
 
+    
+    
+      
+      
+      
+        <meta property="og:image" content="http://localhost:1313/blog/images/og-image.png" />
+        <meta name="twitter:image" content="http://localhost:1313/blog/images/og-image.png" />
+        <meta
+          name="twitter:card"
+          content="summary_large_image" />
+      
+      
+      <meta property="og:image:width" content="800" />
+      <meta property="og:image:height" content="420" />
+    
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/8550295?v=4" />
-  <meta property="og:image" content="https://avatars.githubusercontent.com/u/8550295?v=4" />
+
+    
+    <meta
+      property="og:image:type"
+      content="image/.png" />
+  
+
+
+  
 
 
 
@@ -716,92 +757,548 @@ https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js
 
     <main>
       
-  <section class="section-sm">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="md:col-10 lg:col-7">
-          
 
+<div class="container rounded-lg mx-auto p-4 mt-6 mb-6 sm:p-6 lg:p-8 ">
+  <!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Architect Resume - JSON Resume Viewer</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+             
+            color: #374151;
+             
+        }
+        header {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+             
+            color: #374151;
+             
+        }
+         
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
 
+        ::-webkit-scrollbar-track {
+            background: #e0e0e0;
+            border-radius: 10px;
+        }
 
+        ::-webkit-scrollbar-thumb {
+            background: #9ca3af;
+            border-radius: 10px;
+        }
 
+        ::-webkit-scrollbar-thumb:hover {
+            background: #6b7280;
+        }
 
+        .section-title {
+            @apply text-2xl font-bold text-gray-800 mb-4 border-b-2 border-blue-500 pb-2;
+        }
 
+        .card-item {
+            @apply bg-gray-50 p-4 rounded-lg shadow-sm;
+        }
+    </style>
+</head>
 
+<body>
 
+    <div id="resume-container" class="max-w-6xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden md:flex">
+        
+        <div
+            class="w-full md:w-1/3 bg-gradient-to-br from-blue-600 to-blue-800 text-white p-6 sm:p-8 rounded-t-xl md:rounded-l-xl md:rounded-tr-none flex flex-col items-center text-center">
+            <div class="mb-6">
+                <img id="profile-image" class="w-32 h-32 rounded-full border-4 border-white shadow-md object-cover"
+                    src="https://placehold.co/128x128/ADD8E6/000000?text=Profile" alt="Profile Picture">
+            </div>
+            <h2 id="basic-name" class="text-3xl text-white font-bold mb-1"></h2>
+            <p id="basic-label" class="text-lg font-light mb-4"></p>
+            <p id="basic-summary" class="text-sm leading-relaxed mb-6"></p>
 
+            <div class="w-full text-left space-y-3">
+                <h3 class="text-xl text-white font-semibold mb-3 border-b border-blue-400 pb-2">Contact</h3>
+                <p id="basic-email" class="flex items-center text-sm"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                    </svg><span class="break-all"></span></p>
+                <p id="basic-phone" class="flex items-center text-sm"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path
+                            d="M2 3a1 1 0 011-1h2.153a1 1 0 01.928.97l.5 4a1 1 0 01-.154.98l-1.498 1.498a1 1 0 00-.28.707v3.103a1 1 0 001 1h4.146a1 1 0 001-1v-3.103a1 1 0 00-.28-.707l-1.498-1.498a1 1 0 01-.154-.98l.5-4a1 1 0 01.928-.97H17a1 1 0 011 1v11a1 1 0 01-1 1H3a1 1 0 01-1-1V3z" />
+                    </svg><span></span></p>
+                <p id="basic-url" class="flex items-center text-sm"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path
+                            d="M11 3a1 1 0 100 2h2.153a1 1 0 01.928.97l.5 4A1 1 0 0114 11h-1a1 1 0 100 2h1a3 3 0 002.928-2.47l.5-4A3 3 0 0014.153 3H11zM6 3a1 1 0 100 2h.153a1 1 0 01.928.97l.5 4A1 1 0 017 11H6a1 1 0 100 2h1a3 3 0 002.928-2.47l.5-4A3 3 0 007.153 3H6z" />
+                        <path fill-rule="evenodd" d="M3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd" />
+                    </svg><a href="#" target="_blank" class="hover:underline break-all"></a></p>
+                <p id="basic-location" class="flex items-center text-sm"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                            clip-rule="evenodd" />
+                    </svg><span></span></p>
+            </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <img
-    loading=""
-    decoding="async"
-    src="https://avatars.githubusercontent.com/u/8550295?v=4"
-    alt="I am Daniel Pichardo!"
-    class="mx-auto mb-6 img"
-    height="200"
-    width="200" />
-
-
-          <h2 class="h3 mb-6 text-center">I am Daniel Pichardo!</h2>
-          <div class="content"><p><strong>Title:</strong> Software Architect and junior data science</p>
-<p><strong>Industry:</strong> Software Development / Technology / IT Consulting / Artificial Intelligence / Natural language processing</p>
-<h2 id="-professional-summary">🧑‍💻 Professional Summary</h2>
-<p>I am a seasoned software architect and artificial intelligence researcher with over 15 years of experience designing and building complex systems across government agencies, global tech companies, and private industry. My academic foundation began with a degree in Electrical and Electronic Engineering, where I specialized in robotics — blending physical systems with intelligent algorithms. This early work sparked a lifelong interest in automation and intelligent software.</p>
-<p>I later earned a Master’s degree in Computer Science with honors, deepening my expertise in software development, algorithms, and distributed systems. I am currently pursuing a PhD in Data Science, focusing on the convergence of natural language processing (NLP), deep learning, and explainable AI.</p>
-<p>Throughout my career, I’ve authored over 20 copyrighted software systems and contributed to multiple global open-source initiatives. I also hold professional certifications in software development methodologies and architecture. My work has been showcased at international conferences and I’ve been invited to speak on radio and television about the software development lifecycle and the future of AI.</p>
-<p>Beyond my technical endeavors, I’ve had the privilege to share insights on radio and television, discussing the software development lifecycle, the future of artificial intelligence, and how to responsibly build and scale technology in society. My open-source contributions have been adopted in research, startups, and education, and I continue to mentor new developers and researchers in the community.</p>
-<p>Currently, I focus on large-scale NLP systems and model interpretability — helping machines better understand human language, and ensuring humans can understand machine reasoning.</p>
-<h2 id="-technical-proficiencies">🛠️ Technical Proficiencies</h2>
-<ul>
-<li><strong>Architectural Patterns:</strong> Microservices, Event-Driven Architecture, Domain-Driven Design (DDD), Serverless</li>
-<li><strong>Languages:</strong> Java, Python, JavaScript (Node.js, React), C#</li>
-<li><strong>Frameworks &amp; Tools:</strong> Spring Boot, .NET Core, Express.js, Angular</li>
-<li><strong>Cloud Platforms:</strong> AWS, Azure, Google Cloud Platform</li>
-<li><strong>CI/CD &amp; DevOps:</strong> Docker, Kubernetes, Jenkins, GitHub Actions, Terraform</li>
-<li><strong>Databases:</strong> PostgreSQL, MongoDB, Redis, Oracle</li>
-</ul>
-<h2 id="-core-competencies">✅ Core Competencies</h2>
-<ul>
-<li>Enterprise Software Architecture</li>
-<li>Cloud-native Application Design</li>
-<li>Scalable System Design</li>
-<li>API Design &amp; Integration</li>
-<li>Technical Leadership</li>
-<li>Agile &amp; Scrum Methodologies</li>
-</ul>
-<h2 id="-education">🎓 Education</h2>
-<ul>
-<li>Master degree in Computer Science and Software Engineering</li>
-<li>certifications (AWS Certified Solutions Architect, Google Cloud fundations)</li>
-</ul>
-<h2 id="-professional-goal">🎯 Professional Goal</h2>
-<p>To design innovative software systems that solve real-world problems while mentoring engineering teams and promoting architectural excellence across the organization.</p>
-</div>
+            <div id="basic-profiles" class="w-full text-left mt-6 space-y-3">
+                <h3 class="text-xl text-white font-semibold mb-3 border-b border-blue-400 pb-2">Profiles</h3>
+            </div>
         </div>
-      </div>
+
+        
+        <div class="w-full md:w-2/3 p-6 sm:p-8">
+            
+            <section id="work-experience" class="mb-8">
+                <h3 class="section-title">Semblance</h3>
+                <div id="introduction" class="space-y-6">
+                    <p>
+                        I am a seasoned software architect and artificial intelligence researcher with over 15 years of
+                        experience designing and building complex systems across government agencies, global tech
+                        companies,
+                        and private industry. My academic foundation began with a degree in Electrical and Electronic
+                        Engineering, where I specialized in robotics — blending physical systems with intelligent
+                        algorithms. This early work sparked a lifelong interest in automation and intelligent software.
+                    </p>
+                    <p>
+                        I later earned a Master’s degree in Computer Science with honors, deepening my expertise in
+                        software
+                        development, algorithms, and distributed systems. I am currently pursuing a PhD in Data Science,
+                        focusing on the convergence of natural language processing (NLP), deep learning, and explainable
+                        AI.
+
+                    </p>
+                    <p>
+                        Throughout my career, I’ve authored over 20 copyrighted software systems and contributed to
+                        multiple
+                        global open-source initiatives. I also hold professional certifications in software development
+                        methodologies and architecture. My work has been showcased at international conferences and I’ve
+                        been invited to speak on radio and television about the software development lifecycle and the
+                        future of AI.
+                    </p>
+
+                    <p>
+                        Beyond my technical endeavors, I’ve had the privilege to share insights on radio and television,
+                        discussing the software development lifecycle, the future of artificial intelligence, and how to
+                        responsibly build and scale technology in society. My open-source contributions have been
+                        adopted in
+                        research, startups, and education, and I continue to mentor new developers and researchers in
+                        the
+                        community.
+                    </p>
+
+                    <p>
+                        Currently, I focus on large-scale NLP systems and model interpretability — helping machines
+                        better
+                        understand human language, and ensuring humans can understand machine reasoning.
+                    </p>
+                </div>
+            </section>
+            
+            <section id="work-experience" class="mb-8">
+                <h3 class="section-title">Work Experience</h3>
+                <div id="work-list" class="space-y-6">
+                    
+                </div>
+            </section>
+
+            
+            <section id="volunteer" class="mb-8">
+                <h3 class="section-title">Volunteer Work</h3>
+                <div id="volunteer-list" class="space-y-6">
+                    
+                </div>
+            </section>
+
+            
+            <section id="education" class="mb-8">
+                <h3 class="section-title">Education</h3>
+                <div id="education-list" class="space-y-4">
+                    
+                </div>
+            </section>
+
+            
+            <section id="awards" class="mb-8">
+                <h3 class="section-title">Awards</h3>
+                <div id="awards-list" class="space-y-4">
+                    
+                </div>
+            </section>
+
+            
+            <section id="certificates" class="mb-8">
+                <h3 class="section-title">Certificates</h3>
+                <div id="certificates-list" class="space-y-4">
+                    
+                </div>
+            </section>
+
+            
+            <section id="publications" class="mb-8">
+                <h3 class="section-title">Publications</h3>
+                <div id="publications-list" class="space-y-4">
+                    
+                </div>
+            </section>
+
+            
+            <section id="skills" class="mb-8">
+                <h3 class="section-title">Skills</h3>
+                <div id="skills-list" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    
+                </div>
+            </section>
+
+            
+            <section id="languages" class="mb-8">
+                <h3 class="section-title">Languages</h3>
+                <div id="languages-list" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    
+                </div>
+            </section>
+
+            
+            <section id="interests" class="mb-8">
+                <h3 class="section-title">Interests</h3>
+                <div id="interests-list" class="flex flex-wrap gap-2">
+                    
+                </div>
+            </section>
+
+            
+            <section id="projects" class="mb-8">
+                <h3 class="section-title">Projects</h3>
+                <div id="projects-list" class="space-y-6">
+                    
+                </div>
+            </section>
+
+            
+            <section id="references" class="mb-8">
+                <h3 class="section-title">References</h3>
+                <div id="references-list" class="space-y-4">
+                    
+                </div>
+            </section>
+        </div>
     </div>
-  </section>
+
+    <script>
+        
+        const resumeData = {"awards":[{"awarder":"Mexican Robotics Federation","date":"2009-09-01","summary":"Achieving second place in the beach cleaner robots category at a national robotics tournament in Guadalajara, Mexico, while proudly representing UNAM, is a remarkable accomplishment. This demonstrates strong expertise in engineering and programming an autonomous robot to effectively clear simulated beach debris, showcasing UNAM's competitive edge in national robotics.","title":"Second place in the beach cleaner robots category"},{"awarder":"Mexican Robotics Federation","date":"2008-09-01","summary":"Securing third place in the beach cleaner robots category at a national robotics tournament held in Mexico City's historic Palacio de Minería, while representing UNAM, is a truly outstanding accomplishment. This achievement not only highlights advanced skills in designing, building, and programming an autonomous robot to efficiently clear simulated beach debris but also underscores the prestige of their work among the nation's top robotics talents, all while proudly carrying the banner of UNAM.","title":"Third place in the beach cleaner robots category"}],"basics":{"email":"daniel.cortes@infotec.mx","image":"https://avatars.githubusercontent.com/u/8550295?v=4","label":"Software Architect and Data Science Researcher","location":{"address":"","city":"Mexico City","countryCode":"MX","postalCode":"","region":""},"name":"Mtro. Daniel Cortes Pichardo","phone":"+1 (555) 123-4567","profiles":[{"network":"Github","url":"https://github.com/danimaniarqsoft","username":"danimaniarqsoft"},{"network":"Google Cloud Skills Boost","url":"https://www.cloudskillsboost.google/public_profiles/d8ab3617-c226-41d1-9a15-5555eac864e1","username":"danimaniarqsoft"},{"network":"X","url":"https://x.com/danimaniARQSOFT","username":"danimaniARQSOFT"}],"summary":"Software Architect and Data science researcher, responsible for the technical direction of many projects. Strong leadership experience on development and system engineer teams. Proven architecture skills on design and implementation. Over 15 years experience working like technical leader. Currently focused on Deep learning and generative AI research in the software development field.","url":"https://danimaniarqsoft.github.io/blog/"},"certificates":[{"date":"2025","issuer":"Google Cloud","name":"Google Cloud Computing Foundations Certificate","url":""},{"date":"2025","issuer":"INFOTEC, México, D.F","name":"Software development bootcamp","url":""},{"date":"2017","issuer":"INFOTEC, México, D.F","name":"The process of software architecting","url":""},{"date":"2016","issuer":"Software Engineering Institute, Carnegie Mellon University","name":"TSP (Team Software Process) Associate Coach (Provisional)","url":""},{"date":"","issuer":"INFOTEC, México, D.F","name":"How to Implement a Software Development Process (Workshop)","url":""},{"date":"","issuer":"INFOTEC, México, D.F","name":"Software Development Life Cycle","url":""},{"date":"2014","issuer":"INFOTEC, México, D.F","name":"Software Engineering Workshop","url":""},{"date":"2015","issuer":"Software Engineering Institute","name":"PSP (Personal Software Process) Developer","url":""},{"date":"2015","issuer":"A Carnegie Mellon University Spinoff","name":"PROXOR (Rank 2) Developer","url":""}],"education":[{"area":"Computer Science and Engineering","courses":["Specialization: Software Architecture"],"endDate":"2011-12-31","institution":"UNAM's Institute of Applied Mathematics and Systems Research (IIMAS)","score":"9.85","startDate":"2011-01-01","studyType":"Master's Degree","url":""},{"area":"Electrical Electronic Engineering","courses":["Specialization: Robotics and Digital Systems"],"endDate":"2009-12-31","institution":"UNAM's Faculty of Engineering","score":"","startDate":"2009-01-01","studyType":"Bachelor","url":""}],"interests":[{"keywords":["Software development","Artificial Intelligence","Natural Language Processing","Blockchain","IoT","Cybersecurity"],"name":"Technology"},{"keywords":["Piano"],"name":"Music"},{"keywords":["Philosophy","Science Fiction","History","Technical Books"],"name":"Reading"},{"keywords":["Functional Training","Chess"],"name":"Sports"}],"languages":[{"fluency":"Native speaker","language":"Spanish"},{"fluency":"Good","language":"English"}],"projects":[{"description":"Text2UML is a Generative AI tool for UML model generation from natural text. It uses the latest generative artificial intelligence technologies for Natural text processing. Project on research.","endDate":"","highlights":[],"name":"Text2UML, IA model generation","startDate":"2025-01-01","url":""},{"description":"Tango is a way of building software applications without writing traditional code. Instead of writing lines of code, users employ visual interfaces and pre-built components to design and build software.","endDate":"","highlights":[],"name":"Tango, code-less platform","startDate":"2024-01-01","url":"https://github.com/the-tango-project"},{"description":"Kukulkan is a development platform to quickly generate, develop, and deploy modern web applications and microservice architectures.","endDate":"","highlights":[],"name":"Kukulkan Code generator","startDate":"2018-01-01","url":"https://github.com/kukulkan-project"},{"description":"DSL graphic generator on Java and graphic generator support based on model elements.","endDate":"","highlights":[],"name":"DSL Framework for JFreechart","startDate":"2015-01-01","url":"https://github.com/danimaniarqsoft/dslChartReport/tree/master/chart"},{"description":"DSL report generator on Java and report generator support based on model elements.","endDate":"","highlights":[],"name":"DSL as a Framework for generate Excel's reports","startDate":"2014-01-01","url":"https://github.com/danimaniarqsoft/dslExcelReport/tree/master/dsl-report"},{"description":"Code generator for JSF 2.2 and Primefaces applications.","endDate":"","highlights":[],"name":"ASTERIX","startDate":"2013-01-01","url":"https://github.com/danimaniarqsoft/asterix-gen"}],"publications":[{"name":"Technological solution: confronting the limitations of a client","publisher":"INFOTEC-México","releaseDate":"2012","summary":"","url":""},{"name":"Advanced Java Web Programming","publisher":"ITESHU, México, Hidalgo","releaseDate":"","summary":"","url":""},{"name":"Data Persistence with MyBatis-JAVA","publisher":"INFOTEC, México, D.F","releaseDate":"","summary":"","url":""},{"name":"Advanced Java Web Programming","publisher":"SEP, Mexico City","releaseDate":"","summary":"","url":""},{"name":"Training course of JAVA architecture used on INFOTEC","publisher":"IMPI, Mexico City","releaseDate":"","summary":"","url":""},{"name":"Master SMEs","publisher":"Business Technology Training Center, México, Puebla","releaseDate":"","summary":"","url":""}],"references":[],"skills":[{"keywords":["Java SE","Java EE","OSGI","JSP","JDBC","JPA","MyBatis","SQL","AOP","C","C++","XML","XHTML","CSS","Shell scripting"],"level":"Master","name":"Languages and Specifications"},{"keywords":["Spring Framework","Spring MVC","Spring Security","Hibernate","Velocity","iText","Junit","TestNG"],"level":"Master","name":"Frameworks and Libraries"},{"keywords":["Team Software Process","Personal Software Process","Object Oriented Analysis and Design (OOA/OOD)","UML","ER Modeling","Design Patterns","Refactoring Patterns","Unit Testing","Integration Testing","Continuous Integration","The unified process in software engineering","Scrum","Extreme programming"],"level":"Expert","name":"Software Engineering"},{"keywords":["Apache tomcat","JBOSS","WildFly","Apache Web Server","Glassfish","WebLogic"],"level":"Master","name":"Application Servers"},{"keywords":["Oracle","Mysql","PostgreSQL","SqlLite"],"level":"Master","name":"Databases"},{"keywords":["Wordpress"],"level":"Master","name":"Content Management Systems"},{"keywords":["VSCode","Eclipse","SpringSource Tool Suite","Maven","GIT"],"level":"Master","name":"Tools"},{"keywords":["Ubuntu","GNU/Linux Fedora"],"level":"Master","name":"Operating Systems"},{"keywords":["Generative AI","Natural Language Processing (NLP)","Retrieval Augmented Generation (RAG)","Google Cloud Skills Boost","Microsoft Azure Generative AI"],"level":"Advanced","name":"AI and Cloud Computing"}],"volunteer":[],"work":[{"endDate":"Present","highlights":[],"name":"Centro de investigación e innovación en Tecnologías de la información y Comunicación.(INFOTEC), México","position":"Research Professor, Technological Engineer","startDate":"2024-03-01","summary":"Designing and implementing experiments to test hypotheses in various AI domains. Developing algorithms and models to advance machine learning and AI capabilities. Collaborating with interdisciplinary teams to integrate AI technologies into products and services.","url":""},{"endDate":"2024-03-01","highlights":[],"name":"Consejo Nacional de Humanidades, Ciencias y Tecnologías(CONACYT), México","position":"Systems Director","startDate":"2019-03-01","summary":"Oversaw the planning, implementation, and maintenance of the organization's information systems to ensure alignment with business goals. Managed IT teams, developed strategies for system improvements, and ensured data security and compliance.","url":""},{"endDate":"2018-03-01","highlights":[],"name":"INFOTEC, México","position":"Chief Software Architect","startDate":"2015-03-01","summary":"Mentored junior Architects and Software Developers, implemented a decision-making and architecture governance process. Defined the architectural design process, responsible for performing Architecture Design based on Java platform, conducting product design (Architecture) according to defined design and ensuring better utilization of physical resources (Hardware). Researched new products, technologies and models for the development and maintenance of Java Platform and provided training with Java technology.","url":""},{"endDate":"2015-02-01","highlights":[],"name":"DIF-DNIAS","position":"Responsible for defining the logical and physics architecture, the technical direction of the project","startDate":"2014-10-01","summary":"Mentored and coached junior developers. Java Technologies Consultant (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).","url":""},{"endDate":"2014-11-01","highlights":[],"name":"INFOTEC","position":"Architectural Assets","startDate":"2014-10-01","summary":"Responsible for defining the architectural assets at INFOTEC and the publication of architectural assets in a portal.","url":""},{"endDate":"2014-10-01","highlights":[],"name":"SEP-SSIEN","position":"Responsible for the technical direction of the project","startDate":"2014-07-01","summary":"Mentored and coached junior developers. Java Technologies Consultant (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).","url":""},{"endDate":"2014-08-01","highlights":[],"name":"SEP-APAP","position":"Responsible for the technical direction of the project","startDate":"2014-02-01","summary":"Mentored and coached junior developers. Java Technologies Consultant (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).","url":""},{"endDate":"2014-02-01","highlights":[],"name":"SEP-CONALITEG","position":"Responsible for defining and implementing the logical and physical architecture","startDate":"2013-10-01","summary":"Helped to solve a completion delay of 40% behind schedule. The Architecture was implemented to streamline application development, achieving the project got off at the required times. Mentored and coached junior developers. Java Technologies Consultant (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).","url":""},{"endDate":"2013-10-01","highlights":[],"name":"INFOTEC","position":"The process of software Architecting","startDate":"2013-09-01","summary":"Defined process architecture for INFOTEC projects. Defined standards for the development and deployment of the solution architecture. Defined and implemented the design process of architecture, using practices of Software Engineering Institute (QAW, ADD, ATAM, ARID and CBAM). Designed and implemented new functionalities for INFOTEC based architecture. Integrated with JEE7.","url":""},{"endDate":"2013-10-01","highlights":[],"name":"INFOTEC-SOA","position":"Acquisition, documentation and evaluation of three technologies for SOA adoption","startDate":"2013-09-01","summary":"Proof of concept for the security, interoperability and flexibility of the underlying technologies. Planned and executed concept testing of different BPMS, ESB, Development Frameworks, and Application Servers.","url":""},{"endDate":"2013-09-01","highlights":[],"name":"AETI Mobile","position":"Principal Architect leader with the role of head of design (TSP/PSP)","startDate":"2013-08-01","summary":"Mentored and coached Java junior developers. Consultant at Java technologies (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).","url":""},{"endDate":"2013-08-01","highlights":[],"name":"AETI/OETI","position":"Software Architect and Senior Programmer","startDate":"2013-03-01","summary":"Mentored and coached Java junior developers. Consultant at Java technologies (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).","url":""},{"endDate":"2013-03-01","highlights":[],"name":"ENCOMÍA-SNIIM","position":"Acquisition, documentation and assessment of non-functional requirements of the project module refactoring foreign markets","startDate":"2012-08-01","summary":"Impact analysis and implementation of refactoring the persistence layer system. Consultant at Java technologies (JSF Primefaces, MyBatis3.0).","url":""},{"endDate":"2012-08-01","highlights":[],"name":"RENAPO","position":"Principal Architect for system inventory RENAPO, designing and defining the solution","startDate":"2012-04-01","summary":"Defined continuous integration processes using Maven, Hudson, Artifactory and Sonar. Analyzed and designed implementation services using UML (use cases, sequence diagrams, class diagrams, state diagrams) for the project.","url":""},{"endDate":"2012-04-01","highlights":[],"name":"ULTRASIST","position":"Senior Java Developer","startDate":"2011-09-01","summary":"Main activities: Attention to incidents requested by the customer. Elicitation of new requirements (Fast Track with UML). Impact Analysis of new requirements. Design of the new requirements (UML). Implementation of new requirements.","url":""},{"endDate":"2010-12-01","highlights":[],"name":"DGIRE-UNAM","position":"Software Architect","startDate":"2010-09-01","summary":"Part of the development team that created a new module for DGIRE UNAM. The system was developed under Java EE6 technology.","url":""}]};
+
+        
+        const getText = (elementId, dataPath) => {
+            const element = document.getElementById(elementId);
+            if (element) {
+                const value = dataPath.split('.').reduce((o, i) => (o ? o[i] : undefined), resumeData);
+                if (value !== undefined && value !== null) {
+                    if (element.querySelector('span')) { 
+                        element.querySelector('span').textContent = value;
+                    } else {
+                        element.textContent = value;
+                    }
+                    element.style.display = 'flex'; 
+                } else {
+                    element.style.display = 'none'; 
+                }
+            }
+        };
+
+        
+        const setLink = (elementId, dataPath) => {
+            const element = document.getElementById(elementId);
+            if (element && element.querySelector('a')) {
+                const linkElement = element.querySelector('a');
+                const value = dataPath.split('.').reduce((o, i) => (o ? o[i] : undefined), resumeData);
+                if (value) {
+                    linkElement.href = value;
+                    linkElement.textContent = value.replace(/^(https?:\/\/)?(www\.)?/, ''); 
+                    element.style.display = 'flex'; 
+                } else {
+                    element.style.display = 'none'; 
+                }
+            }
+        };
+
+        
+        const renderResume = () => {
+            
+            if (resumeData.basics) {
+                getText('basic-name', 'basics.name');
+                getText('basic-label', 'basics.label');
+                getText('basic-summary', 'basics.summary');
+
+                const profileImage = document.getElementById('profile-image');
+                if (profileImage && resumeData.basics.image) { 
+                    profileImage.src = resumeData.basics.image;
+                    profileImage.onerror = function () {
+                        this.src = 'https://placehold.co/128x128/ADD8E6/000000?text=Profile'; 
+                    };
+                } else if (profileImage) {
+                    profileImage.src = 'https://placehold.co/128x128/ADD8E6/000000?text=Profile'; 
+                }
+
+                getText('basic-email', 'basics.email');
+                getText('basic-phone', 'basics.phone');
+                setLink('basic-url', 'basics.url');
+
+                const basicLocation = document.getElementById('basic-location');
+                if (basicLocation && resumeData.basics.location) {
+                    const locationText = [
+                        resumeData.basics.location.city,
+                        resumeData.basics.location.region,
+                        resumeData.basics.location.countryCode
+                    ].filter(Boolean).join(', ');
+                    if (locationText) {
+                        basicLocation.querySelector('span').textContent = locationText;
+                        basicLocation.style.display = 'flex';
+                    } else {
+                        basicLocation.style.display = 'none';
+                    }
+                } else if (basicLocation) {
+                    basicLocation.style.display = 'none';
+                }
+
+                const profilesList = document.getElementById('basic-profiles');
+                if (profilesList) { 
+                    profilesList.innerHTML = '<h3 class="text-xl text-white font-semibold mb-3 border-b border-blue-400 pb-2">Profiles</h3>';
+                }
+                if (profilesList && resumeData.basics.profiles && resumeData.basics.profiles.length > 0) {
+                    profilesList.innerHTML += resumeData.basics.profiles.map(profile => `
+                        <p class="flex items-center text-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 2a8 8 0 100 16 8 8 0 000-16zM8.707 9.293a1 1 0 00-1.414 1.414L8.586 12l-1.293 1.293a1 1 0 101.414 1.414L10 13.414l1.293 1.293a1 1 0 001.414-1.414L11.414 12l1.293-1.293a1 1 0 00-1.414-1.414L10 10.586 8.707 9.293z" clip-rule="evenodd" />
+                            </svg>
+                            <a href="${profile.url}" target="_blank" class="hover:underline">${profile.network}: ${profile.username}</a>
+                        </p>
+                    `).join('');
+                    profilesList.style.display = 'block';
+                } else if (profilesList) {
+                    profilesList.style.display = 'none';
+                }
+            } else {
+                document.getElementById('basic-name').textContent = 'Basic Info Not Available';
+                document.getElementById('basic-label').textContent = '';
+                document.getElementById('basic-summary').textContent = '';
+                document.getElementById('profile-image').src = 'https://placehold.co/128x128/ADD8E6/000000?text=Profile';
+                document.getElementById('basic-email').style.display = 'none';
+                document.getElementById('basic-phone').style.display = 'none';
+                document.getElementById('basic-url').style.display = 'none';
+                document.getElementById('basic-location').style.display = 'none';
+                document.getElementById('basic-profiles').style.display = 'none';
+            }
+
+            
+            const workList = document.getElementById('work-list');
+            if (workList && resumeData.work && resumeData.work.length > 0) {
+                workList.innerHTML = resumeData.work.map(job => `
+                    <div class="card-item">
+                        <h4 class="text-xl font-semibold text-blue-700">${job.position} at ${job.name}</h4>
+                        <p class="text-sm text-gray-600 mb-2">${job.startDate} - ${job.endDate || 'Present'}</p>
+                        ${job.url ? `<p class="text-sm text-gray-500 mb-2"><a href="${job.url}" target="_blank" class="hover:underline">${job.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</a></p>` : ''}
+                        <p class="text-gray-700 mb-3">${job.summary}</p>
+                        ${job.highlights && job.highlights.length > 0 ? `
+                            <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                                ${job.highlights.map(highlight => `<li>${highlight}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('work-experience').style.display = 'block';
+            } else {
+                document.getElementById('work-experience').style.display = 'none';
+            }
+
+            
+            const volunteerList = document.getElementById('volunteer-list');
+            if (volunteerList && resumeData.volunteer && resumeData.volunteer.length > 0) {
+                volunteerList.innerHTML = resumeData.volunteer.map(vol => `
+                    <div class="card-item">
+                        <h4 class="text-xl font-semibold text-blue-700">${vol.position} at ${vol.organization}</h4>
+                        <p class="text-sm text-gray-600 mb-2">${vol.startDate} - ${vol.endDate || 'Present'}</p>
+                        ${vol.url ? `<p class="text-sm text-gray-500 mb-2"><a href="${vol.url}" target="_blank" class="hover:underline">${vol.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</a></p>` : ''}
+                        <p class="text-gray-700 mb-3">${vol.summary}</p>
+                        ${vol.highlights && vol.highlights.length > 0 ? `
+                            <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                                ${vol.highlights.map(highlight => `<li>${highlight}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('volunteer').style.display = 'block';
+            } else {
+                document.getElementById('volunteer').style.display = 'none';
+            }
+
+            
+            const educationList = document.getElementById('education-list');
+            if (educationList && resumeData.education && resumeData.education.length > 0) {
+                educationList.innerHTML = resumeData.education.map(edu => `
+                    <div class="card-item">
+                        <h4 class="text-xl font-semibold text-blue-700">${edu.studyType} in ${edu.area}</h4>
+                        <p class="text-sm text-gray-600">${edu.institution}</p>
+                        <p class="text-sm text-gray-600 mb-2">${edu.startDate} - ${edu.endDate}</p>
+                        ${edu.score ? `<p class="text-sm text-gray-700">Score: ${edu.score}</p>` : ''}
+                        ${edu.courses && edu.courses.length > 0 ? `
+                            <p class="text-sm text-gray-600 mt-2 font-medium">Relevant Courses:</p>
+                            <ul class="list-disc list-inside text-gray-600 text-xs space-y-0.5">
+                                ${edu.courses.map(course => `<li>${course}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('education').style.display = 'block';
+            } else {
+                document.getElementById('education').style.display = 'none';
+            }
+
+            
+            const awardsList = document.getElementById('awards-list');
+            if (awardsList && resumeData.awards && resumeData.awards.length > 0) {
+                awardsList.innerHTML = resumeData.awards.map(award => `
+                    <div class="card-item">
+                        <h4 class="text-lg font-semibold text-blue-700">${award.title}</h4>
+                        <p class="text-sm text-gray-600 mb-1">${award.date} by ${award.awarder}</p>
+                        <p class="text-sm text-gray-700">${award.summary}</p>
+                    </div>
+                `).join('');
+                document.getElementById('awards').style.display = 'block';
+            } else {
+                document.getElementById('awards').style.display = 'none';
+            }
+
+            
+            const certificatesList = document.getElementById('certificates-list');
+            if (certificatesList && resumeData.certificates && resumeData.certificates.length > 0) {
+                certificatesList.innerHTML = resumeData.certificates.map(cert => `
+                    <div class="card-item">
+                        <h4 class="text-lg font-semibold text-blue-700">${cert.name}</h4>
+                        <p class="text-sm text-gray-600 mb-1">${cert.date} from ${cert.issuer}</p>
+                        ${cert.url ? `<p class="text-sm text-gray-500 mb-2"><a href="${cert.url}" target="_blank" class="hover:underline">${cert.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</a></p>` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('certificates').style.display = 'block';
+            } else {
+                document.getElementById('certificates').style.display = 'none';
+            }
+
+            
+            const publicationsList = document.getElementById('publications-list');
+            if (publicationsList && resumeData.publications && resumeData.publications.length > 0) {
+                publicationsList.innerHTML = resumeData.publications.map(pub => `
+                    <div class="card-item">
+                        <h4 class="text-lg font-semibold text-blue-700">${pub.name}</h4>
+                        <p class="text-sm text-gray-600 mb-1">${pub.publisher} - ${pub.releaseDate}</p>
+                        ${pub.url ? `<p class="text-sm text-gray-500 mb-2"><a href="${pub.url}" target="_blank" class="hover:underline">${pub.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</a></p>` : ''}
+                        <p class="text-sm text-gray-700">${pub.summary}</p>
+                    </div>
+                `).join('');
+                document.getElementById('publications').style.display = 'block';
+            } else {
+                document.getElementById('publications').style.display = 'none';
+            }
+
+            
+            const skillsList = document.getElementById('skills-list');
+            if (skillsList && resumeData.skills && resumeData.skills.length > 0) {
+                skillsList.innerHTML = resumeData.skills.map(skillCategory => `
+                    <div class="card-item">
+                        <h4 class="text-lg font-semibold text-blue-700 mb-2">${skillCategory.name} <span class="text-sm text-gray-500">(${skillCategory.level})</span></h4>
+                        ${skillCategory.keywords && skillCategory.keywords.length > 0 ? `
+                            <div class="flex flex-wrap gap-2 text-sm">
+                                ${skillCategory.keywords.map(keyword => `<span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">${keyword}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('skills').style.display = 'grid';
+            } else {
+                document.getElementById('skills').style.display = 'none';
+            }
+
+            
+            const languagesList = document.getElementById('languages-list');
+            if (languagesList && resumeData.languages && resumeData.languages.length > 0) {
+                languagesList.innerHTML = resumeData.languages.map(lang => `
+                    <div class="bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-medium flex justify-between items-center">
+                        <span>${lang.language}</span>
+                        <span class="text-blue-600 text-xs">${lang.fluency}</span>
+                    </div>
+                `).join('');
+                document.getElementById('languages').style.display = 'grid';
+            } else {
+                document.getElementById('languages').style.display = 'none';
+            }
+
+            
+            const interestsList = document.getElementById('interests-list');
+            if (interestsList && resumeData.interests && resumeData.interests.length > 0) {
+                interestsList.innerHTML = resumeData.interests.map(interestCategory => `
+                    <div class="bg-green-100 text-green-800 px-3 py-3 rounded-full text-sm">${interestCategory.name}</div>
+                `).join('');
+                document.getElementById('interests').style.display = 'flex';
+            } else {
+                document.getElementById('interests').style.display = 'none';
+            }
+
+            
+            const projectsList = document.getElementById('projects-list');
+            if (projectsList && resumeData.projects && resumeData.projects.length > 0) {
+                projectsList.innerHTML = resumeData.projects.map(project => `
+                    <div class="card-item">
+                        <h4 class="text-xl font-semibold text-blue-700">${project.name}</h4>
+                        <p class="text-sm text-gray-600 mb-2">${project.startDate} - ${project.endDate || 'Present'}</p>
+                        ${project.url ? `<p class="text-sm text-gray-500 mb-2"><a href="${project.url}" target="_blank" class="hover:underline">${project.url.replace(/^(https?:\/\/)?(www\.)?/, '')}</a></p>` : ''}
+                        <p class="text-gray-700 mb-3">${project.description}</p>
+                        ${project.highlights && project.highlights.length > 0 ? `
+                            <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
+                                ${project.highlights.map(highlight => `<li>${highlight}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
+                `).join('');
+                document.getElementById('projects').style.display = 'block';
+            } else {
+                document.getElementById('projects').style.display = 'none';
+            }
+
+            
+            const referencesList = document.getElementById('references-list');
+            if (referencesList && resumeData.references && resumeData.references.length > 0) {
+                referencesList.innerHTML = resumeData.references.map(ref => `
+                    <div class="card-item">
+                        <h4 class="text-lg font-semibold text-blue-700">${ref.name}</h4>
+                        <p class="text-sm text-gray-700 italic">"${ref.reference}"</p>
+                    </div>
+                `).join('');
+                document.getElementById('references').style.display = 'block';
+            } else {
+                document.getElementById('references').style.display = 'none';
+            }
+        };
+
+        
+        document.addEventListener('DOMContentLoaded', renderResume);
+    </script>
+</body>
+
+</html>
+</div>
 
     </main>
 

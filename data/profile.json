@@ -1,0 +1,533 @@
+{
+    "basics": {
+        "name": "Mtro. Daniel Cortes Pichardo",
+        "label": "Software Architect and Data Science Researcher",
+        "image": "https://avatars.githubusercontent.com/u/8550295?v=4",
+        "email": "daniel.cortes@infotec.mx",
+        "phone": "+1 (555) 123-4567",
+        "url": "https://danimaniarqsoft.github.io/blog/",
+        "summary": "Software Architect and Data science researcher, responsible for the technical direction of many projects. Strong leadership experience on development and system engineer teams. Proven architecture skills on design and implementation. Over 15 years experience working like technical leader. Currently focused on Deep learning and generative AI research in the software development field.",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Mexico City",
+            "countryCode": "MX",
+            "region": ""
+        },
+        "profiles": [
+            {
+                "network": "Github",
+                "username": "danimaniarqsoft",
+                "url": "https://github.com/danimaniarqsoft"
+            },
+            {
+                "network": "Google Cloud Skills Boost",
+                "username": "danimaniarqsoft",
+                "url": "https://www.cloudskillsboost.google/public_profiles/d8ab3617-c226-41d1-9a15-5555eac864e1"
+            },
+            {
+                "network": "X",
+                "username": "danimaniARQSOFT",
+                "url": "https://x.com/danimaniARQSOFT"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Centro de investigación e innovación en Tecnologías de la información y Comunicación.(INFOTEC), México",
+            "position": "Research Professor, Technological Engineer",
+            "url": "",
+            "startDate": "2024-03-01",
+            "endDate": "Present",
+            "summary": "Designing and implementing experiments to test hypotheses in various AI domains. Developing algorithms and models to advance machine learning and AI capabilities. Collaborating with interdisciplinary teams to integrate AI technologies into products and services.",
+            "highlights": []
+        },
+        {
+            "name": "Consejo Nacional de Humanidades, Ciencias y Tecnologías(CONACYT), México",
+            "position": "Systems Director",
+            "url": "",
+            "startDate": "2019-03-01",
+            "endDate": "2024-03-01",
+            "summary": "Oversaw the planning, implementation, and maintenance of the organization's information systems to ensure alignment with business goals. Managed IT teams, developed strategies for system improvements, and ensured data security and compliance.",
+            "highlights": []
+        },
+        {
+            "name": "INFOTEC, México",
+            "position": "Chief Software Architect",
+            "url": "",
+            "startDate": "2015-03-01",
+            "endDate": "2018-03-01",
+            "summary": "Mentored junior Architects and Software Developers, implemented a decision-making and architecture governance process. Defined the architectural design process, responsible for performing Architecture Design based on Java platform, conducting product design (Architecture) according to defined design and ensuring better utilization of physical resources (Hardware). Researched new products, technologies and models for the development and maintenance of Java Platform and provided training with Java technology.",
+            "highlights": []
+        },
+        {
+            "name": "DIF-DNIAS",
+            "position": "Responsible for defining the logical and physics architecture, the technical direction of the project",
+            "url": "",
+            "startDate": "2014-10-01",
+            "endDate": "2015-02-01",
+            "summary": "Mentored and coached junior developers. Java Technologies Consultant (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).",
+            "highlights": []
+        },
+        {
+            "name": "INFOTEC",
+            "position": "Architectural Assets",
+            "url": "",
+            "startDate": "2014-10-01",
+            "endDate": "2014-11-01",
+            "summary": "Responsible for defining the architectural assets at INFOTEC and the publication of architectural assets in a portal.",
+            "highlights": []
+        },
+        {
+            "name": "SEP-SSIEN",
+            "position": "Responsible for the technical direction of the project",
+            "url": "",
+            "startDate": "2014-07-01",
+            "endDate": "2014-10-01",
+            "summary": "Mentored and coached junior developers. Java Technologies Consultant (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).",
+            "highlights": []
+        },
+        {
+            "name": "SEP-APAP",
+            "position": "Responsible for the technical direction of the project",
+            "url": "",
+            "startDate": "2014-02-01",
+            "endDate": "2014-08-01",
+            "summary": "Mentored and coached junior developers. Java Technologies Consultant (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).",
+            "highlights": []
+        },
+        {
+            "name": "SEP-CONALITEG",
+            "position": "Responsible for defining and implementing the logical and physical architecture",
+            "url": "",
+            "startDate": "2013-10-01",
+            "endDate": "2014-02-01",
+            "summary": "Helped to solve a completion delay of 40% behind schedule. The Architecture was implemented to streamline application development, achieving the project got off at the required times. Mentored and coached junior developers. Java Technologies Consultant (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).",
+            "highlights": []
+        },
+        {
+            "name": "INFOTEC",
+            "position": "The process of software Architecting",
+            "url": "",
+            "startDate": "2013-09-01",
+            "endDate": "2013-10-01",
+            "summary": "Defined process architecture for INFOTEC projects. Defined standards for the development and deployment of the solution architecture. Defined and implemented the design process of architecture, using practices of Software Engineering Institute (QAW, ADD, ATAM, ARID and CBAM). Designed and implemented new functionalities for INFOTEC based architecture. Integrated with JEE7.",
+            "highlights": []
+        },
+        {
+            "name": "INFOTEC-SOA",
+            "position": "Acquisition, documentation and evaluation of three technologies for SOA adoption",
+            "url": "",
+            "startDate": "2013-09-01",
+            "endDate": "2013-10-01",
+            "summary": "Proof of concept for the security, interoperability and flexibility of the underlying technologies. Planned and executed concept testing of different BPMS, ESB, Development Frameworks, and Application Servers.",
+            "highlights": []
+        },
+        {
+            "name": "AETI Mobile",
+            "position": "Principal Architect leader with the role of head of design (TSP/PSP)",
+            "url": "",
+            "startDate": "2013-08-01",
+            "endDate": "2013-09-01",
+            "summary": "Mentored and coached Java junior developers. Consultant at Java technologies (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).",
+            "highlights": []
+        },
+        {
+            "name": "AETI/OETI",
+            "position": "Software Architect and Senior Programmer",
+            "url": "",
+            "startDate": "2013-03-01",
+            "endDate": "2013-08-01",
+            "summary": "Mentored and coached Java junior developers. Consultant at Java technologies (JSF Primefaces, Spring Security, Spring core and MyBatis3.0).",
+            "highlights": []
+        },
+        {
+            "name": "ENCOMÍA-SNIIM",
+            "position": "Acquisition, documentation and assessment of non-functional requirements of the project module refactoring foreign markets",
+            "url": "",
+            "startDate": "2012-08-01",
+            "endDate": "2013-03-01",
+            "summary": "Impact analysis and implementation of refactoring the persistence layer system. Consultant at Java technologies (JSF Primefaces, MyBatis3.0).",
+            "highlights": []
+        },
+        {
+            "name": "RENAPO",
+            "position": "Principal Architect for system inventory RENAPO, designing and defining the solution",
+            "url": "",
+            "startDate": "2012-04-01",
+            "endDate": "2012-08-01",
+            "summary": "Defined continuous integration processes using Maven, Hudson, Artifactory and Sonar. Analyzed and designed implementation services using UML (use cases, sequence diagrams, class diagrams, state diagrams) for the project.",
+            "highlights": []
+        },
+        {
+            "name": "ULTRASIST",
+            "position": "Senior Java Developer",
+            "url": "",
+            "startDate": "2011-09-01",
+            "endDate": "2012-04-01",
+            "summary": "Main activities: Attention to incidents requested by the customer. Elicitation of new requirements (Fast Track with UML). Impact Analysis of new requirements. Design of the new requirements (UML). Implementation of new requirements.",
+            "highlights": []
+        },
+        {
+            "name": "DGIRE-UNAM",
+            "position": "Software Architect",
+            "url": "",
+            "startDate": "2010-09-01",
+            "endDate": "2010-12-01",
+            "summary": "Part of the development team that created a new module for DGIRE UNAM. The system was developed under Java EE6 technology.",
+            "highlights": []
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "UNAM's Institute of Applied Mathematics and Systems Research (IIMAS)",
+            "url": "",
+            "area": "Computer Science and Engineering",
+            "studyType": "Master's Degree",
+            "startDate": "2011-01-01",
+            "endDate": "2011-12-31",
+            "score": "9.85",
+            "courses": [
+                "Specialization: Software Architecture"
+            ]
+        },
+        {
+            "institution": "UNAM's Faculty of Engineering",
+            "url": "",
+            "area": "Electrical Electronic Engineering",
+            "studyType": "Bachelor",
+            "startDate": "2009-01-01",
+            "endDate": "2009-12-31",
+            "score": "",
+            "courses": [
+                "Specialization: Robotics and Digital Systems"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Second place in the beach cleaner robots category",
+            "date": "2009-09-01",
+            "awarder": "Mexican Robotics Federation",
+            "summary": "Achieving second place in the beach cleaner robots category at a national robotics tournament in Guadalajara, Mexico, while proudly representing UNAM, is a remarkable accomplishment. This demonstrates strong expertise in engineering and programming an autonomous robot to effectively clear simulated beach debris, showcasing UNAM's competitive edge in national robotics."
+        },
+        {
+            "title": "Third place in the beach cleaner robots category",
+            "date": "2008-09-01",
+            "awarder": "Mexican Robotics Federation",
+            "summary": "Securing third place in the beach cleaner robots category at a national robotics tournament held in Mexico City's historic Palacio de Minería, while representing UNAM, is a truly outstanding accomplishment. This achievement not only highlights advanced skills in designing, building, and programming an autonomous robot to efficiently clear simulated beach debris but also underscores the prestige of their work among the nation's top robotics talents, all while proudly carrying the banner of UNAM."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Google Cloud Computing Foundations Certificate",
+            "date": "2025",
+            "issuer": "Google Cloud",
+            "url": ""
+        },
+        {
+            "name": "Software development bootcamp",
+            "date": "2025",
+            "issuer": "INFOTEC, México, D.F",
+            "url": ""
+        },
+        {
+            "name": "The process of software architecting",
+            "date": "2017",
+            "issuer": "INFOTEC, México, D.F",
+            "url": ""
+        },
+        {
+            "name": "TSP (Team Software Process) Associate Coach (Provisional)",
+            "date": "2016",
+            "issuer": "Software Engineering Institute, Carnegie Mellon University",
+            "url": ""
+        },
+        {
+            "name": "How to Implement a Software Development Process (Workshop)",
+            "date": "",
+            "issuer": "INFOTEC, México, D.F",
+            "url": ""
+        },
+        {
+            "name": "Software Development Life Cycle",
+            "date": "",
+            "issuer": "INFOTEC, México, D.F",
+            "url": ""
+        },
+        {
+            "name": "Software Engineering Workshop",
+            "date": "2014",
+            "issuer": "INFOTEC, México, D.F",
+            "url": ""
+        },
+        {
+            "name": "PSP (Personal Software Process) Developer",
+            "date": "2015",
+            "issuer": "Software Engineering Institute",
+            "url": ""
+        },
+        {
+            "name": "PROXOR (Rank 2) Developer",
+            "date": "2015",
+            "issuer": "A Carnegie Mellon University Spinoff",
+            "url": ""
+        }
+    ],
+    "publications": [
+        {
+            "name": "Technological solution: confronting the limitations of a client",
+            "publisher": "INFOTEC-México",
+            "releaseDate": "2012",
+            "url": "",
+            "summary": ""
+        },
+        {
+            "name": "Advanced Java Web Programming",
+            "publisher": "ITESHU, México, Hidalgo",
+            "releaseDate": "",
+            "url": "",
+            "summary": ""
+        },
+        {
+            "name": "Data Persistence with MyBatis-JAVA",
+            "publisher": "INFOTEC, México, D.F",
+            "releaseDate": "",
+            "url": "",
+            "summary": ""
+        },
+        {
+            "name": "Advanced Java Web Programming",
+            "publisher": "SEP, Mexico City",
+            "releaseDate": "",
+            "url": "",
+            "summary": ""
+        },
+        {
+            "name": "Training course of JAVA architecture used on INFOTEC",
+            "publisher": "IMPI, Mexico City",
+            "releaseDate": "",
+            "url": "",
+            "summary": ""
+        },
+        {
+            "name": "Master SMEs",
+            "publisher": "Business Technology Training Center, México, Puebla",
+            "releaseDate": "",
+            "url": "",
+            "summary": ""
+        }
+    ],
+    "skills": [
+        {
+            "name": "Languages and Specifications",
+            "level": "Master",
+            "keywords": [
+                "Java SE",
+                "Java EE",
+                "OSGI",
+                "JSP",
+                "JDBC",
+                "JPA",
+                "MyBatis",
+                "SQL",
+                "AOP",
+                "C",
+                "C++",
+                "XML",
+                "XHTML",
+                "CSS",
+                "Shell scripting"
+            ]
+        },
+        {
+            "name": "Frameworks and Libraries",
+            "level": "Master",
+            "keywords": [
+                "Spring Framework",
+                "Spring MVC",
+                "Spring Security",
+                "Hibernate",
+                "Velocity",
+                "iText",
+                "Junit",
+                "TestNG"
+            ]
+        },
+        {
+            "name": "Software Engineering",
+            "level": "Expert",
+            "keywords": [
+                "Team Software Process",
+                "Personal Software Process",
+                "Object Oriented Analysis and Design (OOA/OOD)",
+                "UML",
+                "ER Modeling",
+                "Design Patterns",
+                "Refactoring Patterns",
+                "Unit Testing",
+                "Integration Testing",
+                "Continuous Integration",
+                "The unified process in software engineering",
+                "Scrum",
+                "Extreme programming"
+            ]
+        },
+        {
+            "name": "Application Servers",
+            "level": "Master",
+            "keywords": [
+                "Apache tomcat",
+                "JBOSS",
+                "WildFly",
+                "Apache Web Server",
+                "Glassfish",
+                "WebLogic"
+            ]
+        },
+        {
+            "name": "Databases",
+            "level": "Master",
+            "keywords": [
+                "Oracle",
+                "Mysql",
+                "PostgreSQL",
+                "SqlLite"
+            ]
+        },
+        {
+            "name": "Content Management Systems",
+            "level": "Master",
+            "keywords": [
+                "Wordpress"
+            ]
+        },
+        {
+            "name": "Tools",
+            "level": "Master",
+            "keywords": [
+                "VSCode",
+                "Eclipse",
+                "SpringSource Tool Suite",
+                "Maven",
+                "GIT"
+            ]
+        },
+        {
+            "name": "Operating Systems",
+            "level": "Master",
+            "keywords": [
+                "Ubuntu",
+                "GNU/Linux Fedora"
+            ]
+        },
+        {
+            "name": "AI and Cloud Computing",
+            "level": "Advanced",
+            "keywords": [
+                "Generative AI",
+                "Natural Language Processing (NLP)",
+                "Retrieval Augmented Generation (RAG)",
+                "Google Cloud Skills Boost",
+                "Microsoft Azure Generative AI"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Good"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Technology",
+            "keywords": [
+                "Software development",
+                "Artificial Intelligence",
+                "Natural Language Processing",
+                "Blockchain",
+                "IoT",
+                "Cybersecurity"
+            ]
+        },
+        {
+            "name": "Music",
+            "keywords": [
+                "Piano"
+            ]
+        },
+        {
+            "name": "Reading",
+            "keywords": [
+                "Philosophy",
+                "Science Fiction",
+                "History",
+                "Technical Books"
+            ]
+        },
+        {
+            "name": "Sports",
+            "keywords": [
+                "Functional Training",
+                "Chess"
+            ]
+        }
+    ],
+    "references": [],
+    "projects": [
+        {
+            "name": "Text2UML, IA model generation",
+            "startDate": "2025-01-01",
+            "endDate": "",
+            "description": "Text2UML is a Generative AI tool for UML model generation from natural text. It uses the latest generative artificial intelligence technologies for Natural text processing. Project on research.",
+            "highlights": [],
+            "url": ""
+        },
+        {
+            "name": "Tango, code-less platform",
+            "startDate": "2024-01-01",
+            "endDate": "",
+            "description": "Tango is a way of building software applications without writing traditional code. Instead of writing lines of code, users employ visual interfaces and pre-built components to design and build software.",
+            "highlights": [],
+            "url": "https://github.com/the-tango-project"
+        },
+        {
+            "name": "Kukulkan Code generator",
+            "startDate": "2018-01-01",
+            "endDate": "",
+            "description": "Kukulkan is a development platform to quickly generate, develop, and deploy modern web applications and microservice architectures.",
+            "highlights": [],
+            "url": "https://github.com/kukulkan-project"
+        },
+        {
+            "name": "DSL Framework for JFreechart",
+            "startDate": "2015-01-01",
+            "endDate": "",
+            "description": "DSL graphic generator on Java and graphic generator support based on model elements.",
+            "highlights": [],
+            "url": "https://github.com/danimaniarqsoft/dslChartReport/tree/master/chart"
+        },
+        {
+            "name": "DSL as a Framework for generate Excel's reports",
+            "startDate": "2014-01-01",
+            "endDate": "",
+            "description": "DSL report generator on Java and report generator support based on model elements.",
+            "highlights": [],
+            "url": "https://github.com/danimaniarqsoft/dslExcelReport/tree/master/dsl-report"
+        },
+        {
+            "name": "ASTERIX",
+            "startDate": "2013-01-01",
+            "endDate": "",
+            "description": "Code generator for JSF 2.2 and Primefaces applications.",
+            "highlights": [],
+            "url": "https://github.com/danimaniarqsoft/asterix-gen"
+        }
+    ]
+}

@@ -1,9 +1,7 @@
 {{ define "main" }}
 {{ partial "page-header" . }}
 
-
 <div class="container rounded-lg mx-auto p-4 mt-6 mb-6 sm:p-6 lg:p-8 ">
-
   <section>
     <h2 class="text-xl font-semibold text-gray-900 mb-4"></h2>
     <div class="container">
@@ -16,7 +14,7 @@
         {{ range site.Taxonomies.categories.ByCount }}
         <li class="m-3 inline-block">
           <a href="{{ .Page.Permalink }}"
-            class="bg-light text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
+            class="bg-light text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark block rounded px-4 py-2 text-xl">
             {{ .Page.Title }}
             <span class="bg-body dark:bg-darkmode-body ml-2 rounded px-2">
               {{ .Count }}

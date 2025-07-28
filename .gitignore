@@ -20,3 +20,5 @@ hugo_stats.json
 go.sum
 yarn.lock
 promts
+util/top.html
+data/profile copy.json

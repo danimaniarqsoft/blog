@@ -6,12 +6,14 @@
         "body": "#fff",
         "border": "#eaeaea",
         "light": "#f6f6f6",
+        "blue": "#c3dbee",
         "dark": "#040404"
       },
       "text_color": {
         "text": "#444444",
         "text-dark": "#040404",
-        "text-light": "#717171"
+        "text-light": "#717171",
+        "text-white": "#ffffff"
       }
     },
     "darkmode": {
