@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
     layout.start();
 
     function draw(words) {
-          console.log("ahora lo bueno se va a dibujar");
 
       d3.select("#word-cloud-categories-container").append("svg")
         .attr("width", layout.size()[0])
