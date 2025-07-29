@@ -14,7 +14,7 @@ draft: false
 
 The development of an NLP model rarely begins with sophisticated algorithms. Instead, it's a strategic progression, starting with what's feasible and effective given current resources, and scaling up complexity as data accumulates and insights deepen.
 
-#### 1. The Foundation: Simple Heuristics (When Data is Scarce)
+## The Foundation: Simple Heuristics (When Data is Scarce)
 
 At the very genesis of an NLP project, especially when a substantial dataset is lacking, **machine learning often takes a backseat to human-crafted heuristics**. These are pragmatic, rule-based approaches, explicitly or implicitly woven into the system, that leverage existing domain knowledge.
 
@@ -22,7 +22,7 @@ Consider the ubiquitous challenge of email spam classification. An initial, high
 
 A powerful tool for implementing these early-stage heuristics is **regular expressions**. While basic regex can extract structured information like email IDs or phone numbers, advanced frameworks like Stanford NLP's TokensRegex or spaCy's rule-based matching allow for the creation of intricate patterns that can, for instance, identify specific entities within a larger context, even in the absence of extensive training data. These heuristics serve as an invaluable **starting point**, providing a functional baseline and acting as a crucial "safety net" for specific edge cases that even later, more complex models might miss.
 
-#### 2. Evolving Beyond Rules: Integrating Heuristics with Machine Learning
+## Evolving Beyond Rules: Integrating Heuristics with Machine Learning
 
 As an NLP system matures, relying solely on a growing set of heuristics can become unsustainable. A complex rule-based system is notoriously difficult to manage, scale, and debug. This is where **machine learning models** begin to assert their superiority, especially as more data becomes available.
 
@@ -34,7 +34,7 @@ The transition isn't about abandoning heuristics entirely, but rather about **st
 
 Furthermore, for many common NLP tasks, organizations can leverage **off-the-shelf APIs** provided by major cloud NLP service providers like Google Cloud Natural Language, Amazon Comprehend, Microsoft Azure Cognitive Services, and IBM Watson Natural Language Understanding. These APIs offer a quick way to assess the feasibility of a task and provide a performance benchmark before committing resources to building custom ML models.
 
-#### 3. Building "The" Model: Advanced Strategies for Production Readiness
+## Building "The" Model: Advanced Strategies for Production Readiness
 
 The journey to building a truly high-performing, production-ready NLP model often involves iterating through several advanced strategies:
 
@@ -47,7 +47,7 @@ The journey to building a truly high-performing, production-ready NLP model ofte
 - **Reapplying Heuristics (The Final Safety Net):** Even after deploying advanced ML models, perfection is elusive. It's a common and effective practice to **revisit errors** made by the ML model and identify any common patterns. New, targeted heuristics, often based on specific domain knowledge not fully captured by the data or model, can then be applied at the very end of the pipeline to correct these residual errors. This serves as a crucial "safety net," ensuring the highest possible accuracy for critical applications.
     
 
-#### 4. Data-Driven Decision Paths
+## Data-Driven Decision Paths
 
 Ultimately, the choice of modeling strategy is profoundly influenced by the **attributes of your data**:
 

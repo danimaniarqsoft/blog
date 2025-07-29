@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jul 2025 18:25:49 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jul 2025 15:41:34 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Look at the Modern Natural Language Processing Pipeline: From Data to Intelligent Production</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/process/</link>
+      <pubDate>Mon, 28 Jul 2025 15:41:34 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/pipeline/process/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As an NLP learner specializing in modern techniques, I&amp;rsquo;ve outlined the essential stages of a contemporary NLP pipeline. This structured workflow transforms raw textual data into actionable insights or intelligent applications. This article summarizes these eight fundamental steps, integrating best practices and key academic references.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>NLP Modeling</title>
       <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/modeling/</link>
