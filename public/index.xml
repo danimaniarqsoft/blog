@@ -27,7 +27,7 @@
       <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/data-acquisition/</link>
       <pubDate>Wed, 30 Jul 2025 01:20:12 -0600</pubDate>
       <guid>http://localhost:1313/blog/blog/ai/nlp/pipeline/data-acquisition/</guid>
-      <description>&lt;h1 id=&#34;coming-soon&#34;&gt;Coming soon&lt;/h1&gt;</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Data is paramount to any Machine Learning (ML) system, frequently becoming the primary bottleneck in industrial projects. This section outlines various strategies for acquiring relevant data for Natural Language Processing (NLP) initiatives.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Evaluation in the NLP Pipeline: Measuring Model Success</title>
