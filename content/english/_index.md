@@ -52,6 +52,13 @@ features:
       enable: true
       label: "Get Started Now"
       link: "/blog/categories/artificial-intelligence"
+  - title: "Modern Natural language process"
+    image: "/images/nlp-process.png"
+    content: "As an NLP learner specializing in modern techniques, I've outlined the essential stages of a contemporary NLP pipeline. This structured workflow transforms raw textual data into actionable insights or intelligent applications. This article summarizes these eight fundamental steps, integrating best practices and key academic references"
+    button:
+      enable: true
+      label: "Get Started Now"
+      link: "/blog/topics/nlp"
   - title: "Learning paths"
     image: "/images/posts/learning-paths/image.png"
     content: "Guidelines and best practices refer to proven standards and recommendations in software development that help ensure code quality, maintainability, scalability, and security across projects."

@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jul 2025 15:41:34 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 00:09:10 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Evaluation in the NLP Pipeline: Measuring Model Success</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/evaluation/</link>
+      <pubDate>Tue, 29 Jul 2025 00:09:10 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/pipeline/evaluation/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Evaluation is a crucial step in the Natural Language Processing (NLP) pipeline, assessing a model&amp;rsquo;s &amp;ldquo;goodness,&amp;rdquo; primarily its performance on unseen data. Success hinges on using the right metrics and following a proper evaluation process. Metrics vary by NLP task and pipeline phase (model building, deployment, production), with machine learning (ML) metrics common in early phases and business metrics added in production to gauge business impact.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Look at the Modern Natural Language Processing Pipeline: From Data to Intelligent Production</title>
       <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/process/</link>

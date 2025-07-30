@@ -21,10 +21,16 @@ name = "Categories"
 url = "/cat"
 weight = 4
 
+
 [[main]]
 name = "Stats"
 url = "/stats"
 weight = 5
+
+[[main]]
+name = "Modern NLP Process"
+url = "/topics/nlp"
+weight = 6
 
 # footer menu
 [[footer]]

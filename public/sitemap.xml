@@ -3,27 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-07-29T00:48:10-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/</loc>
-    <lastmod>2025-07-29T00:48:10-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/ai/nlp/pipeline/process/</loc>
-    <lastmod>2025-07-28T15:41:34-06:00</lastmod>
+    <lastmod>2025-07-29T00:09:10-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
-    <lastmod>2025-07-28T15:41:34-06:00</lastmod>
+    <lastmod>2025-07-29T00:09:10-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-07-28T15:41:34-06:00</lastmod>
+    <lastmod>2025-07-29T00:09:10-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/</loc>
+    <lastmod>2025-07-29T00:09:10-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/ai/nlp/pipeline/evaluation/</loc>
+    <lastmod>2025-07-29T00:09:10-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/nlp/</loc>
-    <lastmod>2025-07-28T15:41:34-06:00</lastmod>
+    <lastmod>2025-07-29T00:09:10-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/nlp/</loc>
-    <lastmod>2025-07-28T15:41:34-06:00</lastmod>
+    <lastmod>2025-07-29T00:09:10-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-07-29T00:09:10-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/ai/nlp/pipeline/process/</loc>
     <lastmod>2025-07-28T15:41:34-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/pipeline/modeling/</loc>
@@ -362,10 +365,6 @@
     <loc>http://localhost:1313/blog/blog/software-architecture/clean-architecture/</loc>
     <lastmod>2024-03-13T08:57:37-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/topics/java-best-practices/</loc>
-  </url><url>
-    <loc>http://localhost:1313/blog/topics/latex/</loc>
-  </url><url>
     <loc>http://localhost:1313/blog/authors/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/cat/</loc>
@@ -379,6 +378,8 @@
     <loc>http://localhost:1313/blog/about/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/stats/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/topics/nlp/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/pages/</loc>
   </url><url>
