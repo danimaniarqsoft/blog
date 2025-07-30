@@ -6,8 +6,29 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Jul 2025 00:09:10 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jul 2025 01:20:37 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitoring and update</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/monitoring-and-update/</link>
+      <pubDate>Wed, 30 Jul 2025 01:20:37 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/pipeline/monitoring-and-update/</guid>
+      <description>&lt;h1 id=&#34;coming-soon&#34;&gt;Coming soon&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Deployment</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/deployment/</link>
+      <pubDate>Wed, 30 Jul 2025 01:20:26 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/pipeline/deployment/</guid>
+      <description>&lt;h1 id=&#34;coming-soon&#34;&gt;Coming soon&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Data acquisition</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/data-acquisition/</link>
+      <pubDate>Wed, 30 Jul 2025 01:20:12 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/pipeline/data-acquisition/</guid>
+      <description>&lt;h1 id=&#34;coming-soon&#34;&gt;Coming soon&lt;/h1&gt;</description>
+    </item>
     <item>
       <title>Evaluation in the NLP Pipeline: Measuring Model Success</title>
       <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/evaluation/</link>
