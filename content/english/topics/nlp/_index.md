@@ -1,7 +1,7 @@
 ---
-title: "NLP Process"
-meta_title: "NLP Process"
-description: "NLP Process"
+title: "Modern NLP Process"
+meta_title: "Modern NLP Process"
+description: "Modern NLP Process"
 draft: false
 ---
 
