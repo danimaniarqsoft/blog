@@ -25,19 +25,26 @@ Evaluations are broadly categorized into two types:
  - Can often be automated, but for subjective tasks like machine translation or summarization, full automation is challenging.   
 
 **Common Intrinsic Metrics & Applications:**
-- **Accuracy:** Fraction of correct predictions (e.g., sentiment classification, natural language inference).
-- **Precision:** How exact positive predictions are (e.g., disease prediction, where false positives are costly).
-- **Recall:** How well the model identifies all positive cases (e.g., e-commerce search, information retrieval).
-- **F1 Score:** Harmonic mean of precision and recall, balancing completeness and exactness (e.g., most classification tasks, entity extraction).
-- **AUC (Area Under the Curve):** Measures model quality independent of the prediction threshold, useful for finding optimal thresholds.
-- **MRR (Mean Reciprocal Rank):** Evaluates ranked responses based on correctness probability (e.g., article search, e-commerce search).
-- **MAP (Mean Average Precision):** Calculates mean precision across ranked retrieval results (e.g., information retrieval).
-- **RMSE (Root Mean Squared Error) & MAPE (Mean Absolute Percentage Error):** For real-value prediction/regression tasks (e.g., temperature, stock price prediction).
-- **BLEU (Bilingual Evaluation Understudy) & METEOR:** Capture n-gram overlap and text quality for generated text, primarily machine translation (METEOR improves on BLEU by allowing synonyms/stemmed words).
-- **ROUGE:** Measures recall for generated text against reference text, mainly used for summarization.
-- **Perplexity:** A probabilistic measure of a language model's "confusion," used for language models and generation tasks like dialog.
-- **Limitations:** Automated evaluation for text generation can be imperfect because multiple correct variations may not be captured in ground truth labels, leading to false negatives (e.g., "filberts" vs. "hazelnuts"). This often necessitates human evaluation, which is expensive.   
-- **Visual Aids:** Confusion matrices are commonly used for classification tasks to inspect actual vs. predicted output and compute metrics. Ranking tasks use metrics like MRR and MAP, but also "Recall at rank K."
+
+| Metric                                  | Description                                                                                                                                                               | Applications                                                                                                               |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Accuracy                                | Fraction of times the model makes correct predictions compared to total predictions.                                                                                      | Classification tasks (e.g., sentiment classification, natural language inference, paraphrase detection).                   |
+| Precision                               | How precise or exact the model’s positive predictions are (given all positive cases, how many are correctly classified).                                                  | Classification tasks where false positives are costly (e.g., disease predictions in healthcare).                           |
+| Recall                                  | How well the model can recall positive class (given all positive predictions, how many are indeed positive).                                                              | Classification tasks where retrieving positive results is more important (e.g., e-commerce search, information retrieval). |
+| F1 Score                                | Combines precision and recall to give a single metric, capturing the trade-off between completeness and exactness. Defined as (2×P×R)/(P+R).                              | Most classification tasks, sequence-labeling tasks (e.g., entity extraction, retrieval-based question answering).          |
+| AUC (Area Under the Curve)              | Captures the count of correct vs. incorrect positive predictions as the prediction threshold varies.                                                                      | Measuring model quality independent of the prediction threshold; finding optimal prediction threshold for classification.  |
+| MRR (Mean Reciprocal Rank)              | Mean of the reciprocal of the ranks of retrieved results, evaluating responses based on correctness probability.                                                          | All information-retrieval tasks (e.g., article search, e-commerce search).                                                 |
+| MAP (Mean Average Precision)            | Calculates the mean precision across each retrieved result in ranked retrieval.                                                                                           | Information-retrieval tasks.                                                                                               |
+| RMSE (Root Mean Squared Error)          | Captures a model’s performance in a real-value prediction task; square root of the mean of squared errors.                                                                | Regression problems (e.g., temperature prediction, stock market price prediction), often with MAPE.                        |
+| MAPE (Mean Absolute Percentage Error)   | Average of absolute percentage error for each data point when the output variable is continuous.                                                                          | Testing regression model performance, often with RMSE.                                                                     |
+| BLEU (Bilingual Evaluation Understudy)  | Captures n-gram overlap between output and reference sentences.                                                                                                           | Machine-translation tasks, adapted to other text-generation tasks (e.g., paraphrase generation, text summarization).       |
+| METEOR                                  | Precision-based metric for text quality, fixing BLEU drawbacks by allowing synonyms and stemmed words to match.                                                           | Machine translation.                                                                                                       |
+| ROUGE                                   | Compares quality of generated text to reference text, measuring recall.                                                                                                   | Summarization tasks (important to evaluate how many words a model can recall).                                             |
+| Perplexity                              | Probabilistic measure of how 'confused' an NLP model is, derived from cross-entropy in next word prediction.                                                              | Evaluating language models, language-generation tasks (e.g., dialog generation).                                           |
+| Limitations (Automated Text Generation) | Can be imperfect as multiple correct variations may not be captured in ground truth, leading to false negatives. Often necessitates human evaluation, which is expensive. | Machine translation, dialog generation, summarization.                                                                     |
+| Visual Aids                             | Confusion matrices inspect actual vs. predicted output for classification. Recall at rank K for ranking tasks.                                                            | Classification, information retrieval.                                                                                     |
+
+
         
 ## Extrinsic Evaluation:   
 - Focuses on evaluating model performance against the **final business objective**.   
@@ -49,6 +56,55 @@ Evaluations are broadly categorized into two types:
         
 In summary, evaluating NLP models involves a combination of intrinsic (ML-focused) and extrinsic (business-impact-focused) methods. While intrinsic metrics provide a technical gauge, extrinsic evaluation ultimately determines a model's real-world success and value.
 
+
+## Resume of the section
+
+
+
+```mermaid
+mindmap
+  root((EVALUATION))
+    Purpose: Measure Model Goodness
+      Performance on Unseen Data
+    Success Factors
+      Right Metric
+      Right Evaluation Process
+    Types of Evaluation
+      Intrinsic Evaluation
+        Focus: Intermediary Objectives
+        Metrics (ML Metrics)
+          Accuracy
+          Precision
+          Recall
+          F1 Score
+          AUC
+          MRR
+          MAP
+          RMSE
+          MAPE
+          BLEU
+          METEOR
+          ROUGE
+          Perplexity
+        Process: Mostly Automated
+          Challenge: Not always subjective (e.g., MT, Summarization)
+        Visual Aid: Confusion Matrix
+      Extrinsic Evaluation
+        Focus: Final Business Objective
+        Metrics: Business Metrics
+          e.g., Time users spent on spam email
+        Process: Human/Real-world Impact
+        Cost: More Expensive
+        Relationship with Intrinsic
+          Intrinsic is a Proxy for Extrinsic
+          Requires consistently good Intrinsic results
+          Bad Intrinsic often implies Bad Extrinsic
+          Good Intrinsic does NOT guarantee Good Extrinsic
+        Reasons for Poor Extrinsic Performance
+          Wrong Metrics
+          Unsuitable Data
+          Wrong Expectations
+```
 
 
 {{< quiz "evaluation">}}
