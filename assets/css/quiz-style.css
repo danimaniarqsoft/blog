@@ -1,59 +1,156 @@
 /* assets/css/style.css */
 
 .radio-container input[type="radio"] {
-  /* Apply styles directly to the radio input */
-  accent-color: blue; /* Changes the color of the radio button itself */
-  width: 1.2em; /* Adjusts the size */
-  height: 1.2em;
-  margin-right: 0.5em; /* Adds space to the right of the radio button */
+    /* Apply styles directly to the radio input */
+    accent-color: blue;
+    /* Changes the color of the radio button itself */
+    width: 1.2em;
+    /* Adjusts the size */
+    height: 1.2em;
+    margin-right: 0.5em;
+    /* Adds space to the right of the radio button */
 }
 
 /* You can also style the label associated with the radio button */
-.radio-container input[type="radio"] + label {
-  font-family: sans-serif;
-  color: #333;
-  cursor: pointer;
+.radio-container input[type="radio"]+label {
+    font-family: sans-serif;
+    color: #333;
+    cursor: pointer;
 }
 
 /* Style for when the radio button is checked */
-.radio-container input[type="radio"]:checked + label {
-  font-weight: bold;
-  color: green;
+.radio-container input[type="radio"]:checked+label {
+    font-weight: bold;
+    color: black;
 }
+
 /* Estilos para las preguntas */
 .question-item {
-    @apply bg-gray-50 p-5 rounded-lg shadow-sm border border-gray-200;
+    background-color: #f9fafb;
+    /* bg-gray-50 */
+    padding: 1.25rem;
+    /* p-5 (Tailwind's default spacing: 5 * 0.25rem = 1.25rem) */
+    border-radius: 0.5rem;
+    /* rounded-lg (Tailwind's default border-radius for lg) */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    /* shadow-sm */
+    border-width: 1px;
+    /* border */
+    border-style: solid;
+    /* border (implied by 'border' utility) */
+    border-color: #e5e7eb;
+    /* border-gray-200 */
 }
 
 .question-text {
-    @apply text-lg font-medium text-gray-700 mb-4;
+    font-size: 1.125rem;
+    /* text-lg (generalmente 18px si la base es 16px) */
+    font-weight: 500;
+    /* font-medium */
+    color: #374151;
+    /* font-weight */
     font-weight: bold;
-    margin-bottom: 20px;
+    /* text-gray-700 (un gris oscuro específico de la paleta de Tailwind) */
+    margin-bottom: 1rem;
+    /* mb-4 (Tailwind's default spacing scale: 1 unit = 0.25rem, so 4 * 0.25rem = 1rem) */
 }
 
 .answer-option {
-    @apply flex items-center mb-3 last:mb-0;
+    display: flex;
+    /* flex */
+    align-items: center;
+    /* items-center */
+    margin-bottom: 0.75rem;
+    /* mb-3 (Tailwind's default spacing scale: 1 unit = 0.25rem) */
+    padding: 0.5rem;
+    /* p-2 (Tailwind's default spacing scale: 1 unit = 0.25rem) */
+    border-radius: 0.375rem;
+    /* rounded-md (Tailwind's default border-radius for md) */
 }
 
 .answer-option input[type="radio"] {
-    @apply mr-3 h-5 w-5 text-blue-600 focus:ring-blue-500 border-gray-300;
+    margin-right: 0.75rem;
+    /* mr-3 (Tailwind's default spacing: 3 * 0.25rem) */
+    height: 1.25rem;
+    /* h-5 (Tailwind's default spacing: 5 * 0.25rem) */
+    width: 1.25rem;
+    /* w-5 (Tailwind's default spacing: 5 * 0.25rem) */
+    color: #2563eb;
+    /* text-blue-600 (un azul específico de la paleta de Tailwind) */
+    border-color: #d1d5db;
+    /* border-gray-300 (un gris específico de la paleta de Tailwind) */
+    border-width: 1px;
+    /* border-gray-300 también implica un borde de 1px por defecto */
+    border-style: solid;
+    /* Los bordes necesitan un estilo */
+}
+
+.answer-option input[type="radio"]:focus {
+    outline: 2px solid transparent;
+    /* Elimina el outline por defecto del navegador */
+    outline-offset: 2px;
+    /* Espacio entre el elemento y el ring */
+    box-shadow: 0 0 0 2px #3b82f6;
+    /* focus:ring-blue-500 (un azul diferente para el ring) */
 }
 
 .answer-option label {
-    @apply text-gray-800 text-base cursor-pointer;
+    color: #1f2937;
+    /* text-gray-800 (un gris muy oscuro específico de la paleta de Tailwind) */
+    font-size: 1rem;
+    /* text-base (generalmente 16px si la base es 16px) */
+    cursor: pointer;
+    /* cursor-pointer */
 }
 
 /* Estilos para el área de resultados */
 #result-area.success {
-    @apply bg-green-100 text-green-800 border border-green-300;
-    background-color: rgb(157, 189, 157)
+    background-color: #dcfce7;
+    /* bg-green-100 (un verde muy claro de la paleta de Tailwind) */
+    color: #166534;
+    /* text-green-800 (un verde oscuro específico de la paleta de Tailwind) */
+    border-width: 1px;
+    /* border (Tailwind's default border width) */
+    border-style: solid;
+    /* border (Tailwind's default border style) */
+    border-color: #86efac;
+    /* border-green-300 (un verde de la paleta de Tailwind) */
+
 }
 
 #result-area.fail {
-    @apply bg-red-100 text-red-800 border border-red-300;
-    background-color: rgb(235, 196, 191) !important
+    background-color: #fee2e2;
+    /* bg-red-100 (un rojo muy claro de la paleta de Tailwind) */
+    color: #991b1b;
+    /* text-red-800 (un rojo oscuro específico de la paleta de Tailwind) */
+    border-width: 1px;
+    /* border (ancho de borde por defecto de Tailwind) */
+    border-style: solid;
+    /* border (estilo de borde por defecto de Tailwind) */
+    border-color: #fca5a5;
+    /* border-red-300 (un rojo de la paleta de Tailwind) */
 }
 
-.questions {
-    background-color: #ccc !important;
+/* Nuevos estilos para marcar respuestas */
+/* Nuevos estilos para marcar respuestas */
+.answer-option.correct-answer {
+    background-color: #dcfce7;
+    /* bg-green-200 */
+    border-color: #4ade80;
+    /* border-green-400 */
+    border-width: 1px;
+    /* Implied by 'border' in Tailwind */
+    border-style: solid;
+    /* Implied by 'border' in Tailwind */
+}
+
+.answer-option.incorrect-answer {
+    background-color: #fecaca;
+    /* bg-red-200 */
+    border-color: #f87171;
+    /* border-red-400 */
+    border-width: 1px;
+    /* Implied by 'border' in Tailwind */
+    border-style: solid;
+    /* Implied by 'border' in Tailwind */
 }

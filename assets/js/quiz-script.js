@@ -13,6 +13,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultMessage = document.getElementById('result-message');
     const scoreDisplay = document.getElementById('score-display');
 
+    // Deshabilitar el botón de evaluar al inicio
+    evaluateBtn.disabled = true;
+    evaluateBtn.classList.add('opacity-50', 'cursor-not-allowed');
+
     // --- Función para renderizar el cuestionario ---
     function renderQuiz() {
         // Asegurarse de que quizData esté disponible
@@ -46,6 +50,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 radioInput.name = `question-${qIndex}`;
                 radioInput.value = aIndex; // Guardamos el índice de la respuesta
 
+                // Añadir un event listener a cada radio button para verificar el estado
+                radioInput.addEventListener('change', checkAllQuestionsAnswered);
+
                 const label = document.createElement('label');
                 label.htmlFor = `q${qIndex}-a${aIndex}`;
                 label.textContent = a.answer;
@@ -60,6 +67,29 @@ document.addEventListener('DOMContentLoaded', () => {
         // Ocultar el área de resultados al inicio o al reiniciar
         resultArea.classList.add('hidden');
         resultArea.classList.remove('success', 'fail'); // Limpiar clases de resultado
+        // Asegurarse de que el botón de evaluar esté deshabilitado al renderizar/reiniciar
+        evaluateBtn.disabled = true;
+        evaluateBtn.classList.add('opacity-50', 'cursor-not-allowed');
+    }
+
+    // --- Nueva función para verificar si todas las preguntas han sido respondidas ---
+    function checkAllQuestionsAnswered() {
+        let allAnswered = true;
+        quizData.questions.forEach((q, qIndex) => {
+            const answered = document.querySelector(`input[name="question-${qIndex}"]:checked`);
+            if (!answered) {
+                allAnswered = false;
+            }
+        });
+
+        // Habilitar o deshabilitar el botón de evaluar
+        if (allAnswered) {
+            evaluateBtn.disabled = false;
+            evaluateBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+        } else {
+            evaluateBtn.disabled = true;
+            evaluateBtn.classList.add('opacity-50', 'cursor-not-allowed');
+        }
     }
 
     // --- Función para evaluar el cuestionario ---
@@ -68,14 +98,60 @@ document.addEventListener('DOMContentLoaded', () => {
         const totalQuestions = quizData.questions.length;
 
         quizData.questions.forEach((q, qIndex) => {
-            const selectedAnswer = document.querySelector(`input[name="question-${qIndex}"]:checked`);
-            
-            if (selectedAnswer) {
-                const selectedAnswerIndex = parseInt(selectedAnswer.value);
+            const selectedAnswerInput = document.querySelector(`input[name="question-${qIndex}"]:checked`);
+            const allAnswerInputs = document.querySelectorAll(`input[name="question-${qIndex}"]`);
+
+            // Deshabilitar todas las opciones de respuesta para esta pregunta
+            allAnswerInputs.forEach(input => {
+                input.disabled = true;
+                // Limpiar clases de evaluación anteriores
+                const parentDiv = input.closest('.answer-option');
+                if (parentDiv) {
+                    parentDiv.classList.remove('correct-answer', 'incorrect-answer');
+                }
+            });
+
+            if (selectedAnswerInput) {
+                const selectedAnswerIndex = parseInt(selectedAnswerInput.value);
+                const parentDivOfSelected = selectedAnswerInput.closest('.answer-option');
+
                 // Verificar si la respuesta seleccionada es correcta según los datos JSON
                 if (q.answers[selectedAnswerIndex].isCorrect) {
                     correctAnswersCount++;
+                    if (parentDivOfSelected) {
+                        parentDivOfSelected.classList.add('correct-answer');
+                    }
+                } else {
+                    if (parentDivOfSelected) {
+                        parentDivOfSelected.classList.add('incorrect-answer');
+                    }
+                    
+                    // También marcar la respuesta correcta si la seleccionada fue incorrecta
+                    q.answers.forEach((answer, index) => {
+                        if (answer.isCorrect) {
+                            const correctInput = document.getElementById(`q${qIndex}-a${index}`);
+                            if (correctInput) {
+                                const parentDivOfCorrect = correctInput.closest('.answer-option');
+                                if (parentDivOfCorrect) {
+                                    parentDivOfCorrect.classList.add('correct-answer');
+                                }
+                            }
+                        }
+                    });
                 }
+            } else {
+                // Si no se seleccionó ninguna respuesta, mostrar la correcta
+                q.answers.forEach((answer, index) => {
+                    if (answer.isCorrect) {
+                        const correctInput = document.getElementById(`q${qIndex}-a${index}`);
+                        if (correctInput) {
+                            const parentDivOfCorrect = correctInput.closest('.answer-option');
+                            if (parentDivOfCorrect) {
+                                parentDivOfCorrect.classList.add('correct-answer');
+                            }
+                        }
+                    }
+                });
             }
         });
 
@@ -101,10 +177,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Función para reiniciar el cuestionario ---
     function resetQuiz() {
         quizForm.reset(); // Limpia todas las selecciones de radio buttons
+        
+        // Habilitar todas las opciones de respuesta y limpiar clases de evaluación
+        quizData.questions.forEach((q, qIndex) => {
+            const allAnswerInputs = document.querySelectorAll(`input[name="question-${qIndex}"]`);
+            allAnswerInputs.forEach(input => {
+                input.disabled = false; // Habilitar input
+                const parentDiv = input.closest('.answer-option');
+                if (parentDiv) {
+                    parentDiv.classList.remove('correct-answer', 'incorrect-answer');
+                }
+            });
+        });
+
         resultArea.classList.add('hidden'); // Oculta el área de resultados
         resultArea.classList.remove('success', 'fail'); // Elimina las clases de estilo de resultado
         resultMessage.textContent = '';
         scoreDisplay.textContent = '';
+
+        // Deshabilitar el botón de evaluar al reiniciar
+        evaluateBtn.disabled = true;
+        evaluateBtn.classList.add('opacity-50', 'cursor-not-allowed');
     }
 
     // --- Event Listeners ---
@@ -113,5 +206,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Renderizar el cuestionario al cargar la página
     renderQuiz();
-    console.log("renderizando el quiz");
 });

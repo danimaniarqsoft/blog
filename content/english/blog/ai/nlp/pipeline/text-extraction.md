@@ -81,3 +81,6 @@ In conclusion, text extraction and cleanup, though primarily a "data-wrangling" 
 ## References
 
 1. Practical Natural Language Processing - Harshit Surana & Anuj Gupta & Bodhisattwa Majumder & Sowmya Vajjala O'Reilly Media, Inc. (2020)
+
+
+{{< quiz "demo">}}
