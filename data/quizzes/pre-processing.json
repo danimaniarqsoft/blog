@@ -1,0 +1,258 @@
+{
+  "title": "NLP Pipeline: Pre-Processing Quiz",
+  "description": "Multiple-choice questions for Spaced Repetition on Text Pre-Processing in Natural Language Processing.",
+  "questions": [
+    {
+      "question": "Why is pre-processing still necessary in the NLP pipeline, even after text extraction and cleanup?",
+      "answers": [
+        {
+          "answer": "Because NLP software typically works at the sentence level and expects word separation, and additional decisions like lowercasing or removing special characters are needed.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To convert the text into a different language for analysis.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To perform sentiment analysis before any other steps.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To add more non-textual information back into the data.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which two preliminary steps are almost always present in any NLP pipeline?",
+      "answers": [
+        {
+          "answer": "Language detection and code mixing.",
+          "isCorrect": false
+        },
+        {
+          "answer": "POS tagging and parsing.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Sentence segmentation and word tokenization.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Stemming and lemmatization.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a common challenge in sentence segmentation, despite it seeming like a simple task?",
+      "answers": [
+        {
+          "answer": "Identifying the correct font size for each sentence.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Handling abbreviations, forms of addresses (e.g., Dr., Mr.), or ellipses (...).",
+          "isCorrect": true
+        },
+        {
+          "answer": "Determining the emotional tone of each sentence.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Converting sentences into numerical vectors.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which popular Python library is commonly used for sentence and word tokenization, as demonstrated in the text?",
+      "answers": [
+        {
+          "answer": "Scrapy",
+          "isCorrect": false
+        },
+        {
+          "answer": "Beautiful Soup",
+          "isCorrect": false
+        },
+        {
+          "answer": "NLTK (Natural Language Tool Kit)",
+          "isCorrect": true
+        },
+        {
+          "answer": "Pandas",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the main difference between **stemming** and **lemmatization**?",
+      "answers": [
+        {
+          "answer": "Stemming uses neural networks, while lemmatization uses rule-based systems.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Stemming removes suffixes to reduce a word to a base form (not always linguistically correct), while lemmatization maps different forms of a word to its base word or lemma (linguistically correct).",
+          "isCorrect": true
+        },
+        {
+          "answer": "Stemming converts words to lowercase, while lemmatization removes punctuation.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Stemming is used for classification, while lemmatization is used for search engines.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In the context of pre-processing, what does 'text normalization' aim to achieve, especially with social media text?",
+      "answers": [
+        {
+          "answer": "To convert all text into a single, specific language.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To remove all digits and punctuation from the text.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To reach a canonical representation of text that captures all variations (e.g., different spellings, formats) into one representation.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To expand abbreviations into their full forms only.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "When collecting web content for an NLP pipeline that expects English text, but non-English reviews appear, what pre-processing step should be performed first?",
+      "answers": [
+        {
+          "answer": "Stemming",
+          "isCorrect": false
+        },
+        {
+          "answer": "Language detection",
+          "isCorrect": true
+        },
+        {
+          "answer": "Coreference resolution",
+          "isCorrect": false
+        },
+        {
+          "answer": "Text normalization",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What phenomenon refers to the use of multiple languages within a single piece of content, common in multilingual communities?",
+      "answers": [
+        {
+          "answer": "Transliteration",
+          "isCorrect": false
+        },
+        {
+          "answer": "Language detection",
+          "isCorrect": false
+        },
+        {
+          "answer": "Code mixing",
+          "isCorrect": true
+        },
+        {
+          "answer": "Text normalization",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which advanced pre-processing step is useful for identifying proper nouns like person and organization names in a document collection?",
+      "answers": [
+        {
+          "answer": "Stop word removal",
+          "isCorrect": false
+        },
+        {
+          "answer": "Lemmatization",
+          "isCorrect": false
+        },
+        {
+          "answer": "POS (Part-of-Speech) tagging",
+          "isCorrect": true
+        },
+        {
+          "answer": "Bigram flipping",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "If you need to identify and link multiple mentions of the same entity (e.g., 'Satya Nadella,' 'Mr. Nadella,' 'he') within a text, which advanced pre-processing step would you use?",
+      "answers": [
+        {
+          "answer": "Parsing",
+          "isCorrect": false
+        },
+        {
+          "answer": "Named Entity Recognition (NER)",
+          "isCorrect": false
+        },
+        {
+          "answer": "Coreference resolution",
+          "isCorrect": true
+        },
+        {
+          "answer": "Sentence segmentation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "When should text typically be lowercased in the pre-processing pipeline?",
+      "answers": [
+        {
+          "answer": "After lemmatization.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Before stemming.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Only if the text contains digits.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It doesn't matter when it's done.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Why is it generally NOT recommended to remove tokens or lowercase text before performing lemmatization?",
+      "answers": [
+        {
+          "answer": "Because it makes the text harder to read for humans.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Because lemmatization requires knowing the part of speech of the word, which needs all tokens to be intact.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Because it increases the processing time significantly.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Because it can introduce new spelling errors.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

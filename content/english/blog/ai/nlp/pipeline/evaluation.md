@@ -48,3 +48,7 @@ Evaluations are broadly categorized into two types:
 - Poor intrinsic results usually imply poor extrinsic results. However, strong intrinsic performance doesn't guarantee extrinsic success, as business failure could stem from incorrect metrics, unsuitable data, or flawed expectations.
         
 In summary, evaluating NLP models involves a combination of intrinsic (ML-focused) and extrinsic (business-impact-focused) methods. While intrinsic metrics provide a technical gauge, extrinsic evaluation ultimately determines a model's real-world success and value.
+
+
+
+{{< quiz "evaluation">}}

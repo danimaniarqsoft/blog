@@ -109,3 +109,5 @@ In conclusion, the modeling phase of an NLP project is a dynamic interplay of hu
 ## References
 
 1. Practical Natural Language Processing - Harshit Surana & Anuj Gupta & Bodhisattwa Majumder & Sowmya Vajjala O'Reilly Media, Inc. (2020)
+
+{{< quiz "modeling">}}

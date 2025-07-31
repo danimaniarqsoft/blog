@@ -355,3 +355,6 @@ As researchers and practitioners, the selection of pre-processing steps is not a
 24. Lewis, M., Liu, Y., Goyal, N., Ghazvininejad, M., Mohamed, A., Levy, O., ... & Zettlemoyer, L. (2020). BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension. _arXiv preprint arXiv:1910.13461_. (Introduced BART, a powerful Transformer for abstractive summarization).
 25. Eisenstein, J. (2019). _Introduction to Natural Language Processing_. MIT Press. (Covers fundamentals of conversational AI, intent recognition, and dialogue systems).
 26. Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). Language Models are Unsupervised Multitask Learners. OpenAI Blog. (Discusses the robustness of large language models like GPT-2 to varied inputs, reducing the need for explicit pre-processing in conversational AI).
+
+
+{{< quiz "pre-processing">}}

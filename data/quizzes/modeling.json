@@ -1,0 +1,258 @@
+{
+  "title": "NLP Pipeline: Modeling Quiz",
+  "description": "Multiple-choice questions for Spaced Repetition on the Modeling stage of the NLP pipeline, covering heuristics, model building, and data-driven decisions.",
+  "questions": [
+    {
+      "question": "At the very start of building an NLP model, especially with limited data, what approach can provide a great starting point?",
+      "answers": [
+        {
+          "answer": "Immediately deploying a large deep learning model.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Starting with simple, human-built heuristics and rules.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Relying solely on external NLP service APIs.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Conducting extensive A/B testing on random models.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which two tools are mentioned as useful for defining advanced regular expressions to capture information like people working in a specific organization?",
+      "answers": [
+        {
+          "answer": "Beautiful Soup and Scrapy",
+          "isCorrect": false
+        },
+        {
+          "answer": "NLTK and Pandas",
+          "isCorrect": false
+        },
+        {
+          "answer": "Stanford NLP’s TokensRegex and spaCy’s rule-based matching",
+          "isCorrect": true
+        },
+        {
+          "answer": "Google Translate and WordNet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "As an NLP system matures, why does adding newer and newer heuristics become problematic?",
+      "answers": [
+        {
+          "answer": "It makes the system too slow to execute.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It results in a complex, rule-based system that is hard to manage and diagnose errors.",
+          "isCorrect": true
+        },
+        {
+          "answer": "It prevents the use of any machine learning models.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It makes the system too simple and less effective.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What are the two broad ways mentioned to combine heuristics directly or indirectly with an ML model as the system matures?",
+      "answers": [
+        {
+          "answer": "Create a feature from the heuristic for your ML model, or pre-process your input to the ML model if the heuristic has a high prediction.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Replace all heuristics with ML models, or discard all ML models for heuristics.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Use heuristics only for data acquisition, and ML only for deployment.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Apply heuristics only after the ML model has made its final prediction.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following NLP service providers are mentioned as offering off-the-shelf APIs for various NLP tasks?",
+      "answers": [
+        {
+          "answer": "OpenAI, Hugging Face, DataRobot",
+          "isCorrect": false
+        },
+        {
+          "answer": "Google Cloud Natural Language, Amazon Comprehend, Microsoft Azure Cognitive Services, IBM Watson Natural Language Understanding",
+          "isCorrect": true
+        },
+        {
+          "answer": "NLTK, spaCy, scikit-learn",
+          "isCorrect": false
+        },
+        {
+          "answer": "TensorFlow, PyTorch, Keras",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is 'model stacking' in the context of building 'THE Model'?",
+      "answers": [
+        {
+          "answer": "Pooling predictions from multiple models to make a final prediction.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Feeding one model’s output as input for another model, thus sequentially going from one model to another and obtaining a final output.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Training a single, very large model with all available data.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Using only heuristic-based models in production.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is 'model ensembling' in the context of building 'THE Model'?",
+      "answers": [
+        {
+          "answer": "Feeding one model’s output as input for another model.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Pooling predictions from multiple models to make a final prediction.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The process of selecting the best single model from a set of candidates.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Combining different feature engineering techniques.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the core concept of 'Transfer Learning' in NLP, as described in the text?",
+      "answers": [
+        {
+          "answer": "Training a model from scratch on a very large, specific dataset.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Transferring pre-existing knowledge from a big, well-trained model to a newer model at its initial phase, then fine-tuning.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Automatically generating new features from raw text data.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Combining predictions from multiple small models.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Why is 'reapplying heuristics' a useful practice even after deploying advanced ML models?",
+      "answers": [
+        {
+          "answer": "Because ML models are perfect and never make mistakes.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To completely replace the ML model with a rule-based system.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To correct residual errors by identifying common patterns in mistakes and applying domain-specific knowledge as a 'safety net'.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To reduce the computational cost of the ML model.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "When faced with a 'Small data volume' for an NLP task, which decision path is suggested?",
+      "answers": [
+        {
+          "answer": "Can use techniques that require more data, like DL.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Need to start with rule-based or traditional ML solutions that are less data hungry, and can adapt cloud APIs or use transfer learning.",
+          "isCorrect": true
+        },
+        {
+          "answer": "More data cleaning and pre-processing might be required.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Can directly apply off-the-shelf algorithms or cloud APIs more easily.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the most common modeling process one will encounter in NLP projects in an industry scenario?",
+      "answers": [
+        {
+          "answer": "Unsupervised learning, especially clustering.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Reinforcement learning for text generation.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Supervised learning, especially classification.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Generative adversarial networks (GANs).",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What approach is suggested for scenarios with a small amount of data (not sufficient for good ML models) to continuously collect new data and build better models?",
+      "answers": [
+        {
+          "answer": "Batch processing",
+          "isCorrect": false
+        },
+        {
+          "answer": "Offline learning",
+          "isCorrect": false
+        },
+        {
+          "answer": "Active learning",
+          "isCorrect": true
+        },
+        {
+          "answer": "Passive learning",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

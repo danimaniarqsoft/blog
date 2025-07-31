@@ -1,0 +1,153 @@
+{
+  "title": "NLP Pipeline: Feature Engineering Quiz",
+  "description": "Multiple-choice questions for Spaced Repetition on the Feature Engineering stage of the NLP pipeline, focusing on classical vs. DL approaches.",
+  "questions": [
+    {
+      "question": "What is the primary goal of 'Feature Engineering' in an NLP pipeline?",
+      "answers": [
+        {
+          "answer": "To clean raw text data.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To capture the characteristics of the text into a numeric vector understandable by ML algorithms.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To deploy the NLP model to production.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To evaluate the model's performance.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In a classical NLP/ML pipeline, how are transformation functions for feature engineering typically handled?",
+      "answers": [
+        {
+          "answer": "They are automatically learned by the model.",
+          "isCorrect": false
+        },
+        {
+          "answer": "They are usually handcrafted, aligning to the specific task and domain knowledge.",
+          "isCorrect": true
+        },
+        {
+          "answer": "They are always provided by off-the-shelf APIs.",
+          "isCorrect": false
+        },
+        {
+          "answer": "They are randomly generated for each new dataset.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a significant advantage of using handcrafted features in classical ML models?",
+      "answers": [
+        {
+          "answer": "They automatically adapt to new tasks without modification.",
+          "isCorrect": false
+        },
+        {
+          "answer": "They are always more accurate than learned features.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The model remains interpretable, allowing quantification of each feature's influence on prediction.",
+          "isCorrect": true
+        },
+        {
+          "answer": "They reduce the need for pre-processing steps.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is identified as the main drawback of classical ML models in relation to feature engineering?",
+      "answers": [
+        {
+          "answer": "The models are too slow to train.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Handcrafted feature engineering becomes a bottleneck for both model performance and the development cycle.",
+          "isCorrect": true
+        },
+        {
+          "answer": "They cannot handle text data.",
+          "isCorrect": false
+        },
+        {
+          "answer": "They require less data than DL models.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "How has the approach to feature engineering changed with the advent of Deep Learning (DL) models?",
+      "answers": [
+        {
+          "answer": "DL models require even more complex handcrafted features.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Raw data (after pre-processing) is directly fed to a DL model, which learns features from the data.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Feature engineering is completely eliminated in DL pipelines.",
+          "isCorrect": false
+        },
+        {
+          "answer": "DL models rely on external APIs for all feature extraction.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a disadvantage of DL models concerning interpretability, especially in business-driven use cases?",
+      "answers": [
+        {
+          "answer": "They are always less accurate than classical ML models.",
+          "isCorrect": false
+        },
+        {
+          "answer": "They lose interpretability because features are learned via model parameters, making predictions hard to explain.",
+          "isCorrect": true
+        },
+        {
+          "answer": "They can only be used for text classification tasks.",
+          "isCorrect": false
+        },
+        {
+          "answer": "They require manual tuning of every feature.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In the context of sentiment classification on product reviews, how might classical ML models convert reviews into 'meaningful numbers' for prediction?",
+      "answers": [
+        {
+          "answer": "By directly feeding the raw text into a neural network.",
+          "isCorrect": false
+        },
+        {
+          "answer": "By counting the number of positive and negative words in each review.",
+          "isCorrect": true
+        },
+        {
+          "answer": "By using a pre-trained language model like BERT.",
+          "isCorrect": false
+        },
+        {
+          "answer": "By performing back translation on the reviews.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

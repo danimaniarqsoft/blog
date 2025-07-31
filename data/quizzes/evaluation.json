@@ -1,0 +1,300 @@
+{
+  "title": "NLP Pipeline: Evaluation Quiz",
+  "description": "Multiple-choice questions for Spaced Repetition on the Evaluation stage of the NLP pipeline, covering intrinsic and extrinsic metrics.",
+  "questions": [
+    {
+      "question": "What is the most common interpretation of a model's 'goodness' in the NLP pipeline evaluation phase?",
+      "answers": [
+        {
+          "answer": "The model's interpretability.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The measure of the model’s performance on unseen data.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The speed of the model's predictions.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The complexity of the model's architecture.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Evaluation metrics in NLP can vary depending on the phase. In which phase do we typically include business metrics to measure business impact, in addition to ML metrics?",
+      "answers": [
+        {
+          "answer": "Model building phase.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Deployment phase.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Production phase.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Pre-processing phase.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the main focus of **Intrinsic Evaluation** in NLP?",
+      "answers": [
+        {
+          "answer": "Evaluating performance on the final business objective.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Focusing on intermediary objectives using ML metrics.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Measuring the time users spent interacting with the system.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Assessing the cost-effectiveness of data acquisition.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "For a spam-classification system, if the ML metrics are precision and recall, what would be an example of a **business metric** for extrinsic evaluation?",
+      "answers": [
+        {
+          "answer": "The F1 score of the classifier.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The accuracy of spam detection.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The amount of time users spent on a spam email.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The number of emails processed per second.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which intrinsic evaluation metric is defined as the fraction of times the model makes correct predictions compared to the total predictions it makes, primarily used in classification tasks?",
+      "answers": [
+        {
+          "answer": "Precision",
+          "isCorrect": false
+        },
+        {
+          "answer": "Recall",
+          "isCorrect": false
+        },
+        {
+          "answer": "Accuracy",
+          "isCorrect": true
+        },
+        {
+          "answer": "F1 score",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which intrinsic evaluation metric captures how well the model can recall positive class, being complementary to precision, and is important where retrieving positive results is crucial (e.g., e-commerce search)?",
+      "answers": [
+        {
+          "answer": "Accuracy",
+          "isCorrect": false
+        },
+        {
+          "answer": "Precision",
+          "isCorrect": false
+        },
+        {
+          "answer": "Recall",
+          "isCorrect": true
+        },
+        {
+          "answer": "AUC",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "The F1 score combines which two metrics to give a single metric that captures the trade-off between completeness and exactness?",
+      "answers": [
+        {
+          "answer": "Accuracy and AUC",
+          "isCorrect": false
+        },
+        {
+          "answer": "Precision and Recall",
+          "isCorrect": true
+        },
+        {
+          "answer": "MRR and MAP",
+          "isCorrect": false
+        },
+        {
+          "answer": "RMSE and MAPE",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which intrinsic metric is used to measure the quality of a model independent of the prediction threshold and helps find the optimal threshold for a classification task?",
+      "answers": [
+        {
+          "answer": "F1 score",
+          "isCorrect": false
+        },
+        {
+          "answer": "MRR",
+          "isCorrect": false
+        },
+        {
+          "answer": "AUC",
+          "isCorrect": true
+        },
+        {
+          "answer": "Perplexity",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which metric is primarily used in machine translation tasks and captures the amount of n-gram overlap between the output sentence and the reference ground truth sentence?",
+      "answers": [
+        {
+          "answer": "ROUGE",
+          "isCorrect": false
+        },
+        {
+          "answer": "METEOR",
+          "isCorrect": false
+        },
+        {
+          "answer": "BLEU",
+          "isCorrect": true
+        },
+        {
+          "answer": "Perplexity",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Why is automated evaluation for text generation tasks (like machine translation or summarization) often difficult or imperfect?",
+      "answers": [
+        {
+          "answer": "Because the models are too complex to generate text consistently.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Because there could be multiple sentences with the same meaning, and it's not possible to list all variations as ground truth.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Because text generation models always produce grammatically incorrect sentences.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Because human evaluators are always biased.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the main focus of **Extrinsic Evaluation** in industrial NLP projects?",
+      "answers": [
+        {
+          "answer": "Measuring system performance using ML metrics like precision and recall.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Evaluating the model performance on the final business objective.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Determining the computational efficiency of the model.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Assessing the model's interpretability for debugging.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Why is intrinsic evaluation typically performed before extrinsic evaluation in an NLP project?",
+      "answers": [
+        {
+          "answer": "Because intrinsic evaluation is always more accurate.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Because extrinsic evaluation is a much more expensive process, often involving stakeholders outside the AI team.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Because intrinsic evaluation is mandatory by industry standards.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Because it helps to identify the best programming language for the project.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following statements about the relationship between intrinsic and extrinsic evaluation is generally true?",
+      "answers": [
+        {
+          "answer": "Bad results in intrinsic evaluation often imply bad results in extrinsic evaluation.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Good results in intrinsic evaluation always guarantee good results in extrinsic evaluation.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Intrinsic and extrinsic evaluations are completely unrelated.",
+          "isCorrect": false
+        },
+        {
+          "answer": "A model that does well in extrinsic evaluation can often do poorly during intrinsic evaluation.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a commonly used visual evaluation method for classification tasks that helps understand how 'confused' the model is in identifying different classes?",
+      "answers": [
+        {
+          "answer": "Scatter plot",
+          "isCorrect": false
+        },
+        {
+          "answer": "Confusion matrix",
+          "isCorrect": true
+        },
+        {
+          "answer": "Histogram",
+          "isCorrect": false
+        },
+        {
+          "answer": "ROC curve",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

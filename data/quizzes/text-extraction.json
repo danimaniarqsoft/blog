@@ -1,0 +1,174 @@
+{
+  "title": "NLP Pipeline: Text Extraction and Cleanup Quiz",
+  "description": "Multiple-choice questions for Spaced Repetition on Text Extraction and Cleanup in Natural Language Processing.",
+  "questions": [
+    {
+      "question": "What is the primary goal of 'Text extraction and cleanup' in the NLP pipeline?",
+      "answers": [
+        {
+          "answer": "To analyze the sentiment of the text.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To extract raw text from input data by removing non-textual information and converting it to the required encoding format.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To generate new text based on existing data.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To identify named entities within the text.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following statements is true regarding NLP-specific techniques in the text extraction process?",
+      "answers": [
+        {
+          "answer": "NLP-specific techniques are heavily employed during text extraction.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Text extraction is a standard data-wrangling step where NLP-specific techniques are not usually employed.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Only advanced NLP techniques are used for text extraction.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Text extraction is exclusively an NLP-specific task.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "When parsing HTML for text extraction, what is generally recommended instead of writing your own HTML parser?",
+      "answers": [
+        {
+          "answer": "Using machine learning models to identify text.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Manually copying and pasting text.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Utilizing existing libraries such as Beautiful Soup and Scrapy.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Converting HTML to PDF first.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of Unicode normalization in text extraction and cleanup?",
+      "answers": [
+        {
+          "answer": "To convert text into a machine-readable binary representation for storage.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To translate text into a different language.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To remove all numerical characters from the text.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To identify the sentiment of emojis.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What common issue in incoming text data, prevalent in search engines and social media, can hurt linguistic understanding and context?",
+      "answers": [
+        {
+          "answer": "Excessive use of punctuation.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Perfect grammar and syntax.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Spelling errors (e.g., shorthand typing, fat-finger problem).",
+          "isCorrect": true
+        },
+        {
+          "answer": "Overuse of formal language.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which Python library is mentioned as being useful for extracting text from scanned documents using Optical Character Recognition (OCR)?",
+      "answers": [
+        {
+          "answer": "Beautiful Soup",
+          "isCorrect": false
+        },
+        {
+          "answer": "PyPDF",
+          "isCorrect": false
+        },
+        {
+          "answer": "Pytesseract (using Tesseract)",
+          "isCorrect": true
+        },
+        {
+          "answer": "Scrapy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In the context of voice-based assistants, what is the source of text extraction that often contains errors due to factors like dialectical variations or slang?",
+      "answers": [
+        {
+          "answer": "Manual transcription by human annotators.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Output of a Natural Language Understanding (NLU) system.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Output of an Automatic Speech Recognition (ASR) system.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Direct input from a text interface.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "When dealing with HTML parsing, if simply stripping all tags results in noisy output (e.g., lots of JavaScript), what alternative approach is suggested?",
+      "answers": [
+        {
+          "answer": "To manually remove all unwanted content.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To extract content only between tags that typically contain text in web pages.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To ignore the JavaScript content entirely.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To use a different programming language for parsing.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
