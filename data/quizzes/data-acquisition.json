@@ -1,0 +1,300 @@
+{
+  "title": "NLP Data Acquisition Quiz",
+  "description": "Multiple-choice questions for Spaced Repetition on Natural Language Processing Data Acquisition strategies.",
+  "questions": [
+    {
+      "question": "What is often identified as the primary bottleneck in most industrial Machine Learning (ML) projects?",
+      "answers": [
+        {
+          "answer": "Model complexity",
+          "isCorrect": false
+        },
+        {
+          "answer": "Data acquisition",
+          "isCorrect": true
+        },
+        {
+          "answer": "Computational resources",
+          "isCorrect": false
+        },
+        {
+          "answer": "Deployment speed",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In an ideal data acquisition scenario for an NLP system, what would you typically have that alleviates concerns about data acquisition?",
+      "answers": [
+        {
+          "answer": "A small, highly curated dataset.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Thousands or millions of data points, often with pre-existing labels.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Access to advanced data augmentation tools only.",
+          "isCorrect": false
+        },
+        {
+          "answer": "A team of dedicated human annotators.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "If you have little or no data for an NLP task, what is an initial approach mentioned to start building the system's performance?",
+      "answers": [
+        {
+          "answer": "Immediately train a deep learning model.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Use regular expressions and heuristics to match patterns in the data.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Purchase a pre-trained model from a vendor.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Conduct extensive human labeling of all incoming queries.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is NOT an external strategy for acquiring labeled data for an NLP project?",
+      "answers": [
+        {
+          "answer": "Using public datasets.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Scraping data from online forums and then human annotating it.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Implementing product instrumentation to collect user interactions.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Searching specialized dataset search engines.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Why might gathering data from external sources often be insufficient for industrial NLP settings?",
+      "answers": [
+        {
+          "answer": "They are usually too small in volume.",
+          "isCorrect": false
+        },
+        {
+          "answer": "They lack nuances like product names or product-specific user behavior.",
+          "isCorrect": true
+        },
+        {
+          "answer": "They are always in a different language.",
+          "isCorrect": false
+        },
+        {
+          "answer": "They are too expensive to acquire.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What term is used in the tech world for the process where an AI team works with a product team to collect more and richer data by developing better instrumentation in the product?",
+      "answers": [
+        {
+          "answer": "Data harvesting",
+          "isCorrect": false
+        },
+        {
+          "answer": "Feature engineering",
+          "isCorrect": false
+        },
+        {
+          "answer": "Product intervention",
+          "isCorrect": true
+        },
+        {
+          "answer": "Data warehousing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Product intervention is considered an excellent way to collect data, but what is its main drawback mentioned in the text?",
+      "answers": [
+        {
+          "answer": "It requires highly specialized hardware.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It is very expensive in terms of monetary cost.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It takes a significant amount of time (e.g., three to six months) to collect a decent-sized dataset.",
+          "isCorrect": true
+        },
+        {
+          "answer": "It often leads to biased datasets.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the primary purpose of 'data augmentation' in NLP when dealing with a small dataset?",
+      "answers": [
+        {
+          "answer": "To compress the existing data for faster processing.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create more data by exploiting language properties for syntactically similar text.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To filter out irrelevant data points from the dataset.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To automatically label unlabeled data.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which data augmentation technique involves translating a sentence to another language and then back to the original language to create variations?",
+      "answers": [
+        {
+          "answer": "Synonym replacement",
+          "isCorrect": false
+        },
+        {
+          "answer": "Bigram flipping",
+          "isCorrect": false
+        },
+        {
+          "answer": "Back translation",
+          "isCorrect": true
+        },
+        {
+          "answer": "Replacing entities",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "If you want to train a robust NLP model for data that frequently contains spelling mistakes (e.g., from Twitter), which data augmentation technique would be particularly useful?",
+      "answers": [
+        {
+          "answer": "TF-IDF–based word replacement",
+          "isCorrect": false
+        },
+        {
+          "answer": "Adding noise to data",
+          "isCorrect": true
+        },
+        {
+          "answer": "Bigram flipping",
+          "isCorrect": false
+        },
+        {
+          "answer": "Synonym replacement",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is Snorkel described as in the context of advanced data acquisition techniques?",
+      "answers": [
+        {
+          "answer": "A new type of neural network architecture for NLP.",
+          "isCorrect": false
+        },
+        {
+          "answer": "A system for building training data automatically without manual labeling.",
+          "isCorrect": true
+        },
+        {
+          "answer": "A library for advanced text cleaning and pre-processing.",
+          "isCorrect": false
+        },
+        {
+          "answer": "A tool for visualizing high-dimensional data.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which specialized paradigm of ML allows the learning algorithm to interactively query a data point and get its label, especially when manual labeling is expensive but unlabeled data is abundant?",
+      "answers": [
+        {
+          "answer": "Supervised learning",
+          "isCorrect": false
+        },
+        {
+          "answer": "Unsupervised learning",
+          "isCorrect": false
+        },
+        {
+          "answer": "Reinforcement learning",
+          "isCorrect": false
+        },
+        {
+          "answer": "Active learning",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "What is a key requirement for most data augmentation techniques to work well, even if the starting dataset is not very big?",
+      "answers": [
+        {
+          "answer": "The dataset must be perfectly balanced.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The dataset must be in a single, specific language.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The dataset must be clean.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The dataset must be collected via product intervention.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In day-to-day ML practice, what combination of data sources is often used for building early-stage production models when large custom datasets are unavailable?",
+      "answers": [
+        {
+          "answer": "Only manually labeled data.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Exclusively public datasets.",
+          "isCorrect": false
+        },
+        {
+          "answer": "A combination of public datasets, labeled datasets, and augmented datasets.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Data generated solely by advanced techniques like Snorkel.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+/* assets/css/style.css */
+
+.radio-container input[type="radio"] {
+  /* Apply styles directly to the radio input */
+  accent-color: blue; /* Changes the color of the radio button itself */
+  width: 1.2em; /* Adjusts the size */
+  height: 1.2em;
+  margin-right: 0.5em; /* Adds space to the right of the radio button */
+}
+
+/* You can also style the label associated with the radio button */
+.radio-container input[type="radio"] + label {
+  font-family: sans-serif;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Style for when the radio button is checked */
+.radio-container input[type="radio"]:checked + label {
+  font-weight: bold;
+  color: green;
+}
+/* Estilos para las preguntas */
+.question-item {
+    @apply bg-gray-50 p-5 rounded-lg shadow-sm border border-gray-200;
+}
+
+.question-text {
+    @apply text-lg font-medium text-gray-700 mb-4;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.answer-option {
+    @apply flex items-center mb-3 last:mb-0;
+}
+
+.answer-option input[type="radio"] {
+    @apply mr-3 h-5 w-5 text-blue-600 focus:ring-blue-500 border-gray-300;
+}
+
+.answer-option label {
+    @apply text-gray-800 text-base cursor-pointer;
+}
+
+/* Estilos para el área de resultados */
+#result-area.success {
+    @apply bg-green-100 text-green-800 border border-green-300;
+    background-color: rgb(157, 189, 157)
+}
+
+#result-area.fail {
+    @apply bg-red-100 text-red-800 border border-red-300;
+    background-color: rgb(235, 196, 191) !important
+}
+
+.questions {
+    background-color: #ccc !important;
+}

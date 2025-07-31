@@ -48,3 +48,8 @@ Data is paramount to any Machine Learning (ML) system, frequently becoming the p
   - **Active Learning:** An ML paradigm where the algorithm interactively queries a human annotator for labels on specific data points. This is used when unlabeled data is abundant but manual labeling is expensive, aiming to maximize learning with minimal labeling cost.
         
 **Conclusion:** A clean initial dataset, even if small, is a key requirement for most data acquisition techniques to work effectively. In practice, early-stage production models often combine public datasets, manually labeled data, and augmented datasets to overcome initial data scarcity. Once sufficient data is acquired, the pipeline proceeds to text cleaning.
+
+
+
+{{< quiz "data-acquisition">}}
+

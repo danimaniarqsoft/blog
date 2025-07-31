@@ -1,0 +1,111 @@
+{
+    "title": "Evaluación de Conocimientos Generales",
+    "description": "Este cuestionario evalúa tus conocimientos básicos en diversas áreas. ¡Mucha suerte!",
+    "questions": [
+        {
+            "question": "¿Cuál es la capital de Francia?",
+            "answers": [
+                {
+                    "answer": "Berlín",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Madrid",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "París",
+                    "isCorrect": true
+                },
+                {
+                    "answer": "Roma",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "question": "¿Qué planeta es conocido como el 'Planeta Rojo'?",
+            "answers": [
+                {
+                    "answer": "Júpiter",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Marte",
+                    "isCorrect": true
+                },
+                {
+                    "answer": "Venus",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Saturno",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el océano más grande del mundo?",
+            "answers": [
+                {
+                    "answer": "Océano Atlántico",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Océano Índico",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Océano Ártico",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Océano Pacífico",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "question": "¿Quién pintó la Mona Lisa?",
+            "answers": [
+                {
+                    "answer": "Vincent van Gogh",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Pablo Picasso",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Leonardo da Vinci",
+                    "isCorrect": true
+                },
+                {
+                    "answer": "Claude Monet",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el elemento químico con el símbolo 'O'?",
+            "answers": [
+                {
+                    "answer": "Oro",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Oxígeno",
+                    "isCorrect": true
+                },
+                {
+                    "answer": "Osmio",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Plata",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
+}

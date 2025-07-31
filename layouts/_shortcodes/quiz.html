@@ -1,0 +1,39 @@
+
+<section class="questions">
+<div class="container mx-auto max-w-2xl bg-gray-100 text-gray-800 rounded-xl shadow-lg p-6 sm:p-8 md:p-10 my-8">
+    <h1 id="quiz-title" class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4 text-center"></h1>
+    <p id="quiz-description" class="text-gray-600 text-center mb-8"></p>
+
+    <form id="quiz-form" class="space-y-6 radio-container">
+        <!-- Las preguntas se inyectarán aquí por JavaScript -->
+    </form>
+
+    <div class="flex flex-col sm:flex-row justify-center gap-4 mt-8">
+        <button id="evaluate-btn" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75 transition duration-300">
+            Evaluate
+        </button>
+        <button id="reset-btn" class="bg-gray-300 text-gray-800 px-6 py-3 rounded-lg shadow-md hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 transition duration-300">
+            Reset
+        </button>
+    </div>
+
+    <div id="result-area" class="mt-8 p-4 rounded-lg text-center hidden">
+        <p id="result-message" class="text-xl font-semibold"></p>
+        <p id="score-display" class="text-lg text-gray-700 mt-2"></p>
+    </div>
+</div>
+</section>
+
+
+<!-- Inyectar los datos del cuestionario JSON directamente en una variable JavaScript -->
+<script>
+    const quizData = {{ index site.Data.quizzes (.Get 0) }};
+</script>
+
+<!-- Enlazar tu archivo JavaScript (Hugo lo procesará desde assets/js) -->
+{{ $script := resources.Get "js/quiz-script.js" }}
+<script src="{{ $script.RelPermalink }}"></script>
+
+<!-- Enlazar tu archivo CSS (Hugo lo procesará desde assets/css) -->
+{{ $style := resources.Get "css/quiz-style.css" }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
