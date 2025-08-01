@@ -160,4 +160,63 @@ with DAG(
 - `docker compose exec <service_name> <command>`: Runs a command in a running container. For example, `docker compose exec webserver airflow users list` to view the user list.
     
 
+## Include Requeriments.txt
+
+In order to include the `requerimients.txt` file into the airflow, we must to change the docker image and the docker compose file.
+
+
+1. Create a Dockerfile:
+
+Create a Dockerfile in the same directory as your requirements.txt and docker-compose.yaml files.
+
+```shell
+FROM apache/airflow:3.0.3 # Replace with your desired Airflow version
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+```
+
+2. Modify docker-compose.yaml:
+
+Replace the image: line with build: . for the Airflow services that require these dependencies (e.g., airflow-scheduler, airflow-webserver, airflow-worker). This instructs Docker Compose to build an image from the Dockerfile in the current directory.
+
+```shell
+version: '3.8'
+services:
+  airflow-scheduler:
+    # ... other configurations
+    build: . # This tells Docker Compose to build the image from the current directory (where your Dockerfile is)
+    # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.7.3} # Remove or comment out this line
+    # ... other configurations
+
+  airflow-webserver:
+    # ... other configurations
+    build: . # Apply the same build instruction to the webserver as well
+    # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.7.3} # Remove or comment out this line
+    # ... other configurations
+
+  # Apply similar changes to other Airflow services (e.g., airflow-worker) if they also need the custom dependencies.
+```
+
+
+3. Build and Run:
+After making these changes, rebuild your Docker images and start your Airflow environment:
+
+```shell
+docker compose build
+docker compose up
+```
+
+{{< notice "note" >}}
+
+**Rebuild on changes:**
+Any time you modify requirements.txt or Dockerfile, you must rebuild the Docker image using docker compose build for the changes to take effect.
+
+**Production vs. Development:**
+While this method is suitable for development, for production environments, consider pre-building and pushing your custom Airflow image to a container registry for better management and deployment.
+
+**Permissions:**
+
+Ensure that the Airflow user within the Docker container has the necessary permissions to install packages. The official Airflow Docker images typically handle this, but be aware if you encounter permission errors.
 With this guide, you have a fully functional Airflow development environment with Docker, and the "Hello World" project ensures your basic configuration is correct.
+{{< /notice >}}
+
