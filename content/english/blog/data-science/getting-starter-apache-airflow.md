@@ -7,7 +7,7 @@ image: "/images/posts/data-science/image.png"
 categories: ["Artificial Intelligence","Data Science"]
 author: "Daniel Pichardo"
 tags: ["data-science", "tools"]
-draft: true
+draft: false
 ---
 
 # Introduction
