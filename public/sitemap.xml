@@ -3,16 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-07-30T01:20:37-06:00</lastmod>
+    <lastmod>2025-08-01T01:27:41-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
-    <lastmod>2025-07-30T01:20:37-06:00</lastmod>
+    <lastmod>2025-08-01T01:27:41-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-07-30T01:20:37-06:00</lastmod>
+    <lastmod>2025-08-01T01:27:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/data-science/</loc>
+    <lastmod>2025-08-01T01:27:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/data-science/</loc>
+    <lastmod>2025-08-01T01:27:41-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
-    <lastmod>2025-07-30T01:20:37-06:00</lastmod>
+    <lastmod>2025-08-01T01:27:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-science/getting-starter-apache-airflow/</loc>
+    <lastmod>2025-08-01T01:27:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-08-01T01:27:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/tools/</loc>
+    <lastmod>2025-08-01T01:27:41-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/pipeline/monitoring-and-update/</loc>
     <lastmod>2025-07-30T01:20:37-06:00</lastmod>
@@ -21,9 +36,6 @@
     <lastmod>2025-07-30T01:20:37-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/nlp/</loc>
-    <lastmod>2025-07-30T01:20:37-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
     <lastmod>2025-07-30T01:20:37-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/pipeline/deployment/</loc>
@@ -75,12 +87,6 @@
     <lastmod>2025-07-01T15:11:08-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/data-augmentation/</loc>
-    <lastmod>2025-06-28T12:04:17-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/data-science/</loc>
-    <lastmod>2025-06-28T12:04:17-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/data-science/</loc>
     <lastmod>2025-06-28T12:04:17-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/nlp-resources/</loc>

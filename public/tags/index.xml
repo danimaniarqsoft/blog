@@ -6,8 +6,22 @@
     <description>Recent content in Tags on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Jul 2025 01:20:37 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 01:27:41 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data-Science</title>
+      <link>http://localhost:1313/blog/tags/data-science/</link>
+      <pubDate>Fri, 01 Aug 2025 01:27:41 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/blog/tags/tools/</link>
+      <pubDate>Fri, 01 Aug 2025 01:27:41 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/tools/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Nlp</title>
       <link>http://localhost:1313/blog/tags/nlp/</link>
@@ -41,13 +55,6 @@
       <link>http://localhost:1313/blog/tags/tiobe/</link>
       <pubDate>Tue, 01 Jul 2025 15:11:08 -0600</pubDate>
       <guid>http://localhost:1313/blog/tags/tiobe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Science</title>
-      <link>http://localhost:1313/blog/tags/data-science/</link>
-      <pubDate>Sat, 28 Jun 2025 12:04:17 -0600</pubDate>
-      <guid>http://localhost:1313/blog/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
