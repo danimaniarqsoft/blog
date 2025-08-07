@@ -1,0 +1,342 @@
+{
+  "title": "Text Exploration and NLP Techniques",
+  "description": "This quiz covers fundamental concepts and techniques in text exploration for Natural Language Processing (NLP), including frequency analysis, N-gram analysis, and more.",
+  "questions": [
+    {
+      "question": "What is the primary purpose of Frequency Analysis in text exploration?",
+      "answers": [
+        {
+          "answer": "To identify the grammatical structure of sentences.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To count the occurrences of words or terms to find common topics.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To determine the sentiment (positive, negative, neutral) of a text.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To reduce words to their root form.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following metrics gives a higher weight to words that are frequent in a specific document but rare across the entire corpus?",
+      "answers": [
+        {
+          "answer": "Raw Frequency",
+          "isCorrect": false
+        },
+        {
+          "answer": "Term Frequency (TF)",
+          "isCorrect": false
+        },
+        {
+          "answer": "Term Frequency-Inverse Document Frequency (TF-IDF)",
+          "isCorrect": true
+        },
+        {
+          "answer": "Type-Token Ratio (TTR)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the technique of breaking down text into individual words or units called?",
+      "answers": [
+        {
+          "answer": "Stemming",
+          "isCorrect": false
+        },
+        {
+          "answer": "Lemmatization",
+          "isCorrect": false
+        },
+        {
+          "answer": "Tokenization",
+          "isCorrect": true
+        },
+        {
+          "answer": "Stopword Removal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In the context of N-gram analysis, what does a 'Bigram' refer to?",
+      "answers": [
+        {
+          "answer": "A sequence of three words.",
+          "isCorrect": false
+        },
+        {
+          "answer": "A sequence of two words.",
+          "isCorrect": true
+        },
+        {
+          "answer": "A single word or token.",
+          "isCorrect": false
+        },
+        {
+          "answer": "A word with multiple meanings.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the main application of Concordance (KWIC) analysis?",
+      "answers": [
+        {
+          "answer": "Generating a list of the most frequent words in a text.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Finding the sentiment of a text.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Identifying the root form of a word.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Understanding the different meanings and contexts of a specific word.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Which metric is used in Collocation Analysis to measure the association between two words?",
+      "answers": [
+        {
+          "answer": "Flesch Reading Ease",
+          "isCorrect": false
+        },
+        {
+          "answer": "Term Frequency",
+          "isCorrect": false
+        },
+        {
+          "answer": "Pointwise Mutual Information (PMI)",
+          "isCorrect": true
+        },
+        {
+          "answer": "Type-Token Ratio (TTR)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What does a high score in the Type-Token Ratio (TTR) metric typically indicate?",
+      "answers": [
+        {
+          "answer": "A repetitive and simple writing style.",
+          "isCorrect": false
+        },
+        {
+          "answer": "A high level of grammatical errors.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Greater lexical diversity and a wide range of vocabulary.",
+          "isCorrect": true
+        },
+        {
+          "answer": "That the text is difficult to read.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which visualization strategy is commonly used to display the distribution of a word throughout a text?",
+      "answers": [
+        {
+          "answer": "Word Cloud",
+          "isCorrect": false
+        },
+        {
+          "answer": "Bar Chart",
+          "isCorrect": false
+        },
+        {
+          "answer": "Dispersion Plot",
+          "isCorrect": true
+        },
+        {
+          "answer": "Network Graph",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "The Flesch Reading Ease score is part of which analysis technique?",
+      "answers": [
+        {
+          "answer": "Collocation Analysis",
+          "isCorrect": false
+        },
+        {
+          "answer": "Readability Analysis",
+          "isCorrect": true
+        },
+        {
+          "answer": "Topic Modeling",
+          "isCorrect": false
+        },
+        {
+          "answer": "Sentiment Analysis",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a key difference between Extractive and Abstractive Text Summarization?",
+      "answers": [
+        {
+          "answer": "Extractive summarization uses machine learning, while abstractive does not.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Extractive summarization creates a summary by selecting existing sentences, while abstractive generates new sentences.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Abstractive summarization is a rule-based method, while extractive is statistical.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Extractive summarization is used for long documents, while abstractive is for short texts.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the primary goal of Named Entity Recognition (NER)?",
+      "answers": [
+        {
+          "answer": "To translate text from one language to another.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To identify and classify named entities (like persons, organizations, and locations) in a text.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To analyze the grammatical structure of sentences.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To determine if a text is factual or expresses an opinion.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What does a negative polarity score typically indicate in Sentiment Analysis?",
+      "answers": [
+        {
+          "answer": "A positive opinion.",
+          "isCorrect": false
+        },
+        {
+          "answer": "A neutral or mixed opinion.",
+          "isCorrect": false
+        },
+        {
+          "answer": "A negative opinion.",
+          "isCorrect": true
+        },
+        {
+          "answer": "That the text is a factual statement.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is a common model for Topic Modeling?",
+      "answers": [
+        {
+          "answer": "BERT",
+          "isCorrect": false
+        },
+        {
+          "answer": "Latent Dirichlet Allocation (LDA)",
+          "isCorrect": true
+        },
+        {
+          "answer": "Word2Vec",
+          "isCorrect": false
+        },
+        {
+          "answer": "VADER",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of Semantic Role Labeling (SRL) in Semantic Analysis?",
+      "answers": [
+        {
+          "answer": "To identify the correct meaning of a word in context.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To convert words into numerical vectors.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To identify the roles words play in a sentence (e.g., who did what to whom).",
+          "isCorrect": true
+        },
+        {
+          "answer": "To measure the association between two words.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What does Part-of-Speech (POS) tagging do?",
+      "answers": [
+        {
+          "answer": "It identifies the main topics of a document.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It removes common words like 'the' and 'a'.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It marks each word in a text as a particular part of speech (e.g., noun, verb).",
+          "isCorrect": true
+        },
+        {
+          "answer": "It assesses the readability of a text.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In Syntactic Parsing, what does a 'Parse Tree' represent?",
+      "answers": [
+        {
+          "answer": "The relationship between two collocating words.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The frequency of the most common words.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The syntactic structure of a sentence.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The sentiment of a text over time.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

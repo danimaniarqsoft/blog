@@ -3,7 +3,7 @@ title: "Getting starter with Apache Airflow"
 meta_title: "Getting starter with Apache Airflow"
 description: "Getting starter with Apache Airflow"
 date: 2025-08-01T01:27:41-06:00
-image: "/images/posts/data-science/image.png"
+image: "/images/posts/data-science/apache-airflow.jpeg"
 categories: ["Artificial Intelligence","Data Science"]
 author: "Daniel Pichardo"
 tags: ["data-science", "tools"]

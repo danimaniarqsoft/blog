@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Aug 2025 01:27:41 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 22:36:57 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An In-Depth Guide to Essential Text Exploration Techniques</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/exploration/</link>
+      <pubDate>Wed, 06 Aug 2025 22:36:57 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/pipeline/exploration/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Text exploration is the indispensable first step in Natural Language Processing (NLP) and data science, where raw, unstructured text is transformed into meaningful, actionable insights. By applying these techniques, we can uncover hidden patterns, themes, and linguistic properties that are crucial for building more advanced models and making data-driven decisions. This guide details 15 of the most important text exploration techniques, complete with their applications, units of analysis, metrics, visualization strategies, and key scientific references. 💡&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Getting starter with Apache Airflow</title>
       <link>http://localhost:1313/blog/blog/data-science/getting-starter-apache-airflow/</link>
