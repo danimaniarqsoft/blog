@@ -1,0 +1,216 @@
+{
+  "title": "Text Representation in NLP",
+  "description": "This quiz covers foundational and modern techniques for converting text into numerical formats for machine learning, including vector space models, basic vectorization, and distributed representations.",
+  "questions": [
+    {
+      "question": "What is the core principle of the Vector Space Model (VSM)?",
+      "answers": [
+        {
+          "answer": "It represents text as a series of nested dictionaries.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It represents text as vectors of numbers to enable algebraic operations.",
+          "isCorrect": true
+        },
+        {
+          "answer": "It classifies text based on a predefined set of rules.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It converts text into images for visual analysis.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is a primary disadvantage of One-Hot Encoding?",
+      "answers": [
+        {
+          "answer": "It can only be used for short texts.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It creates very large, sparse vectors and cannot capture semantic relationships.",
+          "isCorrect": true
+        },
+        {
+          "answer": "It requires a deep neural network to be implemented.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It is not able to handle texts of varying lengths.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What does the 'Term Frequency–Inverse Document Frequency' (TF-IDF) metric accomplish?",
+      "answers": [
+        {
+          "answer": "It simply counts how many times each word appears in a text.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It assigns a random numerical value to each word for representation.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It weighs words based on how often they appear in a document versus how rare they are across a corpus.",
+          "isCorrect": true
+        },
+        {
+          "answer": "It converts words into their root form to reduce vocabulary size.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the 'Out-Of-Vocabulary' (OOV) problem?",
+      "answers": [
+        {
+          "answer": "It is the problem of a model being too large to fit into memory.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It occurs when a model encounters a word it has not seen before.",
+          "isCorrect": true
+        },
+        {
+          "answer": "It refers to the inability of a model to handle punctuation and special characters.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It is a situation where the model is not trained on enough documents.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following methods addresses the lack of word order by representing text as sequences of n words?",
+      "answers": [
+        {
+          "answer": "One-Hot Encoding",
+          "isCorrect": false
+        },
+        {
+          "answer": "Bag of Words (BoW)",
+          "isCorrect": false
+        },
+        {
+          "answer": "Bag of N-Grams (BoN)",
+          "isCorrect": true
+        },
+        {
+          "answer": "Doc2vec",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the main idea behind the 'Distributional Hypothesis'?",
+      "answers": [
+        {
+          "answer": "The meaning of a word is defined by its literal definition.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Words that appear in similar contexts tend to have similar meanings.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The frequency of a word is directly proportional to its importance.",
+          "isCorrect": false
+        },
+        {
+          "answer": "A word's meaning is determined by its grammatical part of speech.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the difference between CBOW and SkipGram architectures in Word2vec?",
+      "answers": [
+        {
+          "answer": "CBOW predicts a central word given its context, while SkipGram predicts context words given a central word.",
+          "isCorrect": true
+        },
+        {
+          "answer": "CBOW is used for document representation, while SkipGram is for sentence representation.",
+          "isCorrect": false
+        },
+        {
+          "answer": "CBOW works only with one-hot encoded vectors, while SkipGram works with TF-IDF vectors.",
+          "isCorrect": false
+        },
+        {
+          "answer": "CBOW is a linear model, while SkipGram is a non-linear model.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following models is specifically designed to handle the Out-of-Vocabulary (OOV) problem by learning embeddings for a word's character n-grams?",
+      "answers": [
+        {
+          "answer": "Word2vec",
+          "isCorrect": false
+        },
+        {
+          "answer": "GloVe",
+          "isCorrect": false
+        },
+        {
+          "answer": "fastText",
+          "isCorrect": true
+        },
+        {
+          "answer": "Doc2vec",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a common and simple strategy to represent a sentence or document using word embeddings?",
+      "answers": [
+        {
+          "answer": "Represent the entire text as a single one-hot encoded vector.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Use a Doc2vec model to learn a paragraph vector.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Average the word embeddings of all the words within the text.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Apply a Bag-of-N-grams model.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Why is dimensionality reduction, using techniques like t-SNE or UMAP, important for visualizing text embeddings?",
+      "answers": [
+        {
+          "answer": "It is not important; text embeddings can be plotted directly in their high-dimensional space.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It reduces the size of the vocabulary to make the plot easier to read.",
+          "isCorrect": false
+        },
+        {
+          "answer": "It converts the high-dimensional vectors into a 2D or 3D space, making them human-interpretable and plottable.",
+          "isCorrect": true
+        },
+        {
+          "answer": "It is used to normalize the vectors before plotting them.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

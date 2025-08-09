@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe de Revisión: Carrera de Informática CONALEP</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Fondo gris claro */
+            color: #333;
+            scroll-snap-type: y mandatory; /* Habilita el scroll snap */
+            overflow-y: scroll;
+            height: 100vh; /* Asegura que el cuerpo ocupe toda la altura del viewport */
+            margin: 0;
+            padding: 0;
+        }
+        .section-card {
+            background-color: #ffffff;
+            border-radius: 1rem; /* Esquinas redondeadas */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+            padding: 2.5rem; /* Relleno aumentado */
+            margin: 0 auto; /* Sin margen inferior, centrado horizontalmente */
+            max-width: 90%; /* Ancho máximo para el contenido */
+            border-left: 8px solid; /* Borde izquierdo para acento */
+            scroll-snap-align: start; /* Ajusta al inicio de la sección */
+            min-height: 100vh; /* Hace que cada sección ocupe toda la altura del viewport para el efecto de deslizamiento */
+            display: flex; /* Usa flexbox para centrado vertical */
+            flex-direction: column;
+            justify-content: center; /* Centra el contenido verticalmente */
+            align-items: flex-start; /* Alinea el contenido al inicio horizontalmente */
+            box-sizing: border-box; /* Incluye el padding en el cálculo de la altura */
+            transition: transform 0.5s ease-in-out; /* Transición suave para el desplazamiento manual */
+        }
+        .section-title {
+            font-weight: 800; /* Extra bold */
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+            font-size: 2.5rem; /* Título más grande */
+        }
+        .subsection-title {
+            font-weight: 700;
+            font-size: 1.75rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #4a5568;
+        }
+        .list-item {
+            margin-bottom: 0.75rem;
+        }
+
+        /* Estilos para la navegación del stepper */
+        .stepper-nav {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px; /* Forma de píldora */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .stepper-dot {
+            width: 12px;
+            height: 12px;
+            background-color: #cbd5e0; /* Punto gris */
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .stepper-dot.active {
+            background-color: #3b82f6; /* Punto azul */
+            transform: scale(1.2);
+        }
+        .nav-button {
+            padding: 0.5rem 1rem;
+            background-color: #3b82f6;
+            color: white;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .nav-button:hover:not(:disabled) {
+            background-color: #2563eb;
+        }
+        .nav-button:disabled {
+            background-color: #a0aec0;
+            cursor: not-allowed;
+        }
+
+        /* Ajustes para que el encabezado y pie de página no interfieran con el scroll snap */
+        header, footer {
+            scroll-snap-align: none; /* Evita que el encabezado/pie de página se ajusten */
+            min-height: auto; /* Permite que el encabezado/pie de página tomen su altura natural */
+        }
+
+        /* Ajustes de padding y deshabilitar scroll snap para pantallas más pequeñas */
+        @media (max-width: 768px) {
+            .section-card {
+                padding: 1.5rem;
+                min-height: auto; /* Permite que el contenido dicte la altura en pantallas pequeñas */
+                scroll-snap-align: none; /* Deshabilita el scroll snap en pantallas pequeñas */
+                margin-bottom: 1.5rem; /* Vuelve a añadir margen para el desplazamiento normal */
+            }
+            body {
+                padding: 1rem;
+                height: auto; /* Permite el desplazamiento natural en pantallas pequeñas */
+                scroll-snap-type: none; /* Deshabilita el scroll snap en pantallas pequeñas */
+            }
+            .section-title {
+                font-size: 2rem;
+            }
+            .subsection-title {
+                font-size: 1.5rem;
+            }
+            .stepper-nav {
+                flex-wrap: wrap; /* Permite que los elementos de navegación se envuelvan */
+                justify-content: center;
+                gap: 0.5rem;
+                padding: 0.5rem 1rem;
+                bottom: 1rem;
+            }
+            .stepper-dot {
+                width: 10px;
+                height: 10px;
+            }
+            .nav-button {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.875rem;
+            }
+        }
+    </style>
+</head>
+<body class="p-6 md:p-10 lg:p-16">
+
+    <header class="text-center py-10 px-4">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-800 leading-tight mb-4">
+            Informe Ejecutivo: Revisión del Plan de Estudios de Informática
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-600">
+            CONALEP: Hacia un Currículo Moderno y Competitivo
+        </p>
+    </header>
+
+    <main id="main-content">
+        <!-- Introducción y Contexto -->
+        <section class="section-card border-blue-500" id="section-0">
+            <h2 class="section-title text-blue-600 border-blue-600">Introducción y Contexto</h2>
+            <p class="text-lg leading-relaxed">
+                Este informe detalla los resultados de una revisión exhaustiva del programa de estudios de la carrera de <strong>Profesional Técnico-Bachiller en Informática del CONALEP</strong>. Nuestro objetivo principal es evaluar su relevancia y proponer mejoras estratégicas para alinear la formación con las demandas actuales y futuras del mercado laboral en el sector tecnológico.
+            </p>
+        </section>
+
+        <!-- Metodología de la Revisión -->
+        <section class="section-card border-green-500" id="section-1">
+            <h2 class="section-title text-green-600 border-green-600">Metodología de la Revisión</h2>
+            <p class="text-lg leading-relaxed mb-6">
+                El proceso se basó en un enfoque estructurado y en datos, que incluyó:
+            </p>
+            <ul class="list-disc pl-5 text-lg leading-relaxed">
+                <li class="list-item"><strong>Investigación del Estado del Arte:</strong> Análisis de informes de la industria y tendencias tecnológicas para definir competencias clave.</li>
+                <li class="list-item"><strong>Análisis Documental del Programa:</strong> Revisión del Mapa Curricular (Plan 2023), Perfil de Egreso (Modelo 2023), y programas de los 15 módulos base y 10 trayectos técnicos.</li>
+                <li class="list-item"><strong>Cuestionarios a Expertos:</strong> Aplicación de tres cuestionarios específicos a 7 especialistas del sector para obtener una visión objetiva.</li>
+                <li class="list-item"><strong>Análisis de Respuestas y Consolidación:</strong> Procesamiento sistemático de las respuestas para identificar hallazgos y propuestas de mejora.</li>
+            </ul>
+        </section>
+
+        <!-- Hallazgos Clave y Áreas de Oportunidad -->
+        <section class="section-card border-yellow-500" id="section-2">
+            <h2 class="section-title text-yellow-600 border-yellow-600">Hallazgos Clave y Áreas de Oportunidad</h2>
+            <ul class="list-disc pl-5 text-lg leading-relaxed">
+                <li class="list-item"><strong>Puntos Fuertes:</strong> El programa cuenta con una base sólida en módulos fundamentales como "Manejo de Lógica de Programación" y "Mantenimiento de Equipo de Cómputo". El perfil de egreso es congruente con las competencias laborales básicas que se esperan.</li>
+                <li class="list-item"><strong>Áreas de Oportunidad:</strong> La rápida evolución tecnológica exige una actualización constante del currículo para preparar a los estudiantes para los desafíos futuros del sector de TI.</li>
+            </ul>
+        </section>
+
+        <!-- Propuestas de Mejora y Actualización -->
+        <section class="section-card border-teal-500" id="section-3">
+            <h2 class="section-title text-teal-600 border-teal-600">Propuestas de Mejora y Actualización</h2>
+
+            <h3 class="subsection-title text-teal-700">1. Incorporación de Competencias Técnicas y Tecnologías Clave:</h3>
+            <ul class="list-disc pl-5 text-lg leading-relaxed mb-6">
+                <li class="list-item"><strong>Computación en la Nube:</strong> Incluir un módulo independiente sobre servicios y arquitecturas (AWS, Azure, GCP).</li>
+                <li class="list-item"><strong>Ciberseguridad Avanzada:</strong> Fortalecer la formación en análisis de riesgos, respuesta a incidentos y cumplimiento normativo.</li>
+                <li class="list-item"><strong>Inteligencia Artificial (IA) y Ciencia de Datos:</strong> Introducir desde los fundamentos éticos hasta la aplicación práctica.</li>
+                <li class="list-item"><strong>Desarrollo de Software Moderno:</strong> Integrar metodologías ágiles (Scrum, Kanban), control de versiones (Git) y frameworks (React, Angular).</li>
+                <li class="list-item"><strong>Automatización:</strong> Enfatizar la automatización en redes, sistemas y procesos.</li>
+                <li class="list-item"><strong>IoT y Sistemas Embebidos:</strong> Introducción a estos temas emergentes.</li>
+            </ul>
+
+            <h3 class="subsection-title text-teal-700">2. Fortalecimiento de Habilidades Blandas (Soft Skills):</h3>
+            <p class="text-lg leading-relaxed mb-6">Es crucial reforzar competencias como:</p>
+            <ul class="list-disc pl-5 text-lg leading-relaxed mb-6">
+                <li class="list-item">Pensamiento crítico y resolución de problemas.</li>
+                <li class="list-item">Colaboración y trabajo en equipo.</li>
+                <li class="list-item">Comunicación efectiva.</li>
+                <li class="list-item">Adaptabilidad y aprendizaje continuo.</li>
+            </ul>
+
+            <h3 class="subsection-title text-teal-700">3. Estrategias Pedagógicas y de Vinculación:</h3>
+            <ul class="list-disc pl-5 text-lg leading-relaxed mb-6">
+                <li class="list-item"><strong>Enfoque Práctico:</strong> Implementar proyectos integradores que simulen entornos laborales reales.</li>
+                <li class="list-item"><strong>Certificación:</strong> Alinear el currículo con certificaciones de la industria para aumentar la empleabilidad.</li>
+                <li class="list-item"><strong>Vinculación:</strong> Explorar la colaboración con la Escuela Pública de Código (EPC) y fomentar la participación en hackatones.</li>
+                <li class="list-item"><strong>Actualización Continua:</strong> Establecer un proceso de revisión curricular cada 1-2 años.</li>
+            </ul>
+
+            <h3 class="subsection-title text-teal-700">4. Propuestas para Renombrar la Carrera:</h3>
+            <p class="text-lg leading-relaxed mb-6">Se sugiere renombrar la carrera para que refleje la evolución del campo y las especializaciones contemporáneas. Algunas opciones propuestas son:</p>
+            <ul class="list-disc pl-5 text-lg leading-relaxed">
+                <li class="list-item">Profesional Técnico-Bachiller en Desarrollo de Aplicaciones y Gestión de Infraestructura TI.</li>
+                <li class="list-item">Técnico en Desarrollo de Aplicaciones y Soluciones Digitales.</li>
+                <li class="list-item">Técnico en Programación y Mantenimiento de Sistemas.</li>
+                <li class="list-item">Ingeniería en Tecnologías de la Información (TI).</li>
+            </ul>
+        </section>
+
+        <!-- Conclusiones -->
+        <section class="section-card border-gray-700 bg-gray-800 text-white" id="section-4">
+            <h2 class="section-title text-white border-white">Conclusiones</h2>
+            <p class="text-lg leading-relaxed">
+                La carrera de Informática del CONALEP tiene una base sólida y relevante. Sin embargo, para que los egresados estén preparados para los desafíos futuros, es esencial potenciar el programa con una actualización estratégica de los contenidos, un enfoque práctico en proyectos y un énfasis en habilidades blandas y tecnologías emergentes como la IA, la nube y la ciberseguridad avanzada. La implementación de estas recomendaciones asegurará la formación de profesionales no solo competentes, sino también adaptables a la constante evolución tecnológica.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="text-center text-gray-600 mt-12 pb-6">
+        <p>&copy; 2025 CONALEP. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Stepper Navigation -->
+    <nav class="stepper-nav">
+        <button id="prevBtn" class="nav-button" disabled>Anterior</button>
+        <div id="dotsContainer" class="flex gap-2">
+            <!-- Los puntos se añadirán dinámicamente aquí -->
+        </div>
+        <button id="nextBtn" class="nav-button">Siguiente</button>
+    </nav>
+
+    <script>
+        const sections = document.querySelectorAll('.section-card');
+        const dotsContainer = document.getElementById('dotsContainer');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const bodyElement = document.body; // Referencia al body para el scroll
+        let currentSectionIndex = 0;
+
+        // Crea los puntos dinámicamente
+        sections.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.classList.add('stepper-dot');
+            dot.dataset.index = index;
+            dot.addEventListener('click', () => scrollToSection(index));
+            dotsContainer.appendChild(dot);
+        });
+
+        const dots = document.querySelectorAll('.stepper-dot');
+
+        // Función para desplazar a una sección específica
+        function scrollToSection(index) {
+            if (index >= 0 && index < sections.length) {
+                currentSectionIndex = index;
+                const targetSection = sections[currentSectionIndex];
+                // Usa scrollIntoView para un desplazamiento suave y efecto de ajuste
+                targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                updateNavigation();
+            }
+        }
+
+        // Actualiza el punto activo y el estado de los botones
+        function updateNavigation() {
+            dots.forEach((dot, index) => {
+                if (index === currentSectionIndex) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+
+            prevBtn.disabled = currentSectionIndex === 0;
+            nextBtn.disabled = currentSectionIndex === sections.length - 1;
+        }
+
+        // Event listeners para los botones de navegación
+        prevBtn.addEventListener('click', () => {
+            scrollToSection(currentSectionIndex - 1);
+        });
+
+        nextBtn.addEventListener('click', () => {
+            scrollToSection(currentSectionIndex + 1);
+        });
+
+        // Observa el scroll para actualizar el punto activo
+        const observerOptions = {
+            root: null, // viewport
+            rootMargin: '0px',
+            threshold: 0.5 // Se activa cuando el 50% de la sección es visible
+        };
+
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const index = parseInt(entry.target.id.split('-')[1]);
+                    // Solo actualiza si es una sección diferente y si el scroll snap está activo
+                    if (index !== currentSectionIndex && window.getComputedStyle(bodyElement).scrollSnapType.includes('y mandatory')) {
+                        currentSectionIndex = index;
+                        updateNavigation();
+                    }
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            sectionObserver.observe(section);
+        });
+
+        // Estado inicial
+        updateNavigation();
+
+        // Asegura que el scroll snap se active/desactive correctamente en resize
+        window.addEventListener('resize', () => {
+            // Forzar re-evaluación del scroll-snap-type si es necesario
+            // Esto es más para asegurar que el navegador recalcule el snap
+            bodyElement.style.scrollSnapType = 'none';
+            void bodyElement.offsetWidth; // Trigger reflow
+            if (window.innerWidth > 768) {
+                bodyElement.style.scrollSnapType = 'y mandatory';
+            } else {
+                bodyElement.style.scrollSnapType = 'none';
+            }
+        });
+
+        // Llamar en carga inicial para establecer el scroll snap basado en el tamaño de la pantalla
+        if (window.innerWidth <= 768) {
+            bodyElement.style.scrollSnapType = 'none';
+        }
+    </script>
+</body>
+</html>

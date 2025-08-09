@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Aug 2025 22:36:57 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 09 Aug 2025 01:21:42 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Turning Text into Numbers: The Art of Text Representation</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/text-representation/</link>
+      <pubDate>Sat, 09 Aug 2025 01:21:42 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/text-representation/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In the world of machine learning, the quality of your features directly determines the quality of your results—a principle known as &amp;ldquo;garbage in, garbage out.&amp;rdquo; For Natural Language Processing (NLP), this means that converting raw text into a numerical format, or &lt;strong&gt;text representation&lt;/strong&gt;, is one of the most critical steps in the entire pipeline.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>An In-Depth Guide to Essential Text Exploration Techniques</title>
       <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/exploration/</link>
