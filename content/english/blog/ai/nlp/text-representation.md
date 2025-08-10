@@ -7,7 +7,7 @@ image: "/images/posts/ai/nlp/text-representation.jpeg"
 categories: ["Artificial Intelligence","NLP"]
 author: "Daniel Pichardo"
 tags: ["nlp","text-representation"]
-draft: true
+draft: false
 ---
 
 ## Introduction
