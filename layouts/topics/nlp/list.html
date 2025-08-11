@@ -15,305 +15,493 @@
       /* Add vertical scrollbar when content overflows */
 
     }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #F0F4F8;
+      color: #1F2937;
+    }
+
+    .chart-container {
+      position: relative;
+      margin: auto;
+      height: 50vh;
+      max-height: 450px;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: white;
+      border: 4px solid #00C49F;
+      top: 50%;
+      left: -10px;
+      transform: translateY(-50%);
+      z-index: 1;
+    }
+
+    /* Main Title */
+    .main-title {
+      font-size: 1.875rem;
+      /* 3xl */
+      font-weight: 700;
+      color: #1e293b;
+      /* slate-800 */
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    @media (min-width: 768px) {
+      .main-title {
+        font-size: 3rem;
+        /* 5xl */
+      }
+    }
+
+    /* Diagram container for all steps */
+    .diagram-container {
+      display: flex;
+      flex-direction: column;
+      /* Mobile first: stack vertically */
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      row-gap: 2rem;
+      /* gap-y-8 */
+    }
+
+    @media (min-width: 1024px) {
+      .diagram-container {
+        flex-direction: row;
+        /* Horizontal on large screens */
+        column-gap: 1rem;
+        /* gap-x-4 */
+      }
+    }
+
+    /* Individual Step Card */
+    .step-card {
+      background-color: #ffffff;
+      width: 16rem;
+      /* w-64 */
+      height: 10rem;
+      /* h-40 */
+      padding: 1.5rem;
+      /* p-6 */
+      border-radius: 0.75rem;
+      /* rounded-xl */
+      box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+      /* shadow-lg */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+
+    /* Hover effect for the card */
+    .step-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+      /* shadow-xl */
+      background-color: #ffec99;
+    }
+
+    /* Step Number Text */
+    .step-number-1 {
+      font-weight: bold;
+      color: #6366f1;
+      font-weight: bold;
+
+      /* indigo-500 */
+    }
+
+    .step-number-2 {
+      font-weight: bold;
+      color: #06b6d4;
+      font-weight: bold;
+
+      /* cyan-500 */
+    }
+
+    /* Step Title and Description */
+    .step-title {
+      font-size: 1.25rem;
+      /* text-xl */
+      font-weight: 600;
+      /* font-semibold */
+      color: #334155;
+      /* slate-700 */
+      margin-top: 0.5rem;
+    }
+
+    .step-description {
+      font-size: 0.875rem;
+      /* text-sm */
+      color: #64748b;
+      /* slate-500 */
+      margin-top: 0.5rem;
+    }
+
+    /* Arrow Styling */
+    .arrow {
+      color: #94a3b8;
+      /* slate-400 */
+      width: 2.5rem;
+      /* w-10 */
+      height: 2.5rem;
+      /* h-10 */
+    }
+
+    .arrow-horizontal {
+      display: none;
+      /* Hidden by default */
+    }
+
+    .arrow-vertical {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      transform: rotate(90deg);
+      width: 2rem;
+      /* w-8 */
+      height: 2rem;
+      /* h-8 */
+    }
+
+    /* Responsive Arrow visibility */
+    @media (min-width: 1024px) {
+      .arrow-horizontal {
+        display: none;
+        /* Show horizontal arrow on large screens */
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+      }
+
+      .arrow-vertical {
+        display: none;
+        /* Hide vertical arrow on large screens */
+      }
+    }
+
+    /* Utility to force a line break in the flex container on large screens */
+    .line-break {
+      flex-basis: 100%;
+      height: 0;
+      display: none;
+    }
+
+    @media (min-width: 1024px) {
+      .line-break {
+        display: block;
+      }
+    }
   </style>
 
 </head>
+<!-- Main Content -->
 
-<section class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-  <div class="bg-white rounded-lg shadow-md p-6">
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 759.0993899270088 630.5603655918812"
-      width="759.0993899270088" height="630.5603655918812">
-      <!-- svg-source:excalidraw -->
-      <metadata></metadata>
-      <defs>
-        <style class="style-fonts">
-          @font-face {
-            font-family: Lilita One;
-            src: url(data:font/woff2;base64,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);
-          }
+<!-- Header Section -->
+<div class="bg-[#0A2A4D] text-white text-center py-20 px-6">
+  <h1 class="text-4xl text-white md:text-6xl font-extrabold mb-4">The Landscape of Natural Language Processing</h1>
+  <p class="max-w-3xl mx-auto text-lg md:text-xl text-gray-300">An infographic exploring how machines learn to
+    understand, interpret, and generate human language, from foundational rules to the power of deep learning.</p>
+</div>
+<main class="container mx-auto px-6 py-16">
 
-          @font-face {
-            font-family: Nunito;
-            src: url(data:font/woff2;base64,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);
-          }
-        </style>
-      </defs>
-      <g stroke-linecap="round"
-        transform="translate(90.33689020945894 58.20213412567318) rotate(0 281.17911573310266 265.11173769121115)">
-        <path
-          d="M562.36 265.11 C562.36 270.25, 562.2 275.4, 561.88 280.53 C561.57 285.66, 561.09 290.79, 560.46 295.89 C559.82 300.99, 559.03 306.09, 558.09 311.15 C557.14 316.21, 556.04 321.25, 554.78 326.25 C553.52 331.25, 552.11 336.22, 550.55 341.15 C548.98 346.07, 547.26 350.96, 545.4 355.79 C543.54 360.61, 541.52 365.4, 539.36 370.12 C537.2 374.84, 534.9 379.5, 532.45 384.09 C530 388.69, 527.41 393.22, 524.69 397.67 C521.96 402.12, 519.1 406.5, 516.1 410.79 C513.11 415.09, 509.97 419.3, 506.72 423.43 C503.47 427.55, 500.08 431.59, 496.57 435.52 C493.07 439.46, 489.44 443.3, 485.7 447.04 C481.96 450.78, 478.1 454.42, 474.14 457.95 C470.17 461.47, 466.09 464.9, 461.92 468.2 C457.74 471.5, 453.46 474.7, 449.09 477.76 C444.72 480.83, 440.24 483.79, 435.69 486.61 C431.14 489.43, 426.49 492.14, 421.77 494.71 C417.05 497.27, 412.24 499.72, 407.37 502.02 C402.5 504.33, 397.55 506.51, 392.55 508.54 C387.54 510.58, 382.47 512.48, 377.35 514.24 C372.23 515.99, 367.04 517.61, 361.82 519.09 C356.6 520.56, 351.33 521.89, 346.02 523.08 C340.72 524.26, 335.37 525.3, 330.01 526.2 C324.64 527.09, 319.23 527.83, 313.82 528.43 C308.41 529.03, 302.97 529.48, 297.53 529.77 C292.09 530.07, 286.63 530.22, 281.18 530.22 C275.73 530.22, 270.27 530.07, 264.83 529.77 C259.39 529.48, 253.95 529.03, 248.54 528.43 C243.12 527.83, 237.72 527.09, 232.35 526.2 C226.99 525.3, 221.64 524.26, 216.33 523.08 C211.03 521.89, 205.76 520.56, 200.54 519.09 C195.32 517.61, 190.13 515.99, 185.01 514.24 C179.89 512.48, 174.81 510.58, 169.81 508.54 C164.81 506.51, 159.86 504.33, 154.99 502.02 C150.12 499.72, 145.31 497.27, 140.59 494.71 C135.87 492.14, 131.22 489.43, 126.67 486.61 C122.12 483.79, 117.64 480.83, 113.27 477.76 C108.9 474.7, 104.62 471.5, 100.44 468.2 C96.27 464.9, 92.19 461.47, 88.22 457.95 C84.26 454.42, 80.4 450.78, 76.66 447.04 C72.92 443.3, 69.29 439.46, 65.78 435.52 C62.28 431.59, 58.89 427.55, 55.64 423.43 C52.38 419.3, 49.25 415.09, 46.26 410.79 C43.26 406.5, 40.4 402.12, 37.67 397.67 C34.95 393.22, 32.35 388.69, 29.91 384.09 C27.46 379.5, 25.15 374.84, 23 370.12 C20.84 365.4, 18.82 360.61, 16.96 355.79 C15.09 350.96, 13.38 346.07, 11.81 341.15 C10.25 336.22, 8.84 331.25, 7.58 326.25 C6.32 321.25, 5.22 316.21, 4.27 311.15 C3.33 306.09, 2.53 300.99, 1.9 295.89 C1.27 290.79, 0.79 285.66, 0.48 280.53 C0.16 275.4, 0 270.25, 0 265.11 C0 259.97, 0.16 254.83, 0.48 249.7 C0.79 244.57, 1.27 239.44, 1.9 234.33 C2.53 229.23, 3.33 224.14, 4.27 219.08 C5.22 214.02, 6.32 208.97, 7.58 203.97 C8.84 198.97, 10.25 194, 11.81 189.08 C13.38 184.15, 15.09 179.27, 16.96 174.44 C18.82 169.61, 20.84 164.82, 23 160.11 C25.15 155.39, 27.46 150.72, 29.91 146.13 C32.35 141.54, 34.95 137.01, 37.67 132.56 C40.4 128.11, 43.26 123.72, 46.26 119.43 C49.25 115.14, 52.38 110.92, 55.64 106.8 C58.89 102.68, 62.28 98.64, 65.78 94.7 C69.29 90.77, 72.92 86.92, 76.66 83.18 C80.4 79.44, 84.26 75.8, 88.22 72.28 C92.19 68.75, 96.27 65.33, 100.44 62.02 C104.62 58.72, 108.9 55.53, 113.27 52.46 C117.64 49.39, 122.12 46.44, 126.67 43.61 C131.22 40.79, 135.87 38.09, 140.59 35.52 C145.31 32.95, 150.12 30.51, 154.99 28.2 C159.86 25.89, 164.81 23.72, 169.81 21.68 C174.81 19.65, 179.89 17.75, 185.01 15.99 C190.13 14.23, 195.32 12.61, 200.54 11.14 C205.76 9.66, 211.03 8.33, 216.33 7.15 C221.64 5.96, 226.99 4.92, 232.35 4.03 C237.72 3.14, 243.12 2.39, 248.54 1.79 C253.95 1.2, 259.39 0.75, 264.83 0.45 C270.27 0.15, 275.73 0, 281.18 0 C286.63 0, 292.09 0.15, 297.53 0.45 C302.97 0.75, 308.41 1.2, 313.82 1.79 C319.23 2.39, 324.64 3.14, 330.01 4.03 C335.37 4.92, 340.72 5.96, 346.02 7.15 C351.33 8.33, 356.6 9.66, 361.82 11.14 C367.04 12.61, 372.23 14.23, 377.35 15.99 C382.47 17.75, 387.54 19.65, 392.55 21.68 C397.55 23.72, 402.5 25.89, 407.37 28.2 C412.24 30.51, 417.05 32.95, 421.77 35.52 C426.49 38.09, 431.14 40.79, 435.69 43.61 C440.24 46.44, 444.72 49.39, 449.09 52.46 C453.46 55.53, 457.74 58.72, 461.92 62.02 C466.09 65.33, 470.17 68.75, 474.14 72.28 C478.1 75.8, 481.96 79.44, 485.7 83.18 C489.44 86.92, 493.07 90.77, 496.57 94.7 C500.08 98.64, 503.47 102.68, 506.72 106.8 C509.97 110.92, 513.11 115.14, 516.1 119.43 C519.1 123.72, 521.96 128.11, 524.69 132.56 C527.41 137.01, 530 141.54, 532.45 146.13 C534.9 150.72, 537.2 155.39, 539.36 160.11 C541.52 164.82, 543.54 169.61, 545.4 174.44 C547.26 179.27, 548.98 184.15, 550.55 189.08 C552.11 194, 553.52 198.97, 554.78 203.97 C556.04 208.97, 557.14 214.02, 558.09 219.08 C559.03 224.14, 559.82 229.23, 560.46 234.33 C561.09 239.44, 561.57 244.57, 561.88 249.7 C562.2 254.83, 562.36 259.97, 562.36 265.11"
-          stroke="#000000" stroke-width="4" fill="none"></path>
-      </g>
+  <!-- Section 1: The Evolution of NLP -->
+  <section class="mb-24">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">A Journey Through Time</h2>
+    <p class="text-lg text-center max-w-2xl mx-auto text-gray-600 mb-16">NLP has transformed from manually crafted
+      linguistic rules to sophisticated, self-learning neural networks. This evolution reflects a fundamental shift from
+      human-encoded knowledge to data-driven discovery.</p>
 
-      <!-- DATA ACQUISITION -->
+    <div class="relative max-w-2xl mx-auto">
+      <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300 rounded"></div>
+      <!-- Timeline Item 1: Rule-Based -->
+      <div class="relative mb-12">
+        <div class="md:flex items-center">
+          <div class="md:w-1/2"></div>
+          <div class="md:w-1/2 md:pl-12">
+            <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-[#4D88FF]">
+              <span class="text-sm font-semibold text-[#4D88FF]">1950s - 1980s</span>
+              <h3 class="text-xl font-bold mt-1 mb-2">The Rule-Based Era</h3>
+              <p class="text-gray-600">Early systems relied on meticulously hand-crafted linguistic rules. They were
+                precise for narrow domains but brittle and unable to scale or handle language's ambiguity.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="absolute left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-4 border-[#4D88FF]">
+        </div>
+      </div>
+      <!-- Timeline Item 2: Statistical ML -->
+      <div class="relative mb-12">
+        <div class="md:flex items-center">
+          <div class="md:w-1/2 md:pr-12 text-right">
+            <div class="bg-white p-6 rounded-lg shadow-lg border-r-4 border-[#00C49F]">
+              <span class="text-sm font-semibold text-[#00C49F]">1990s - 2010s</span>
+              <h3 class="text-xl font-bold mt-1 mb-2">The Statistical Revolution</h3>
+              <p class="text-gray-600">With more data and computing power, focus shifted to machine learning. Systems
+                learned statistical patterns from text, making them more adaptable and robust than rule-based methods.
+              </p>
+            </div>
+          </div>
+          <div class="md:w-1/2"></div>
+        </div>
+        <div
+          class="absolute left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-4 border-[#00C49F]">
+        </div>
+      </div>
+      <!-- Timeline Item 3: Deep Learning -->
+      <div class="relative">
+        <div class="md:flex items-center">
+          <div class="md:w-1/2"></div>
+          <div class="md:w-1/2 md:pl-12">
+            <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-[#0A2A4D]">
+              <span class="text-sm font-semibold text-[#0A2A4D]">2010s - Present</span>
+              <h3 class="text-xl font-bold mt-1 mb-2">The Deep Learning Wave</h3>
+              <p class="text-gray-600">Neural networks, especially Transformer models like BERT and GPT, revolutionized
+                the field. These models learn complex language representations automatically, achieving state-of-the-art
+                performance.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="absolute left-1/2 transform -translate-x-1/2 top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-white border-4 border-[#0A2A4D]">
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <g stroke-linecap="round"
-        transform="translate(299.2128047540464 10) rotate(0 80.33689020945803 40.16844510472902)">
-        <path id="step-1" class="step"
-          d="M20.08 0 C63.89 0, 107.7 0, 140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 C160.67 35.74, 160.67 51.4, 160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 C98.3 80.34, 56.01 80.34, 20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 C0 45.88, 0 31.51, 0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="none" stroke-width="0" fill="#ffffff"></path>
-        <path
-          d="M20.08 0 C44.35 0, 68.62 0, 140.59 0 M20.08 0 C53.68 0, 87.27 0, 140.59 0 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M160.67 20.08 C160.67 31.09, 160.67 42.09, 160.67 60.25 M160.67 20.08 C160.67 33.23, 160.67 46.37, 160.67 60.25 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M140.59 80.34 C93.98 80.34, 47.37 80.34, 20.08 80.34 M140.59 80.34 C100.31 80.34, 60.03 80.34, 20.08 80.34 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M0 60.25 C0 48.38, 0 36.5, 0 20.08 M0 60.25 C0 45.15, 0 30.05, 0 20.08 M0 20.08 C0 6.69, 6.69 0, 20.08 0 M0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="#000000" stroke-width="2" fill="none"></path>
-      </g>
-      <g id="step-1-text"
-        transform="translate(311.66313643078865 16.908972558013375) rotate(0 67.88655853271484 33.25947254671564)">
-        <text x="67.88655853271484" y="26.795566360462594" font-family="Lilita One, Segoe UI Emoji"
-          font-size="28.921280475404853px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr"
-          dominant-baseline="alphabetic">Data</text><text x="67.88655853271484" y="60.05503890717817"
-          font-family="Lilita One, Segoe UI Emoji" font-size="28.921280475404853px" fill="#000000" text-anchor="middle"
-          style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">acquisition</text>
-      </g>
+  <!-- Section 2: Core Approaches -->
+  <section class="mb-24">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Core Approaches: A Balancing Act</h2>
+    <p class="text-lg text-center max-w-2xl mx-auto text-gray-600 mb-12">Modern NLP is dominated by three core
+      approaches, each with a distinct trade-off between performance, scalability, and interpretability. The choice of
+      approach depends heavily on the specific problem, available data, and required transparency.</p>
 
-      <!-- TEXT EXTRACTION -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-8 items-center">
+      <div class="lg:col-span-3">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <div class="chart-container">
+            <canvas id="approachComparisonChart"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-2 space-y-4">
+        <div class="bg-white p-4 rounded-lg shadow-md">
+          <h4 class="font-bold text-lg text-[#4D88FF]">Rule-Based</h4>
+          <p class="text-sm text-gray-600">High interpretability, low scalability. Best for very specific, stable tasks.
+          </p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-md">
+          <h4 class="font-bold text-lg text-[#00C49F]">Machine Learning</h4>
+          <p class="text-sm text-gray-600">Good balance of performance and scalability, but requires feature
+            engineering.</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-md">
+          <h4 class="font-bold text-lg text-[#0A2A4D]">Deep Learning</h4>
+          <p class="text-sm text-gray-600">Highest performance and scalability, but often a "black box" requiring vast
+            data.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <g stroke-linecap="round"
-        transform="translate(524.1560973405285 106.40426825135) rotate(0 80.33689020945803 40.16844510472902)">
-        <path id="step-2" class="step"
-          d="M20.08 0 C59.25 0, 98.42 0, 140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 C160.67 35.22, 160.67 50.36, 160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 C106.06 80.34, 71.53 80.34, 20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 C0 46.63, 0 33, 0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="none" stroke-width="0" fill="#ffffff"></path>
-        <path
-          d="M20.08 0 C55.78 0, 91.48 0, 140.59 0 M20.08 0 C52.38 0, 84.68 0, 140.59 0 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M160.67 20.08 C160.67 33.15, 160.67 46.22, 160.67 60.25 M160.67 20.08 C160.67 31.66, 160.67 43.23, 160.67 60.25 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M140.59 80.34 C103.81 80.34, 67.02 80.34, 20.08 80.34 M140.59 80.34 C115.53 80.34, 90.48 80.34, 20.08 80.34 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M0 60.25 C0 51.21, 0 42.17, 0 20.08 M0 60.25 C0 44.76, 0 29.27, 0 20.08 M0 20.08 C0 6.69, 6.69 0, 20.08 0 M0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="#000000" stroke-width="2" fill="none"></path>
-      </g>
-      <g id="step-2-text"
-        transform="translate(540.1330098278177 113.31324080936338) rotate(0 64.35997772216797 33.25947254671564)">
-        <text x="64.35997772216797" y="26.795566360462594" font-family="Lilita One, Segoe UI Emoji"
-          font-size="28.921280475404853px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr"
-          dominant-baseline="alphabetic">Text</text><text x="64.35997772216797" y="60.05503890717817"
-          font-family="Lilita One, Segoe UI Emoji" font-size="28.921280475404853px" fill="#000000" text-anchor="middle"
-          style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">extraction</text>
-      </g>
+  <!-- Section 3: The NLP Pipeline -->
+  <section class="mb-24">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">The NLP Pipeline in Action</h2>
+    <p class="text-lg text-center max-w-2xl mx-auto text-gray-600 mb-16">Before any model can learn, raw text must be
+      cleaned and structured. This preprocessing pipeline transforms messy, unstructured data into a standardized format
+      that algorithms can understand.</p>
 
-      <!-- PRE PROCESSING -->
+    <div class="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
+      <!-- Step 1 -->
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center max-w-xs">
+        <div class="text-4xl font-bold text-[#4D88FF] mb-2">1</div>
+        <h3 class="text-xl font-bold mb-2">Tokenization</h3>
+        <p class="text-gray-600">Breaking raw text into individual words or sub-words called tokens.</p>
+      </div>
+      <div class="text-4xl font-bold text-gray-400 hidden md:block">&#10140;</div>
+      <div class="text-4xl font-bold text-gray-400 md:hidden">&#11163;</div>
+      <!-- Step 2 -->
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center max-w-xs">
+        <div class="text-4xl font-bold text-[#00C49F] mb-2">2</div>
+        <h3 class="text-xl font-bold mb-2">Normalization</h3>
+        <p class="text-gray-600">Cleaning text by converting to lowercase, removing stop words, and lemmatizing words to
+          their root form.</p>
+      </div>
+      <div class="text-4xl font-bold text-gray-400 hidden md:block">&#10140;</div>
+      <div class="text-4xl font-bold text-gray-400 md:hidden">&#11163;</div>
+      <!-- Step 3 -->
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center max-w-xs">
+        <div class="text-4xl font-bold text-[#0A2A4D] mb-2">3</div>
+        <h3 class="text-xl font-bold mb-2">Vectorization</h3>
+        <p class="text-gray-600">Converting the clean tokens into numerical representations (vectors) for the model to
+          process.</p>
+      </div>
+    </div>
+  </section>
 
-      <g stroke-linecap="round"
-        transform="translate(588.4256095080927 267.07804867026425) rotate(0 80.33689020945803 40.16844510472902)">
-        <path id="step-3" class="step"
-          d="M20.08 0 C45.57 0, 71.05 0, 140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 C160.67 32.42, 160.67 44.76, 160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 C115.56 80.34, 90.52 80.34, 20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 C0 46.64, 0 33.02, 0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="none" stroke-width="0" fill="#ffffff"></path>
-        <path
-          d="M20.08 0 C64.02 0, 107.95 0, 140.59 0 M20.08 0 C46.98 0, 73.88 0, 140.59 0 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M160.67 20.08 C160.67 30.5, 160.67 40.92, 160.67 60.25 M160.67 20.08 C160.67 33.4, 160.67 46.71, 160.67 60.25 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M140.59 80.34 C109.31 80.34, 78.03 80.34, 20.08 80.34 M140.59 80.34 C112.87 80.34, 85.16 80.34, 20.08 80.34 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M0 60.25 C0 50.2, 0 40.14, 0 20.08 M0 60.25 C0 48.32, 0 36.39, 0 20.08 M0 20.08 C0 6.69, 6.69 0, 20.08 0 M0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="#000000" stroke-width="2" fill="none"></path>
-      </g>
-      <g id="step-3-text"
-        transform="translate(602.0755642927452 273.9870212282776) rotate(0 66.68693542480469 33.25947254671564)">
-        <text x="66.68693542480469" y="26.795566360462594" font-family="Lilita One, Segoe UI Emoji"
-          font-size="28.921280475404853px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr"
-          dominant-baseline="alphabetic">Pre-</text><text x="66.68693542480469" y="60.05503890717817"
-          font-family="Lilita One, Segoe UI Emoji" font-size="28.921280475404853px" fill="#000000" text-anchor="middle"
-          style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">processing</text>
-      </g>
+  <!-- Section 4: Text Representation -->
+  <section class="mb-24">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Representing Words as Numbers</h2>
+    <p class="text-lg text-center max-w-2xl mx-auto text-gray-600 mb-12">Vectorization is where words become math. The
+      two main approaches represent a leap in capturing meaning: from simple word counts to understanding rich,
+      contextual relationships.</p>
 
-      <!-- FEATURE ENGINEERING-->
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div class="bg-white p-8 rounded-lg shadow-lg">
+        <h3 class="text-2xl font-bold mb-3">TF-IDF: The Statistician</h3>
+        <p class="text-gray-600 mb-4">Stands for Term Frequency-Inverse Document Frequency. This technique represents
+          words based on how frequently they appear in a document, while down-weighting words that are common across all
+          documents. It's great for keyword extraction but understands no context.</p>
+        <div class="bg-gray-100 p-4 rounded-md">
+          <p class="font-mono text-sm text-gray-700">"The cat sat" &#10142; [0, 1, 0, 1, 1, 0, ...]</p>
+          <p class="text-xs text-gray-500 mt-2">Result: A sparse vector where most values are zero.</p>
+        </div>
+      </div>
+      <div class="bg-white p-8 rounded-lg shadow-lg">
+        <h3 class="text-2xl font-bold mb-3">Word Embeddings: The Linguist</h3>
+        <p class="text-gray-600 mb-4">Techniques like Word2Vec and BERT represent words as dense vectors in a
+          multi-dimensional space. Words with similar meanings are placed close together, capturing semantic
+          relationships and context. This allows models to understand nuance and analogy.</p>
+        <div class="bg-gray-100 p-4 rounded-md">
+          <p class="font-mono text-sm text-gray-700">"king" &#10142; [0.2, -0.4, 0.7, ...]</p>
+          <p class="text-xs text-gray-500 mt-2">Result: A dense vector capturing rich semantic meaning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <g stroke-linecap="round"
-        transform="translate(524.1560973405285 443.8192071310732) rotate(0 80.33689020945803 40.16844510472902)">
-        <path id="step-4" class="step"
-          d="M20.08 0 C63 0, 105.92 0, 140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 C160.67 31.35, 160.67 42.62, 160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 C107.42 80.34, 74.25 80.34, 20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 C0 46.52, 0 32.79, 0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="none" stroke-width="0" fill="#ffffff"></path>
-        <path
-          d="M20.08 0 C65.92 0, 111.76 0, 140.59 0 M20.08 0 C58.35 0, 96.62 0, 140.59 0 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M160.67 20.08 C160.67 35.24, 160.67 50.39, 160.67 60.25 M160.67 20.08 C160.67 30.75, 160.67 41.41, 160.67 60.25 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M140.59 80.34 C110.04 80.34, 79.49 80.34, 20.08 80.34 M140.59 80.34 C108.16 80.34, 75.74 80.34, 20.08 80.34 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M0 60.25 C0 50.11, 0 39.97, 0 20.08 M0 60.25 C0 49.66, 0 39.07, 0 20.08 M0 20.08 C0 6.69, 6.69 0, 20.08 0 M0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="#000000" stroke-width="2" fill="none"></path>
-      </g>
-      <g id="step-4-text"
-        transform="translate(530.9986027843606 450.7281796890866) rotate(0 73.494384765625 33.25947254671564)"><text
-          x="73.494384765625" y="26.795566360462594" font-family="Lilita One, Segoe UI Emoji"
-          font-size="28.921280475404853px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr"
-          dominant-baseline="alphabetic">Feature</text><text x="73.494384765625" y="60.05503890717817"
-          font-family="Lilita One, Segoe UI Emoji" font-size="28.921280475404853px" fill="#000000" text-anchor="middle"
-          style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">engineering</text></g>
+  <section>
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Modern NLP Process</h2>
+    <p class="text-lg text-center max-w-2xl mx-auto text-gray-600 mb-12">A modern NLP workflow transforms raw textual
+      data into actionable insights or intelligent applications using modern techniques base on Deep learning
+    </p>
+    <div class="diagram-container">
+      <div id="step-1" class="step-card">
+        <span class="text-4xl font-bold  step-number-1">1</span>
+        <h2 class="step-title">Data Acquisition</h2>
+        <p class="step-description">Gathering raw data from various sources like databases, APIs, or files.</p>
+      </div>
 
-      <!-- MOELING-->
+      <svg class="arrow arrow-horizontal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
+      <svg class="arrow arrow-vertical" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
 
-      <g stroke-linecap="round"
-        transform="translate(299.2128047540464 540.2234753824232) rotate(0 80.33689020945803 40.16844510472902)">
-        <path id="step-5" class="step"
-          d="M20.08 0 C47.99 0, 75.89 0, 140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 C160.67 33.45, 160.67 46.81, 160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 C111.8 80.34, 83.02 80.34, 20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 C0 51.46, 0 42.66, 0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="none" stroke-width="0" fill="#ffffff"></path>
-        <path
-          d="M20.08 0 C51.02 0, 81.96 0, 140.59 0 M20.08 0 C63.5 0, 106.92 0, 140.59 0 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M160.67 20.08 C160.67 34.93, 160.67 49.78, 160.67 60.25 M160.67 20.08 C160.67 31.52, 160.67 42.95, 160.67 60.25 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M140.59 80.34 C100.85 80.34, 61.1 80.34, 20.08 80.34 M140.59 80.34 C100.87 80.34, 61.14 80.34, 20.08 80.34 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M0 60.25 C0 52.15, 0 44.06, 0 20.08 M0 60.25 C0 47.18, 0 34.11, 0 20.08 M0 20.08 C0 6.69, 6.69 0, 20.08 0 M0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="#000000" stroke-width="2" fill="none"></path>
-      </g>
-      <g transform="translate(320.5373887501246 563.7621842137942) rotate(0 59.012306213378906 16.629736273357594)">
-        <text id="step-5-text" x="59.012306213378906" y="26.795566360462594" font-family="Lilita One, Segoe UI Emoji"
-          font-size="28.921280475404853px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr"
-          dominant-baseline="alphabetic">Modeling</text>
-      </g>
+      <div id="step-2" class="step-card">
+        <span class="text-4xl font-bold step-number-1">2</span>
+        <h2 class="step-title">Text Extraction</h2>
+        <p class="step-description">Isolating and pulling plain text content from the acquired documents.</p>
+      </div>
 
-      <!-- EVALUATION -->
+      <svg class="arrow arrow-horizontal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
+      <svg class="arrow arrow-vertical" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
 
-      <g stroke-linecap="round"
-        transform="translate(74.26951216756424 443.8192071310732) rotate(0 80.33689020945803 40.16844510472902)">
-        <path id="step-6" class="step"
-          d="M20.08 0 C62.16 0, 104.23 0, 140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 C160.67 33.56, 160.67 47.03, 160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 C99.93 80.34, 59.26 80.34, 20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 C0 51.13, 0 42, 0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="none" stroke-width="0" fill="#ffffff"></path>
-        <path
-          d="M20.08 0 C61.75 0, 103.42 0, 140.59 0 M20.08 0 C55.82 0, 91.56 0, 140.59 0 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M160.67 20.08 C160.67 28.75, 160.67 37.42, 160.67 60.25 M160.67 20.08 C160.67 30.9, 160.67 41.71, 160.67 60.25 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M140.59 80.34 C108.02 80.34, 75.46 80.34, 20.08 80.34 M140.59 80.34 C110.2 80.34, 79.81 80.34, 20.08 80.34 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M0 60.25 C0 49.94, 0 39.62, 0 20.08 M0 60.25 C0 47.9, 0 35.54, 0 20.08 M0 20.08 C0 6.69, 6.69 0, 20.08 0 M0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="#000000" stroke-width="2" fill="none"></path>
-      </g>
-      <g id="step-6-text"
-        transform="translate(88.56984994782215 467.35791596244417) rotate(0 66.03655242919922 16.629736273357594)">
-        <text x="66.03655242919922" y="26.795566360462594" font-family="Lilita One, Segoe UI Emoji"
-          font-size="28.921280475404853px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr"
-          dominant-baseline="alphabetic">Evaluation</text>
-      </g>
+      <div id="step-3" class="step-card">
+        <span class="text-4xl font-bold step-number-1">3</span>
+        <h2 class="step-title">Pre-processing</h2>
+        <p class="step-description">Cleaning text data by removing noise, stop words, lemmatization, and so on</p>
+      </div>
 
-      <!-- DEPLOYMENT -->
+      <svg class="arrow arrow-horizontal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
+      <svg class="arrow arrow-vertical" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
 
-      <g stroke-linecap="round"
-        transform="translate(10 267.07804867026425) rotate(0 80.33689020945803 40.16844510472902)">
-        <path id="step-7" class="step"
-          d="M20.08 0 C63.41 0, 106.74 0, 140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 C160.67 31.98, 160.67 43.88, 160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 C92.52 80.34, 44.46 80.34, 20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 C0 47.83, 0 35.42, 0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="none" stroke-width="0" fill="#ffffff"></path>
-        <path
-          d="M20.08 0 C60.89 0, 101.7 0, 140.59 0 M20.08 0 C57.13 0, 94.18 0, 140.59 0 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M160.67 20.08 C160.67 31.51, 160.67 42.93, 160.67 60.25 M160.67 20.08 C160.67 31.55, 160.67 43.02, 160.67 60.25 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M140.59 80.34 C104.95 80.34, 69.32 80.34, 20.08 80.34 M140.59 80.34 C114.92 80.34, 89.24 80.34, 20.08 80.34 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M0 60.25 C0 49.55, 0 38.86, 0 20.08 M0 60.25 C0 47.32, 0 34.39, 0 20.08 M0 20.08 C0 6.69, 6.69 0, 20.08 0 M0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="#000000" stroke-width="2" fill="none"></path>
-      </g>
-      <g id="step-7-text"
-        transform="translate(15.585089672347749 290.6167575016352) rotate(0 74.75180053710938 16.629736273357594)">
-        <text x="74.75180053710938" y="26.795566360462594" font-family="Lilita One, Segoe UI Emoji"
-          font-size="28.921280475404853px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr"
-          dominant-baseline="alphabetic">Deployment</text>
-      </g>
+      <div id="step-4" class="step-card">
+        <span class="text-4xl font-bold text-4xl font-bold step-number-1">4</span>
+        <h2 class="step-title">Feature Extraction</h2>
+        <p class="step-description">Converting cleaned text into numerical vectors (e.g., TF-IDF, Word2Vec).</p>
+      </div>
+      <svg class="arrow arrow-vertical" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
 
-      <!-- MONITORING -->
+      <div class="line-break"></div>
 
-      <g stroke-linecap="round"
-        transform="translate(58.20213412567682 106.40426825135) rotate(0 80.33689020945803 40.16844510472902)">
-        <path id="step-8" class="step"
-          d="M20.08 0 C62.54 0, 104.99 0, 140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 C160.67 30.48, 160.67 40.88, 160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 C99.61 80.34, 58.62 80.34, 20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 C0 44.44, 0 28.62, 0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="none" stroke-width="0" fill="#ffffff"></path>
-        <path
-          d="M20.08 0 C64.15 0, 108.21 0, 140.59 0 M20.08 0 C57.43 0, 94.78 0, 140.59 0 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M140.59 0 C153.98 0, 160.67 6.69, 160.67 20.08 M160.67 20.08 C160.67 29.44, 160.67 38.79, 160.67 60.25 M160.67 20.08 C160.67 31.56, 160.67 43.03, 160.67 60.25 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M160.67 60.25 C160.67 73.64, 153.98 80.34, 140.59 80.34 M140.59 80.34 C96.47 80.34, 52.34 80.34, 20.08 80.34 M140.59 80.34 C113.52 80.34, 86.45 80.34, 20.08 80.34 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M20.08 80.34 C6.69 80.34, 0 73.64, 0 60.25 M0 60.25 C0 49.51, 0 38.76, 0 20.08 M0 60.25 C0 49.57, 0 38.89, 0 20.08 M0 20.08 C0 6.69, 6.69 0, 20.08 0 M0 20.08 C0 6.69, 6.69 0, 20.08 0"
-          stroke="#000000" stroke-width="2" fill="none"></path>
-      </g>
-      <g id="step-8-text"
-        transform="translate(68.28215025066129 113.31324080936338) rotate(0 70.25687408447266 33.25947254671564)">
-        <text x="70.25687408447266" y="26.795566360462594" font-family="Lilita One, Segoe UI Emoji"
-          font-size="28.921280475404853px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr"
-          dominant-baseline="alphabetic">Monitoring</text><text x="70.25687408447266" y="60.05503890717817"
-          font-family="Lilita One, Segoe UI Emoji" font-size="28.921280475404853px" fill="#000000" text-anchor="middle"
-          style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">and update</text>
-      </g>
 
-      <!-- IMPROVING THE MODEL -->
+      <div id="step-5" class="step-card">
+        <span class="text-4xl font-bold step-number-2">5</span>
+        <h2 class="step-title">Modeling</h2>
+        <p class="step-description">Training a machine learning model on the numerical features to learn patterns.</p>
+      </div>
 
-      <g stroke-linecap="round">
-        <g transform="translate(235.83551512094346 491.5539865958435) rotate(0 171.05478604432938 -89.60012602322286)">
-          <path class="step" d="M0 0 C57.02 -29.87, 285.09 -149.33, 342.11 -179.2" stroke="#000000" stroke-width="2.5"
-            fill="none" stroke-dasharray="8 10"></path>
-        </g>
-        <g transform="translate(235.83551512094346 491.5539865958435) rotate(0 171.05478604432938 -89.60012602322286)">
-          <path d="M342.11 -179.2 L333.01 -167.28 L327.13 -178.51 L342.11 -179.2" stroke="none" stroke-width="0"
-            fill="#000000" fill-rule="evenodd"></path>
-          <path
-            d="M342.11 -179.2 C339.42 -175.67, 336.72 -172.14, 333.01 -167.28 M333.01 -167.28 C331.5 -170.16, 329.98 -173.05, 327.13 -178.51 M327.13 -178.51 C331.39 -178.7, 335.65 -178.9, 342.11 -179.2 M342.11 -179.2 C342.11 -179.2, 342.11 -179.2, 342.11 -179.2"
-            stroke="#000000" stroke-width="2.5" fill="none"></path>
-        </g>
-      </g>
-      <mask></mask>
-      <g
-        transform="translate(241.80522534722695 353.5716654854805) rotate(331.94003671139956 149.50214410373155 19.989050365868934)">
-        <text x="149.50214410373167" y="30.511286478462523" font-family="Nunito, Segoe UI Emoji"
-          font-size="31.982480585390487px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr"
-          dominant-baseline="alphabetic">improving the model</text>
-      </g>
-      <g stroke-linecap="round">
-        <g transform="translate(519.5424836851053 95.80756424978244) rotate(304.46099566724524 8.943629971910013 7.01230266194716)"
-          fill-rule="evenodd">
-          <path d="M0 0 L17.89 0 L8.94 14.02 L0 0" stroke="none" stroke-width="0" fill="#1e1e1e" fill-rule="evenodd">
-          </path>
-          <path
-            d="M0 0 C4.26 0, 8.52 0, 17.89 0 M0 0 C4.25 0, 8.5 0, 17.89 0 M17.89 0 C15.8 3.27, 13.72 6.53, 8.94 14.02 M17.89 0 C15.33 4.01, 12.78 8.01, 8.94 14.02 M8.94 14.02 C6.53 10.23, 4.11 6.44, 0 0 M8.94 14.02 C6.69 10.49, 4.43 6.95, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0"
-            stroke="#000000" stroke-width="2" fill="none"></path>
-        </g>
-      </g>
-      <mask></mask>
-      <g stroke-linecap="round">
-        <g transform="translate(635.0111544910797 252.28266523053935) rotate(342.98854418210186 8.943629971910013 7.01230266194716)"
-          fill-rule="evenodd">
-          <path d="M0 0 L17.89 0 L8.94 14.02 L0 0" stroke="none" stroke-width="0" fill="#1e1e1e" fill-rule="evenodd">
-          </path>
-          <path
-            d="M0 0 C6.61 0, 13.22 0, 17.89 0 M0 0 C5.09 0, 10.18 0, 17.89 0 M17.89 0 C15.57 3.64, 13.24 7.28, 8.94 14.02 M17.89 0 C15.83 3.23, 13.77 6.45, 8.94 14.02 M8.94 14.02 C6.3 9.88, 3.65 5.73, 0 0 M8.94 14.02 C5.58 8.75, 2.22 3.48, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0"
-            stroke="#000000" stroke-width="2" fill="none"></path>
-        </g>
-      </g>
-      <mask></mask>
-      <g stroke-linecap="round">
-        <g transform="translate(616.2214038903512 429.1957235148493) rotate(21.98020629279256 8.943629971910013 7.01230266194716)"
-          fill-rule="evenodd">
-          <path d="M0 0 L17.89 0 L8.94 14.02 L0 0" stroke="none" stroke-width="0" fill="#1e1e1e" fill-rule="evenodd">
-          </path>
-          <path
-            d="M0 0 C4.29 0, 8.57 0, 17.89 0 M0 0 C6.73 0, 13.46 0, 17.89 0 M17.89 0 C15.13 4.32, 12.38 8.64, 8.94 14.02 M17.89 0 C16.03 2.91, 14.17 5.83, 8.94 14.02 M8.94 14.02 C6.3 9.88, 3.65 5.73, 0 0 M8.94 14.02 C7.04 11.04, 5.13 8.05, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0"
-            stroke="#000000" stroke-width="2" fill="none"></path>
-        </g>
-      </g>
-      <mask></mask>
-      <g stroke-linecap="round">
-        <g transform="translate(458.2198249597823 566.4000005439848) rotate(70.1001078928414 8.943629971910013 7.01230266194716)"
-          fill-rule="evenodd">
-          <path d="M0 0 L17.89 0 L8.94 14.02 L0 0" stroke="none" stroke-width="0" fill="#1e1e1e" fill-rule="evenodd">
-          </path>
-          <path
-            d="M0 0 C3.86 0, 7.72 0, 17.89 0 M0 0 C4.82 0, 9.63 0, 17.89 0 M17.89 0 C15.62 3.56, 13.35 7.11, 8.94 14.02 M17.89 0 C15.48 3.77, 13.07 7.55, 8.94 14.02 M8.94 14.02 C6.93 10.87, 4.92 7.71, 0 0 M8.94 14.02 C5.49 8.62, 2.04 3.21, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0"
-            stroke="#000000" stroke-width="2" fill="none"></path>
-        </g>
-      </g>
-      <mask></mask>
-      <g stroke-linecap="round">
-        <g transform="translate(183.17168563831 522.5992589070484) rotate(133.9620194626626 8.943629971910013 7.01230266194716)"
-          fill-rule="evenodd">
-          <path d="M0 0 L17.89 0 L8.94 14.02 L0 0" stroke="none" stroke-width="0" fill="#1e1e1e" fill-rule="evenodd">
-          </path>
-          <path
-            d="M0 0 C6.92 0, 13.84 0, 17.89 0 M0 0 C5.98 0, 11.96 0, 17.89 0 M17.89 0 C15.69 3.44, 13.5 6.89, 8.94 14.02 M17.89 0 C15.42 3.87, 12.95 7.74, 8.94 14.02 M8.94 14.02 C5.67 8.89, 2.39 3.75, 0 0 M8.94 14.02 C6.93 10.87, 4.93 7.72, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0"
-            stroke="#000000" stroke-width="2" fill="none"></path>
-        </g>
-      </g>
-      <mask></mask>
-      <g stroke-linecap="round">
-        <g transform="translate(83.42772262106519 349.48990160438916) rotate(176.43372010753288 8.943629971910013 7.01230266194716)"
-          fill-rule="evenodd">
-          <path d="M0 0 L17.89 0 L8.94 14.02 L0 0" stroke="none" stroke-width="0" fill="#1e1e1e" fill-rule="evenodd">
-          </path>
-          <path
-            d="M0 0 C5.09 0, 10.17 0, 17.89 0 M0 0 C5.11 0, 10.21 0, 17.89 0 M17.89 0 C14.94 4.63, 11.99 9.25, 8.94 14.02 M17.89 0 C14.94 4.62, 11.99 9.25, 8.94 14.02 M8.94 14.02 C6.7 10.51, 4.46 7, 0 0 M8.94 14.02 C6.29 9.86, 3.63 5.69, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0"
-            stroke="#000000" stroke-width="2" fill="none"></path>
-        </g>
-      </g>
-      <mask></mask>
-      <g stroke-linecap="round">
-        <g transform="translate(119.04469952764339 186.2593224892862) rotate(200.10810647921994 8.943629971910013 7.01230266194716)"
-          fill-rule="evenodd">
-          <path d="M0 0 L17.89 0 L8.94 14.02 L0 0" stroke="none" stroke-width="0" fill="#1e1e1e" fill-rule="evenodd">
-          </path>
-          <path
-            d="M0 0 C5.46 0, 10.92 0, 17.89 0 M0 0 C3.72 0, 7.44 0, 17.89 0 M17.89 0 C14.58 5.19, 11.27 10.38, 8.94 14.02 M17.89 0 C15.2 4.21, 12.52 8.41, 8.94 14.02 M8.94 14.02 C6.43 10.09, 3.93 6.15, 0 0 M8.94 14.02 C6.84 10.73, 4.74 7.43, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0"
-            stroke="#000000" stroke-width="2" fill="none"></path>
-        </g>
-      </g>
-      <mask></mask>
-      <g stroke-linecap="round">
-        <g transform="translate(283.5009370804546 62.75009694059554) rotate(244.94633847075355 8.943629971910013 7.01230266194716)"
-          fill-rule="evenodd">
-          <path d="M0 0 L17.89 0 L8.94 14.02 L0 0" stroke="none" stroke-width="0" fill="#1e1e1e" fill-rule="evenodd">
-          </path>
-          <path
-            d="M0 0 C4.17 0, 8.33 0, 17.89 0 M0 0 C5.11 0, 10.22 0, 17.89 0 M17.89 0 C15.47 3.79, 13.05 7.58, 8.94 14.02 M17.89 0 C15.63 3.54, 13.38 7.07, 8.94 14.02 M8.94 14.02 C6.69 10.48, 4.43 6.94, 0 0 M8.94 14.02 C6.58 10.33, 4.23 6.63, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0"
-            stroke="#000000" stroke-width="2" fill="none"></path>
-        </g>
-      </g>
-      <mask></mask>
-    </svg>
-  </div>
+      <svg class="arrow arrow-horizontal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
+      <svg class="arrow arrow-vertical" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
 
-  <div class="bg-white rounded-lg shadow-md p-6 scrollable-div">
-    {{ .Content }}
-  </div>
-</section>
+      <div id="step-6" class="step-card">
+        <span class="text-4xl font-bold step-number-2">6</span>
+        <h2 class="step-title">Evaluation</h2>
+        <p class="step-description">Assessing the model's performance on unseen data using metrics like F1-score.</p>
+      </div>
+
+      <svg class="arrow arrow-horizontal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
+      <svg class="arrow arrow-vertical" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
+
+      <div id="step-7" class="step-card">
+        <span class="text-4xl font-bold step-number-2">7</span>
+        <h2 class="step-title">Deployment</h2>
+        <p class="step-description">Integrating the model into a production environment so it can be used by
+          applications.</p>
+      </div>
+
+      <svg class="arrow arrow-horizontal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
+      <svg class="arrow arrow-vertical" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+      </svg>
+
+      <div id="step-8" class="step-card">
+        <span class="text-4xl font-bold step-number-2">8</span>
+        <h2 class="step-title">Monitoring & Updating</h2>
+        <p class="step-description">Continuously tracking model performance and retraining it with new data as needed.
+        </p>
+      </div>
+
+    </div>
+  </section>
+</main>
+
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
@@ -332,7 +520,6 @@
     steps.forEach(function (step, index) {
 
       const element = document.getElementById(step.id);
-      const elementText = document.getElementById(step.id + '-text');
 
       if (element) {
         element.addEventListener('click', function () {
@@ -347,19 +534,103 @@
           element.classList.remove('selected');
         });
 
-        elementText.addEventListener('click', function () {
-          window.location.href = step.url; // Replace with your target URL
-        });
-
-        elementText.addEventListener('mouseover', () => {
-          element.classList.add('selected');
-        });
-
-        elementText.addEventListener('mouseout', () => {
-          element.classList.remove('selected');
-        });
       }
 
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const ctx = document.getElementById('approachComparisonChart').getContext('2d');
+    const approachChart = new Chart(ctx, {
+      type: 'radar',
+      data: {
+        labels: ['Performance', 'Scalability', 'Data Requirement', 'Interpretability', 'Ease of Build'],
+        datasets: [{
+          label: 'Rule-Based',
+          data: [4, 3, 2, 10, 5],
+          fill: true,
+          backgroundColor: 'rgba(77, 136, 255, 0.2)',
+          borderColor: 'rgb(77, 136, 255)',
+          pointBackgroundColor: 'rgb(77, 136, 255)',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgb(77, 136, 255)'
+        }, {
+          label: 'Machine Learning',
+          data: [7, 7, 6, 6, 6],
+          fill: true,
+          backgroundColor: 'rgba(0, 196, 159, 0.2)',
+          borderColor: 'rgb(0, 196, 159)',
+          pointBackgroundColor: 'rgb(0, 196, 159)',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgb(0, 196, 159)'
+        }, {
+          label: 'Deep Learning',
+          data: [10, 9, 9, 2, 3],
+          fill: true,
+          backgroundColor: 'rgba(10, 42, 77, 0.2)',
+          borderColor: 'rgb(10, 42, 77)',
+          pointBackgroundColor: 'rgb(10, 42, 77)',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgb(10, 42, 77)'
+        }]
+      },
+      options: {
+        maintainAspectRatio: false,
+        elements: {
+          line: {
+            borderWidth: 3
+          }
+        },
+        scales: {
+          r: {
+            angleLines: {
+              color: 'rgba(0, 0, 0, 0.1)'
+            },
+            grid: {
+              color: 'rgba(0, 0, 0, 0.1)'
+            },
+            pointLabels: {
+              font: {
+                size: 14,
+                weight: '500'
+              },
+              color: '#1F2937'
+            },
+            ticks: {
+              backdropColor: '#F0F4F8',
+              color: '#6b7280'
+            },
+            min: 0,
+            max: 10
+          }
+        },
+        plugins: {
+          tooltip: {
+            callbacks: {
+              title: function (tooltipItems) {
+                const item = tooltipItems[0];
+                let label = item.chart.data.labels[item.dataIndex];
+                if (Array.isArray(label)) {
+                  return label.join(' ');
+                } else {
+                  return label;
+                }
+              }
+            }
+          },
+          legend: {
+            position: 'top',
+            labels: {
+              font: {
+                size: 14
+              }
+            }
+          }
+        }
+      }
     });
   });
 </script>

@@ -4,11 +4,6 @@ meta_title: "Modern NLP Process"
 description: "Modern NLP Process"
 draft: false
 ---
-
-## Modern NLP Process
-
-As an NLP learner specializing in modern techniques, I've outlined the essential stages of a contemporary NLP pipeline. This structured workflow transforms raw textual data into actionable insights or intelligent applications. This article summarizes these eight fundamental steps, integrating best practices and key academic references.
-
 ##### Data Acquisition: 
 The foundation involves gathering diverse and high-quality linguistic data from various sources (APIs, databases, web scraping), with crucial considerations for ethics, legality, and acquiring labeled data for supervised tasks.
 
