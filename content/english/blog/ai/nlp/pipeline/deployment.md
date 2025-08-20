@@ -7,7 +7,7 @@ image: "/images/posts/ai/nlp/pipeline/deployment.png"
 categories: ["Artificial Intelligence","NLP"]
 author: "Daniel Pichardo"
 tags: ["nlp"]
-draft: false
+draft: true
 ---
 
 # Coming soon
