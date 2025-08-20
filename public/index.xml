@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Aug 2025 01:21:42 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 19 Aug 2025 23:44:24 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python-Powered PDF Text Extraction: A Practical Guide</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/extraction-guidelines/</link>
+      <pubDate>Tue, 19 Aug 2025 23:44:24 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/pipeline/extraction-guidelines/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Extracting text from PDFs is a common first step in many data pipelines, but it&amp;rsquo;s rarely a clean process. PDFs are designed for visual presentation, not data extraction, which means the raw text you get is often riddled with formatting issues like unwanted line breaks, hyphenated words, and inconsistent spacing.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Turning Text into Numbers: The Art of Text Representation</title>
       <link>http://localhost:1313/blog/blog/ai/nlp/text-representation/</link>
