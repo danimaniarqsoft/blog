@@ -3,7 +3,7 @@ title: "Python-Powered PDF Text Extraction: A Practical Guide"
 meta_title: "meta title"
 description: "this is meta description"
 date: 2025-08-19T23:44:24-06:00
-image: "/images/posts/guidelines/image.jpeg"
+image: "/images/posts/guidelines/pdf-text-extraction.jpeg"
 categories: ["Artificial Intelligence","NLP", "Guidelines"]
 author: "Daniel Pichardo"
 tags: ["nlp"]
