@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Aug 2025 23:44:24 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 28 Aug 2025 17:17:20 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Conventional Commits</title>
+      <link>http://localhost:1313/blog/blog/guidelines/git-conventional-commits/</link>
+      <pubDate>Thu, 28 Aug 2025 17:17:20 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/guidelines/git-conventional-commits/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Git Conventional Commits provide a standardized way of writing commit messages to make them more readable and machine-parsable. The format is &lt;strong&gt;&lt;code&gt;&amp;lt;type&amp;gt;[optional scope]: &amp;lt;description&amp;gt;&lt;/code&gt;&lt;/strong&gt;. Here are some common examples and variations:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Python-Powered PDF Text Extraction: A Practical Guide</title>
       <link>http://localhost:1313/blog/blog/ai/nlp/pipeline/extraction-guidelines/</link>

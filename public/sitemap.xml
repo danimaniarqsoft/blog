@@ -3,15 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-08-19T23:44:24-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
-    <lastmod>2025-08-19T23:44:24-06:00</lastmod>
+    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-08-19T23:44:24-06:00</lastmod>
+    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
+    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/git/</loc>
+    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/guidelines/git-conventional-commits/</loc>
+    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/no-category/</loc>
+    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
     <lastmod>2025-08-19T23:44:24-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/guidelines/</loc>
@@ -24,9 +36,6 @@
     <lastmod>2025-08-19T23:44:24-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/pipeline/extraction-guidelines/</loc>
-    <lastmod>2025-08-19T23:44:24-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
     <lastmod>2025-08-19T23:44:24-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/text-representation/</loc>
@@ -331,9 +340,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/blog/data-structures/queue/</loc>
     <lastmod>2024-07-02T17:27:55-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/git/</loc>
-    <lastmod>2024-06-08T00:34:01-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/guidelines/git-revert-commits/</loc>
     <lastmod>2024-06-08T00:34:01-06:00</lastmod>
