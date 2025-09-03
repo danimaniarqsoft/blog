@@ -3,7 +3,7 @@ title: "Git Conventional Commits"
 meta_title: "Git Conventional Commits"
 description: "Git Conventional Commits for programming"
 date: 2025-08-28T17:17:20-06:00
-image: "/images/posts/guidelines/image.jpeg"
+image: "/images/posts/guidelines/git-conventional-commits.png"
 categories: ["Guidelines"]
 author: "Daniel Pichardo"
 tags: ["git"]

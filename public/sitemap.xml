@@ -3,13 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
+    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
+    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
+    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
-    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
+    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/ai/nlp/nel-example/</loc>
+    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/nlp/</loc>
+    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/nlp/</loc>
+    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/information-extraction/</loc>
+    <lastmod>2025-09-02T10:48:32-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/ai/nlp/information-extraction/</loc>
+    <lastmod>2025-09-02T10:48:32-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/git/</loc>
     <lastmod>2025-08-28T17:17:20-06:00</lastmod>
@@ -17,23 +38,8 @@
     <loc>http://localhost:1313/blog/blog/guidelines/git-conventional-commits/</loc>
     <lastmod>2025-08-28T17:17:20-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/no-category/</loc>
-    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
-    <lastmod>2025-08-19T23:44:24-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/categories/guidelines/</loc>
-    <lastmod>2025-08-19T23:44:24-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/nlp/</loc>
-    <lastmod>2025-08-19T23:44:24-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/nlp/</loc>
-    <lastmod>2025-08-19T23:44:24-06:00</lastmod>
+    <lastmod>2025-08-28T17:17:20-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/pipeline/extraction-guidelines/</loc>
     <lastmod>2025-08-19T23:44:24-06:00</lastmod>

@@ -6,34 +6,27 @@
     <description>Recent content in Categories on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Aug 2025 17:17:20 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 12:30:11 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>No Category</title>
-      <link>http://localhost:1313/blog/categories/no-category/</link>
-      <pubDate>Thu, 28 Aug 2025 17:17:20 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/no-category/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Artificial Intelligence</title>
       <link>http://localhost:1313/blog/categories/artificial-intelligence/</link>
-      <pubDate>Tue, 19 Aug 2025 23:44:24 -0600</pubDate>
+      <pubDate>Tue, 02 Sep 2025 12:30:11 -0600</pubDate>
       <guid>http://localhost:1313/blog/categories/artificial-intelligence/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Guidelines</title>
-      <link>http://localhost:1313/blog/categories/guidelines/</link>
-      <pubDate>Tue, 19 Aug 2025 23:44:24 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/guidelines/</guid>
       <description></description>
     </item>
     <item>
       <title>NLP</title>
       <link>http://localhost:1313/blog/categories/nlp/</link>
-      <pubDate>Tue, 19 Aug 2025 23:44:24 -0600</pubDate>
+      <pubDate>Tue, 02 Sep 2025 12:30:11 -0600</pubDate>
       <guid>http://localhost:1313/blog/categories/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guidelines</title>
+      <link>http://localhost:1313/blog/categories/guidelines/</link>
+      <pubDate>Thu, 28 Aug 2025 17:17:20 -0600</pubDate>
+      <guid>http://localhost:1313/blog/categories/guidelines/</guid>
       <description></description>
     </item>
     <item>

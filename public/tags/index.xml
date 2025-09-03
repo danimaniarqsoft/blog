@@ -6,20 +6,27 @@
     <description>Recent content in Tags on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Aug 2025 17:17:20 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 12:30:11 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nlp</title>
+      <link>http://localhost:1313/blog/tags/nlp/</link>
+      <pubDate>Tue, 02 Sep 2025 12:30:11 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Information-Extraction</title>
+      <link>http://localhost:1313/blog/tags/information-extraction/</link>
+      <pubDate>Tue, 02 Sep 2025 10:48:32 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/information-extraction/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Git</title>
       <link>http://localhost:1313/blog/tags/git/</link>
       <pubDate>Thu, 28 Aug 2025 17:17:20 -0600</pubDate>
       <guid>http://localhost:1313/blog/tags/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nlp</title>
-      <link>http://localhost:1313/blog/tags/nlp/</link>
-      <pubDate>Tue, 19 Aug 2025 23:44:24 -0600</pubDate>
-      <guid>http://localhost:1313/blog/tags/nlp/</guid>
       <description></description>
     </item>
     <item>

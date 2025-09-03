@@ -6,8 +6,22 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Aug 2025 17:17:20 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 12:30:11 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Named Entity Linking (NEL)</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/nel-example/</link>
+      <pubDate>Tue, 02 Sep 2025 12:30:11 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/nel-example/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Named Entity Linking, also known as Named Entity Disambiguation, is an advanced Natural Language Processing (NLP) technique that extends beyond simply identifying entities in text. Its primary goal is to &lt;strong&gt;connect a named entity to a unique, real-world identity&lt;/strong&gt; in a knowledge base. This is crucial for resolving ambiguity when a name, like &amp;ldquo;Paris,&amp;rdquo; could refer to multiple different things.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The State of the Art in Information Extraction: From Pipelines to Unified Paradigms</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/information-extraction/</link>
+      <pubDate>Tue, 02 Sep 2025 10:48:32 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/information-extraction/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Information Extraction (IE) is a cornerstone of modern Natural Language Processing (NLP), focused on automatically extracting structured information from unstructured or semi-structured text. Its goal is to transform free-form text into a machine-readable format, such as a database or knowledge graph, enabling applications from sentiment analysis and question answering to semantic search and bioinformatics. The field has seen a dramatic evolution, moving from rule-based systems to sophisticated neural architectures, with Large Language Models (LLMs) now redefining the cutting edge.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Git Conventional Commits</title>
       <link>http://localhost:1313/blog/blog/guidelines/git-conventional-commits/</link>
