@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Oct 2025 22:31:26 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 17 Oct 2025 00:24:12 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond Entities: A Modern Guide to Relation Extraction with LLMs</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/relation-extraction/</link>
+      <pubDate>Fri, 17 Oct 2025 00:24:12 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/relation-extraction/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Relation Extraction (RE) is a critical NLP task focused on identifying and classifying semantic relationships between named entities in text. Moving beyond merely identifying entities, RE seeks to understand the connections and interactions between them, forming the bedrock of knowledge graph construction, information retrieval, and sophisticated question-answering systems. The integration of pre-trained Large Language Models (LLMs) has profoundly transformed RE, enabling more accurate and nuanced understanding of relational semantics. This guide offers an in-depth exploration of RE with modern LLMs, covering theoretical foundations, practical methodologies, and advanced considerations for researchers and practitioners.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Advanced Named Entity Recognition (NER) with Pre-trained Transformer Models</title>
       <link>http://localhost:1313/blog/blog/ai/nlp/ner/</link>
