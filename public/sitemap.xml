@@ -3,27 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+    <lastmod>2025-10-16T22:31:26-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/ai/nlp/ner/</loc>
+    <lastmod>2025-10-16T22:31:26-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
-    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+    <lastmod>2025-10-16T22:31:26-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+    <lastmod>2025-10-16T22:31:26-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
-    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/ai/nlp/nel-example/</loc>
-    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+    <lastmod>2025-10-16T22:31:26-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/nlp/</loc>
-    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+    <lastmod>2025-10-16T22:31:26-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/nlp/</loc>
-    <lastmod>2025-09-02T12:30:11-06:00</lastmod>
+    <lastmod>2025-10-16T22:31:26-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-10-16T22:31:26-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/software-architecture/</loc>
+    <lastmod>2025-10-10T16:19:39-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/software-design/</loc>
+    <lastmod>2025-10-10T16:19:39-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/uml/</loc>
+    <lastmod>2025-10-10T16:19:39-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/uml/</loc>
+    <lastmod>2025-10-10T16:19:39-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-architecture/uml/use-case/</loc>
+    <lastmod>2025-10-10T16:19:39-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/ai/nlp/nel-example/</loc>
     <lastmod>2025-09-02T12:30:11-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/information-extraction/</loc>
@@ -91,12 +109,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/nlp-approaches/</loc>
     <lastmod>2025-07-16T01:33:54-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/software-architecture/</loc>
-    <lastmod>2025-07-15T18:46:18-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/software-design/</loc>
-    <lastmod>2025-07-15T18:46:18-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/software-architecture/cap-theorem/</loc>
     <lastmod>2025-07-15T18:46:18-06:00</lastmod>

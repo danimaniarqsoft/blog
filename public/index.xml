@@ -6,8 +6,22 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Sep 2025 12:30:11 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 22:31:26 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced Named Entity Recognition (NER) with Pre-trained Transformer Models</title>
+      <link>http://localhost:1313/blog/blog/ai/nlp/ner/</link>
+      <pubDate>Thu, 16 Oct 2025 22:31:26 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/ai/nlp/ner/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Named Entity Recognition (NER) is a fundamental task in Natural Language Processing (NLP) that involves identifying and categorizing key information—or &amp;ldquo;named entities&amp;rdquo;—in text. The advent of pre-trained Large Language Models (LLMs) like BERT and GPT has revolutionized this field, offering unprecedented accuracy and flexibility. This guide provides a researcher&amp;rsquo;s perspective on the theory, practical application, and advanced considerations for implementing NER systems using modern LLMs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Use Case Diagram</title>
+      <link>http://localhost:1313/blog/blog/software-architecture/uml/use-case/</link>
+      <pubDate>Fri, 10 Oct 2025 16:19:39 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-architecture/uml/use-case/</guid>
+      <description>&lt;h2 id=&#34;use-case-diagram---behavioral&#34;&gt;Use Case Diagram - Behavioral&lt;/h2&gt;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;The Use Case Diagram provides a high-level, external view of a system, capturing its functional requirements. It describes the interactions between external users (actors) and the system itself, illustrating the goals the actors achieve through these interactions (use cases).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Named Entity Linking (NEL)</title>
       <link>http://localhost:1313/blog/blog/ai/nlp/nel-example/</link>
