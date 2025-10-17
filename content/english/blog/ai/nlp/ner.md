@@ -7,7 +7,7 @@ image: "/images/posts/ai/nlp/ner.png"
 categories: ["Artificial Intelligence","NLP"]
 author: "Daniel Pichardo"
 tags: ["nlp"]
-draft: true
+draft: false
 ---
 
 ## Introduction
