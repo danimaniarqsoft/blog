@@ -127,9 +127,9 @@ The key to tuning UMAP is finding the right balance between **local** (`n_neighb
 
 |**Objective**|**Hyperparameter Adjustment**|
 |---|---|
-|**Need to see GLOBAL structure (overall shape of the distribution)**|**Increase `n_neighbors`** (e.g., $100$ to $200$)|
-|**Need to see LOCAL structure (fine details within clusters)**|**Decrease `n_neighbors`** (e.g., $5$ to $10$)|
-|**Need well-separated clusters with visible boundaries**|**Increase `min_dist`** (e.g., $0.5$ to $0.8$)|
-|**Need clusters to be as compact and dense as possible**|**Decrease `min_dist`** (e.g., $0.001$ to $0.01$)|
+|**Need to see GLOBAL structure (overall shape of the distribution)**|**Increase `n_neighbors`** (e.g., \(100\) to \(200\)|
+|**Need to see LOCAL structure (fine details within clusters)**|**Decrease `n_neighbors`** (e.g., \(5\) to \(10\))|
+|**Need well-separated clusters with visible boundaries**|**Increase `min_dist`** (e.g., \(0.5\) to \(0.8\))|
+|**Need clusters to be as compact and dense as possible**|**Decrease `min_dist`** (e.g., \(0.001\) to \(0.01\))|
 
 **Best Practice:** Always run UMAP several times with different settings for `n_neighbors` and `min_dist` to ensure the discovered structure is robust and not just an artifact of a single parameter setting. Start with the defaults and then adjust one parameter at a time to understand its isolated effect on your data.
