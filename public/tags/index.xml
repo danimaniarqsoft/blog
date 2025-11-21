@@ -6,20 +6,20 @@
     <description>Recent content in Tags on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Oct 2025 00:24:12 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 05 Nov 2025 14:51:18 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software-Design</title>
+      <link>http://localhost:1313/blog/tags/software-design/</link>
+      <pubDate>Wed, 05 Nov 2025 14:51:18 -0600</pubDate>
+      <guid>http://localhost:1313/blog/tags/software-design/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Nlp</title>
       <link>http://localhost:1313/blog/tags/nlp/</link>
       <pubDate>Fri, 17 Oct 2025 00:24:12 -0600</pubDate>
       <guid>http://localhost:1313/blog/tags/nlp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software-Design</title>
-      <link>http://localhost:1313/blog/tags/software-design/</link>
-      <pubDate>Fri, 10 Oct 2025 16:19:39 -0600</pubDate>
-      <guid>http://localhost:1313/blog/tags/software-design/</guid>
       <description></description>
     </item>
     <item>

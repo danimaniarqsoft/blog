@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Oct 2025 00:24:12 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 05 Nov 2025 14:51:18 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Sequential Approach to System Design: Leveraging Unified Modeling Language (UML) for Comprehensive Architecture</title>
+      <link>http://localhost:1313/blog/blog/software-architecture/system-design-with-uml/</link>
+      <pubDate>Wed, 05 Nov 2025 14:51:18 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/software-architecture/system-design-with-uml/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;The complexity of modern software systems necessitates a structured design methodology. This article argues against ad-hoc modeling and proposes a sequential, four-phase approach to applying Unified Modeling Language (UML) diagrams. This methodology guides a design from high-level functional requirements (Phase 1) through static structural design (Phase 2), dynamic behavioral modeling (Phase 3), and finally to physical infrastructure (Phase 4). By following this logical progression—from &amp;ldquo;what&amp;rdquo; the system must do, to &amp;ldquo;how&amp;rdquo; it is built, to &amp;ldquo;how&amp;rdquo; it behaves, and &amp;ldquo;where&amp;rdquo; it runs—development teams can ensure traceability, reduce ambiguity, and create a robust, maintainable architecture. This article serves as a practical guide for technical students, junior developers, software architects and project managers on which UML diagram to use and when in the design lifecycle.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Beyond Entities: A Modern Guide to Relation Extraction with LLMs</title>
       <link>http://localhost:1313/blog/blog/ai/nlp/relation-extraction/</link>

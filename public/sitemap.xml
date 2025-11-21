@@ -3,18 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-10-17T00:24:12-06:00</lastmod>
+    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-architecture/system-design-with-uml/</loc>
+    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/</loc>
+    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/</loc>
+    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/software-architecture/</loc>
+    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/software-design/</loc>
+    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
     <lastmod>2025-10-17T00:24:12-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/relation-extraction/</loc>
-    <lastmod>2025-10-17T00:24:12-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-10-17T00:24:12-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/</loc>
     <lastmod>2025-10-17T00:24:12-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/nlp/</loc>
@@ -23,17 +35,8 @@
     <loc>http://localhost:1313/blog/categories/nlp/</loc>
     <lastmod>2025-10-17T00:24:12-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2025-10-17T00:24:12-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/ner/</loc>
     <lastmod>2025-10-16T22:31:26-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/software-architecture/</loc>
-    <lastmod>2025-10-10T16:19:39-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/software-design/</loc>
-    <lastmod>2025-10-10T16:19:39-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/uml/</loc>
     <lastmod>2025-10-10T16:19:39-06:00</lastmod>
