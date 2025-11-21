@@ -6,8 +6,15 @@
     <description>Recent content on DCP blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Nov 2025 14:51:18 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 00:09:17 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UMAP: The Uniform Manifold Approximation and Projection Algorithm</title>
+      <link>http://localhost:1313/blog/blog/data-science/umap/</link>
+      <pubDate>Fri, 21 Nov 2025 00:09:17 -0600</pubDate>
+      <guid>http://localhost:1313/blog/blog/data-science/umap/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;UMAP (Uniform Manifold Approximation and Projection)&lt;/strong&gt; is a cutting-edge, non-linear dimensionality reduction technique. Its primary purpose is to map high-dimensional data into a lower-dimensional space (typically 2D or 3D) while faithfully preserving the &lt;strong&gt;topological structure&lt;/strong&gt; of the data. It is often preferred over t-SNE for its faster runtime and its ability to preserve both local and global data structure more effectively.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Sequential Approach to System Design: Leveraging Unified Modeling Language (UML) for Comprehensive Architecture</title>
       <link>http://localhost:1313/blog/blog/software-architecture/system-design-with-uml/</link>

@@ -3,15 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
+    <lastmod>2025-11-21T00:09:17-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/software-architecture/system-design-with-uml/</loc>
-    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
+    <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
+    <lastmod>2025-11-21T00:09:17-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
+    <lastmod>2025-11-21T00:09:17-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/data-science/</loc>
+    <lastmod>2025-11-21T00:09:17-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/data-science/</loc>
+    <lastmod>2025-11-21T00:09:17-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/</loc>
+    <lastmod>2025-11-21T00:09:17-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-11-21T00:09:17-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/data-science/umap/</loc>
+    <lastmod>2025-11-21T00:09:17-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/blog/software-architecture/system-design-with-uml/</loc>
     <lastmod>2025-11-05T14:51:18-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/software-architecture/</loc>
@@ -19,12 +34,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/tags/software-design/</loc>
     <lastmod>2025-11-05T14:51:18-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/artificial-intelligence/</loc>
-    <lastmod>2025-10-17T00:24:12-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/relation-extraction/</loc>
     <lastmod>2025-10-17T00:24:12-06:00</lastmod>
@@ -79,12 +88,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/tags/exploration/</loc>
     <lastmod>2025-08-06T22:36:57-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/data-science/</loc>
-    <lastmod>2025-08-01T01:27:41-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/data-science/</loc>
-    <lastmod>2025-08-01T01:27:41-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/data-science/getting-starter-apache-airflow/</loc>
     <lastmod>2025-08-01T01:27:41-06:00</lastmod>
