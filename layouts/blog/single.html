@@ -2,7 +2,7 @@
   <section class="section pt-7">
     <div class="container">
       <div class="row justify-center">
-        <article class="lg:col-10">
+        <article class="lg:col-8 mx-auto">
           {{ $image:= .Params.image }}
           {{ if $image }}
             <div class="mb-10">
@@ -40,7 +40,7 @@
               {{ time.Format ":date_long" .PublishDate }}
             </li>
           </ul>
-          <div class="content mb-10">
+          <div class="content font-primary prose max-w-none mb-10 dark:prose-invert">
             {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}
             {{ .Content }}
           </div>

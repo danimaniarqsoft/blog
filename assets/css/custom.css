@@ -1,4 +1,58 @@
-/* Add your own custom styles here */
-.content {
-    @apply prose-code:bg-gray-100;
+/* ==========================================================================
+   Custom Project Overrides
+   ========================================================================== */
+
+/* 1. Target ONLY inline code snippets (backticks in markdown text) */
+.content :not(pre) > code {
+  background-color: #f3f4f6 !important; /* Tailwind's bg-gray-100 */
+  padding: 0.2rem 0.4rem !important;
+  border-radius: 0.25rem !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+  font-size: 0.9em !important;
+}
+
+/* 2. Global typography bridge from theme.json */
+.content.prose {
+  font-family: var(--font-primary) !important;
+}
+
+/* 3. Normalize structural text elements to prevent layout drifting */
+.content.prose p,
+.content.prose li,
+.content.prose ul,
+.content.prose ol,
+.content.prose strong,
+.content.prose > span,
+.content.prose p span,
+.content.prose li span {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+/* 4. Markdown Data Tables alignment fixes */
+.content.prose table {
+  width: 100% !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  border-collapse: collapse !important;
+}
+
+.content.prose th,
+.content.prose td {
+  padding: 0.75rem 1rem !important;
+  text-align: left !important;
+  font-size: 0.95rem !important; 
+  line-height: 1.5 !important;
+}
+
+/* 5. Monospace encapsulation for Hugo Chroma syntax highlighters */
+.content.prose pre,
+.content.prose pre code,
+.content.prose pre span,
+.chroma,
+.chroma span {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-size: 0.9rem !important; 
+  line-height: 1.6 !important;
 }
