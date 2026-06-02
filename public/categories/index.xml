@@ -23,13 +23,6 @@
       <description></description>
     </item>
     <item>
-      <title>Software Architecture</title>
-      <link>http://localhost:1313/blog/categories/software-architecture/</link>
-      <pubDate>Wed, 05 Nov 2025 14:51:18 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/software-architecture/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>NLP</title>
       <link>http://localhost:1313/blog/categories/nlp/</link>
       <pubDate>Fri, 17 Oct 2025 00:24:12 -0600</pubDate>
@@ -37,17 +30,17 @@
       <description></description>
     </item>
     <item>
-      <title>UML</title>
-      <link>http://localhost:1313/blog/categories/uml/</link>
-      <pubDate>Fri, 10 Oct 2025 16:19:39 -0600</pubDate>
-      <guid>http://localhost:1313/blog/categories/uml/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Guidelines</title>
       <link>http://localhost:1313/blog/categories/guidelines/</link>
       <pubDate>Thu, 28 Aug 2025 17:17:20 -0600</pubDate>
       <guid>http://localhost:1313/blog/categories/guidelines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Architecture</title>
+      <link>http://localhost:1313/blog/categories/software-architecture/</link>
+      <pubDate>Tue, 15 Jul 2025 18:46:18 -0600</pubDate>
+      <guid>http://localhost:1313/blog/categories/software-architecture/</guid>
       <description></description>
     </item>
     <item>

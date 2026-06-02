@@ -26,15 +26,6 @@
     <loc>http://localhost:1313/blog/blog/data-science/umap/</loc>
     <lastmod>2025-11-21T00:09:17-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/software-architecture/system-design-with-uml/</loc>
-    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/software-architecture/</loc>
-    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/software-design/</loc>
-    <lastmod>2025-11-05T14:51:18-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/relation-extraction/</loc>
     <lastmod>2025-10-17T00:24:12-06:00</lastmod>
   </url><url>
@@ -46,15 +37,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/ner/</loc>
     <lastmod>2025-10-16T22:31:26-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/uml/</loc>
-    <lastmod>2025-10-10T16:19:39-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/uml/</loc>
-    <lastmod>2025-10-10T16:19:39-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/software-architecture/uml/use-case/</loc>
-    <lastmod>2025-10-10T16:19:39-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/nel-example/</loc>
     <lastmod>2025-09-02T12:30:11-06:00</lastmod>
@@ -95,12 +77,6 @@
     <loc>http://localhost:1313/blog/tags/tools/</loc>
     <lastmod>2025-08-01T01:27:41-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/ai/nlp/pipeline/monitoring-and-update/</loc>
-    <lastmod>2025-07-30T01:20:37-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/blog/ai/nlp/pipeline/deployment/</loc>
-    <lastmod>2025-07-30T01:20:26-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/pipeline/data-acquisition/</loc>
     <lastmod>2025-07-30T01:20:12-06:00</lastmod>
   </url><url>
@@ -118,6 +94,12 @@
   </url><url>
     <loc>http://localhost:1313/blog/blog/ai/nlp/nlp-approaches/</loc>
     <lastmod>2025-07-16T01:33:54-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/software-architecture/</loc>
+    <lastmod>2025-07-15T18:46:18-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/software-design/</loc>
+    <lastmod>2025-07-15T18:46:18-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/software-architecture/cap-theorem/</loc>
     <lastmod>2025-07-15T18:46:18-06:00</lastmod>
