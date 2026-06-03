@@ -9,7 +9,11 @@
 
     .scrollable-div {
       height: 700px;
+      /* Set a fixed height */
+      /* Add a border for visibility */
       overflow-y: auto;
+      /* Add vertical scrollbar when content overflows */
+
     }
 
     body {
@@ -44,8 +48,10 @@
     /* Main Title */
     .main-title {
       font-size: 1.875rem;
+      /* 3xl */
       font-weight: 700;
       color: #1e293b;
+      /* slate-800 */
       text-align: center;
       margin-bottom: 3rem;
     }
@@ -53,60 +59,58 @@
     @media (min-width: 768px) {
       .main-title {
         font-size: 3rem;
+        /* 5xl */
       }
     }
 
-    /* 1. Diagram Container transformed into a highly responsive CSS grid */
+    /* Diagram container for all steps */
     .diagram-container {
-      display: grid !important;
-      grid-template-columns: 1fr; /* Mobile view: 1 card wide */
-      gap: 1.5rem;
-      justify-items: center;
-      align-items: stretch; /* Forces all cards in a row to match height */
-      width: 100%;
-      max-width: 100%; /* Default mobile fallback */
-      margin: 0 auto;
-    }
-
-    @media (min-width: 640px) {
-      .diagram-container {
-        grid-template-columns: repeat(2, 1fr); /* Tablet view: 2 cards wide */
-        max-width: 600px;
-      }
+      display: flex;
+      flex-direction: column;
+      /* Mobile first: stack vertically */
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      row-gap: 2rem;
+      /* gap-y-8 */
     }
 
     @media (min-width: 1024px) {
       .diagram-container {
-        grid-template-columns: repeat(4, 1fr); /* Desktop view: Pristine 2x4 layout grid */
-        gap: 1.75rem; /* Balanced breathing room padding between the grid elements */
-        max-width: 1040px !important; /* Prevents the grid from over-stretching horizontally */
+        flex-direction: row;
+        /* Horizontal on large screens */
+        column-gap: 1rem;
+        /* gap-x-4 */
       }
     }
 
-    /* 2. Individual Step Card adjustments to expand padding dynamically */
+    /* Individual Step Card */
     .step-card {
       background-color: #ffffff;
-      width: 100% !important; /* Removes the hardcoded 16rem limitation */
-      min-height: 15rem; /* Upgraded to 15rem to safely guarantee bottom text padding */
-      padding: 2.25rem 1.5rem !important; /* Balanced internal cushion padding */
+      width: 16rem;
+      /* w-64 */
+      height: 10rem;
+      /* h-40 */
+      padding: 1.5rem;
+      /* p-6 */
       border-radius: 0.75rem;
+      /* rounded-xl */
       box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-      
-      /* Active flex layout to distribute text spacing perfectly */
-      display: flex !important;
-      flex-direction: column !important;
-      justify-content: flex-start !important; 
-      align-items: center !important;
+      /* shadow-lg */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
       transition: all 0.3s ease-in-out;
       cursor: pointer;
-      box-sizing: border-box;
     }
 
     /* Hover effect for the card */
     .step-card:hover {
-      transform: scale(1.03);
+      transform: scale(1.05);
       box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+      /* shadow-xl */
       background-color: #ffec99;
     }
 
@@ -114,55 +118,89 @@
     .step-number-1 {
       font-weight: bold;
       color: #6366f1;
-      font-size: 1.875rem;
-      margin-bottom: 0.25rem;
-      flex-shrink: 0;
+      font-weight: bold;
+
+      /* indigo-500 */
     }
 
     .step-number-2 {
       font-weight: bold;
       color: #06b6d4;
-      font-size: 1.875rem;
-      margin-bottom: 0.25rem;
-      flex-shrink: 0;
+      font-weight: bold;
+
+      /* cyan-500 */
     }
 
-    /* Step Title - Precision alignment keeps multi-line text completely unified */
+    /* Step Title and Description */
     .step-title {
       font-size: 1.25rem;
+      /* text-xl */
       font-weight: 600;
+      /* font-semibold */
       color: #334155;
-      margin-top: 0.25rem;
-      margin-bottom: 0.75rem;
-      line-height: 1.3;
-      
-      height: 3.2rem; /* Reserves space for up to two text lines */
-      display: flex !important;
-      align-items: flex-end !important; /* Aligns the baseline of ALL titles to the bottom */
-      justify-content: center !important;
-      flex-shrink: 0;
+      /* slate-700 */
+      margin-top: 0.5rem;
     }
 
-    /* Step Description - Takes up remaining space evenly with protected padding */
     .step-description {
       font-size: 0.875rem;
+      /* text-sm */
       color: #64748b;
-      line-height: 1.5; /* Keeps paragraphs easy to scan */
-      flex-grow: 1; /* Automatically cushions the top gap vertically */
-      display: flex;
-      align-items: flex-start; /* Keeps text starting right below the title container */
-      justify-content: center;
-      margin-top: 0.25rem;
-      margin-bottom: 0 !important;
+      /* slate-500 */
+      margin-top: 0.5rem;
     }
 
-    /* 3. COMPLETELY REMOVE RAW SVG ARROWS AND TEMPLATE SPLITTERS FROM THE GRID AREA */
-    .diagram-container > svg,
-    .diagram-container > .arrow,
-    .diagram-container > .arrow-horizontal,
-    .diagram-container > .arrow-vertical,
-    .diagram-container > .line-break {
-      display: none !important;
+    /* Arrow Styling */
+    .arrow {
+      color: #94a3b8;
+      /* slate-400 */
+      width: 2.5rem;
+      /* w-10 */
+      height: 2.5rem;
+      /* h-10 */
+    }
+
+    .arrow-horizontal {
+      display: none;
+      /* Hidden by default */
+    }
+
+    .arrow-vertical {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      transform: rotate(90deg);
+      width: 2rem;
+      /* w-8 */
+      height: 2rem;
+      /* h-8 */
+    }
+
+    /* Responsive Arrow visibility */
+    @media (min-width: 1024px) {
+      .arrow-horizontal {
+        display: none;
+        /* Show horizontal arrow on large screens */
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+      }
+
+      .arrow-vertical {
+        display: none;
+        /* Hide vertical arrow on large screens */
+      }
+    }
+
+    /* Utility to force a line break in the flex container on large screens */
+    .line-break {
+      flex-basis: 100%;
+      height: 0;
+      display: none;
+    }
+
+    @media (min-width: 1024px) {
+      .line-break {
+        display: block;
+      }
     }
   </style>
 </head>
@@ -343,13 +381,9 @@
   </section>
 
 <section>
-<h2 class="text-3xl md:text-4xl font-bold text-center text-slate-800 mb-4 tracking-tight w-full">
-    Modern NLP Process
-  </h2>
+  <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Modern NLP Process</h2>
+  <p class="text-lg text-center max-w-2xl mx-auto text-gray-600 mb-12">A modern NLP workflow transforms raw textual data into actionable insights or intelligent applications using modern techniques base on Deep learning</p>
   
-  <p class="text-base md:text-lg text-center max-w-2xl mx-auto text-slate-600 mb-12 block px-4">
-    A modern NLP workflow transforms raw textual data into actionable insights or intelligent applications using modern techniques based on Deep Learning.
-  </p>  
   <div class="diagram-container">
     
     <div id="step-1" class="step-card">
