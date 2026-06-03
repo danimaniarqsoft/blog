@@ -93,3 +93,72 @@ div:has(> ul > li > a[href*="share"]) ul,
   padding: 0 !important;
   list-style: none !important;
 }
+/* ==========================================================================
+   Definitive Testimonial Grid Row Axis & Button Alignment Fix
+   ========================================================================== */
+
+/* 1. Force the swiper slide track elements to maintain matching vertical heights */
+.testimonial-slider,
+.testimonial-slider .swiper-wrapper,
+.testimonial-slider .swiper-slide {
+  height: auto !important;
+  display: flex !important;
+}
+
+/* 2. Convert the visible background card into an organized vertical layout column */
+.testimonial-card-inner {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  height: 100% !important; /* Forces the card background to fill the empty track */
+  box-sizing: border-box !important;
+}
+
+/* 3. CONVERT TO GRID: Forces identical internal row track sizing */
+.testimonial-top-content {
+  display: grid !important;
+  grid-template-rows: auto auto 1fr auto !important; /* Title, Quote, Space, Button */
+  flex-grow: 1 !important;
+  height: auto !important;
+}
+
+/* 4. Handle Card Titles so they take up identical spacing even if short */
+.testimonial-top-content > h4 {
+  min-height: 5.5rem !important; /* Reserves explicit line space for the 3-line title */
+  margin-top: 1rem !important;
+  margin-bottom: 0 !important;
+}
+
+/* 5. TRUNCATE THE QUOTE BODY: Cuts text off cleanly at exactly 3 lines and adds "..." */
+.testimonial-top-content > blockquote,
+.testimonial-top-content > blockquote > p {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 5 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  
+  /* Standardizes the vertical text container footprint */
+  height: 7.8rem !important; 
+  min-height: 7.8rem !important; 
+  margin-top: 1rem !important;
+  margin-bottom: 0rem !important; 
+}
+
+/* 6. FORCE BUTTONS TO THE GRID BOTTOM AND ALIGN RIGHT */
+.testimonial-top-content > a.btn {
+  justify-self: start !important;     /* Shifts the button to the right side of the card */
+  width: max-content !important;    /* Restores the button to its normal, natural size */
+  
+  margin-top: 1.5rem !important;  
+  margin-bottom: 0 !important; 
+  flex-shrink: 0 !important;
+}
+
+/* 7. Anchor the profile author footer section cleanly down to the card baseline */
+.testimonial-card-inner > div.mt-11 {
+  margin-top: 2.5rem !important; /* Clean cushion margin spacing above the avatar */
+  flex-shrink: 0 !important;
+  width: 100% !important;
+}
