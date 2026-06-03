@@ -56,3 +56,40 @@
   font-size: 0.9rem !important; 
   line-height: 1.6 !important;
 }
+
+/* ==========================================================================
+   Post Footer Share Section Alignment Fix
+   ========================================================================== */
+
+/* Force the share wrapper to become a unified, flexible row */
+.content ~ div, 
+.content + div,
+div:has(> ul > li > a[href*="share"]), 
+.share-icons-container { 
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+}
+
+/* Prevent the "Share :" label from wrapping text or splitting the colon */
+.content ~ div h5,
+.content + div h5,
+div:has(> ul > li > a[href*="share"]) h5,
+div:has(> ul > li > a[href*="share"]) span {
+  white-space: nowrap !important;
+  margin-right: 1rem !important;
+  margin-bottom: 0 !important;
+}
+
+/* Force the icon list to stay in a single horizontal line */
+div:has(> ul > li > a[href*="share"]) ul,
+.share-icons-container ul {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  gap: 0.5rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
