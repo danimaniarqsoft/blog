@@ -33,10 +33,3 @@
 @import "module-overrides.css";
 @import "custom.css";
 
-.prose {
-  font-family: var(--font-primary) !important;
-  
-  li {
-    font-family: var(--font-primary) !important;
-  }
-}
